@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/logbook/site/"
-title = "LogBook | Hugo Personal Blog Template"
+baseURL = "https://day1hpc.com"
+title = "Day 1 HPC"
 theme = "logbook-hugo"
 # post pagination
 paginate = "5"
