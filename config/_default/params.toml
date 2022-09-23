@@ -76,8 +76,8 @@ analytics_id = "" # Your ID
 
 # plausible analytics: see https://plausible.io/
 [plausible]
-enable = false
-domain = ""    # yourdomain.com
+enable = true
+domain = "day1hpc.com"    # yourdomain.com
 
 # counter analytics: see https://counter.dev/setup.html
 [counter]
