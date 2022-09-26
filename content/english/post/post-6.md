@@ -11,7 +11,7 @@ description: "This is meta description"
 categories: ["newyork city"]
 tags: ["city","photo"]
 type: "regular" # available type (regular or featured)
-draft: false
+draft: true
 ---
 
 It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
