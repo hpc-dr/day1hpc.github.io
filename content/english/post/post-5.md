@@ -11,7 +11,7 @@ description: "This is meta description"
 # Taxonomies
 categories: ["newyork city"]
 tags: ["city","photo"]
-type: "featured" # available type (regular or featured)
+type: "regular" # available type (regular or featured)
 draft: false
 ---
 

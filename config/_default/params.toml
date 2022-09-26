@@ -6,7 +6,7 @@ logo = "images/logo.png"
 # use `x` with logo_width, example: "100x"
 logo_width = "150x"
 # logo text will only show when logo is missing.
-logo_text = "LogBook"
+logo_text = "Day 1 HPC"
 page_not_found_image = "images/404.png" # 404 error page image
 # image gallery shortcode
 image_gallery = true
@@ -27,7 +27,7 @@ sidebar = "right" # sidebar value (left, right or false)
 # custom script on header
 custom_script = ""
 # copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+# copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
 
 # Preloader
 [preloader]
@@ -35,26 +35,26 @@ enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Subscription
-[subscription]
-enable = false
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
+# [subscription]
+# enable = false
+# # mailchimp subsciption
+# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
 
 # snipcart for shop
-[snipcart]
-enable = false
-# snipcart public api key
-snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
-currency = "$"
+# [snipcart]
+# enable = false
+# # snipcart public api key
+# snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
+# currency = "$"
 
-# promotion
-[promotion]
-title = "Create Stunning Website!!"
-content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare."
-image = "images/promotion.jpg"
-button_label = "Get Started"
-button_link = "https://themefisher.com/"
+# # promotion
+# [promotion]
+# title = "Create Stunning Website!!"
+# content = "Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare."
+# image = "images/promotion.jpg"
+# button_label = "Get Started"
+# button_link = "https://themefisher.com/"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
@@ -103,9 +103,6 @@ button = "I Accept"
 [widgets]
 sidebar = [
   "search",
-  "about-me",
-  "promotion",
-  "subscription",
   "categories",
   "recent-post",
   "tags",
@@ -115,10 +112,10 @@ sidebar = [
 
 
 ############################# social site ########################
-[[social]]
-name = "facebook"
-icon = "fab fa-facebook" # fontawesome icons: https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# name = "facebook"
+# icon = "fab fa-facebook" # fontawesome icons: https://fontawesome.com/icons/
+# link = "#"
 
 [[social]]
 name = "twitter"
