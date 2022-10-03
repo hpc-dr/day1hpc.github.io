@@ -6,7 +6,7 @@ brew install hugo
 
 ## Check out and test the repo
 
-The site is published off the `prod` branch. 
+The site is published off the `main` branch. 
 
 ```shell
 git clone day1hpc/day1hpc.github.io@main
