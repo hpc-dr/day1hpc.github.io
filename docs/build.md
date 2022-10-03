@@ -9,7 +9,7 @@ brew install hugo
 The site is published off the `main` branch. 
 
 ```shell
-git clone day1hpc/day1hpc.github.io@main
+git clone https://github.com/day1hpc/day1hpc.github.io.git
 cd day1hpc.github.io
 # start server with drafts enabled
 hugo server -D
