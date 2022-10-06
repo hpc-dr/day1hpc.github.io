@@ -4,10 +4,13 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    max: 70
 - type: datetime
   name: date
-  label: date
+  label: Date
+  default: now
 - name: author
   type: select
   default: Brendan Bouffler
@@ -25,16 +28,13 @@ fields:
   label: Author
 - type: text
   name: description
-  label: description
+  label: Description
+  config:
+    required: true
+    max: 210
 - type: image_gallery
   name: images
-  label: images
-- type: list
-  name: categories
-  label: categories
-- type: list
-  name: tags
-  label: tags
+  label: Images
 - name: type
   type: select
   default: regular
@@ -49,3 +49,28 @@ fields:
       file: 
       path: 
   label: Type
+- name: categories
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - AWS ParallelCluster
+    - AWS Batch
+    - Amazon EFA
+    - AWS NICE DCV
+    - Life Sciences
+    - CFD/CAE
+    - ML/AI
+    - Financial Services
+    - Weather/Climate
+  label: Categories
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+pages:
+- content/english/post/meep.md
