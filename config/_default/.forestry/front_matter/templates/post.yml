@@ -8,9 +8,21 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: author
-  label: author
+- name: author
+  type: select
+  default: Brendan Bouffler
+  config:
+    required: true
+    options:
+    - Brendan Bouffler
+    - " Matt Vaughn"
+    - Angel Pizarro
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Author
 - type: text
   name: description
   label: description
@@ -23,6 +35,17 @@ fields:
 - type: list
   name: tags
   label: tags
-- type: text
-  name: type
-  label: type
+- name: type
+  type: select
+  default: regular
+  config:
+    required: false
+    options:
+    - regular
+    - featured
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
