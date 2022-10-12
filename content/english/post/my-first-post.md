@@ -14,7 +14,7 @@ description: "This is meta description"
 # Taxonomies
 categories: []
 tags: []
-type: "featured" # available type (regular or featured)
+type: "regular" # available type (regular or featured)
 draft: false
 ---
 

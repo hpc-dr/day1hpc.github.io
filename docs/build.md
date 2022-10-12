@@ -101,3 +101,16 @@ The theme is designed to support multiple lanaguages. This means a lot of the bo
 
 The theme files are in `themes/logbook-hugo`. I have avoided editing them until I run into a problem that cannot be solved by some other means. Editing themes is a bit of a 1-way door in that we will have to sync up any changes made there with future releases of the theme. 
 
+## Static images
+
+Embed static images by putting them in `/static` directory. Path is `/filename.png`. Embed in markdown as 
+
+```
+![image](/filename.png)
+```
+
+or as HTML
+
+```
+<img src="/filename.png" alt="Alt Text" style="width:200px;"/>
+```

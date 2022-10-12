@@ -74,50 +74,78 @@ weight = 3
 # Dropdown menu
 [[main]]
 weight = 4
-name = "Pages"
+name = "Products"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Author"
-url = "author/john-doe/"
+parent = "Products"
+name = "AWS Batch"
+url = "/batch/"
 weight = 1
 
 [[main]]
-parent = "Pages"
-name = "Category"
-url = "categories/photography/"
+parent = "Products"
+name = "AWS ParallelCluster"
+url = "/parallelcluster/"
 weight = 2
 
 [[main]]
-parent = "Pages"
-name = "Tags"
-url = "tags/photo/"
+parent = "Products"
+name = "Elastic Fabric Adapter"
+url = "/efa/"
 weight = 3
 
 [[main]]
-parent = "Pages"
-name = "Search"
-url = "http://demo.gethugothemes.com/logbook/search/?s=image/"
+parent = "Products"
+name = "NICE DCV"
+url = "/nice-dcv/"
 weight = 4
 
-# [[main]]
-# parent = "Pages"
-# name = "404 Page"
-# url = "404/"
-# weight = 5
+[[main]]
+weight = 5
+name = "Workloads"
+hasChildren = true
+
+[[main]]
+parent = "Workloads"
+name = "Life Sciences"
+url = "/categories/life-sciences/"
+weight = 1
+
+[[main]]
+parent = "Workloads"
+name = "CAE/CFD"
+url = "/categories/cae-cfd/"
+weight = 2
+
+[[main]]
+parent = "Workloads"
+name = "Machine Learning"
+url = "/categories/ml-ai/"
+weight = 3
+
+[[main]]
+parent = "Workloads"
+name = "Weather and Climate"
+url = "/categories/weather-climate/"
+weight = 4
+
+[[main]]
+parent = "Workloads"
+name = "Financial Services"
+url = "/categories/financial/"
+weight = 5
 
 # [[main]]
 # parent = "Pages"
-# name = "Elements"
-# url = "elements/"
-# weight = 6
-
-# [[main]]
-# name = "Shop"
-# url = "shop/"
+# name = "Search"
+# url = "http://demo.gethugothemes.com/logbook/search/?s=image/"
 # weight = 5
 
+[[main]]
+weight = 6
+name = "Resources"
+hasChildren = true
 
 # footer "Quick Links" menu
 [[footer]]

@@ -2,9 +2,9 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.png"
+logo = "images/day1-ident-1000x200.png"
 # use `x` with logo_width, example: "100x"
-logo_width = "150x"
+logo_width = "450px"
 # logo text will only show when logo is missing.
 logo_text = "Day 1 HPC"
 page_not_found_image = "images/404.png" # 404 error page image

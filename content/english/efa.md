@@ -3,6 +3,7 @@ title: "AWS Elastic Fabric Adapter"
 date: 2022-09-26T13:29:51-05:00
 #author
 author: "Brendan Bouffler"
+layout: "single-notitle"
 # description
 description: "This is meta description"
 images:

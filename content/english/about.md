@@ -1,5 +1,5 @@
 ---
-title: "Hi, I Am John Doe"
+title: "About Us"
 image: "images/author-full.jpg"
 email: "sojonatmail@gmail.com"
 # description
@@ -18,22 +18,14 @@ social:
     link: "https://linkedin.com"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum in urna justo elit turpis risus vitae viverra enim. Augue quis vitae in non nisi, posuere ultrices tempus. Feugiat consequat suspendisse laoreet vitae enim adipiscing cursus. Duis nunc vitae tincidunt sed nibh id. Egestas erat consequat, ornare etiam donec faucibus. Lorem ut enim nunc, senectus adipiscing sed. Lobortis commodo aliquet pulvinar molestie faucibus diam. Semper porttitor, et dictum 
+# About Page
 
-Faucibus duis urna, consequat morbi imperdiet pulvinar. Mauris vitae sed aliquet eu tincidunt id. Nulla leo eget erat vel pharetra. Morbi nullam morbi non purus, augue. Massa cras odio ante cursus a mauris. Volutpat faucibus feugiat feugiat euismod congue ridiculus. Et ipsum euismod nulla et aenean diam duis. Sem molestie est mauris sit. Et eleifend odio 
+Welcome to [day1hpc.com](http://day1hpc.com/) - a community site built and curated by the **Developer Relations team in HPC Engineering at AWS**. Our mission is to be the interface between our HPC engineering teams and people in the HPC community who want to use AWS to create ***powerful*** tools for solving ***hard*** problems.
 
-{{< quote by="John Doe" >}}
-Life is a series of natural and spontaneous changes. Don’t resist them – that only create sorrow. Let reality changes be reality. Let things flow naturally way they like.
-{{</ quote >}}
+Over time, you’ll find a lot of things on this site to help you understand AWS a little better and to hopefully propel you to where to want to go, faster.
 
-<hr>
+If you see us at a conference, please say ‘hi’. We crave for feedback to help us know where we can spend some effort to make your life a little easier.
 
-#### My Skills & Experiences:
+You can find us on Twitter at [@TechHpc](https://twitter.com/TechHpc), on YouTube in the [HPC Tech Shorts Channel](https://hpc.news/techshorts), or blogging to the world from the [AWS HPC Blog Channel](https://hpc.news/blog). Please reach out and let us know what you’re finding hard, or easy.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumto sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-
-* In enim justo, rhoncus ut,
-* Curabitur ullamcorper ultricies
-* Donec vitae sapien utlorem
-
-Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+<img src="/dr-badges.png" alt="AWS HPC Developer Relations Team" style="width:200px;"/>
