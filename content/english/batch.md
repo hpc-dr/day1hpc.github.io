@@ -5,6 +5,7 @@ date: 2022-09-26T13:29:51-05:00
 author: "Angel Pizarro"
 # description
 description: "This is meta description"
+layout: "single-notitle"
 images:
   - "images/post/Batch.png"
 # Taxonomies
