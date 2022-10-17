@@ -1,18 +1,39 @@
 ---
-title: "AWS Parallel Cluster"
-date: 2022-09-26T13:29:51-05:00
-#author
+title: "AWS ParallelCluster"
+date: 2022-10-17
 author: "Matt Vaughn"
-# description
-description: "This is meta description"
+description: "AWS ParallelCluster is an open source tool that makes it easy to deploy and manage HPC clusters on AWS"
 layout: "single-notitle"
 images:
-  - "images/post/ParallelCluster.png"
+  - "images/hpc/pc-ident-large.png"
 # Taxonomies
-categories: ["photography"]
-tags: ["photo","image"]
+categories: ["AWS ParallelCluster"]
+tags: ["hpc","products"]
 type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-AWS ParallelCluster is an open source tool that makes it easy to deploy and manage HPC clusters on AWS. It is available at no additional charge, and you pay only for the AWS resources needed to run your applications.
+<style>
+.boof {
+  float:right !important;
+  width:350px;
+  padding: 10px;
+  }
+</style>
+
+{{< image src="/images/hpc/pc-ident-square.png" class="boof" >}}
+
+# AWS ParallelCluster
+AWS ParallelCluster is an open-source tool that makes it easy to build and run HPC clusters on AWS. It's available at no additional charge - you pay only for the AWS resources needed to run your applications.
+
+ParallelCluster comes with PCluster Manager, too, which is a visual interface for designing and deploying those clusters.
+
+{{< tabs >}}
+  {{< tab "Video explainers" >}}  
+{{< image src="/images/hpc/ts-ident-strap.png" >}}
+    dfgdfgdfg
+  {{< /tab >}}
+  {{< tab "Blog posts" >}}  
+{{< image src="/images/hpc/blog-ident-strap.png" >}}
+  {{< /tab >}}
+{{< /tabs >}}

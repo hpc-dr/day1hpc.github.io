@@ -1,8 +1,8 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/day1hpc-favicon.png"
 # logo
-logo = "images/day1-ident-1000x200.png"
+logo = "images/hpc/day1-ident-main.png"
 # use `x` with logo_width, example: "100x"
 logo_width = "450px"
 # logo text will only show when logo is missing.
@@ -11,9 +11,9 @@ page_not_found_image = "images/404.png" # 404 error page image
 # image gallery shortcode
 image_gallery = true
 # email address
-email = "georgia.young@example.com"
+email = "bouffler@amazon.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+# contact_form_action = "#" # contact form works with https://formspree.io
 # search
 search = true
 # main sections
@@ -27,8 +27,8 @@ sidebar = "right" # sidebar value (left, right or false)
 # custom script on header
 custom_script = ""
 # copyright
+copyright = "Copyright 2022, **[Amazon Web Services, Inc](https://aws.amazon.com)**. [(Terms + Conditions)](https://aws.amazon.com/terms/?nc1=f_pr)"
 # copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
-
 # Preloader
 [preloader]
 enable = false
@@ -58,10 +58,10 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
-description = "This is meta description"
-author = "Themefisher"
-image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
+keywords = ["HPC", "AWS", "Batch Computing", "HPC Cloud", "Cloud", "Scientific Computing", "Research Computing", "CFD"]
+description = "This is the community website for HPC on AWS"
+author = "AWS"
+image = "images/day1hpc-favicon.png"                                       # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
 [matomo]
@@ -122,12 +122,12 @@ name = "twitter"
 icon = "fab fa-twitter" # fontawesome icons: https://fontawesome.com/icons/
 link = "#"
 
-[[social]]
-name = "linkedin"
-icon = "fab fa-linkedin-in" # fontawesome icons: https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# name = "linkedin"
+# icon = "fab fa-linkedin-in" # fontawesome icons: https://fontawesome.com/icons/
+# link = "#"
 
-[[social]]
-name = "github"
-icon = "fab fa-github" # fontawesome icons: https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# name = "github"
+# icon = "fab fa-github" # fontawesome icons: https://fontawesome.com/icons/
+# link = "#"
