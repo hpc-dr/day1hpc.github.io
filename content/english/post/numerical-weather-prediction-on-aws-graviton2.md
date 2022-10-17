@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "Amazon FSx for Lustre",  "AWS ParallelCluster", ]
-tags: [ "FSx for Lustre",  "ParallelCluster",  "Best Practices",  "Graviton",  "HPC",  "hpcblog", ]
+categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
+tags: [ "Simulation",  "HPC",  "Best Practices",  "Graviton",  "ParallelCluster",  "Arm",  "Modeling",  "Climate/Environment/Weather",  "FSx for Lustre",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -108,33 +108,33 @@ hasChildren = true
 
 [[main]]
 parent = "Workloads"
-name = "Life Sciences"
-url = "/categories/life-sciences/"
+name = "AI/ML"
+url = "/categories/ai/ml"
 weight = 1
 
 [[main]]
 parent = "Workloads"
 name = "CAE/CFD"
-url = "/categories/cae-cfd/"
+url = "/categories/cae/cfd/"
 weight = 2
 
 [[main]]
 parent = "Workloads"
-name = "Machine Learning"
-url = "/categories/ml-ai/"
+name = "Climate, Environment & Weather"
+url = "/categories/climate/environment/weather"
 weight = 3
 
 [[main]]
 parent = "Workloads"
-name = "Weather and Climate"
-url = "/categories/weather-climate/"
-weight = 4
+name = "Financial Services"
+url = "/categories/financial-services/"
+weight = 3
 
 [[main]]
 parent = "Workloads"
-name = "Financial Services"
-url = "/categories/financial/"
-weight = 5
+name = "Life Sciences"
+url = "/categories/life-sciences/"
+weight = 4
 
 # [[main]]
 # parent = "Pages"
