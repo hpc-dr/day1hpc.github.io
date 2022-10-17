@@ -11,8 +11,8 @@ author: "John Doe"
 # description
 description: "This is meta description"
 # Taxonomies
-categories: ["photography"]
-tags: ["photo","image"]
+categories: []
+tags: []
 type: "regular" # available type (regular or featured)
 draft: false
 ---

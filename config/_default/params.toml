@@ -102,11 +102,11 @@ button = "I Accept"
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = [
-  "search",
+  # "search",
   "categories",
   "recent-post",
   "tags",
-  "social",
+  # "social",
 ]
 # available widget : search,about-me,categories,tags,recent-post,social,promotion,subscription
 
@@ -120,7 +120,7 @@ sidebar = [
 [[social]]
 name = "twitter"
 icon = "fab fa-twitter" # fontawesome icons: https://fontawesome.com/icons/
-link = "#"
+link = "https://twitter.com/TechHpc"
 
 # [[social]]
 # name = "linkedin"

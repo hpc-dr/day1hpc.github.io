@@ -2,6 +2,7 @@
 title: "Brendan Bouffler"
 image: "images/authors/bouffler.jpg"
 email: "bouffler@amazon.com"
+layout: "author"
 social:
   - icon : "fab fa-linkedin" # themify icon pack : https://themify.me/themify-icons
     link : "http://www.linkedin.com/in/brendanbouffler/"
