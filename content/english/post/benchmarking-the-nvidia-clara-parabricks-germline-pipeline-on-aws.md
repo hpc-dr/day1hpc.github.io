@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: []
-tags: [ "Marketplace",  "HPC",  "hpcblog", ]
+categories: [ "Life Sciences", ]
+tags: [ "Life Sciences",  "Marketplace",  "HPC",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

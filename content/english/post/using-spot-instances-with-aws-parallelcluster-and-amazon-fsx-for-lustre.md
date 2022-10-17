@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "Amazon FSx for Lustre",  "AWS ParallelCluster", ]
-tags: [ "FSx for Lustre",  "ParallelCluster",  "HPC",  "hpcblog", ]
+categories: [ "AWS ParallelCluster", ]
+tags: [ "ParallelCluster",  "HPC",  "FSx for Lustre",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

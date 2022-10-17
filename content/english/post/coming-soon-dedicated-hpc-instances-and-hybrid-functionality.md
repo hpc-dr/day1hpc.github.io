@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: []
-tags: [ "EC2",  "HPC",  "hpcblog", ]
+categories: [ "Amazon Batch",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter", ]
+tags: [ "HPC",  "EC2",  "Batch",  "ParallelCluster",  "EFA",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

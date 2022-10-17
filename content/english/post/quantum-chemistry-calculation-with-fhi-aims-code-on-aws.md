@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "ParallelCluster",  "Graviton",  "HPC",  "Research",  "hpcblog", ]
+tags: [ "HPC",  "Research",  "Quantum technologies",  "Graviton",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

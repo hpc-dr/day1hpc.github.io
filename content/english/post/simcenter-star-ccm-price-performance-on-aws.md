@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: []
-tags: [ "EC2",  "HPC",  "hpcblog", ]
+categories: [ "CAE/CFD", ]
+tags: [ "EC2",  "CAE/CFD",  "Simulation",  "HPC",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

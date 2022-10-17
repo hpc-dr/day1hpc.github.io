@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: []
-tags: [ "Best Practices",  "HPC",  "hpcblog", ]
+categories: [ "Life Sciences", ]
+tags: [ "Life Sciences",  "HPC",  "Best Practices",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
