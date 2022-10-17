@@ -1,0 +1,20 @@
+---
+title: "Building a Scalable Predictive Modeling Framework in AWS – Part 3"
+date: 2022-08-11T00:00:00-0700
+# post thumb
+images:
+    - "images/post/hpc-132-p3-hreader.png"
+#author
+author: "Matt Vaughn"
+# description
+description: ""
+# Taxonomies
+categories: []
+tags: [ "Best Practices",  "HPC",  "hpcblog", ]
+type: "regular" # available type (regular or featured)
+draft: false
+---
+
+In this final part of this three-part blog series on building predictive models at scale in AWS, we will use the synthetic dataset and the models generated in the previous post to showcase the model updating and sensitivity analysis capabilities of the aws-do-pm framework.
+
+Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/building-a-scalable-predictive-modeling-framework-in-aws-part-3/).

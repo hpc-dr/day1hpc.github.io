@@ -2,6 +2,7 @@
 title: "Angel Pizarro"
 image: "images/authors/pizarroa.jpg"
 email: "pizarroa@amazon.com"
+layout: "author"
 social:
   - icon : "fab fa-linkedin" # themify icon pack : https://themify.me/themify-icons
     link : "http://www.linkedin.com/in/angelpizarro"

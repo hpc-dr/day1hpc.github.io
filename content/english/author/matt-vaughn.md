@@ -2,6 +2,7 @@
 title: "Matt Vaughn"
 image: "images/authors/mwvaughn.jpg"
 email: "mwvaughn@amazon.com"
+layout: "author"
 social:
   - icon : "fab fa-linkedin" # themify icon pack : https://themify.me/themify-icons
     link : "http://www.linkedin.com/in/mattdotvaughn/"
