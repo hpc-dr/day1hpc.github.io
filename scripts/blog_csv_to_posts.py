@@ -3,8 +3,6 @@
 import argparse
 import csv
 import os
-from random import SystemRandom
-from unicodedata import category
 import pytz
 import re
 import requests
@@ -225,7 +223,6 @@ def row_to_blog(row):
 
     # categories
     categories = extract_categories(tags)
-    # raise SystemError(categories)
     blog['categories'] = categories
 
     return blog
