@@ -10,7 +10,7 @@ description: ""
 video_id: "C4iSNjcW5O4"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "HPC",  "Schedulers",  "CPUs",  "High Performance Computing",  "Slurm",  "ParallelCluster",  "techshorts", ]
+tags: [ "CPUs",  "High Performance Computing",  "HPC",  "ParallelCluster",  "Slurm",  "Schedulers",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -10,7 +10,7 @@ description: ""
 video_id: "F8YzcuYr7YI"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "redistributePar",  "Lustre",  "scotch",  "Covid-19",  "CPUs",  "clusters",  "Storage",  "hierarchical",  "snappyHexMesh",  "DCV",  "ParallelCluster",  "EC2",  "HPC",  "vizualization",  "Domain Decomposition",  "CFD",  "Schedulers",  "Solver performance",  "Meshing",  "openfoam",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
+tags: [ "vizualization",  "CFD",  "High Performance Computing",  "Storage",  "scotch",  "GPUs",  "Solver performance",  "openfoam",  "redistributePar",  "hierarchical",  "virtualization",  "Lustre",  "CPUs",  "snappyHexMesh",  "ParallelCluster",  "Covid-19",  "Meshing",  "Schedulers",  "clusters",  "Domain Decomposition",  "DCV",  "HPC",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
