@@ -10,7 +10,7 @@ description: ""
 video_id: "CilsaBBycZY"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Lustre",  "package manager",  "CPUs",  "MPI",  "autoscaling",  "Storage",  "spack",  "DCV",  "cloud computing",  "EC2",  "ParallelCluster",  "HPC",  "vizualization",  "scientific applications",  "Schedulers",  "compilers",  "technical computing",  "tightly-coupled",  "HPC source code",  "elastic fabric adapter",  "bioinformatics",  "scientific computing",  "infiniband",  "elastic",  "High Performance Computing",  "virtualization",  "GPUs",  "EFA",  "techshorts", ]
+tags: [ "bioinformatics",  "technical computing",  "infiniband",  "MPI",  "vizualization",  "scientific applications",  "tightly-coupled",  "High Performance Computing",  "Storage",  "GPUs",  "package manager",  "EFA",  "virtualization",  "Lustre",  "CPUs",  "spack",  "elastic fabric adapter",  "HPC source code",  "ParallelCluster",  "Schedulers",  "compilers",  "elastic",  "autoscaling",  "DCV",  "HPC",  "scientific computing",  "cloud computing",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

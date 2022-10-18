@@ -10,7 +10,7 @@ description: ""
 video_id: "vsCv2F9ICqs"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Lustre",  "arm",  "Covid-19",  "CPUs",  "Storage",  "arm compiler",  "porting",  "DCV",  "ParallelCluster",  "EC2",  "processors",  "HPC",  "vizualization",  "tuning",  "Schedulers",  "compilers",  "graviton",  "graviton2",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
+tags: [ "graviton2",  "porting",  "vizualization",  "arm",  "High Performance Computing",  "Storage",  "GPUs",  "graviton",  "virtualization",  "Lustre",  "CPUs",  "tuning",  "ParallelCluster",  "Covid-19",  "Schedulers",  "arm compiler",  "compilers",  "DCV",  "HPC",  "EC2",  "processors",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

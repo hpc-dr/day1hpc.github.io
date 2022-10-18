@@ -10,7 +10,7 @@ description: ""
 video_id: "CcqeeRyx93k"
 # Taxonomies
 categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Lustre",  "advertising",  "CPUs",  "MPI",  "autoscaling",  "Storage",  "Ampersand",  "DCV",  "HPDA",  "cloud computing",  "EC2",  "ParallelCluster",  "HPC",  "vizualization",  "Schedulers",  "Bayesian",  "TV",  "technical computing",  "tightly-coupled",  "hidden markov models",  "ML models",  "elastic fabric adapter",  "bioinformatics",  "scientific computing",  "infiniband",  "elastic",  "High Performance Computing",  "virtualization",  "GPUs",  "analytics",  "EFA",  "techshorts", ]
+tags: [ "bioinformatics",  "technical computing",  "infiniband",  "MPI",  "advertising",  "vizualization",  "Ampersand",  "tightly-coupled",  "High Performance Computing",  "Storage",  "GPUs",  "TV",  "EFA",  "virtualization",  "Lustre",  "ML models",  "CPUs",  "HPDA",  "elastic fabric adapter",  "hidden markov models",  "ParallelCluster",  "Schedulers",  "analytics",  "elastic",  "autoscaling",  "DCV",  "HPC",  "scientific computing",  "Bayesian",  "cloud computing",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

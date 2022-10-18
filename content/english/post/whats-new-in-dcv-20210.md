@@ -10,7 +10,7 @@ description: ""
 video_id: "h4Dm5ItY96o"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV", ]
-tags: [ "HPC",  "GPUs",  "vizualization",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "ParallelCluster",  "techshorts", ]
+tags: [ "CPUs",  "High Performance Computing",  "GPUs",  "DCV",  "HPC",  "ParallelCluster",  "vizualization",  "EC2",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
