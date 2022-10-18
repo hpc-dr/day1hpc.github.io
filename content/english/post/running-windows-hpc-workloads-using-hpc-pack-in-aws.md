@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: []
-tags: [ "Technical How-to",  "Windows",  "Simulation",  "HPC",  "hpcblog", ]
+tags: [ "Windows",  "Simulation",  "HPC",  "Technical How-to",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
