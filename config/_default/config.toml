@@ -63,3 +63,7 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+[params]
+# Taxonomies
+categories = ["AWS Batch", "AWS ParallelCluster", "Amazon Elastic Fabric Adapter", "Amazon NICE DCV", "AI/ML", "CAE/CFD", "Financial Services", "Climate/Environment/Weather", "Life Sciences"]
