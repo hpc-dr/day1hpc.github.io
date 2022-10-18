@@ -4,13 +4,13 @@ date: 2022-04-08T16:16:10+0000
 # post thumb
 images:
     - "images/post/8AYNmOeecHE.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "8AYNmOeecHE"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "QPUs",  "Amazon Braket",  "ParallelCluster",  "Schedulers",  "quantum computing",  "GPUs",  "HPC",  "DCV",  "supercomputer",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "quantum",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "supercomputer",  "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "Schedulers",  "quantum computing",  "quantum",  "Covid-19",  "CPUs",  "QPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "Amazon Braket",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

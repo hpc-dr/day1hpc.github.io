@@ -4,13 +4,13 @@ date: 2021-08-12T15:00:23+0000
 # post thumb
 images:
     - "images/post/vsCv2F9ICqs.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "vsCv2F9ICqs"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "arm",  "porting",  "graviton",  "ParallelCluster",  "compilers",  "arm compiler",  "Lustre",  "Storage",  "GPUs",  "vizualization",  "EC2",  "Covid-19",  "graviton2",  "tuning",  "processors",  "Schedulers",  "HPC",  "DCV",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "arm",  "Covid-19",  "CPUs",  "Storage",  "arm compiler",  "porting",  "DCV",  "ParallelCluster",  "EC2",  "processors",  "HPC",  "vizualization",  "tuning",  "Schedulers",  "compilers",  "graviton",  "graviton2",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

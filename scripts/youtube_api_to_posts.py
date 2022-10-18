@@ -1,4 +1,5 @@
 import argparse
+import csv
 import googleapiclient.discovery
 import json
 import os
@@ -91,6 +92,29 @@ def extract_tags(keywords:List[str]) -> List[str]:
 def infer_tags(text: str, title:str=None) -> List[str]:
     return []
 
+def extract_categories(tags:List[str]) -> List[str]:
+
+    # Use a mapping of tags -> blog categories to 
+    # compile a list of categories for the provided tag set
+    
+    categories = []
+
+    # Load tag:category map
+    TRANSFORMS = {}
+    with open(os.path.join(PARENT_DIR, "youtube-tags-categories.csv"), encoding='utf-8-sig') as csv_file:
+        csv_reader = csv.DictReader(csv_file, dialect='excel', delimiter=",")
+        for row in csv_reader:
+            print(row)
+            if row["Category"] != "":
+                TRANSFORMS[row["Tag"]] = row["Category"]
+
+    for tag in tags:
+        if TRANSFORMS.get(tag, None) is not None:
+            categories.append(TRANSFORMS.get(tag))
+
+    categories = sorted(list(set(categories)))
+    return categories
+
 def download_image(url: str, file_name: str, headers: dict = None, force=False):
 
     # Downloads the flavor image for a blgo post
@@ -177,7 +201,7 @@ def video_to_blog(video):
     blog["tags"].append("techshorts")
 
     # categories
-    categories = []
+    categories = extract_categories(tags)
     blog['categories'] = categories
     return blog
 
@@ -213,12 +237,12 @@ def main(values):
             if data["thumbnail"] != "":
                 download_image(data["thumbnail"], data["thumbnail_filename"])
 
-        # print("Filenames:")
-        # print("\n".join(filenames))
-        # print("Categories:")
-        # print("\n".join(sorted(list(set(categories)))))
-        # print("Tags:")
-        # print("\n".join(sorted(list(set(tags)))))
+    print("Filenames:")
+    print("\n".join(filenames))
+    print("Categories:")
+    print("\n".join(sorted(list(set(categories)))))
+    print("Tags:")
+    print("\n".join(sorted(list(set(tags)))))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

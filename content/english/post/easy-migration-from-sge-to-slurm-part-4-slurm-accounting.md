@@ -4,13 +4,13 @@ date: 2021-11-18T11:31:59+0000
 # post thumb
 images:
     - "images/post/TzTIN17CG-s.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "TzTIN17CG-s"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "job accounting",  "workflow",  "job scripts",  "ParallelCluster",  "Lustre",  "Storage",  "sge",  "GPUs",  "vizualization",  "slurm",  "EC2",  "Covid-19",  "Schedulers",  "HPC",  "DCV",  "slurm accounting",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "workflow",  "Covid-19",  "CPUs",  "Storage",  "job accounting",  "sge",  "DCV",  "slurm",  "ParallelCluster",  "EC2",  "slurm accounting",  "HPC",  "vizualization",  "job scripts",  "Schedulers",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

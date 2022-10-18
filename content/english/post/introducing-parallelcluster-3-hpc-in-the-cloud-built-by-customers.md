@@ -4,13 +4,13 @@ date: 2021-09-10T16:19:34+0000
 # post thumb
 images:
     - "images/post/a-99esKLcls.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "a-99esKLcls"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "GPUs",  "HPCaaS",  "HPC",  "Image Builder",  "DCV",  "APIs",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "HPCaaS",  "APIs",  "Schedulers",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "Image Builder",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

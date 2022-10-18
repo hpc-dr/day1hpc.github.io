@@ -4,13 +4,13 @@ date: 2021-05-13T15:00:17+0000
 # post thumb
 images:
     - "images/post/IgPWzhIHX68.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "IgPWzhIHX68"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "fabric",  "MPI",  "NCCL",  "ParallelCluster",  "open MPI",  "networking",  "Lustre",  "Intel MPI",  "Storage",  "MVAPICH",  "GPUs",  "EC2",  "low latency",  "infiniband",  "Schedulers",  "HPC",  "virtualization",  "techshorts", ]
+categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter", ]
+tags: [ "Lustre",  "Intel MPI",  "CPUs",  "low latency",  "MPI",  "networking",  "open MPI",  "fabric",  "Storage",  "ParallelCluster",  "EC2",  "MVAPICH",  "HPC",  "Schedulers",  "infiniband",  "High Performance Computing",  "virtualization",  "GPUs",  "NCCL",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

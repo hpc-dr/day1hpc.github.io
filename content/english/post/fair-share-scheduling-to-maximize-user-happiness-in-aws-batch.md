@@ -4,13 +4,13 @@ date: 2021-11-24T17:55:32+0000
 # post thumb
 images:
     - "images/post/Ws_fvv1_Sv8.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "Ws_fvv1_Sv8"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "reservations",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "GPUs",  "HPC",  "batch",  "DCV",  "aws batch",  "fair share",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "fair share scheduling",  "techshorts", ]
+categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "fair share scheduling",  "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "fair share",  "reservations",  "Schedulers",  "aws batch",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "ParallelCluster",  "batch",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

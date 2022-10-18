@@ -4,7 +4,7 @@ date: 2021-07-01T14:31:04+0000
 # post thumb
 images:
     - "images/post/weKeR-qg_-4.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "weKeR-qg_-4"

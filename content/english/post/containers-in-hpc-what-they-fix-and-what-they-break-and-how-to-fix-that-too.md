@@ -4,13 +4,13 @@ date: 2021-03-18T16:50:52+0000
 # post thumb
 images:
     - "images/post/WQTrA4-9ZXk.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "WQTrA4-9ZXk"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "GPUs",  "saurus",  "HPC",  "Lustre",  "EC2",  "containers",  "docker",  "techshorts", ]
+categories: [ "AWS ParallelCluster", ]
+tags: [ "HPC",  "GPUs",  "Storage",  "Lustre",  "Schedulers",  "docker",  "saurus",  "containers",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

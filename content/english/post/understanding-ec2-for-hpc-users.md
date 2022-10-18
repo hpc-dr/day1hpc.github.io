@@ -4,13 +4,13 @@ date: 2022-09-29T14:59:01+0000
 # post thumb
 images:
     - "images/post/1y5Ix2HS8sw.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "1y5Ix2HS8sw"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "EFA",  "technical computing",  "elastic",  "MPI",  "bioinformatics",  "tightly-coupled",  "ParallelCluster",  "Lustre",  "hpc foundations",  "Storage",  "autoscaling",  "GPUs",  "vizualization",  "cloud computing",  "EC2",  "infiniband",  "Schedulers",  "HPC",  "DCV",  "elastic fabric adapter",  "scientific computing",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "CPUs",  "MPI",  "autoscaling",  "Storage",  "DCV",  "cloud computing",  "EC2",  "ParallelCluster",  "HPC",  "vizualization",  "Schedulers",  "technical computing",  "tightly-coupled",  "elastic fabric adapter",  "hpc foundations",  "bioinformatics",  "scientific computing",  "infiniband",  "elastic",  "High Performance Computing",  "virtualization",  "GPUs",  "EFA",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

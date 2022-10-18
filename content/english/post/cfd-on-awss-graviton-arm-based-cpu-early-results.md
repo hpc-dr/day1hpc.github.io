@@ -4,7 +4,7 @@ date: 2021-02-25T12:59:34+0000
 # post thumb
 images:
     - "images/post/4WgE472wIqU.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "4WgE472wIqU"

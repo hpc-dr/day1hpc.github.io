@@ -4,13 +4,13 @@ date: 2021-12-02T16:42:11+0000
 # post thumb
 images:
     - "images/post/N-IlEZKa_-0.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "N-IlEZKa_-0"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "WDL",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "miniWDL",  "GPUs",  "workflows",  "HPC",  "DCV",  "Lustre",  "vizualization",  "EC2",  "genomics",  "Covid-19",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "genomics",  "WDL",  "workflows",  "miniWDL",  "Schedulers",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -4,13 +4,13 @@ date: 2021-07-29T15:00:22+0000
 # post thumb
 images:
     - "images/post/PUAeBQ98Odc.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "PUAeBQ98Odc"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "application virtualization",  "Schedulers",  "GPUs",  "HPC",  "remote desktops",  "DCV",  "editing suite",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "netflix",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "netflix",  "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "Schedulers",  "editing suite",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "application virtualization",  "ParallelCluster",  "remote desktops",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -4,13 +4,13 @@ date: 2021-05-06T16:33:38+0000
 # post thumb
 images:
     - "images/post/Zz91uPbk12Y.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "Zz91uPbk12Y"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "Computational Chemistry",  "GPUs",  "GROMACS",  "HPC",  "Drug Discovery",  "MD",  "EC2",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "GROMACS",  "Drug Discovery",  "Schedulers",  "CPUs",  "MD",  "High Performance Computing",  "virtualization",  "EC2",  "ParallelCluster",  "Computational Chemistry",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -4,13 +4,13 @@ date: 2021-11-02T14:00:09+0000
 # post thumb
 images:
     - "images/post/9w9-KhZLOnU.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "9w9-KhZLOnU"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "fluent",  "ansys",  "ParallelCluster",  "starccm",  "C6i",  "Lustre",  "Intel",  "Storage",  "GPUs",  "openFOAM",  "vizualization",  "EC2",  "Covid-19",  "CFD",  "Schedulers",  "HPC",  "DCV",  "Ice Lake",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "CAE/CFD",  "Life Sciences", ]
+tags: [ "openFOAM",  "Lustre",  "Covid-19",  "CPUs",  "C6i",  "fluent",  "Storage",  "DCV",  "ParallelCluster",  "EC2",  "Ice Lake",  "HPC",  "vizualization",  "CFD",  "Schedulers",  "ansys",  "Intel",  "High Performance Computing",  "virtualization",  "GPUs",  "starccm",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
