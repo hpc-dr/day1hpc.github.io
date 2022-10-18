@@ -1,0 +1,16 @@
+---
+title: "{{ title }}"
+date: {{ date_published }}
+# post thumb
+images:
+    - "{{ thumbnail_filename }}"
+author: "Brendan Bouffler"
+# description
+description: "{{ description }}"
+video_id: "{{ id }}"
+# Taxonomies
+categories: [{% for category in categories %} "{{ category }}", {% endfor %}]
+tags: [{% for tag in tags %} "{{ tag }}", {% endfor %}]
+type: "regular" # available type (regular or featured)
+draft: false
+---

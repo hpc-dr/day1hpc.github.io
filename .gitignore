@@ -5,3 +5,4 @@ themes/.DS_Store
 env/
 public/
 */.DS_Store
+resources/_gen/images/*
