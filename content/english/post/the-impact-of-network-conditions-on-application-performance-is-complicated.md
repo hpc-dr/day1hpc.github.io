@@ -4,13 +4,13 @@ date: 2021-06-03T15:16:16+0000
 # post thumb
 images:
     - "images/post/gtQeLmZloJo.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "gtQeLmZloJo"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "GPUs",  "latency",  "networking",  "HPC",  "DCV",  "MPI",  "Lustre",  "vizualization",  "EC2",  "benchmarks",  "Covid-19",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "benchmarks",  "latency",  "Schedulers",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "MPI",  "ParallelCluster",  "networking",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

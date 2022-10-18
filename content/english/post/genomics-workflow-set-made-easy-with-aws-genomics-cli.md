@@ -4,13 +4,13 @@ date: 2022-03-25T11:29:03+0000
 # post thumb
 images:
     - "images/post/30cfBPdzykA.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "30cfBPdzykA"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "nextflow",  "bioinformatics",  "Batch",  "ParallelCluster",  "cromwell",  "Lustre",  "Storage",  "miniWDL",  "GPUs",  "vizualization",  "EC2",  "Covid-19",  "AWS Batch",  "WDL",  "pipelines",  "snakemake",  "Schedulers",  "HPC",  "DCV",  "genomics",  "virtualization",  "cloud",  "techshorts", ]
+categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "pipelines",  "Lustre",  "snakemake",  "cloud",  "AWS Batch",  "Covid-19",  "CPUs",  "Batch",  "Storage",  "genomics",  "cromwell",  "DCV",  "ParallelCluster",  "EC2",  "HPC",  "vizualization",  "miniWDL",  "WDL",  "Schedulers",  "nextflow",  "bioinformatics",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

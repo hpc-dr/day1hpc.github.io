@@ -4,13 +4,13 @@ date: 2022-03-17T15:34:44+0000
 # post thumb
 images:
     - "images/post/wvd6bFieht0.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "wvd6bFieht0"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "multi-user",  "authentication",  "Active Directory",  "ParallelCluster",  "encryption",  "Lustre",  "Storage",  "MSAD",  "GPUs",  "vizualization",  "EC2",  "Covid-19",  "Schedulers",  "HPC",  "LDAP",  "DCV",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "Covid-19",  "CPUs",  "Active Directory",  "encryption",  "Storage",  "MSAD",  "authentication",  "DCV",  "ParallelCluster",  "EC2",  "multi-user",  "HPC",  "vizualization",  "Schedulers",  "LDAP",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

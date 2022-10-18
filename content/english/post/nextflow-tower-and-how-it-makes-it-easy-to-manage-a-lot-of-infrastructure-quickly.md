@@ -4,13 +4,13 @@ date: 2021-07-22T15:00:09+0000
 # post thumb
 images:
     - "images/post/JOguxRohITA.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "JOguxRohITA"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "genomics pipelines",  "workflows",  "scilife",  "nextflow",  "nf-core",  "tower",  "ParallelCluster",  "nf core",  "Lustre",  "HCLS",  "seqera",  "Storage",  "GPUs",  "vizualization",  "EC2",  "Covid-19",  "Schedulers",  "HPC",  "DCV",  "seqera labs",  "spot",  "genomics",  "virtualization",  "nextflow tower",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "HCLS",  "seqera",  "Covid-19",  "CPUs",  "genomics pipelines",  "Storage",  "genomics",  "spot",  "tower",  "DCV",  "nf-core",  "seqera labs",  "ParallelCluster",  "EC2",  "nextflow tower",  "HPC",  "vizualization",  "workflows",  "Schedulers",  "nf core",  "scilife",  "nextflow",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

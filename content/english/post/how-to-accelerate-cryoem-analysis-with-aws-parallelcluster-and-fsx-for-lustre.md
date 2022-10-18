@@ -4,13 +4,13 @@ date: 2021-03-11T10:55:25+0000
 # post thumb
 images:
     - "images/post/24QVburwONo.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "24QVburwONo"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "Drug Design",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "GPUs",  "HPC",  "CryoEM",  "Lustre",  "EC2",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "Storage",  "Lustre",  "Schedulers",  "CPUs",  "CryoEM",  "High Performance Computing",  "EC2",  "ParallelCluster",  "Drug Design",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

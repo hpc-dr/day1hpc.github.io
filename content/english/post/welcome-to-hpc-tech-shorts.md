@@ -4,13 +4,13 @@ date: 2021-03-04T14:53:51+0000
 # post thumb
 images:
     - "images/post/xCFgdLB07PE.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "xCFgdLB07PE"
 # Taxonomies
 categories: []
-tags: [ "ARM processors",  "High Performance Computing",  "CPUs",  "CFD",  "HPC",  "techshorts", ]
+tags: [ "HPC",  "CFD",  "ARM processors",  "CPUs",  "High Performance Computing",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

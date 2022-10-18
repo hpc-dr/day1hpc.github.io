@@ -4,13 +4,13 @@ date: 2021-04-01T16:48:35+0000
 # post thumb
 images:
     - "images/post/sN-SZmCza3k.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "sN-SZmCza3k"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "GPUs",  "saurus",  "HPC",  "Lustre",  "EC2",  "containers",  "docker",  "techshorts", ]
+categories: [ "AWS ParallelCluster", ]
+tags: [ "HPC",  "GPUs",  "Storage",  "Lustre",  "Schedulers",  "docker",  "saurus",  "containers",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

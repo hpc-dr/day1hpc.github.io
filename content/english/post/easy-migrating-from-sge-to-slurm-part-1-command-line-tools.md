@@ -4,13 +4,13 @@ date: 2021-11-04T15:36:14+0000
 # post thumb
 images:
     - "images/post/zCEN4GblrRs.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "zCEN4GblrRs"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "ParallelCluster",  "Schedulers",  "sge",  "GPUs",  "workflow",  "HPC",  "DCV",  "slurm",  "job scripts",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "job scripts",  "workflow",  "Schedulers",  "Covid-19",  "CPUs",  "sge",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "slurm",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

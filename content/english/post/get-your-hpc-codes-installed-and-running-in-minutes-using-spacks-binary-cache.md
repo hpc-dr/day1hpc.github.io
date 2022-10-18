@@ -4,13 +4,13 @@ date: 2022-08-08T18:28:02+0000
 # post thumb
 images:
     - "images/post/CilsaBBycZY.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "CilsaBBycZY"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "EFA",  "technical computing",  "elastic",  "MPI",  "bioinformatics",  "tightly-coupled",  "HPC source code",  "ParallelCluster",  "spack",  "compilers",  "Lustre",  "Storage",  "autoscaling",  "GPUs",  "vizualization",  "cloud computing",  "EC2",  "scientific applications",  "infiniband",  "Schedulers",  "HPC",  "package manager",  "DCV",  "elastic fabric adapter",  "scientific computing",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "package manager",  "CPUs",  "MPI",  "autoscaling",  "Storage",  "spack",  "DCV",  "cloud computing",  "EC2",  "ParallelCluster",  "HPC",  "vizualization",  "scientific applications",  "Schedulers",  "compilers",  "technical computing",  "tightly-coupled",  "HPC source code",  "elastic fabric adapter",  "bioinformatics",  "scientific computing",  "infiniband",  "elastic",  "High Performance Computing",  "virtualization",  "GPUs",  "EFA",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

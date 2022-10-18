@@ -4,13 +4,13 @@ date: 2022-01-27T16:48:25+0000
 # post thumb
 images:
     - "images/post/NzTXEA4zl2E.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "NzTXEA4zl2E"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "Slurm",  "ParallelCluster",  "Schedulers",  "API",  "GPUs",  "job control",  "HPC",  "DCV",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "SGE",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "Schedulers",  "API",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "Slurm",  "ParallelCluster",  "SGE",  "job control",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

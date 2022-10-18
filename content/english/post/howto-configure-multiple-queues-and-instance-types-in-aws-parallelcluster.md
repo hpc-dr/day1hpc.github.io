@@ -4,13 +4,13 @@ date: 2021-03-04T14:15:29+0000
 # post thumb
 images:
     - "images/post/C4iSNjcW5O4.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "C4iSNjcW5O4"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "Slurm",  "ParallelCluster",  "Schedulers",  "HPC",  "techshorts", ]
+categories: [ "AWS ParallelCluster", ]
+tags: [ "HPC",  "Schedulers",  "CPUs",  "High Performance Computing",  "Slurm",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

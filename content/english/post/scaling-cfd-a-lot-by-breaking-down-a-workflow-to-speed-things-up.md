@@ -4,13 +4,13 @@ date: 2022-03-03T17:26:49+0000
 # post thumb
 images:
     - "images/post/F8YzcuYr7YI.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "F8YzcuYr7YI"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "redistributePar",  "ParallelCluster",  "hierarchical",  "Lustre",  "Storage",  "scotch",  "Solver performance",  "GPUs",  "vizualization",  "EC2",  "Covid-19",  "snappyHexMesh",  "CFD",  "Domain Decomposition",  "virtualization",  "Schedulers",  "HPC",  "DCV",  "clusters",  "openfoam",  "Meshing",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "redistributePar",  "Lustre",  "scotch",  "Covid-19",  "CPUs",  "clusters",  "Storage",  "hierarchical",  "snappyHexMesh",  "DCV",  "ParallelCluster",  "EC2",  "HPC",  "vizualization",  "Domain Decomposition",  "CFD",  "Schedulers",  "Solver performance",  "Meshing",  "openfoam",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

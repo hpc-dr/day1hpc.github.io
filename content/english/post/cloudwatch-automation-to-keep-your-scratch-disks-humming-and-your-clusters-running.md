@@ -4,13 +4,13 @@ date: 2021-06-10T15:19:32+0000
 # post thumb
 images:
     - "images/post/oFYzPXNoMYo.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "oFYzPXNoMYo"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "openfoam",  "ParallelCluster",  "Schedulers",  "GPUs",  "HPC",  "DCV",  "Amazon S3",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "object storage",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "openfoam",  "Schedulers",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "object storage",  "ParallelCluster",  "Amazon S3",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

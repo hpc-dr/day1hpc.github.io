@@ -4,13 +4,13 @@ date: 2021-07-15T20:12:22+0000
 # post thumb
 images:
     - "images/post/KtFogrsqIzg.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "KtFogrsqIzg"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "workflows",  "scilife",  "nextflow",  "nf-core",  "ParallelCluster",  "nf core",  "Lustre",  "HCLS",  "Storage",  "GPUs",  "vizualization",  "EC2",  "Covid-19",  "Schedulers",  "HPC",  "DCV",  "spot",  "genomics",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "HCLS",  "Covid-19",  "CPUs",  "Storage",  "genomics",  "spot",  "DCV",  "nf-core",  "ParallelCluster",  "EC2",  "HPC",  "vizualization",  "workflows",  "Schedulers",  "nf core",  "scilife",  "nextflow",  "High Performance Computing",  "virtualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

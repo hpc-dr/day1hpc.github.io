@@ -4,13 +4,13 @@ date: 2021-05-20T16:16:52+0000
 # post thumb
 images:
     - "images/post/D2ppdRKSz5I.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "D2ppdRKSz5I"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "Arm",  "ParallelCluster",  "weather simulation",  "Schedulers",  "GPUs",  "performance",  "WRF",  "x86",  "HPC",  "Graviton",  "MPI",  "Lustre",  "EC2",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
+tags: [ "performance",  "HPC",  "GPUs",  "Storage",  "Lustre",  "Schedulers",  "WRF",  "Graviton",  "Arm",  "weather simulation",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "MPI",  "ParallelCluster",  "x86",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

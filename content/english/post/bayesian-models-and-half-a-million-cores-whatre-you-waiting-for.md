@@ -4,13 +4,13 @@ date: 2022-06-24T14:59:17+0000
 # post thumb
 images:
     - "images/post/CcqeeRyx93k.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "CcqeeRyx93k"
 # Taxonomies
-categories: []
-tags: [ "HPDA",  "High Performance Computing",  "CPUs",  "EFA",  "analytics",  "technical computing",  "advertising",  "elastic",  "Ampersand",  "MPI",  "bioinformatics",  "tightly-coupled",  "ParallelCluster",  "Bayesian",  "ML models",  "Lustre",  "TV",  "Storage",  "autoscaling",  "GPUs",  "vizualization",  "cloud computing",  "EC2",  "infiniband",  "Schedulers",  "HPC",  "hidden markov models",  "DCV",  "elastic fabric adapter",  "scientific computing",  "virtualization",  "techshorts", ]
+categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "Lustre",  "advertising",  "CPUs",  "MPI",  "autoscaling",  "Storage",  "Ampersand",  "DCV",  "HPDA",  "cloud computing",  "EC2",  "ParallelCluster",  "HPC",  "vizualization",  "Schedulers",  "Bayesian",  "TV",  "technical computing",  "tightly-coupled",  "hidden markov models",  "ML models",  "elastic fabric adapter",  "bioinformatics",  "scientific computing",  "infiniband",  "elastic",  "High Performance Computing",  "virtualization",  "GPUs",  "analytics",  "EFA",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

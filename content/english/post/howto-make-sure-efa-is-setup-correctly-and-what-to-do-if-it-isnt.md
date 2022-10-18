@@ -4,13 +4,13 @@ date: 2021-05-28T14:22:10+0000
 # post thumb
 images:
     - "images/post/Wq8EMMXsvyo.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "Wq8EMMXsvyo"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "High Performance Computing",  "CPUs",  "infiniband",  "ParallelCluster",  "EFA",  "Schedulers",  "GPUs",  "HPC",  "fabrics",  "Lustre",  "vizualization",  "EC2",  "elastic fabric adapter",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "elastic fabric adapter",  "infiniband",  "Schedulers",  "fabrics",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "ParallelCluster",  "EFA",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

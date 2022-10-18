@@ -4,13 +4,13 @@ date: 2022-04-29T13:00:02+0000
 # post thumb
 images:
     - "images/post/5O-Zdl740fw.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "5O-Zdl740fw"
 # Taxonomies
-categories: []
-tags: [ "Storage",  "yellowdog",  "High Performance Computing",  "CPUs",  "compound screening",  "dug discovery",  "CGI",  "ParallelCluster",  "Schedulers",  "GPUs",  "HPC",  "visual effects",  "DCV",  "Lustre",  "vizualization",  "EC2",  "Covid-19",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
+tags: [ "compound screening",  "HPC",  "GPUs",  "vizualization",  "Storage",  "Lustre",  "yellowdog",  "dug discovery",  "CGI",  "Schedulers",  "Covid-19",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "ParallelCluster",  "visual effects",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

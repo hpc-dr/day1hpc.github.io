@@ -4,13 +4,13 @@ date: 2021-04-29T14:58:00+0000
 # post thumb
 images:
     - "images/post/h4Dm5ItY96o.png"
-author: "Matt Vaughn"
+author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "h4Dm5ItY96o"
 # Taxonomies
-categories: []
-tags: [ "High Performance Computing",  "CPUs",  "ParallelCluster",  "GPUs",  "HPC",  "DCV",  "vizualization",  "EC2",  "virtualization",  "techshorts", ]
+categories: [ "AWS ParallelCluster",  "Amazon NICE DCV", ]
+tags: [ "HPC",  "GPUs",  "vizualization",  "CPUs",  "High Performance Computing",  "virtualization",  "EC2",  "DCV",  "ParallelCluster",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
