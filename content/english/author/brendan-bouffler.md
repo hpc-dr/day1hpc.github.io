@@ -10,8 +10,20 @@ social:
 
 ---
 
+<style>
+.boof {
+  float:right !important;
+  width:350px;
+  padding: 10px;
+  }
+</style>
 
+{{< image src="/images/authors/bouffler.jpg" class="boof" >}}
 
-Brendan is the head of the Developer Relations in HPC Engineering at AWS. He’s been responsible for designing and building hundreds of HPC systems in all kind of environments, and joined AWS when it became clear to him that cloud would become the exceptional tool the global research & engineering community needed to bring on the discoveries that would change the world for us all. He holds a degree in Physics and an interest in testing several of its laws as they apply to bicycles. 
+**Boof** (Brendan Bouffler) is the head of our Developer Relations group in HPC Engineering at AWS.
 
-This has frequently resulted in hospitalization.
+He’s been ~~guilty of~~ responsible for designing and building hundreds of HPC systems in all kind of environments, all over the world. However, he joined AWS when it became clear to him that cloud would become the exceptional tool the global research & engineering community needed to bring on the discoveries that would change the world for us all.
+
+He holds a degree in Physics and an interest in testing several of its laws as they apply to bicycles. 
+
+This has, unfortunately, frequently resulted in hospitalization.

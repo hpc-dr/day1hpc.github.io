@@ -63,12 +63,12 @@
 
 [[main]]
 name = "About"
-url = "about/"
+url = "post/about/"
 weight = 2
 
 [[main]]
-name = "Contact"
-url = "contact/"
+name = "Learning"
+url = "learning/"
 weight = 3
 
 # Dropdown menu
@@ -154,9 +154,9 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "Contact"
-url = "contact/"
-weight = 2
+name = "Learning"
+url = "learning/"
+weight = 1
 
 # [[footer]]
 # name = "Privacy Policy"

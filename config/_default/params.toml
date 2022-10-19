@@ -120,7 +120,12 @@ sidebar = [
 [[social]]
 name = "twitter"
 icon = "fab fa-twitter" # fontawesome icons: https://fontawesome.com/icons/
-link = "#"
+link = "https://twitter.com/techhpc"
+
+[[social]]
+name = "youtube"
+icon = "fab fa-youtube" # fontawesome icons: https://fontawesome.com/icons/
+link = "https://hpc.news/techshorts"
 
 # [[social]]
 # name = "linkedin"

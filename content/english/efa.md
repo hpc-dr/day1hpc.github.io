@@ -35,6 +35,8 @@ It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/d
 
 Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times.
 
+{{< image src="/images/post/p4d-ultra-clusters.png" >}}
+
 While this leads to different design decisions, it also leads to **interesting discoveries**. It turns out that most HPC codes are more sensitive to networks that can deliver large amounts of data reliability and quickly between communicators. And they're **[far less sensitive to individual packet latency](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/)** than we all thought.
 
 EFA is a great example of how we've been able to keep packets flowing *and* solve some complex problems HPC users face in a novel way - without losing any performance for HPC and ML applications.

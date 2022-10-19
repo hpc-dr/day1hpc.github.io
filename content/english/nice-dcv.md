@@ -66,3 +66,6 @@ Most of the techniques that DCV uses to minimize the effects of internet jitter 
 
 ## Getting started with DCV
 
+- DCV Preconfigured Marketplace AMI ([Link](https://aws.amazon.com/marketplace/seller-profile?id=74eff437-1315-4130-8b04-27da3fa01de1)) 
+- [Deploy Preconfigured DCV EC2 instance with CloudFormation (Link)](https://download.nice-dcv.com/cloudformation.html)
+- [Install DCV Manually (Link)](https://docs.aws.amazon.com/dcv/latest/adminguide/setting-up.html)

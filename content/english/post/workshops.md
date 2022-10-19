@@ -5,7 +5,7 @@ author: "Matt Vaughn"
 description: "We build workshops that can help you, step-by-step expand your skills and solve problems more efficiently."
 layout: "single-notitle"
 images:
-  - "images/post/workshops-ident.png"
+  - "images/hpc/ws-ident-large.png"
 # Taxonomies
 categories: ["HPC Workshops"]
 tags: ["photo","image"]
