@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "CcqeeRyx93k"
+layout: "video"
 # Taxonomies
 categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "bioinformatics",  "technical computing",  "infiniband",  "MPI",  "advertising",  "vizualization",  "Ampersand",  "tightly-coupled",  "High Performance Computing",  "Storage",  "GPUs",  "TV",  "EFA",  "virtualization",  "Lustre",  "ML models",  "CPUs",  "HPDA",  "elastic fabric adapter",  "hidden markov models",  "ParallelCluster",  "Schedulers",  "analytics",  "elastic",  "autoscaling",  "DCV",  "HPC",  "scientific computing",  "Bayesian",  "cloud computing",  "EC2",  "techshorts", ]
+tags: [ "technical computing",  "infiniband",  "HPDA",  "bioinformatics",  "Schedulers",  "ParallelCluster",  "elastic fabric adapter",  "vizualization",  "scientific computing",  "DCV",  "GPUs",  "cloud computing",  "EFA",  "CPUs",  "analytics",  "advertising",  "High Performance Computing",  "Storage",  "MPI",  "HPC",  "TV",  "hidden markov models",  "ML models",  "elastic",  "Bayesian",  "autoscaling",  "Lustre",  "Ampersand",  "virtualization",  "tightly-coupled",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

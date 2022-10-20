@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "Ws_fvv1_Sv8"
+layout: "video"
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Lustre",  "fair share scheduling",  "CPUs",  "High Performance Computing",  "reservations",  "Storage",  "GPUs",  "aws batch",  "DCV",  "HPC",  "ParallelCluster",  "EC2",  "Covid-19",  "batch",  "vizualization",  "Schedulers",  "virtualization",  "fair share",  "techshorts", ]
+tags: [ "fair share scheduling",  "High Performance Computing",  "Storage",  "aws batch",  "DCV",  "Covid-19",  "reservations",  "batch",  "HPC",  "Lustre",  "vizualization",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "fair share",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

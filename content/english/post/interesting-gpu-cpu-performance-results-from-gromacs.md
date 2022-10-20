@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "Zz91uPbk12Y"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Life Sciences", ]
-tags: [ "Drug Discovery",  "Computational Chemistry",  "CPUs",  "MD",  "High Performance Computing",  "GPUs",  "GROMACS",  "HPC",  "ParallelCluster",  "EC2",  "Schedulers",  "virtualization",  "techshorts", ]
+tags: [ "High Performance Computing",  "MD",  "Drug Discovery",  "HPC",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "Computational Chemistry",  "GROMACS",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

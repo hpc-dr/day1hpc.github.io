@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "JOguxRohITA"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "vizualization",  "High Performance Computing",  "Storage",  "GPUs",  "genomics pipelines",  "scilife",  "genomics",  "virtualization",  "seqera labs",  "Lustre",  "CPUs",  "seqera",  "spot",  "ParallelCluster",  "EC2",  "Covid-19",  "HCLS",  "nextflow",  "Schedulers",  "nf-core",  "workflows",  "nextflow tower",  "DCV",  "HPC",  "tower",  "nf core",  "techshorts", ]
+tags: [ "nextflow tower",  "Schedulers",  "ParallelCluster",  "HCLS",  "seqera labs",  "vizualization",  "DCV",  "workflows",  "nextflow",  "GPUs",  "tower",  "CPUs",  "High Performance Computing",  "Storage",  "genomics pipelines",  "Covid-19",  "nf core",  "HPC",  "spot",  "scilife",  "genomics",  "nf-core",  "Lustre",  "seqera",  "virtualization",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "Z1vlpJYb1KQ"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "GUI",  "science",  "vizualization",  "High Performance Computing",  "Storage",  "GPUs",  "virtualization",  "Lustre",  "CPUs",  "research",  "ParallelCluster",  "Covid-19",  "Schedulers",  "computing",  "DCV",  "HPC",  "EC2",  "cloud",  "pcluster manager",  "techshorts", ]
+tags: [ "Schedulers",  "ParallelCluster",  "research",  "vizualization",  "DCV",  "GPUs",  "CPUs",  "GUI",  "High Performance Computing",  "Storage",  "Covid-19",  "HPC",  "pcluster manager",  "computing",  "Lustre",  "virtualization",  "cloud",  "science",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "WQTrA4-9ZXk"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "Lustre",  "CPUs",  "High Performance Computing",  "Storage",  "GPUs",  "containers",  "HPC",  "ParallelCluster",  "EC2",  "saurus",  "docker",  "Schedulers",  "virtualization",  "techshorts", ]
+tags: [ "High Performance Computing",  "Storage",  "saurus",  "containers",  "HPC",  "Lustre",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "docker",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

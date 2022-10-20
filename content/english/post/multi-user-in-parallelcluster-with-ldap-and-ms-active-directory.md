@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "wvd6bFieht0"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Active Directory",  "LDAP",  "vizualization",  "High Performance Computing",  "Storage",  "GPUs",  "virtualization",  "encryption",  "Lustre",  "CPUs",  "MSAD",  "ParallelCluster",  "Covid-19",  "Schedulers",  "DCV",  "HPC",  "EC2",  "authentication",  "multi-user",  "techshorts", ]
+tags: [ "Active Directory",  "authentication",  "Schedulers",  "ParallelCluster",  "encryption",  "vizualization",  "DCV",  "multi-user",  "GPUs",  "CPUs",  "High Performance Computing",  "Storage",  "MSAD",  "Covid-19",  "HPC",  "LDAP",  "Lustre",  "virtualization",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

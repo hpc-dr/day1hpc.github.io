@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "D2ppdRKSz5I"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
-tags: [ "Lustre",  "weather simulation",  "CPUs",  "High Performance Computing",  "x86",  "Storage",  "Arm",  "GPUs",  "HPC",  "ParallelCluster",  "EC2",  "MPI",  "Graviton",  "Schedulers",  "performance",  "virtualization",  "WRF",  "techshorts", ]
+tags: [ "Arm",  "High Performance Computing",  "Storage",  "WRF",  "MPI",  "Graviton",  "HPC",  "Lustre",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "weather simulation",  "x86",  "CPUs",  "performance",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

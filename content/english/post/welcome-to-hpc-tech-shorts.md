@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "xCFgdLB07PE"
+layout: "video"
 # Taxonomies
 categories: []
-tags: [ "CFD",  "CPUs",  "ARM processors",  "High Performance Computing",  "HPC",  "techshorts", ]
+tags: [ "ARM processors",  "High Performance Computing",  "CFD",  "HPC",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

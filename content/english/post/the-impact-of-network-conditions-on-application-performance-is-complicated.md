@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "gtQeLmZloJo"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Lustre",  "CPUs",  "High Performance Computing",  "Storage",  "GPUs",  "benchmarks",  "DCV",  "latency",  "HPC",  "ParallelCluster",  "EC2",  "Covid-19",  "MPI",  "vizualization",  "Schedulers",  "virtualization",  "networking",  "techshorts", ]
+tags: [ "High Performance Computing",  "benchmarks",  "Storage",  "MPI",  "DCV",  "Covid-19",  "networking",  "HPC",  "Lustre",  "vizualization",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "latency",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
