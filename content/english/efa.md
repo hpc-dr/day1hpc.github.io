@@ -35,25 +35,41 @@ It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/d
 
 Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times.
 
-{{< image src="images/post/p4d-ultra-clusters.png" >}}
-
 While this leads to different design decisions, it also leads to **interesting discoveries**. It turns out that most HPC codes are more sensitive to networks that can deliver large amounts of data reliability and quickly between communicators. And they're **[far less sensitive to individual packet latency](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/)** than we all thought.
 
 EFA is a great example of how we've been able to keep packets flowing *and* solve some complex problems HPC users face in a novel way - without losing any performance for HPC and ML applications.
 
+<style>
+.boof3 {
+  float:left !important;
+  width:250px;
+  padding: 10px;
+  }
+</style>
+{{< image src="/images/hpc/media-ident-square.png" class="boof3" >}}
+<iframe width="420" height="240" src="https://www.youtube.com/embed/inJxFXMMp0U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="240" src="https://www.youtube.com/embed/XyllOcIQ_jM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 {{< tabs >}}
-  {{< tab "Short video explainers" >}}  
-  {{< image src="/images/hpc/ts-ident-strap.png" >}}
-* **[What\'s EFA? Where\'s my Infiniband?](https://youtu.be/inJxFXMMp0U)** - A 6-min video that introduces to you what you most need to know about EFA.
-* **[How does EFA work?](https://youtu.be/XyllOcIQ_jM)** - A 9-min background on EFA, and introduces the Scalable Reliable Datagram (SRD) which powers the performance. How does SRD enable tightly-coupled codes to scale and perform?
+  {{< tab "Tech Specs" >}}
+- **[EFA-enabled Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types)** - there are dozens of instances types that now support EFA. That gives you a lot of options to customize a cluster queue specifically for your workloads.
+- **[A paper at IEEE Spectrum about EFA and SRD](https://hpc.news/ieeeSRD)** - a deep dive into the design decisions and characteristics of EFA and SRD.
+- **[EFA manual setup guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa-start.html)** - if you need to install the EFA stack from scratch yourself, this guide will help you.
+  {{< /tab >}}
+  {{< tab "Blog Posts" >}}
+* **[There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/)** - blog post explaining many of the EFA design decisions.
+* **[EFA has gone mainstream](https://aws.amazon.com/blogs/hpc/efa-is-now-mainstream/)** - Most new Amazon EC2 instance families carry EFA-enabled interfaces.
+  {{< /tab >}}
+  {{< tab "Video explainers" >}}
 * **[Deep dive on EFA and SRD](https://youtu.be/IgPWzhIHX68)** - 36 mins - A deep dive with one of our Principal Engineers into the thought process and design decisions that lead to EFA.
 * **[Speeds\'n\'Feeds Event](https://youtu.be/YjS0e4g7zk0)** - 10-mins - a fast-paced EFA update from January '22 on all the latest news and developments in EFA and - especially - new instance support.
 * **[NCCL on EFA](https://youtu.be/kDtHpRB5luw)** - 15m - An insight into how **machine learning** workloads are supported on EFA from the engineering team who support the libfabric interface to NCCL.
   {{< /tab >}}
-  {{< tab "Blog Posts" >}}
-  {{< image src="/images/hpc/blog-ident-strap.png" >}}
-* [There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/) - blog post explaining many of the EFA design decisions.
-* [EFA has gone mainstream](https://aws.amazon.com/blogs/hpc/efa-is-now-mainstream/) - Most new Amazon EC2 instance families =carry EFA-enabled interfaces.
+  {{< tab "Getting Started" >}}
+* [EFA section of hpcworkshops.com](https://www.hpcworkshops.com/08-efa.html) - the same workshops delivered by our Solution Architects every year at SuperComputing and ISC.
+* [How to make sure you\'re job is using EFA](https://youtu.be/Wq8EMMXsvyo) - How to debug scenarios where you're not sure if your MPI is running over EFA or TCP. The performance difference can be dramatic, so these simple steps will help you figure it out.
   {{< /tab >}}
 {{< /tabs >}}
 
@@ -78,8 +94,3 @@ This story will take you into the world of broadcast video, andf explains why we
 
 * [How EFA enables uncompressed live video for TV broadcast](https://aws.amazon.com/blogs/hpc/how-we-enabled-uncompressed-live-video-with-cdi-over-efa/)
 * [What supercomputers, scientists and TV stations have in common](https://youtu.be/x3zCTVP_LKQ) - 13min - background on why this problem exists in broadcast.
-
-## How can I get started?
-
-* [EFA section of hpcworkshops.com](https://www.hpcworkshops.com/08-efa.html)
-* [How to make sure you\'re job is using EFA](https://youtu.be/Wq8EMMXsvyo) - How to debug scenarios where you're not sure if your MPI is running over EFA or TCP. The performance difference can be dramatic, so these simple steps will help you figure it out.
