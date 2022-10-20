@@ -1,18 +1,13 @@
 ############### English navigation ################
 
 [[main]]
+weight = 2
 name = "About"
 url = "post/about/"
-weight = 2
-
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 3
 
 # Dropdown menu
 [[main]]
-weight = 4
+weight = 3
 name = "Products"
 hasChildren = true
 
@@ -41,7 +36,7 @@ url = "/nice-dcv/"
 weight = 4
 
 [[main]]
-weight = 5
+weight = 4
 name = "Workloads"
 hasChildren = true
 
@@ -76,9 +71,14 @@ url = "/categories/life-sciences/"
 weight = 4
 
 [[main]]
+weight = 5
+name = "Learning"
+hasChildren = true
+
+[[main]]
 weight = 6
 name = "Resources"
-hasChildren = true
+hasChildren = false
 
 # footer "Quick Links" menu
 [[footer]]
