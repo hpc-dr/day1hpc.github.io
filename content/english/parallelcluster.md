@@ -32,17 +32,25 @@ ParallelCluster has a graphical interface (and a CLI) to model and control all t
 
 ## Deployment
 
-{{< image src="/images/post/pcmanager-sizzle.png" class="boof" >}}
+<style>
+.boof2 {
+  float:right !important;
+  width:600px;
+  padding: 10px;
+  }
+</style>
+{{< image src="/images/post/pcmanager-sizzle.png" class="boof2" >}}
 
-There are two ways to [deploy ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/getting_started.html).
+There are two ways to get ParallelCluster::
 
-We suggest using **[PCluster Manager](https://pcluster.cloud/01-getting-started.html)**, which is a visual interface for designing and deploying your clusters. **PCluster Manager** has great features that help you integrate fast filesytems (like Lustre), do one-click desktops connections using NICE DCV, and **controlling your spend** using Slurm Accounting.
+1. **We suggest using [PCluster Manager](https://pcluster.cloud/01-getting-started.html)**, which is a visual interface for designing and deploying your clusters. **PCluster Manager** has great features that help you integrate fast filesytems (like Lustre), get one-click desktops connections using NICE DCV, and **controlling your spend** using Slurm Accounting. PCluster Manager can be deployed to your AWS account very quickly, by following the tutorial [here](https://pcluster.cloud/01-getting-started.html).
 
-Or, if you want just the CLI right away, you can install it on almost any computer with python installed.
+2. If you're familiar with AWS already, and just want the CLI, you can install it on almost any computer with python installed. The procedure is [documented here](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html), but pretty much starts with:
 
 ``` bash
 $ pip3 install "aws-parallelcluster<3.0" --upgrade --user
 ```
+
 ---
 
 ## Learning about ParallelCluster
@@ -54,9 +62,10 @@ First, you should make sure you're comfortable that ParallelCluster is the right
 - **[Introducing AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/)** - blog
 - [ParallelCluster 3 - built by customers](https://youtu.be/a-99esKLcls) - 17min - Tech Short video with the product team, talking about all the new features of ParallelCluster v3.
 - **[PCluster Manager - A new GUI for building and managing clusters](https://youtu.be/Z1vlpJYb1KQ)** - a tour through the management console for ParallelCluster.
-- [Infrastructure as Code - ParallelCluster 3\'s config](https://youtu.be/6gAwAK5IJ2w) - a look at the config file as an edxample of infratrsucture as code.
-  {{< /tab >}}  
-  {{< tab "Key Features" >}}  
+- [ParallelCluster 3\'s config file](https://youtu.be/6gAwAK5IJ2w) - a look at the new config file syntax as an example of *infrastructure as code*.
+  {{< /tab >}}
+  {{< tab "Key Features" >}} 
+- **[Introducing AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/)** - a blog describing this new major version of ParallelCluster and it's main features.
 - [Multiuser support via Active Directory](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-multiuser-support-via-active-directory/)
 - [Custom AMIs in ParallelCluster 3](https://aws.amazon.com/blogs/hpc/custom-amis-with-parallelcluster-3/)
 - [Expanded filesystems support in v3.2](https://aws.amazon.com/blogs/hpc/expanded-filesystems-support-in-aws-parallelcluster-3-2/)
@@ -68,7 +77,9 @@ First, you should make sure you're comfortable that ParallelCluster is the right
 
 {{< image src="/images/hpc/media-ident-square.png" class="boof" >}}
 
-Migrating between schedulers doesn't need to be hard. Since SGE is no longer supported by the community, we worked with the team at SchedMD to come up with a tutorial series to help everyone understand what tools are available in Slurm to make the shift easier. There's a blog post with several cheat sheets, and a Tech Shorts series in 4-parts so you can find exactly what you want.
+**Migrating between schedulers** doesn't need to be hard. Since SGE is no longer supported by the community, we worked with the team at [SchedMD](https://www.schedmd.com/) to create a tutorial series to help everyone understand what tools are available in Slurm, to make the shift easier.
+
+There's a blog post with several cheat sheets, and a Tech Shorts series in 4-parts so you can find exactly what you want.
 
 - [Easing your migration from SGE to Slurm in AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/)
 - [Part 1 - Command Line Tools](https://youtu.be/zCEN4GblrRs)
@@ -84,7 +95,9 @@ Migrating between schedulers doesn't need to be hard. Since SGE is no longer sup
 
 ## Use cases
 
-ParallelCluster delivers you a canonical Beowulf clusyer experience on AWS, but with added twists like elasticity, and support for fast storage and networking, built-in *by design*. That means you can run virtually any workload you like on AWS and expect to see great results.
+ParallelCluster delivers you a canonical Beowulf cluster experience on AWS, but with added twists like elasticity, and support for fast storage and networking, built-in *by design*. That means you can run virtually any workload you like on AWS and expect to see great results.
+
+The tabs here have videos and blog posts describing different use-cases for ParallelCluster.
 
 {{< tabs >}}
   {{< tab "CFD/CAE" >}}  
