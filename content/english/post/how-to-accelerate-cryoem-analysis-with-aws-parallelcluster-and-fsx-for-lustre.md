@@ -11,7 +11,7 @@ video_id: "24QVburwONo"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Life Sciences", ]
-tags: [ "High Performance Computing",  "Storage",  "HPC",  "Lustre",  "Drug Design",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "CryoEM",  "CPUs",  "techshorts", ]
+tags: [ "Drug Design",  "CryoEM",  "HPC",  "EC2",  "CPUs",  "Lustre",  "ParallelCluster",  "GPUs",  "Storage",  "Schedulers",  "High Performance Computing",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

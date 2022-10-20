@@ -1,13 +1,13 @@
 ---
-title: "KEK's novel solution for CryoEM's software and infra (Part 2 of 4)"
-date: 2022-10-11T16:53:39+0000
+title: "KEK's arsenal of CryoEM benchmark data - a detailed walk through (Part 4 of 4)"
+date: 2022-10-20T17:38:23+0000
 # post thumb
 images:
-    - "images/post/rdF1AzfadOY.png"
+    - "images/post/0Sf_N5eIt-c.png"
 author: "Brendan Bouffler"
 # description
 description: ""
-video_id: "rdF1AzfadOY"
+video_id: "0Sf_N5eIt-c"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
@@ -31,4 +31,4 @@ Like we said: there's a ton of stuff for us all to learn from our friends at KEK
 
 If you have ideas for technical topics you'd like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM'ing us with your idea.
 
-{{< youtube rdF1AzfadOY >}}
+{{< youtube 0Sf_N5eIt-c >}}

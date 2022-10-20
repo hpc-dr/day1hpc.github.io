@@ -11,7 +11,7 @@ video_id: "JOguxRohITA"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "nextflow tower",  "Schedulers",  "ParallelCluster",  "HCLS",  "seqera labs",  "vizualization",  "DCV",  "workflows",  "nextflow",  "GPUs",  "tower",  "CPUs",  "High Performance Computing",  "Storage",  "genomics pipelines",  "Covid-19",  "nf core",  "HPC",  "spot",  "scilife",  "genomics",  "nf-core",  "Lustre",  "seqera",  "virtualization",  "EC2",  "techshorts", ]
+tags: [ "nf core",  "EC2",  "genomics pipelines",  "Schedulers",  "scilife",  "HCLS",  "seqera",  "nextflow",  "nextflow tower",  "spot",  "ParallelCluster",  "nf-core",  "Lustre",  "vizualization",  "tower",  "GPUs",  "workflows",  "High Performance Computing",  "virtualization",  "DCV",  "HPC",  "CPUs",  "seqera labs",  "Storage",  "Covid-19",  "genomics",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
