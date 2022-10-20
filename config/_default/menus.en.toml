@@ -43,31 +43,31 @@ hasChildren = true
 [[main]]
 parent = "Workloads"
 name = "AI/ML"
-url = "/categories/ai/ml"
+url = "/ai-ml/"
 weight = 1
 
 [[main]]
 parent = "Workloads"
 name = "CAE/CFD"
-url = "/categories/cae/cfd/"
+url = "/cae-cfd/"
 weight = 2
 
 [[main]]
 parent = "Workloads"
 name = "Climate, Environment & Weather"
-url = "/categories/climate/environment/weather"
+url = "/climate-environment-weather/"
 weight = 3
 
 [[main]]
 parent = "Workloads"
 name = "Financial Services"
-url = "/categories/financial-services/"
+url = "/financial-services/"
 weight = 3
 
 [[main]]
 parent = "Workloads"
 name = "Life Sciences"
-url = "/categories/life-sciences/"
+url = "/life-sciences/"
 weight = 4
 
 [[main]]
@@ -78,6 +78,7 @@ hasChildren = true
 [[main]]
 weight = 6
 name = "Resources"
+url = "/resources/"
 hasChildren = false
 
 # footer "Quick Links" menu
