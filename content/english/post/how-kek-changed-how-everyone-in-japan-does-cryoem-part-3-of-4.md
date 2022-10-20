@@ -1,17 +1,17 @@
 ---
-title: "KEK's novel solution for CryoEM's software and infra (Part 2 of 4)"
-date: 2022-10-11T16:53:39+0000
+title: "How KEK changed how everyone in Japan does CryoEM (Part 3 of 4)"
+date: 2022-10-20T17:38:29+0000
 # post thumb
 images:
-    - "images/post/rdF1AzfadOY.png"
+    - "images/post/dDVZUhXrjHk.png"
 author: "Brendan Bouffler"
 # description
 description: ""
-video_id: "rdF1AzfadOY"
+video_id: "dDVZUhXrjHk"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "scientific computing",  "EC2",  "infiniband",  "autoscaling",  "Schedulers",  "ParallelCluster",  "cryoEM",  "HPC Japan",  "Lustre",  "vizualization",  "MPI",  "cloud computing",  "tightly-coupled",  "GPUs",  "EFA",  "elastic fabric adapter",  "technical computing",  "High Performance Computing",  "virtualization",  "DCV",  "HPC",  "CPUs",  "elastic",  "Storage",  "bioinformatics",  "techshorts", ]
+tags: [ "scientific computing",  "EC2",  "infiniband",  "autoscaling",  "Schedulers",  "ParallelCluster",  "cryoem",  "HPC Japan",  "Lustre",  "vizualization",  "MPI",  "cloud computing",  "tightly-coupled",  "GPUs",  "EFA",  "elastic fabric adapter",  "technical computing",  "High Performance Computing",  "virtualization",  "DCV",  "HPC",  "CPUs",  "elastic",  "Storage",  "bioinformatics",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
@@ -31,4 +31,4 @@ Like we said: there's a ton of stuff for us all to learn from our friends at KEK
 
 If you have ideas for technical topics you'd like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM'ing us with your idea.
 
-{{< youtube rdF1AzfadOY >}}
+{{< youtube dDVZUhXrjHk >}}

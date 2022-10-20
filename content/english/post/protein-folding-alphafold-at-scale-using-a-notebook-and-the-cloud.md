@@ -11,7 +11,7 @@ video_id: "58ijuqcHS7Y"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "High Performance Computing",  "Storage",  "DCV",  "Covid-19",  "alphafold",  "supercomputing",  "HPC",  "Lustre",  "vizualization",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "protein folding",  "HCLS",  "CPUs",  "techshorts", ]
+tags: [ "DCV",  "HPC",  "EC2",  "CPUs",  "Lustre",  "vizualization",  "supercomputing",  "protein folding",  "alphafold",  "ParallelCluster",  "GPUs",  "Storage",  "Schedulers",  "HCLS",  "Covid-19",  "High Performance Computing",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

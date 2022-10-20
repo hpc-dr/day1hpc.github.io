@@ -11,7 +11,7 @@ video_id: "Ws_fvv1_Sv8"
 layout: "video"
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "fair share scheduling",  "High Performance Computing",  "Storage",  "aws batch",  "DCV",  "Covid-19",  "reservations",  "batch",  "HPC",  "Lustre",  "vizualization",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "fair share",  "CPUs",  "techshorts", ]
+tags: [ "reservations",  "DCV",  "HPC",  "EC2",  "CPUs",  "Lustre",  "vizualization",  "fair share",  "fair share scheduling",  "aws batch",  "ParallelCluster",  "GPUs",  "Storage",  "batch",  "Schedulers",  "Covid-19",  "High Performance Computing",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
