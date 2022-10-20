@@ -36,32 +36,7 @@
             </li>
           </ul>
         </div>
-        <!-- {{with .Params.images}}
-        <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-12{{end}} mb-3">
-          <div class="post-slider">
-            {{ range .}}
-            {{ if (fileExists (add `assets/` .)) }}
-            {{ $image:= resources.Get . }}
-            {{ $imageFallback:= $image.Resize "750x" }}
-            {{ $imageLG:= $image.Resize "750x webp" }}
-            {{ $imageMD:= $image.Resize "710x webp" }}
-            {{ $imageSM:= $image.Resize "540x webp" }}
-            {{ $imageXS:= $image.Resize "400x webp" }}
-            <picture>
-              <source srcset="{{ $imageXS.RelPermalink }}" media="(max-width: 575px)">
-              <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 767px)">
-              <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 991px)">
-              <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 1200px)">
-              <source srcset="{{$imageLG.RelPermalink}}">
-              <img loading="lazy" class="img-fluid w-100" src="{{$imageLG.RelPermalink}}" alt="post-thumb">
-            </picture>
-            {{ else }}
-            <img loading="lazy" class="img-fluid" src="{{ $imageFallback.RelPermalink }}" alt="post-thumb">
-            {{ end }}
-            {{ end }}
-          </div>
-        </div>
-        {{end}} -->
+        <!-- img removed since we display the thumbnail inline in the youtube embed below -->
         <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-lg-10 mx-auto{{end}}">
           <div class="content">{{.Content}}</div>
         </div>
