@@ -8,6 +8,7 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "weKeR-qg_-4"
+layout: "video"
 # Taxonomies
 categories: []
 tags: [ "techshorts", ]

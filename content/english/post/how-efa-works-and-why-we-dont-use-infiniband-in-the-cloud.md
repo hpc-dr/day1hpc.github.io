@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "IgPWzhIHX68"
+layout: "video"
 # Taxonomies
 categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter", ]
-tags: [ "infiniband",  "MPI",  "High Performance Computing",  "Storage",  "GPUs",  "NCCL",  "fabric",  "virtualization",  "Intel MPI",  "Lustre",  "CPUs",  "ParallelCluster",  "Schedulers",  "low latency",  "networking",  "MVAPICH",  "open MPI",  "HPC",  "EC2",  "techshorts", ]
+tags: [ "infiniband",  "Intel MPI",  "EC2",  "Schedulers",  "ParallelCluster",  "open MPI",  "low latency",  "fabric",  "GPUs",  "CPUs",  "High Performance Computing",  "Storage",  "MPI",  "networking",  "HPC",  "NCCL",  "Lustre",  "virtualization",  "MVAPICH",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

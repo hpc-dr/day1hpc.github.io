@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "C4iSNjcW5O4"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "CPUs",  "High Performance Computing",  "HPC",  "ParallelCluster",  "Slurm",  "Schedulers",  "techshorts", ]
+tags: [ "High Performance Computing",  "HPC",  "Schedulers",  "ParallelCluster",  "Slurm",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

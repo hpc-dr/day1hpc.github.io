@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "2JOoMv-K1FY"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "bioinformatics",  "technical computing",  "infiniband",  "netapp ONTAP",  "MPI",  "vizualization",  "tightly-coupled",  "High Performance Computing",  "filesystems",  "Storage",  "GPUs",  "EFA",  "virtualization",  "Lustre",  "openzfs",  "CPUs",  "elastic fabric adapter",  "ZFS",  "ParallelCluster",  "Schedulers",  "lustre",  "elastic",  "autoscaling",  "DCV",  "HPC",  "scientific computing",  "cloud computing",  "EC2",  "techshorts", ]
+tags: [ "technical computing",  "infiniband",  "bioinformatics",  "Schedulers",  "ParallelCluster",  "elastic fabric adapter",  "filesystems",  "vizualization",  "scientific computing",  "DCV",  "netapp ONTAP",  "GPUs",  "cloud computing",  "EFA",  "CPUs",  "High Performance Computing",  "Storage",  "MPI",  "HPC",  "ZFS",  "lustre",  "elastic",  "openzfs",  "autoscaling",  "Lustre",  "virtualization",  "tightly-coupled",  "EC2",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

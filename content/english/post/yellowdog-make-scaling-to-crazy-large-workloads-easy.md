@@ -8,9 +8,10 @@ author: "Brendan Bouffler"
 # description
 description: ""
 video_id: "5O-Zdl740fw"
+layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Lustre",  "CPUs",  "visual effects",  "High Performance Computing",  "compound screening",  "Storage",  "GPUs",  "dug discovery",  "DCV",  "yellowdog",  "HPC",  "ParallelCluster",  "EC2",  "Covid-19",  "CGI",  "vizualization",  "Schedulers",  "virtualization",  "techshorts", ]
+tags: [ "yellowdog",  "compound screening",  "High Performance Computing",  "Storage",  "visual effects",  "DCV",  "Covid-19",  "HPC",  "Lustre",  "vizualization",  "EC2",  "Schedulers",  "ParallelCluster",  "GPUs",  "virtualization",  "dug discovery",  "CGI",  "CPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
