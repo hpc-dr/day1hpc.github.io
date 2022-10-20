@@ -102,11 +102,9 @@ button = "I Accept"
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = [
-  "search",
   "categories",
   "recent-post",
   "tags",
-  "social",
 ]
 # available widget : search,about-me,categories,tags,recent-post,social,promotion,subscription
 
