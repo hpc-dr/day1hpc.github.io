@@ -11,7 +11,7 @@ video_id: "xCFgdLB07PE"
 layout: "video"
 # Taxonomies
 categories: []
-tags: [ "CFD",  "HPC",  "CPUs",  "ARM processors",  "High Performance Computing",  "techshorts", ]
+tags: [ "HPC",  "CFD",  "ARM processors",  "CPUs",  "High Performance Computing",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

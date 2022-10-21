@@ -11,7 +11,7 @@ video_id: "8AYNmOeecHE"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Amazon Braket",  "DCV",  "HPC",  "EC2",  "CPUs",  "Lustre",  "vizualization",  "quantum",  "ParallelCluster",  "quantum computing",  "GPUs",  "Storage",  "supercomputer",  "Schedulers",  "Covid-19",  "High Performance Computing",  "virtualization",  "QPUs",  "techshorts", ]
+tags: [ "DCV",  "quantum",  "Covid-19",  "quantum computing",  "EC2",  "QPUs",  "HPC",  "GPUs",  "Lustre",  "vizualization",  "Amazon Braket",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "High Performance Computing",  "Storage",  "supercomputer",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

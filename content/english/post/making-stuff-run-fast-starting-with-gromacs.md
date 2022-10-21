@@ -11,7 +11,7 @@ video_id: "ubAvlgNN9PQ"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "molecular dynamics",  "GROMACS",  "DCV",  "HPC",  "EC2",  "CPUs",  "Lustre",  "vizualization",  "ParallelCluster",  "GPUs",  "Storage",  "Schedulers",  "High Performance Computing",  "virtualization",  "techshorts", ]
+tags: [ "DCV",  "molecular dynamics",  "EC2",  "HPC",  "GPUs",  "Lustre",  "vizualization",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "GROMACS",  "High Performance Computing",  "Storage",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
