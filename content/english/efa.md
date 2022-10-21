@@ -51,7 +51,7 @@ EFA is a great example of how we've been able to keep packets flowing *and* solv
 <iframe width="420" height="240" src="https://www.youtube.com/embed/XyllOcIQ_jM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
+## Deeper Dive
 {{< tabs >}}
   {{< tab "Tech Specs" >}}
 - **[EFA-enabled Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types)** - there are dozens of instances types that now support EFA. That gives you a lot of options to customize a cluster queue specifically for your workloads.
@@ -73,7 +73,7 @@ EFA is a great example of how we've been able to keep packets flowing *and* solv
   {{< /tab >}}
 {{< /tabs >}}
 
-## EFA Performance?
+## EFA Performance
 
 Customers tell us their workloads scale on EFA the same way they do on-site using traditional interconnects. We see the same thing in the lab, too.
 
@@ -86,7 +86,7 @@ There are a lot of [performance studies](/tags/performance) studies covering a w
 * [GROMACS price-performance optimizations on AWS](https://aws.amazon.com/blogs/hpc/gromacs-price-performance-optimizations-on-aws/)
 * [The impact of network conditions on application performance is complicated](https://youtu.be/gtQeLmZloJo)
 
-## EFA in TV broadcasting?
+## EFA in TV broadcasting - an unexpected use case
 
 In HPC, we're used to the tools and techniques we create flowing into the rest of the industry, solving lots of problems once thought too hard, and unlocking new possibilities for everyone. This is what happened when the team thaty looks after Holywood asked us for help with solving a networking problem.
 

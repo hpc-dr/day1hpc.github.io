@@ -27,3 +27,5 @@ He’s been ~~guilty of~~ responsible for designing and building hundreds of HPC
 He holds a degree in Physics and an interest in testing several of its laws as they apply to bicycles. 
 
 This has, unfortunately, frequently resulted in hospitalization.
+
+You can find him on twitter at [@boofla](https://twitter.com/boofla), and on [linkedIn](http://www.linkedin.com/in/brendanbouffler/), or hanging out somewhere with Elmo, who often appears in [HPC Tech Shorts](https://youtu.be/1y5Ix2HS8sw?t=214)
