@@ -35,11 +35,11 @@ ParallelCluster has a graphical interface (and a CLI) to model and control all t
 <style>
 .boof2 {
   float:right !important;
-  width:600px;
+  width:500px;
   padding: 10px;
   }
 </style>
-{{< image src="/images/post/pcmanager-sizzle.png" class="boof2" >}}
+{{< image src="/images/pcmanager/Create_Cluster_MultipleQueues2.png" class="boof2" >}}
 
 There are two ways to get ParallelCluster::
 
@@ -77,15 +77,13 @@ First, you should make sure you're comfortable that ParallelCluster is the right
 
 {{< image src="/images/hpc/media-ident-square.png" class="boof" >}}
 
-**Migrating between schedulers** doesn't need to be hard. Since SGE is no longer supported by the community, we worked with the team at [SchedMD](https://www.schedmd.com/) to create a tutorial series to help everyone understand what tools are available in Slurm, to make the shift easier.
+**Migrating between schedulers doesn't need to be hard**. Since SGE is no longer supported by the community, we worked with the team at [SchedMD](https://www.schedmd.com/) to create a tutorial series to help everyone understand what tools are available in Slurm, to make the shift easier.
 
-There's a blog post with several cheat sheets, and a Tech Shorts series in 4-parts so you can find exactly what you want.
+**[Easing your migration from SGE to Slurm in AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/)** - a blog post kicking off the tutorial with several handy cheat sheets.
 
-- [Easing your migration from SGE to Slurm in AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/)
-- [Part 1 - Command Line Tools](https://youtu.be/zCEN4GblrRs)
-- [Part 2 - Job Scripts](https://youtu.be/HYMqq0L6fLU)
-- [Part 3 - Array Jobs](https://youtu.be/PVO7_fZAT0I)
-- [Part 4 - Slurm Accounting](https://youtu.be/TzTIN17CG-s)
+**Tech Shorts series in 4-parts** - hands on tutorials with examples, delivery by experts from SchedMD and AWS.
+
+**[Command Line Tools](https://youtu.be/zCEN4GblrRs)** || **[Job Scripts](https://youtu.be/HYMqq0L6fLU)** || **[Array Jobs](https://youtu.be/PVO7_fZAT0I)** || **[Slurm Accounting](https://youtu.be/TzTIN17CG-s)**
 
 ## Migration for legacy ParallelCluster v2 customers
 
