@@ -66,4 +66,4 @@ rel = "manifest"
 
 [params]
 # Taxonomies
-categories = ["AWS Batch", "AWS ParallelCluster", "Amazon Elastic Fabric Adapter", "Amazon NICE DCV", "AI/ML", "CAE/CFD", "Financial Services", "Climate/Environment/Weather", "Life Sciences"]
+categories = ["AWS Batch", "AWS ParallelCluster", "AWS Elastic Fabric Adapter", "NICE DCV", "AI/ML", "CAE/CFD", "Financial Services", "Climate/Environment/Weather", "Life Sciences"]

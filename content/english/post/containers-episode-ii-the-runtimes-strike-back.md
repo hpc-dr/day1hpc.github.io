@@ -11,7 +11,7 @@ video_id: "sN-SZmCza3k"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "saurus",  "HPC",  "EC2",  "CPUs",  "Lustre",  "ParallelCluster",  "GPUs",  "Storage",  "Schedulers",  "docker",  "High Performance Computing",  "containers",  "virtualization",  "techshorts", ]
+tags: [ "saurus",  "containers",  "EC2",  "HPC",  "docker",  "GPUs",  "Lustre",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "High Performance Computing",  "Storage",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

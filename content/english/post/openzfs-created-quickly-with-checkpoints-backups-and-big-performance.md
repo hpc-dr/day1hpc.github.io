@@ -11,7 +11,7 @@ video_id: "AaAy6_bpI9Q"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "FSx for OpenZFS",  "EC2",  "ZFS",  "Schedulers",  "ParallelCluster",  "OpenZFS",  "clusters",  "Lustre",  "vizualization",  "GPUs",  "High Performance Computing",  "virtualization",  "DCV",  "HPC",  "CPUs",  "backup",  "Storage",  "checkpoint",  "Covid-19",  "techshorts", ]
+tags: [ "ZFS",  "EC2",  "GPUs",  "Lustre",  "virtualization",  "ParallelCluster",  "vizualization",  "High Performance Computing",  "FSx for OpenZFS",  "Storage",  "clusters",  "Covid-19",  "HPC",  "CPUs",  "DCV",  "backup",  "OpenZFS",  "Schedulers",  "checkpoint",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

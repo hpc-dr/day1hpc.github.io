@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "Amazon NICE DCV", ]
-tags: [ "Best Practices",  "NICE DCV",  "HPC",  "hpcblog", ]
+categories: [ "NICE DCV", ]
+tags: [ "HPC",  "Best Practices",  "NICE DCV",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

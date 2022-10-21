@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: []
-tags: [ "Education",  "HPC",  "Research",  "hpcblog", ]
+tags: [ "Research",  "HPC",  "Education",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
