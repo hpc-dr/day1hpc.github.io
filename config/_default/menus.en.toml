@@ -25,7 +25,7 @@ weight = 2
 
 [[main]]
 parent = "Products"
-name = "Elastic Fabric Adapter"
+name = "AWS Elastic Fabric Adapter"
 url = "/efa/"
 weight = 3
 
