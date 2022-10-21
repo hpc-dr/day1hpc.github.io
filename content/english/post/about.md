@@ -37,7 +37,7 @@ You can find us on Twitter at **[@TechHpc](https://twitter.com/TechHpc)**, on Yo
 
 ----
 
-## We're hiring again soon ...
+## We're hiring
 
 So if you want to know what it's like to work in our engineering teams, take it from the people who are alreasy here ...
 
