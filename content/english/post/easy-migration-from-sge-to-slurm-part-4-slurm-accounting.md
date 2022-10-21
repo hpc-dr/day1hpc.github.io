@@ -11,7 +11,7 @@ video_id: "TzTIN17CG-s"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "slurm",  "EC2",  "Schedulers",  "ParallelCluster",  "workflow",  "slurm accounting",  "Lustre",  "vizualization",  "GPUs",  "High Performance Computing",  "sge",  "virtualization",  "job accounting",  "DCV",  "HPC",  "CPUs",  "Storage",  "Covid-19",  "job scripts",  "techshorts", ]
+tags: [ "EC2",  "GPUs",  "Lustre",  "virtualization",  "ParallelCluster",  "vizualization",  "High Performance Computing",  "Storage",  "slurm",  "job scripts",  "sge",  "Covid-19",  "HPC",  "slurm accounting",  "job accounting",  "CPUs",  "DCV",  "workflow",  "Schedulers",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

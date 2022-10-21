@@ -11,7 +11,7 @@ video_id: "CMSKuq04GUo"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "scientific computing",  "EC2",  "debuggers",  "infiniband",  "autoscaling",  "Schedulers",  "ParallelCluster",  "arm64",  "Lustre",  "vizualization",  "MPI",  "compilers",  "cloud computing",  "tightly-coupled",  "GPUs",  "EFA",  "elastic fabric adapter",  "technical computing",  "High Performance Computing",  "virtualization",  "profilers",  "DCV",  "HPC",  "CPUs",  "elastic",  "graviton",  "Storage",  "bioinformatics",  "techshorts", ]
+tags: [ "EC2",  "GPUs",  "Lustre",  "virtualization",  "technical computing",  "ParallelCluster",  "vizualization",  "elastic fabric adapter",  "High Performance Computing",  "profilers",  "Storage",  "cloud computing",  "scientific computing",  "bioinformatics",  "compilers",  "arm64",  "HPC",  "graviton",  "autoscaling",  "CPUs",  "debuggers",  "DCV",  "MPI",  "elastic",  "tightly-coupled",  "EFA",  "Schedulers",  "infiniband",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -11,7 +11,7 @@ video_id: "N-IlEZKa_-0"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "DCV",  "HPC",  "EC2",  "CPUs",  "Lustre",  "vizualization",  "WDL",  "ParallelCluster",  "miniWDL",  "GPUs",  "Storage",  "workflows",  "Schedulers",  "Covid-19",  "genomics",  "High Performance Computing",  "virtualization",  "techshorts", ]
+tags: [ "DCV",  "workflows",  "Covid-19",  "EC2",  "HPC",  "GPUs",  "Lustre",  "vizualization",  "WDL",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "genomics",  "High Performance Computing",  "miniWDL",  "Storage",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
