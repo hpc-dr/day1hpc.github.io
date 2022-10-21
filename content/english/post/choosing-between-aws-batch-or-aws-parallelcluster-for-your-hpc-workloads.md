@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster", ]
-tags: [ "Batch",  "HPC",  "ParallelCluster",  "hpcblog", ]
+tags: [ "Batch",  "ParallelCluster",  "HPC",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

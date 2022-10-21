@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "Serverless Application Model",  "ParallelCluster",  "Systems Manager",  "Lambda",  "API Gateway",  "HPC",  "hpcblog", ]
+tags: [ "API Gateway",  "ParallelCluster",  "HPC",  "Systems Manager",  "Lambda",  "Serverless Application Model",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

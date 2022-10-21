@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: []
-tags: [ "Best Practices",  "HPC",  "Modeling",  "hpcblog", ]
+tags: [ "HPC",  "Best Practices",  "Modeling",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

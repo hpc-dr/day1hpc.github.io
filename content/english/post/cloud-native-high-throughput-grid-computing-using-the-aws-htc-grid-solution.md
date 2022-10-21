@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "Financial Services", ]
-tags: [ "HPC",  "Financial Services",  "hpcblog", ]
+tags: [ "Financial Services",  "HPC",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
-tags: [ "Modeling",  "HPC",  "ParallelCluster",  "Climate/Environment/Weather",  "hpcblog", ]
+tags: [ "HPC",  "ParallelCluster",  "Climate/Environment/Weather",  "Modeling",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
