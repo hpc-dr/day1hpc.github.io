@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
-tags: [ "ParallelCluster",  "FSx for Lustre",  "Sustainability",  "Public Sector",  "Modeling",  "Simulation",  "HPC",  "Media",  "Research",  "Climate/Environment/Weather",  "hpcblog", ]
+tags: [ "Sustainability",  "Research",  "ParallelCluster",  "Simulation",  "HPC",  "Public Sector",  "Media",  "Modeling",  "Climate/Environment/Weather",  "FSx for Lustre",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

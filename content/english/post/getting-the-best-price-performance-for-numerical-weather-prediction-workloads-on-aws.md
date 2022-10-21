@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "Climate/Environment/Weather", ]
-tags: [ "Best Practices",  "HPC",  "Climate/Environment/Weather",  "hpcblog", ]
+tags: [ "HPC",  "Best Practices",  "Climate/Environment/Weather",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

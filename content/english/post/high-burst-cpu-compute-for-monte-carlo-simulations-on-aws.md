@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: []
-tags: [ "Serverless",  "Lambda",  "API Gateway",  "Simulation",  "HPC",  "hpcblog", ]
+tags: [ "API Gateway",  "Serverless",  "HPC",  "Lambda",  "Simulation",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

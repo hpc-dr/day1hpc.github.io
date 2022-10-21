@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "CAE/CFD",  "AWS ParallelCluster", ]
-tags: [ "Simulation",  "CAE/CFD",  "HPC",  "ParallelCluster",  "hpcblog", ]
+tags: [ "CAE/CFD",  "HPC",  "ParallelCluster",  "Simulation",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

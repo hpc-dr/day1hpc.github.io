@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "Batch",  "Technical How-to",  "Elastic File System (EFS)",  "Elastic Container Service",  "HPC",  "Fargate",  "hpcblog", ]
+tags: [ "Elastic Container Service",  "Fargate",  "Technical How-to",  "Batch",  "HPC",  "Elastic File System (EFS)",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
