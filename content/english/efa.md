@@ -41,14 +41,22 @@ EFA is a great example of how we've been able to keep packets flowing *and* solv
 
 <style>
 .boof3 {
-  float:left !important;
+  float:right !important;
   width:250px;
   padding: 10px;
   }
 </style>
+
 {{< image src="/images/hpc/media-ident-square.png" class="boof3" >}}
-<iframe width="420" height="240" src="https://www.youtube.com/embed/inJxFXMMp0U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="240" src="https://www.youtube.com/embed/XyllOcIQ_jM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<style>
+.boof4 {
+  width:350px;
+  padding: 10px;
+  }
+</style>
+<a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-what-is-efa.png" class="boof4" >}}</a>
+<a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
 
 ---
 ## Deeper Dive
@@ -77,13 +85,13 @@ EFA is a great example of how we've been able to keep packets flowing *and* solv
 
 Customers tell us their workloads scale on EFA the same way they do on-site using traditional interconnects. We see the same thing in the lab, too.
 
-There are a lot of [performance studies](/tags/performance) studies covering a wide range of HPC codes. To stay in touch with this side of what we do, we suggest following [HPC Tech Shorts](https://hpc.news/techshorts) and our [HPC Blog Channel](https://hpc.news/blog).
+There are a number of [performance studies](/tags/performance) studies covering a wide range of HPC codes. To stay in touch with this side of what we do, we suggest following [HPC Tech Shorts](https://hpc.news/techshorts) and our [HPC Blog Channel](https://hpc.news/blog).
 
-* [Getting the best price performance for Numerical Weather Prediction](https://aws.amazon.com/blogs/hpc/best-price-performance-for-nwp-on-aws/)
-* [Running large-scale CFD fire simulations on AWS for Amazon.com](https://aws.amazon.com/blogs/hpc/amazon-runs-large-scale-cfd-fire-simulations-on-aws/)
-* [Scaling CFD a lot by breaking down a workflow, to speed things up](https://youtu.be/F8YzcuYr7YI)
-* [Simcenter STAR-CCM+ price-performance on AWS](https://aws.amazon.com/blogs/hpc/simcenter-star-ccm-price-performance-on-aws/)
-* [GROMACS price-performance optimizations on AWS](https://aws.amazon.com/blogs/hpc/gromacs-price-performance-optimizations-on-aws/)
+* [Numerical Weather Prediction](https://aws.amazon.com/blogs/hpc/best-price-performance-for-nwp-on-aws/)
+* [Large-scale CFD fire simulations for Amazon.com](https://aws.amazon.com/blogs/hpc/amazon-runs-large-scale-cfd-fire-simulations-on-aws/)
+* [Scaling CFD by breaking down a workflow, to speed it up](https://youtu.be/F8YzcuYr7YI)
+* [Simcenter STAR-CCM+](https://aws.amazon.com/blogs/hpc/simcenter-star-ccm-price-performance-on-aws/)
+* [GROMACS performance optimizations](https://aws.amazon.com/blogs/hpc/gromacs-price-performance-optimizations-on-aws/)
 * [The impact of network conditions on application performance is complicated](https://youtu.be/gtQeLmZloJo)
 
 ## EFA in TV broadcasting - an unexpected use case
