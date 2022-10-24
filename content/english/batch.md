@@ -29,8 +29,10 @@ draft: false
 **AWS Batch** is an always-on scheduler that lets you easily and efficiently run thousands of container jobs.
 **Workflow builders** love it for scaling their workloads, from machine learning to genomics. It scales from **one job to millions** and takes away the chore of spinning up fleets of compute instances and keeping them busy.
 
-## Features
-- [Choosing between AWS Batch or AWS ParallelCluster for your HPC Workloads](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)
+Batch is a different way of running workloads compared to 'normal' HPC practices you might be used to. Before you dive in on batch, it's worth comparing it to ParallelCluster. Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
+
+### Major features you'll want to know about
+
 - [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/)
 - [New console features including container insights in AWS Batch](https://youtu.be/uv4jJ7XIAfs)
 - [Batch can now use Fargate for a truly serverless experience](https://youtu.be/weKeR-qg_-4)
@@ -40,6 +42,35 @@ draft: false
 
 ## Announcements
 - [BioContainers are now available in Amazon ECR Public Gallery](https://aws.amazon.com/blogs/hpc/biocontainers-are-now-available-in-amazon-ecr-public-gallery/)
+
+## Workflow engines love Batch
+
+{{< tabs >}}
+  {{< tab "Netflow" >}}
+  If you're working with Nextflow natively, then you'll probably love finding out about the **[AWS Genomics CLI](https://aws.amazon.com/genomics-cli/)** which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).
+- **[Genomics Workflows on AWS - Nextflow](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)**
+- **[Nextflow\'s getting started guide for AWS Batch](https://www.nextflow.io/docs/latest/awscloud.html)**
+- **[Nextflow\'s Summit in 2022](https://summit.nextflow.io/)** - lots of great talks.
+  {{< /tab >}}
+  {{< tab "Cromwell" >}}
+  If you're working with Nextflow natively, then you'll probably love finding out about the **[AWS Genomics CLI](https://aws.amazon.com/genomics-cli/)** which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).
+- **[Genomics Workflows on AWS - Cromwell](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)**
+- **[Cromwell on AWS](https://aws.amazon.com/blogs/industries/cromwell-on-aws-a-simpler-and-improved-aws-batch-backend/)** - blog post by Mark Schreiber about an improved integration.
+  {{< /tab >}}
+  {{< tab "Metaflow" >}}
+- **[Metaflow\'s Season 2 blockbuster on AWS Batch](https://docs.metaflow.org/getting-started/tutorials/season-2-scaling-out-and-up/episode05)**
+  {{< /tab >}}
+{{< /tabs >}}
+<style>
+
+.boof4 {
+  float:right !important;
+  width:450px;
+  padding: 10px;
+  }
+</style>
+{{< image src="/images/hpc/20s batch.gif" class="boof4" >}}
+
 
 ## Skills
 
@@ -51,39 +82,38 @@ draft: false
 - [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
 - [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
 
+
+- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
+
+- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
+
 ## Use cases
-  
-### HCLS
+
+{{< tabs >}}
+  {{< tab "Healthcare & Life Sciences" >}}
 - [Optimize Protein Folding Costs with OpenFold on AWS Batch](https://aws.amazon.com/blogs/hpc/optimize-protein-folding-costs-with-openfold-on-aws-batch/)
 - [Protein folding in the cloud - a protein primer with Brian Loyal](https://youtu.be/h9QPdUGWkZQ)
 - [AlphaFold vs OpenFold - accelerating time to result in protein folding](https://youtu.be/CHBFgz1ZF7o)
-
 - [Analyzing Genomic Data using Amazon Genomics CLI and Amazon SageMaker](https://aws.amazon.com/blogs/hpc/analyzing-genomic-data-using-amazon-genomics-cli-and-amazon-sagemaker/)
-
 - [Accelerating drug discovery with Amazon EC2 Spot Instances](https://aws.amazon.com/blogs/hpc/accelerating-drug-discovery-with-amazon-ec2-spot-instances/)
 - [Running 20k simulations in 3 days to accelerate early stage drug discovery with AWS Batch](https://aws.amazon.com/blogs/hpc/running-20k-simulations-in-3-days-with-aws-batch/)
 - [miniWDL workflows with 100% cloud elasticity, and no DevOps geekery](https://youtu.be/N-IlEZKa_-0)
 - [Nextflow Tower and how it makes it easy to manage a lot of infrastructure quickly.](https://youtu.be/JOguxRohITA)
 - [Genomics workflow set made easy with AWS Genomics CLI](https://youtu.be/30cfBPdzykA)
-
-### VFX
-
-- [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/)
 - [Getting Started with NVIDIA Clara Parabricks on AWS Batch using AWS CloudFormation](https://aws.amazon.com/blogs/hpc/getting-started-with-nvidia-parabricks-on-aws-batch-using-aws-cloudformation/)
-
-- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
-- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
-
-### Data Science
+{{< /tab >}}
+  {{< tab "Visual FX" >}}
+- [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/)
+  {{< /tab >}}
+  {{< tab "Data Science + Machine Learning" >}}
 - [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
 - [Data Science workflows at insitro: using redun on AWS Batch](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)
-- [Bayesian ML Models at Scale with AWS Batch](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/)
-- [Bayesian models and half a million cores - what're you waiting for?](https://youtu.be/CcqeeRyx93k)
 
-- [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)
+- **Bayesian ML Models at Scale with AWS Batch** [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
 
+- **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
+  {{< /tab >}}  
+  {{< tab "Others" >}}
 - [Optimize your Monte Carlo simulations using AWS Batch](https://aws.amazon.com/blogs/hpc/optimizing-monte-carlo-simulations-using-aws-batch/)
-
-
-
-
+  {{< /tab >}}  
+{{< /tabs >}}
