@@ -43,7 +43,7 @@ ParallelCluster has a graphical interface (and a CLI) to model and control all t
 
 There are two ways to get ParallelCluster::
 
-1. **We suggest using [PCluster Manager](https://pcluster.cloud/01-getting-started.html)**, which is a visual interface for designing and deploying your clusters. **PCluster Manager** has great features that help you integrate fast filesytems (like Lustre), get one-click desktops connections using NICE DCV, and **controlling your spend** using Slurm Accounting. PCluster Manager can be deployed to your AWS account very quickly, by following the tutorial [here](https://pcluster.cloud/01-getting-started.html).
+1. **We suggest using [PCluster Manager](https://pcluster.cloud/01-getting-started.html)**, which is a visual interface for designing and deploying your clusters. It has features that help you integrate fast filesytems (like Lustre), visual desktops, and tools to **control your spend** using Slurm Accounting. **PCluster Manager** can be deployed to your AWS account very quickly, by following the tutorial [here](https://pcluster.cloud/01-getting-started.html).
 
 2. If you're familiar with AWS already, and just want the CLI, you can install it on almost any computer with python installed. The procedure is [documented here](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html), but pretty much starts with:
 

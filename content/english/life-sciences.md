@@ -16,12 +16,14 @@ draft: false
 ---
 
 <style>
-.boof {
-  float:right !important;
-  width:350px;
+.boof-weather 
+  float:center !important;
+  width:1110px;
   padding: 10px;
   }
 </style>
 
-# Learn about Life Sciences on AWS HPC
+{{< image src="/images/hpc/life-ident-large.png" position="center" class="boof-weather" >}}
+
+## Learn about Healthcare and LIfe Sciences HPC on AWS
 
