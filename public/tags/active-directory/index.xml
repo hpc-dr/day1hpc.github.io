@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active Directory on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/active-directory.html</link>
+    <description>Recent content in Active Directory on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Mar 2022 15:34:44 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-user in ParallelCluster with LDAP and MS Active Directory</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/multi-user-in-parallelcluster-with-ldap-and-ms-active-directory.html</link>
+      <pubDate>Thu, 17 Mar 2022 15:34:44 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/multi-user-in-parallelcluster-with-ldap-and-ms-active-directory.html</guid>
+      <description>Customers have been asking us to make it easy to configure ParallelCluster to use a corporate directory server, so adding a user to the cloud HPC stack becomes as easy as adding them to (say) the Engineering Group in Active Directory or LDAP.
+We&amp;rsquo;re happy to say we&amp;rsquo;ve done that, and released a blog about it a couple weeks ago. In today&amp;rsquo;s show, Giacomo Marciani (one of the developers who built this feature) came along to explain how it works and give us a demo, so you can get to the important steps fast.
+During the show we spoke about a blog and a tutorial. They&amp;rsquo; right here:
+Blog: https://hpc.news/turing313 Tutorial: https://hpc.news/hawking513 If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

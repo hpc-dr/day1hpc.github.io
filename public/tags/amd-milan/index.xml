@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMD Milan on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/amd-milan.html</link>
+    <description>Recent content in AMD Milan on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jan 2022 16:00:31 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/amd-milan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HPC on AWS just got faster and lower-cost with the launch of Hpc6a</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/hpc-on-aws-just-got-faster-and-lower-cost-with-the-launch-of-hpc6a.html</link>
+      <pubDate>Thu, 13 Jan 2022 16:00:31 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/hpc-on-aws-just-got-faster-and-lower-cost-with-the-launch-of-hpc6a.html</guid>
+      <description>On Jan 10, the new Hpc6a instance became generally available in two regions. This instance is built from the ground up for HPC and comes with a number of interesting innovations. Neil and Heidi from our application performance team came along to show results from real analyses of real codes running at tens of thousands of cores, with some of the hardest applications on Earth.
+The instance details are here: https://aws.amazon.com/ec2/instance-types/hpc6/
+&amp;hellip; and the blog post talking about them is here: https://hpc.news/Hpc6aLaunch
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

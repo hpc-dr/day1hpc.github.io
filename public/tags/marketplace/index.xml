@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketplace on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/marketplace.html</link>
+    <description>Recent content in Marketplace on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Nov 2021 00:00:00 -0800</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/marketplace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmarking the NVIDIA Clara Parabricks germline pipeline on AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/benchmarking-the-nvidia-clara-parabricks-germline-pipeline-on-aws.html</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/benchmarking-the-nvidia-clara-parabricks-germline-pipeline-on-aws.html</guid>
+      <description>This blog provides an overview of NVIDIA’s Clara Parabricks along with a guide on how to use Parabricks within the AWS Marketplace. It focuses on germline analysis for whole genome and whole exome applications using GPU accelerated bwa-mem and GATK’s HaplotypeCaller.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

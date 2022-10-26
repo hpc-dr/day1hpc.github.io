@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical How-to on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/technical-how-to.html</link>
+    <description>Recent content in Technical How-to on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/technical-how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Scalable Predictive Modeling Framework in AWS – Part 2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/building-a-scalable-predictive-modeling-framework-in-aws-part-2.html</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/building-a-scalable-predictive-modeling-framework-in-aws-part-2.html</guid>
+      <description>In the first part of this three-part blog series, we introduced the aws-do-pm framework for building predictive models at scale in AWS. In this blog, we showcase a sample application for predicting the life of batteries in a fleet of electric vehicles, using the aws-do-pm framework.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Optimize your Monte Carlo simulations using AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/optimize-your-monte-carlo-simulations-using-aws-batch.html</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/optimize-your-monte-carlo-simulations-using-aws-batch.html</guid>
+      <description>Introduction Monte Carlo methods are a class of methods based on the idea of sampling to study mathematical problems for which analytical solutions may be unavailable. The basic idea is to create samples through repeated simulations that can be used to derive approximations about a quantity we’re interested in, and its probability distribution. In this […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Integrating OKTA identity service provider with NICE EnginFrame</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/integrating-okta-identity-service-provider-with-nice-enginframe.html</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/integrating-okta-identity-service-provider-with-nice-enginframe.html</guid>
+      <description>This post by Roberto Meda and Salvo Maccarone covers how you can configure NICE EnginFrame to leverage OKTA as an identity service provider to support SAML 2.0 single sign on authentication and several other features like multi-factor verification, API access management and multi-device support.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Running Windows HPC Workloads using HPC Pack in AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/running-windows-hpc-workloads-using-hpc-pack-in-aws.html</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/running-windows-hpc-workloads-using-hpc-pack-in-aws.html</guid>
+      <description>This blog post shows you how to deploy an HPC cluster for Windows workloads. We have provided an AWS CloudFormation template that automates the creation process to deploy an HPC Pack 2019 Windows cluster. This will help you get started quickly to run Windows-based HPC workloads, while leveraging highly scalable, resilient, and secure AWS infrastructure. As an example, we show how to run a sample parametric sweep for EnergyPlus, an open source energy simulation tool maintained by the U.S. Department of Energy’s Building Technology Office.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Scaling a read-intensive, low-latency file system to 10M&#43; IOPs</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/scaling-a-read-intensive-low-latency-file-system-to-10m-iops.html</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/scaling-a-read-intensive-low-latency-file-system-to-10m-iops.html</guid>
+      <description>Many shared file systems are used in supporting read-intensive applications, like financial backtesting. These applications typically exploit copies of datasets whose authoritative copy resides somewhere else. For small datasets, in-memory databases and caching techniques can yield impressive results. However, low latency flash-based scalable shared file systems can provide both massive IOPs and bandwidth. They’re also easy to adopt because of their use of a file-level abstraction. In this post, I’ll share how to easily create and scale a shared, distributed POSIX compatible file system that performs at local NVMe speeds for files opened read-only.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Using AWS Batch Console Support for Step Functions Workflows</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/using-aws-batch-console-support-for-step-functions-workflows.html</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/using-aws-batch-console-support-for-step-functions-workflows.html</guid>
+      <description>Last year, we published the Genomics Secondary Analysis Using AWS Step Functions and AWS Batch solution as a companion solution to the Genomics Data Transfer, Analytics, and Machine Learning Using AWS Services whitepaper. Since then, many customers have used the secondary analysis solution to automate their bioinformatics pipelines in AWS. A common pain point expressed […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Cost-optimization on Spot Instances using checkpoint for Ansys LS-DYNA</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/cost-optimization-on-spot-instances-using-checkpoint-for-ansys-ls-dyna.html</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/cost-optimization-on-spot-instances-using-checkpoint-for-ansys-ls-dyna.html</guid>
+      <description>A major portion of the costs incurred for running Finite Element Analyses (FEA) workloads on AWS comes from the usage of Amazon EC2 instances. Amazon EC2 Spot Instances offer a cost-effective architectural choice, allowing you to take advantage of unused EC2 capacity for up to a 90% discount compared to On-Demand Instance prices. In this post, we describe how you 0can run fault-tolerant FEA workloads on Spot Instances using Ansys LS-DYNA’s checkpointing and auto-restart utility.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/scalable-and-cost-effective-batch-processing-for-ml-workloads-with-aws-batch-and-amazon-fsx.html</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/scalable-and-cost-effective-batch-processing-for-ml-workloads-with-aws-batch-and-amazon-fsx.html</guid>
+      <description>Batch processing is a common need across varied machine learning use cases such as video production, financial modeling, drug discovery, or genomic research. The elasticity of the cloud provides efficient ways to scale and simplify batch processing workloads while cutting costs. In this post, you’ll learn a scalable and cost-effective approach to configure AWS Batch Array jobs to process datasets that are stored on Amazon S3 and presented to compute instances with Amazon FSx for Lustre.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>A VDI solution with EnginFrame and NICE DCV Session Manager built with AWS CDK</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/a-vdi-solution-with-enginframe-and-nice-dcv-session-manager-built-with-aws-cdk.html</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/a-vdi-solution-with-enginframe-and-nice-dcv-session-manager-built-with-aws-cdk.html</guid>
+      <description>This post was written by Dario La Porta, AWS Professional Services Senior Consultant for HPC. Customers across a wide range of industries such as energy, life sciences, and design and engineering are facing challenges in managing and analyzing their data. Not only is the amount and velocity of data increasing, but so is the complexity and […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Introducing support for per-job Amazon EFS volumes in AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/introducing-support-for-per-job-amazon-efs-volumes-in-aws-batch.html</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/introducing-support-for-per-job-amazon-efs-volumes-in-aws-batch.html</guid>
+      <description>Large-scale data analysis usually involves some multi-step process where the output of one job acts as the input of subsequent jobs. Customers using AWS Batch for data analysis want a simple and performant storage solution to share with and between jobs. We are excited to announce that customers can now use Amazon Elastic File System (Amazon […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Simplify HPC cluster usage with AWS Cloud9 and AWS ParallelCluster</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/simplify-hpc-cluster-usage-with-aws-cloud9-and-aws-parallelcluster.html</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/simplify-hpc-cluster-usage-with-aws-cloud9-and-aws-parallelcluster.html</guid>
+      <description>This post was written by Benjamin Meyer, AWS Solutions Architect When companies and labs start their high performance computing (HPC) journey in the AWS Cloud, it’s not only because they’re in search of elasticity and scale – they’re also in search of new tools and environments. Initially this can appear challenging as there are many […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

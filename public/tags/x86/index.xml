@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>x86 on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/x86.html</link>
+    <description>Recent content in x86 on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 May 2021 16:16:52 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/x86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WRF performance teardown on Graviton vs x86</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/wrf-performance-teardown-on-graviton-vs-x86.html</link>
+      <pubDate>Thu, 20 May 2021 16:16:52 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/wrf-performance-teardown-on-graviton-vs-x86.html</guid>
+      <description>(A complete teardown of WRF performance on x86 and AWS Graviton, from memory subsystems, compilers and MPI stacks).
+Weather simulation is a reliably difficult workload for almost any HPC architecture and is often used as a litmus test by many customers before they look too hard at a novel or different systems. Customers have asked us frequently about our performance for codes like WRF, and that’s been even more the case since we launched our Arm-based processor, the AWS Graviton2, in a range of EC2 instances.
+So it’s exciting that Karthik Raman and Matt Koop (two leading engineers from our global HPC solution architecture team) dived deep to look at WRF’s performance across a range of instance types (both Intel and Graviton), with EFA (our fast fabric, as you might remember from last week) as well as investigating the impact of different MPIs and compilers.</description>
+    </item>
+    
+  </channel>
+</rss>

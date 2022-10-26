@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pytorch on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/pytorch.html</link>
+    <description>Recent content in pytorch on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Jun 2022 17:05:07 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NCCL on EFA makes the ML world go around in the cloud</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/nccl-on-efa-makes-the-ml-world-go-around-in-the-cloud.html</link>
+      <pubDate>Thu, 30 Jun 2022 17:05:07 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/nccl-on-efa-makes-the-ml-world-go-around-in-the-cloud.html</guid>
+      <description>Machine Learning is a huge workload, and one of the most demanding when it comes to scaling to thousands (and thousands) of CPUs. Some of the largest workloads customers run in the cloud are deep learning models, which require huge numbers of GPUs and saturate the networks connecting them.
+To make all that work on AWS, NVIDIA&amp;rsquo;s collectives communications library (NCCL) relies on libfabrics to speak to the EFA hardware that makes up EC2&amp;rsquo;s high performance interconnect.
+Rashika Kheria leads the team in Annapurna that handles this interface, ensuring your models, using all your favorite frameworks, scale really nicely to as far as your imagination allows (well, maybe a little further). She came to Tech Shorts to tell us how that works.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

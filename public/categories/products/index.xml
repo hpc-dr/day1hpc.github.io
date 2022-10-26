@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>products on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/categories/products.html</link>
+    <description>Recent content in products on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/categories/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/batch.html</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/batch.html</guid>
+      <description>AWS Batch AWS Batch is an always-on scheduler that lets you easily and efficiently run thousands of container jobs. Workflow builders love it for scaling their workloads, from machine learning to genomics. It scales from one job to millions and takes away the chore of spinning up fleets of compute instances and keeping them busy.
+Batch is a different way of running workloads compared to &amp;rsquo;normal&amp;rsquo; HPC practices you might be used to. Before you dive in on batch, it&amp;rsquo;s worth comparing it to ParallelCluster. Angel wrote a great blog post about choosing between AWS Batch or AWS ParallelCluster.
+Major features you&amp;rsquo;ll want to know about Introducing fair-share scheduling for AWS Batch New console features including container insights in AWS Batch Batch can now use Fargate for a truly serverless experience AWS Batch&amp;amp;rsquo;s new Faster Scaling features Introducing support for per-job Amazon EFS volumes in AWS Batch Fair share scheduling to maximize user happiness in AWS Batch Announcements BioContainers are now available in Amazon ECR Public Gallery Workflow engines love Batch If you&amp;rsquo;re working with Nextflow natively, then you&amp;rsquo;ll probably love finding out about the AWS Genomics CLI which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).</description>
+    </item>
+    
+    <item>
+      <title>NICE DCV</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/nice-dcv.html</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/nice-dcv.html</guid>
+      <description>NICE DCV NICE DCV is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. You can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
+DCV makes very frugal use of scarce bandwidth, because it&amp;rsquo;s super-lean, uses data-compression techniques and has always quickly adopted cutting-edge technologies (this is HPC, after all, we leave nothing on the table when it came to exploiting new gadgets).
+A desktop &amp;hellip; in a web browser? DCV also has a Web SDK which means you can offer your end users virtual desktops embedded in browser tabs (check out the talk from Netflix about how they did just that for their global network of editors).
+All of this is what makes DCV a light-weight visualization package that can stream pixels over almost any network.</description>
+    </item>
+    
+  </channel>
+</rss>

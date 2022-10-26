@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NICE DCV on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/nice-dcv.html</link>
+    <description>Recent content in NICE DCV on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/nice-dcv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Putting bitrates into perspective</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/putting-bitrates-into-perspective.html</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/putting-bitrates-into-perspective.html</guid>
+      <description>Recently, we talked about the advances NICE DCV has made to push pixels from cloud-hosted desktops or applications over the internet even more efficiently than before. Since we published that post on this blog channel, we’ve been asked by several customers whether all this efficient pixel-pushing could lead to outbound data charges moving up on their AWS bill. We decided to try it on your behalf, and share the details with you in this post. The bottom line? The charges are unlikely to be significant unless you’re doing intensive streaming (such as gaming) and other cost optimizations (like AWS Instance Savings Plans) that will have more impact on your bill.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Pushing pixels with NICE DCV</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/pushing-pixels-with-nice-dcv.html</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/pushing-pixels-with-nice-dcv.html</guid>
+      <description>NICE DCV, our high-performance, low-latency remote-display protocol, was originally created for scientists and engineers who ran large workloads on far-away supercomputers, but needed to visualize data without moving it. Pushing pixels over limited bandwidth across the globe has been the goal of the DCV team since 2007. DCV was able to make very frugal use of very scarce bandwidth, because it was super lean, used data-compression techniques and quickly adopted cutting-edge technologies of the time from GPUs (this is HPC, after all, we left nothing on the table when it came to exploiting new gadgets). This allowed the team to create a super light-weight visualization package that could stream pixels over almost any network. Fast forward to the 2020s, and a generation of gamers, artists, and film-makers all want to do the same thing as HPC researchers- only this time there are way more pixels, because we now have HD and 4k (and some people have multiple), and for most of them, it’s 60 frames per second, or it’s not worth having.</description>
+    </item>
+    
+    <item>
+      <title>A VDI solution with EnginFrame and NICE DCV Session Manager built with AWS CDK</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/a-vdi-solution-with-enginframe-and-nice-dcv-session-manager-built-with-aws-cdk.html</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/a-vdi-solution-with-enginframe-and-nice-dcv-session-manager-built-with-aws-cdk.html</guid>
+      <description>This post was written by Dario La Porta, AWS Professional Services Senior Consultant for HPC. Customers across a wide range of industries such as energy, life sciences, and design and engineering are facing challenges in managing and analyzing their data. Not only is the amount and velocity of data increasing, but so is the complexity and […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

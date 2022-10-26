@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fabrics on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/fabrics.html</link>
+    <description>Recent content in fabrics on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 May 2021 14:22:10 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/fabrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HOWTO make sure EFA is setup correctly (and what to do if it isn&#39;t).</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/howto-make-sure-efa-is-setup-correctly-and-what-to-do-if-it-isnt.html</link>
+      <pubDate>Fri, 28 May 2021 14:22:10 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/howto-make-sure-efa-is-setup-correctly-and-what-to-do-if-it-isnt.html</guid>
+      <description>By popular request, we’re looking today at the EFA software stack and environment: how to make sure it’s set up correctly (so you get great performance from your codes), how to tell if it’s not, and how to fix that.
+Austin Cherian, our performance junkie from the HPC Developer Relations team in AWS Engineering joins us to deep dive into the nitty gritty of the stack and some useful techniques for debugging. We cover both Open MPI and Intel MPI, as well as checking the libfabric providers and the hardware enablement underneath.
+In the discussion, we reference a lot of helpful pages, including:
+the EFA homepage: https://aws.amazon.com/hpc/efa/ supported instances: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types the user guide: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html troubleshooting: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/troubleshooting-ena.html#disable-enhanced-networking-ena-instance-store If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

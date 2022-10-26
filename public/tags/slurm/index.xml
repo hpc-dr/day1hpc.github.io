@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>slurm on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/slurm.html</link>
+    <description>Recent content in slurm on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/slurm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easing your migration from SGE to Slurm in AWS ParallelCluster 3</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3.html</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3.html</guid>
+      <description>This post will help you understand the tools available to ease the stress of migrating your cluster (and your users) from SGE to Slurm, which is necessary since the HPC community is no longer supporting SGE’s open-source codebase.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Memory aware scheduling with Slurm in ParallelCluster 3.2 (Part 2 of 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/memory-aware-scheduling-with-slurm-in-parallelcluster-32-part-2-of-2.html</link>
+      <pubDate>Thu, 28 Jul 2022 14:07:45 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/memory-aware-scheduling-with-slurm-in-parallelcluster-32-part-2-of-2.html</guid>
+      <description>If you&amp;rsquo;ve ever had to iteratively guess how much memory is left in a bunch of compute nodes in order to get your memory-hungry jobs running, then this feature will save your sanity.
+It&amp;rsquo;s a new integration between ParallelCluster and Slurm that lets you specify how much RAM your jobs need, and gives Slurm the ability to figure out how to place your jobs in order to achieve that - not just counting cores, which is the default behavior for most schedulers.
+Olly Perks and Austin Cherian describe this in detail, as part of a 2-part series covering the new features of ParallelCluster 3.2 (part 1 covered new file systems support and you can find it here: https://youtu.be/2JOoMv-K1FY).
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Slurm-based memory-aware scheduling in AWS ParallelCluster 3.2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/slurm-based-memory-aware-scheduling-in-aws-parallelcluster-32.html</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/slurm-based-memory-aware-scheduling-in-aws-parallelcluster-32.html</guid>
+      <description>AWS ParallelCluster version 3.2 now supports memory-aware scheduling in Slurm to give you control over the placement of jobs with specific memory requirements. In this blog post, we’ll show you how it works, and explain why this will be really useful to people with memory-hungry workloads.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Controlling hybrid workflows between on-premises and cloud with EnginFrame</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/controlling-hybrid-workflows-between-on-premises-and-cloud-with-enginframe.html</link>
+      <pubDate>Thu, 31 Mar 2022 20:54:58 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/controlling-hybrid-workflows-between-on-premises-and-cloud-with-enginframe.html</guid>
+      <description>EnginFrame makes life easy for scientists and engineers so they can use HPC resources without having to understand the complexity.
+BUT: EnginFrame also makes the local sysadmin a hero by giving them the ability to embed into simple scripts the decisions that lead to determining how and where and when a job gets run.
+The use cases are almost endless:
+decide whether your job bursts to the cloud based on congestion conditions in your on&amp;ndash;prem queues figure out if data needs to be moved first before a job can be run decide based on job parameters whether a job is fit for execution in the AWS spot market, or should be run on-prem, or run in on-demand queues. The workshop we discussed is here: https://hpc.news/efConnectorWorkshop
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>How to explore Slurm&#39;s job management API from a Python notebook - (Part 5)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-to-explore-slurms-job-management-api-from-a-python-notebook-part-5.html</link>
+      <pubDate>Thu, 27 Jan 2022 16:48:25 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-to-explore-slurms-job-management-api-from-a-python-notebook-part-5.html</guid>
+      <description>Slurm&amp;rsquo;s job management API, coupled with ParallelCluster&amp;rsquo;s own API for managing cluster infrastructure opens up a lot of doors to create new ways for your users to interact with HPC resources - in this case without having to leave their familiar Jupyter notebook environment.
+We made this video as part of the launch of ParallelCluster 3 - we want to make it easy to migrate all your workflows from to Slurm, and we figured it would be easier if you heard abotu it from the source.
+So we enlisted the help of SchedMD&amp;rsquo;s Director of Cloud Engineering, Nick Ihli to help us show you how it&amp;rsquo;s a lot easier than it might look.
+Joining Nick today is Josiah Bjorgaard from the AWS APN Solution Architecture team, who regularly works with Nick and the team from SchedMD to solve lots of customer problems.</description>
+    </item>
+    
+    <item>
+      <title>ParallelCluster 3 - Launch and Cluster Operations</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/parallelcluster-3-launch-and-cluster-operations.html</link>
+      <pubDate>Thu, 20 Jan 2022 15:11:08 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/parallelcluster-3-launch-and-cluster-operations.html</guid>
+      <description>In a previous show (https://youtu.be/6gAwAK5IJ2w), we talked about &amp;lsquo;Infrastructure as Code&amp;rsquo;, or how the ParallelCluster 3 YAML config translated to an actual cluster running, ready to take jobs.
+Today, Austin Cherian joins us again to walk through standing up the cluster using that config, and how we can adjust the cluster on the fly if, for example, we needed to add some new node types into the compute fleets, like if we need some fat memory nodes, or a new GPU type.
+The reference guide for doing dynamic updates is here: https://docs.aws.amazon.com/parallelcluster/latest/ug/using-pcluster-update-cluster-v3.html
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Easy migration from SGE to Slurm - Part 4 Slurm Accounting</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/easy-migration-from-sge-to-slurm-part-4-slurm-accounting.html</link>
+      <pubDate>Thu, 18 Nov 2021 11:31:59 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/easy-migration-from-sge-to-slurm-part-4-slurm-accounting.html</guid>
+      <description>As part of the launch of ParallelCluster 3, we want to make it easy to migrate all your workflows from to Slurm, but we know that it can seem daunting. So we enlisted the help of SchedMD&amp;rsquo;s Director of Cloud Engineering, Nick Ihli to help us show you how it&amp;rsquo;s a lot easier than it might look.
+(Seriously, you may need to change very little).
+Over the next 5 x Tech Shorts we&amp;rsquo;ll show:
+Part 1) Command line syntax and which Slurm commands map to familiar SGE ones. Part 2) Job Scripts - what&amp;rsquo;s the stuff you need to care about to adjust ytour scripts? What&amp;rsquo;s actually easier with Slurm? Part 3) Array Jobs - Slurm has a really elegant way to handle array jobs, and also has some really nice SGE-like commands that will fool you into thinking nothing actually changed.</description>
+    </item>
+    
+    <item>
+      <title>Using the Slurm REST API to integrate with distributed architectures on AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/using-the-slurm-rest-api-to-integrate-with-distributed-architectures-on-aws.html</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/using-the-slurm-rest-api-to-integrate-with-distributed-architectures-on-aws.html</guid>
+      <description>The Slurm Workload Manager by SchedMD is a popular HPC scheduler and is supported by AWS ParallelCluster, an elastic HPC cluster management service offered by AWS. Traditional HPC workflows involve logging into a head node and running shell commands to submit jobs to a scheduler and check job status. Modern distributed systems often use representational […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Easy migration from SGE to Slurm - Part 3 - Array Jobs</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/easy-migration-from-sge-to-slurm-part-3-array-jobs.html</link>
+      <pubDate>Thu, 11 Nov 2021 17:54:45 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/easy-migration-from-sge-to-slurm-part-3-array-jobs.html</guid>
+      <description>As part of the launch of ParallelCluster 3, we want to make it easy to migrate all your workflows from to Slurm, but we know that it can seem daunting. So we enlisted the help of SchedMD&amp;rsquo;s Director of Cloud Engineering, Nick Ihli to help us show you how it&amp;rsquo;s a lot easier than it might look.
+(Seriously, you may need to change very little).
+Over the next 5 x Tech Shorts we&amp;rsquo;ll show:
+Part 1) Command line syntax and which Slurm commands map to familiar SGE ones. Part 2) Job Scripts - what&amp;rsquo;s the stuff you need to care about to adjust ytour scripts? What&amp;rsquo;s actually easier with Slurm? Part 3) Array Jobs - Slurm has a really elegant way to handle array jobs, and also has some really nice SGE-like commands that will fool you into thinking nothing actually changed.</description>
+    </item>
+    
+    <item>
+      <title>Easy migration from SGE to Slurm - Part 2 - Job Scripts</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/easy-migration-from-sge-to-slurm-part-2-job-scripts.html</link>
+      <pubDate>Tue, 09 Nov 2021 16:34:10 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/easy-migration-from-sge-to-slurm-part-2-job-scripts.html</guid>
+      <description>As part of the launch of ParallelCluster 3, we want to make it easy to migrate all your workflows from to Slurm, but we know that it can seem daunting. So we enlisted the help of SchedMD&amp;rsquo;s Director of Cloud Engineering, Nick Ihli to help us show you how it&amp;rsquo;s a lot easier than it might look.
+(Seriously, you may need to change very little).
+Over the next 5 x Tech Shorts we&amp;rsquo;ll show:
+Part 1) Command line syntax and which Slurm commands map to familiar SGE ones. Part 2) Job Scripts - what&amp;rsquo;s the stuff you need to care about to adjust ytour scripts? What&amp;rsquo;s actually easier with Slurm? Part 3) Array Jobs - Slurm has a really elegant way to handle array jobs, and also has some really nice SGE-like commands that will fool you into thinking nothing actually changed.</description>
+    </item>
+    
+    <item>
+      <title>Easy migrating from SGE to Slurm - Part 1 - Command Line Tools</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/easy-migrating-from-sge-to-slurm-part-1-command-line-tools.html</link>
+      <pubDate>Thu, 04 Nov 2021 15:36:14 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/easy-migrating-from-sge-to-slurm-part-1-command-line-tools.html</guid>
+      <description>As part of the launch of ParallelCluster 3, we want to make it easy to migrate all your workflows from to Slurm, but we know that it can seem daunting. So we enlisted the help of SchedMD&amp;rsquo;s Director of Cloud Engineering, Nick Ihli to help us show you how it&amp;rsquo;s a lot easier than it might look.
+(Seriously, you may need to change very little).
+Over the next 5 x Tech Shorts we&amp;rsquo;ll show:
+Part 1) Command line syntax and which Slurm commands map to familiar SGE ones. Part 2) Job Scripts - what&amp;rsquo;s the stuff you need to care about to adjust ytour scripts? What&amp;rsquo;s actually easier with Slurm? Part 3) Array Jobs - Slurm has a really elegant way to handle array jobs, and also has some really nice SGE-like commands that will fool you into thinking nothing actually changed.</description>
+    </item>
+    
+    <item>
+      <title>HOWTO configure multiple queues and instance types in AWS ParallelCluster</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/howto-configure-multiple-queues-and-instance-types-in-aws-parallelcluster.html</link>
+      <pubDate>Thu, 04 Mar 2021 14:15:29 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/howto-configure-multiple-queues-and-instance-types-in-aws-parallelcluster.html</guid>
+      <description>In today’s show, we talk about AWS ParallelCluster 2.9 and its new features built on Slurm’s power management module. This lets you build clusters with multiple queues and instances types within those queues. This allows the cluster to scale nodes that fit a given workload, making scaling decisions much more job-driven, and means each queue can be quite specifically optimized for a code .
+We’ll show a real live cluster upgrade happening, doing in 10 minutes what it generally takes 18 months to pull off if you still live with on-premises facilities.
+Rex Chen is one of our amazing Software Engineers who works every day on AWS ParallelCluster and he’s joined by Angel Pizarro, our Principal Developer Advocate for HPC &amp;amp; Batch who has personal experience building those clusters and upgrading them, and knows better now.
+Here’s the blog we mentioned in the show:</description>
+    </item>
+    
+  </channel>
+</rss>

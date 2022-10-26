@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editing suite on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/editing-suite.html</link>
+    <description>Recent content in editing suite on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Jul 2021 15:00:22 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/editing-suite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Netflix used DCV (and AWS) to distribute their creative workforce (and saved our sanity)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-netflix-used-dcv-and-aws-to-distribute-their-creative-workforce-and-saved-our-sanity.html</link>
+      <pubDate>Thu, 29 Jul 2021 15:00:22 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-netflix-used-dcv-and-aws-to-distribute-their-creative-workforce-and-saved-our-sanity.html</guid>
+      <description>Netflix has a really ambitious goal to create more content than practically anyone, but ran into headwinds when Covid-19 forced us all to lock down: it became hard to recruit and support artists, editors and other creatives without finding some really clever solutions to putting powerful compute at their fingertips anywhere in the world : a perfect job for AWS&amp;rsquo;s NICE DCV and globally-distributed infrastructure.
+But there&amp;rsquo;s another lesson here - when you listen to how Michelle describes the way Netflix works to support their most valuable assets (clever, talented people), it should strike you as a really good lesson for how we should prosecute our mission to make scientists and engineers more powerful and productive with all these same tools.
+You can find Michelle on linkedIn (linkedin.com/in/michellebrenner/) if you want to know more, or you can join her working at Netflix by heading to job.</description>
+    </item>
+    
+  </channel>
+</rss>

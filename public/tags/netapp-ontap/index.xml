@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netapp ONTAP on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/netapp-ontap.html</link>
+    <description>Recent content in netapp ONTAP on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2022 14:07:47 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/netapp-ontap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New file systems support in ParallelCluster 3.2 (Part 1 of 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/new-file-systems-support-in-parallelcluster-32-part-1-of-2.html</link>
+      <pubDate>Thu, 28 Jul 2022 14:07:47 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/new-file-systems-support-in-parallelcluster-32-part-1-of-2.html</guid>
+      <description>ParallelCluster can now mount lots and lots of file systems that you&amp;rsquo;ve previously created in your AWS account, in addition to the scratch filesystem you can ask it to create for you when you launch your cluster. And as of today, ParallelCluster supports OpenZFS as one of those filesystems, along with Netapp ONTAP - which will help you get access to data on your enterprise filesystems, too.
+Olly Perks and Austin Cherian describe all this in detail, as part 1 of a 2-part series covering the new features of ParallelCluster 3.2.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

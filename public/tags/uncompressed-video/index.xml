@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uncompressed video on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/uncompressed-video.html</link>
+    <description>Recent content in uncompressed video on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Dec 2021 16:19:43 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/uncompressed-video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What supercomputers, scientists and TV stations have in common</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/what-supercomputers-scientists-and-tv-stations-have-in-common.html</link>
+      <pubDate>Thu, 09 Dec 2021 16:19:43 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/what-supercomputers-scientists-and-tv-stations-have-in-common.html</guid>
+      <description>CDI (Cloud Digital Interface) uses EFA to blast broadcast quality video, uncompressed, from instance to instance in the cloud as live video feeds its way through complex stacks of software and makes its way to your TV set.
+It&amp;rsquo;s one of the more unusual use cases we&amp;rsquo;ve heard for a technology that we invented for keeping highly parallel scientific applications in sync when running in HPC environments in the cloud. Yes, that&amp;rsquo;s weird.
+Evan Statton from our media and entertainment tech team talks about how this happened and why it&amp;rsquo;s so useful.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

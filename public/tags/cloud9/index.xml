@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud9 on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/cloud9.html</link>
+    <description>Recent content in Cloud9 on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/cloud9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running finite element analysis using Simcenter Nastran on AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/running-finite-element-analysis-using-simcenter-nastran-on-aws.html</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/running-finite-element-analysis-using-simcenter-nastran-on-aws.html</guid>
+      <description>This post was written by Dnyanesh Digraskar, Sr. Partner Solutions Architect for HPC at AWS and co-authored by Wei Zhang and Ravi Gupta, Sr Software Engineers for Simcenter Nastran at Siemens. Introduction In this blog, we demonstrate the deployment, performance, and price comparisons of Simcenter Nastran for three finite element analysis (FEA) based use cases […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Simplify HPC cluster usage with AWS Cloud9 and AWS ParallelCluster</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/simplify-hpc-cluster-usage-with-aws-cloud9-and-aws-parallelcluster.html</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/simplify-hpc-cluster-usage-with-aws-cloud9-and-aws-parallelcluster.html</guid>
+      <description>This post was written by Benjamin Meyer, AWS Solutions Architect When companies and labs start their high performance computing (HPC) journey in the AWS Cloud, it’s not only because they’re in search of elasticity and scale – they’re also in search of new tools and environments. Initially this can appear challenging as there are many […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

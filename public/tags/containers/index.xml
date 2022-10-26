@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>containers on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/containers.html</link>
+    <description>Recent content in containers on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/batch.html</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/batch.html</guid>
+      <description>AWS Batch AWS Batch is an always-on scheduler that lets you easily and efficiently run thousands of container jobs. Workflow builders love it for scaling their workloads, from machine learning to genomics. It scales from one job to millions and takes away the chore of spinning up fleets of compute instances and keeping them busy.
+Batch is a different way of running workloads compared to &amp;rsquo;normal&amp;rsquo; HPC practices you might be used to. Before you dive in on batch, it&amp;rsquo;s worth comparing it to ParallelCluster. Angel wrote a great blog post about choosing between AWS Batch or AWS ParallelCluster.
+Major features you&amp;rsquo;ll want to know about Introducing fair-share scheduling for AWS Batch New console features including container insights in AWS Batch Batch can now use Fargate for a truly serverless experience AWS Batch&amp;amp;rsquo;s new Faster Scaling features Introducing support for per-job Amazon EFS volumes in AWS Batch Fair share scheduling to maximize user happiness in AWS Batch Announcements BioContainers are now available in Amazon ECR Public Gallery Workflow engines love Batch If you&amp;rsquo;re working with Nextflow natively, then you&amp;rsquo;ll probably love finding out about the AWS Genomics CLI which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).</description>
+    </item>
+    
+    <item>
+      <title>Containers, Episode II - the Runtimes Strike Back</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/containers-episode-ii-the-runtimes-strike-back.html</link>
+      <pubDate>Thu, 01 Apr 2021 16:48:35 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/containers-episode-ii-the-runtimes-strike-back.html</guid>
+      <description>Christian Kniep (our senior developer relations engineer) from HPC Engineering is back to finish the conversation we started about containers in HPC. Christian is leading the cause for containerization in HPC, and helping our engineering and product teams focus on enabling that path on AWS.
+Today we&amp;rsquo;re talking about how containers work in a shared infrastructure environment, with shared filesystems (like Lustre) and we&amp;rsquo;ll also cover multi-node parallelism, too, since MPI is where it&amp;rsquo;s at for many (most?) people in the HPC community.
+(And we completely missed thew opportunity to make any April fools jokes, so everything we say is totally believable) :-)
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Containers in HPC - what they fix and what they break (and how to fix that, too)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/containers-in-hpc-what-they-fix-and-what-they-break-and-how-to-fix-that-too.html</link>
+      <pubDate>Thu, 18 Mar 2021 16:50:52 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/containers-in-hpc-what-they-fix-and-what-they-break-and-how-to-fix-that-too.html</guid>
+      <description>Today we&amp;rsquo;re joined by Christian Kniep who is one of our senior developer advocates in HPC Engineering. Christian is leading the cause for containerization in HPC, and helping our engineering and product teams focus on enabling that path on AWS.
+We know containers are a &amp;lsquo;mixed&amp;rsquo; topic for HPC folks, and so we&amp;rsquo;re starting a series of Tech Shorts to talk about what they are, what problems they solve, what new problems they create, and what solutions exist to address those.
+Today is part 1, where we talk about how containers work generally, how they work on AWS, with things like AWS Nitro and GPUs in play.
+Next week, we&amp;rsquo;ll talk about containers in shared infrastructure and multi-node parallelism, too.
+The FOSDEM devroom we spoke about is here: https://tinyurl.com/fosdemhpc21 and you can find Christian on twitter here https://twitter.com/CQnib - pick up the conversation with him if you have some thoughts about containers and how they work for you (or not).</description>
+    </item>
+    
+  </channel>
+</rss>

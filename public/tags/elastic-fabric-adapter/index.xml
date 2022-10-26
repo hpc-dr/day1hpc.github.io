@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elastic fabric adapter on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/elastic-fabric-adapter.html</link>
+    <description>Recent content in elastic fabric adapter on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 17:38:29 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/elastic-fabric-adapter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How KEK changed how everyone in Japan does CryoEM (Part 3 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-kek-changed-how-everyone-in-japan-does-cryoem-part-3-of-4.html</link>
+      <pubDate>Thu, 20 Oct 2022 17:38:29 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-kek-changed-how-everyone-in-japan-does-cryoem-part-3-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is just one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+    <item>
+      <title>KEK&#39;s arsenal of CryoEM benchmark data - a detailed walk through (Part 4 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/keks-arsenal-of-cryoem-benchmark-data-a-detailed-walk-through-part-4-of-4.html</link>
+      <pubDate>Thu, 20 Oct 2022 17:38:23 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/keks-arsenal-of-cryoem-benchmark-data-a-detailed-walk-through-part-4-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is just one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+    <item>
+      <title>KEK&#39;s novel solution for CryoEM&#39;s software and infra (Part 2 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/keks-novel-solution-for-cryoems-software-and-infra-part-2-of-4.html</link>
+      <pubDate>Tue, 11 Oct 2022 16:53:39 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/keks-novel-solution-for-cryoems-software-and-infra-part-2-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is just one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+    <item>
+      <title>The Challenges of CryoEM with our friends from KEK in Japan (Part 1 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/the-challenges-of-cryoem-with-our-friends-from-kek-in-japan-part-1-of-4.html</link>
+      <pubDate>Thu, 06 Oct 2022 15:04:35 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/the-challenges-of-cryoem-with-our-friends-from-kek-in-japan-part-1-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+    <item>
+      <title>Understanding EC2 for HPC users</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/understanding-ec2-for-hpc-users.html</link>
+      <pubDate>Thu, 29 Sep 2022 14:59:01 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/understanding-ec2-for-hpc-users.html</guid>
+      <description>Amazon EC2 is the engine that powers HPC in the cloud. There&amp;rsquo;s quite a lot that&amp;rsquo;s new if you&amp;rsquo;ve never seen it before. in this Level 1 module in the Tech Shorts Foundations Series, we aim to demystify EC2 for the HPC community.
+We&amp;rsquo;ll expand the number of videos in this series over time - but if there&amp;rsquo;s a topic that&amp;rsquo;s really interesting to you that we&amp;rsquo;re overlooking, don&amp;rsquo;t hesitate to contact us.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to tech Shorts Foundations</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/welcome-to-tech-shorts-foundations.html</link>
+      <pubDate>Thu, 15 Sep 2022 15:45:34 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/welcome-to-tech-shorts-foundations.html</guid>
+      <description>We get it: AWS has too much stuff going on for any reasonably busy human to catch up with. So we&amp;rsquo;re going back to the foundations of AWS to help the HPC community come up to speed on the stuff that matters to them most.
+Today we&amp;rsquo;re starting a whole new series in Tech Shorts called Tech Shorts Foundations.
+We&amp;rsquo;ll start high level and gradually peel back the layers so you can get as deep as you like in the areas you&amp;rsquo;re interested in the most.
+Think of this as your map to navigate AWS and get to the HPC places quickly, without having to get lost on the way there. Your journey starts here.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Intro to AWS for HPC People - Tech Short Foundations Level 1</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/intro-to-aws-for-hpc-people-tech-short-foundations-level-1.html</link>
+      <pubDate>Thu, 15 Sep 2022 15:35:56 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/intro-to-aws-for-hpc-people-tech-short-foundations-level-1.html</guid>
+      <description>We get it: AWS has too much stuff going on for any reasonably busy human to catch up with. So we&amp;rsquo;re going back to the foundations of AWS to help the HPC community come up to speed on the stuff that matters to them most.
+Today we&amp;rsquo;re starting a whole new series in Tech Shorts called Tech Shorts Foundations. We&amp;rsquo;ll still have shows about advanced topics, new features and performance analysis. But there&amp;rsquo;s now two tracks in Tech Shorts, which will develop over time.
+We&amp;rsquo;ll start high level and gradually peel back the layers so you can get as deep as you like in the areas you&amp;rsquo;re interested in the most.
+Think of this as your map to navigate AWS and get to the HPC places quickly, without having to get lost on the way there. Your journey starts here.</description>
+    </item>
+    
+    <item>
+      <title>Get your HPC codes installed and running in minutes using Spack&#39;s Binary Cache</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/get-your-hpc-codes-installed-and-running-in-minutes-using-spacks-binary-cache.html</link>
+      <pubDate>Mon, 08 Aug 2022 18:28:02 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/get-your-hpc-codes-installed-and-running-in-minutes-using-spacks-binary-cache.html</guid>
+      <description>Spack has already been removing the ugly work from building HPC codes, but with the announcement of the Spack Binary Cache at ISC&#39;22, build and deploy times for these complicated applications will drop by 95% or more in most cases.
+Greg Becker from Livermore came along to show us how it works, and discuss what&amp;rsquo;s behind it.
+You can find a blog post about the announcement here: hpc.news/binaryCache
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>New file systems support in ParallelCluster 3.2 (Part 1 of 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/new-file-systems-support-in-parallelcluster-32-part-1-of-2.html</link>
+      <pubDate>Thu, 28 Jul 2022 14:07:47 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/new-file-systems-support-in-parallelcluster-32-part-1-of-2.html</guid>
+      <description>ParallelCluster can now mount lots and lots of file systems that you&amp;rsquo;ve previously created in your AWS account, in addition to the scratch filesystem you can ask it to create for you when you launch your cluster. And as of today, ParallelCluster supports OpenZFS as one of those filesystems, along with Netapp ONTAP - which will help you get access to data on your enterprise filesystems, too.
+Olly Perks and Austin Cherian describe all this in detail, as part 1 of a 2-part series covering the new features of ParallelCluster 3.2.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Memory aware scheduling with Slurm in ParallelCluster 3.2 (Part 2 of 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/memory-aware-scheduling-with-slurm-in-parallelcluster-32-part-2-of-2.html</link>
+      <pubDate>Thu, 28 Jul 2022 14:07:45 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/memory-aware-scheduling-with-slurm-in-parallelcluster-32-part-2-of-2.html</guid>
+      <description>If you&amp;rsquo;ve ever had to iteratively guess how much memory is left in a bunch of compute nodes in order to get your memory-hungry jobs running, then this feature will save your sanity.
+It&amp;rsquo;s a new integration between ParallelCluster and Slurm that lets you specify how much RAM your jobs need, and gives Slurm the ability to figure out how to place your jobs in order to achieve that - not just counting cores, which is the default behavior for most schedulers.
+Olly Perks and Austin Cherian describe this in detail, as part of a 2-part series covering the new features of ParallelCluster 3.2 (part 1 covered new file systems support and you can find it here: https://youtu.be/2JOoMv-K1FY).
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Clusters in the Cloud made easier with PCluster Manager (Part 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/clusters-in-the-cloud-made-easier-with-pcluster-manager-part-2.html</link>
+      <pubDate>Tue, 19 Jul 2022 17:09:59 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/clusters-in-the-cloud-made-easier-with-pcluster-manager-part-2.html</guid>
+      <description>In part 1, we covered all the aspects of designing and creating ParallelClusters in PCluster Manager. Today we delve into some more advanced topics like debugging your stack when something goes wrong, managing access to the cluster via the UI and CLI, and visualization, which is something that&amp;rsquo;s just super hard to do anywhere else.
+Sean Smith shows us how this is all a lot easier with the right tools. if you want to install PCluster Manager in your account, head over to hpc.news/pclustermanager and deploy one of the one-click lauchable stacks to get going. There&amp;rsquo;s even an episode with Charlie (from our engineering team) showing how to install it and get it set up (it&amp;rsquo;s here: https://youtu.be/Z1vlpJYb1KQ).
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Clusters in the Cloud made easier with PCluster Manager (Part 1 of 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/clusters-in-the-cloud-made-easier-with-pcluster-manager-part-1-of-2.html</link>
+      <pubDate>Thu, 14 Jul 2022 16:59:11 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/clusters-in-the-cloud-made-easier-with-pcluster-manager-part-1-of-2.html</guid>
+      <description>Today is the first part of a 2-part series and we&amp;rsquo;re covering all the aspects of designing and creating ParallelClusters using PCluster Manager, which is a graphical user interface tool for making all the hard bits of cluster management way less messy and so much easier. All the documentation in the world isn&amp;rsquo;t as useful as this one tool.
+In part 2, we&amp;rsquo;ll dive into some advanced topics like debugging your cluster build when something goes wrong, and we&amp;rsquo;ll show you some fancy access methods, and tools for managing jobs - and visualizing the results.
+Sean Smith shows us how this is all a lot easier with the right tools. if you want to install PCluster Manager in your account, head over to hpc.news/pclustermanager and deploy one of the one-click lauchable stacks to get going. There&amp;rsquo;s even an episode with Charlie (from our engineering team) showing how to install it and get it set up (it&amp;rsquo;s here: https://youtu.</description>
+    </item>
+    
+    <item>
+      <title>NCCL on EFA makes the ML world go around in the cloud</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/nccl-on-efa-makes-the-ml-world-go-around-in-the-cloud.html</link>
+      <pubDate>Thu, 30 Jun 2022 17:05:07 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/nccl-on-efa-makes-the-ml-world-go-around-in-the-cloud.html</guid>
+      <description>Machine Learning is a huge workload, and one of the most demanding when it comes to scaling to thousands (and thousands) of CPUs. Some of the largest workloads customers run in the cloud are deep learning models, which require huge numbers of GPUs and saturate the networks connecting them.
+To make all that work on AWS, NVIDIA&amp;rsquo;s collectives communications library (NCCL) relies on libfabrics to speak to the EFA hardware that makes up EC2&amp;rsquo;s high performance interconnect.
+Rashika Kheria leads the team in Annapurna that handles this interface, ensuring your models, using all your favorite frameworks, scale really nicely to as far as your imagination allows (well, maybe a little further). She came to Tech Shorts to tell us how that works.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian models and half a million cores - what&#39;re you waiting for?</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/bayesian-models-and-half-a-million-cores-whatre-you-waiting-for.html</link>
+      <pubDate>Fri, 24 Jun 2022 14:59:17 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/bayesian-models-and-half-a-million-cores-whatre-you-waiting-for.html</guid>
+      <description>The Ampersand Data Science team had a challenge: their Bayesian statistical models needed more than half a million core-hours of runtime, regularly, if they were to get an answer fast enough for it to be useful to their customers.
+Scaling to a million core or more isn&amp;rsquo;t really a challenge now (thanks to Amazon EC2). The hard part is all the code pipelines and plumbing - and the management of the entire thing when it&amp;rsquo;s in flight.
+Daniel Gerlanc (Senior Director for Data Science) and Jeffrey Enos (Senior Machine Learning Engineer) swung by the Tech Shorts virtual watercooler to tell us how it worked, what was most surprising, and which bits made all the difference.
+There&amp;rsquo;s also a blog that was posted last week which talks to some of this too. Worth a read: https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>New console features including container insights in AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/new-console-features-including-container-insights-in-aws-batch.html</link>
+      <pubDate>Thu, 16 Jun 2022 17:12:05 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/new-console-features-including-container-insights-in-aws-batch.html</guid>
+      <description>The AWS Batch team recently added container insights and advanced logging features to the Batch console, which is making a LOT of people very happy.
+We decided to catch up with the dev team in Seattle who worked on this, and one of my favotire Amazonians - David Chambers - joined me to help us all understand what this means to Batch users and to taker us for a drive to sere how easy it is.
+This is our first ever in-person Tech Short, which is something we&amp;rsquo;re really keen to build on, now that travel is starting to happen more. Hope you like it.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>The Arm64 developer environments - Part 2 of 2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/the-arm64-developer-environments-part-2-of-2.html</link>
+      <pubDate>Wed, 08 Jun 2022 15:15:36 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/the-arm64-developer-environments-part-2-of-2.html</guid>
+      <description>Olly Perks - our resident Arm64 architecture expert and all round HPC software guy - walks us through the quite extensive support for HPC developers who are planning to work on AWS Graviton processors.
+There&amp;rsquo;s a lot of software and it comes from a number of sources, including open source and commercial groups.
+This is part 2 of a two-part series - the first part was published last week, abd you can find it here: https://youtu.be/qFrpmgvN9Xs
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>The Arm64 developer environments - Part 1 (of 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/the-arm64-developer-environments-part-1-of-2.html</link>
+      <pubDate>Thu, 02 Jun 2022 07:48:02 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/the-arm64-developer-environments-part-1-of-2.html</guid>
+      <description>Olly Perks - our resident Arm64 architecture expert and all round HPC software guy - walks us through the quite extensive support for HPC developers who are planning to work on AWS Graviton processors.
+There&amp;rsquo;s a lot of software and it comes from a number of sources, including open source and commercial groups.
+This is part 1 of a two-part series. The other part will be out early next week.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Winter Invitational Episode II - The Algorithms Strike Back</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/winter-invitational-episode-ii-the-algorithms-strike-back.html</link>
+      <pubDate>Thu, 19 May 2022 15:42:17 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/winter-invitational-episode-ii-the-algorithms-strike-back.html</guid>
+      <description>This is the second part of a two-part set about the Winter Invitational Student Cluster Competition, which the AWS HPC team supported as one of four mentor teams.
+This isn&amp;rsquo;t just about the competition or the results. It&amp;rsquo;s about the skills that are important to getting a job, learning new things and solving tough problems. And it&amp;rsquo;s about working together with other people.
+If you&amp;rsquo;re able to support these kinds of events, you should give it a try. it&amp;rsquo;s super rewarding.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Winter Invitational Episode I - New Hopefuls</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/winter-invitational-episode-i-new-hopefuls.html</link>
+      <pubDate>Tue, 17 May 2022 13:09:07 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/winter-invitational-episode-i-new-hopefuls.html</guid>
+      <description>This is the first part of a two-part set about the Winter Invitational Student Cluster Competition (which the AWS HPC team supported as one of four mentor teams). The competition targeted academic institutions that we need to succeed to bring some balance to the HPC force.
+Dan Olds, the Chief Research Officer of Intersect360, and the unofficial historian (and historical figure) of Student Cluster Comps, joined us to walk us through the structure of the comp, and feed us some of the drama leading up to an extraordinary result in 2022.
+This isn&amp;rsquo;t just about the competition or the results. It&amp;rsquo;s about the skills that are important to getting a job, learning new things and solving tough problems while working together with other people.
+If you&amp;rsquo;re able to support these kinds of events, you should give it a try. it&amp;rsquo;s super rewarding.</description>
+    </item>
+    
+    <item>
+      <title>HOWTO make sure EFA is setup correctly (and what to do if it isn&#39;t).</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/howto-make-sure-efa-is-setup-correctly-and-what-to-do-if-it-isnt.html</link>
+      <pubDate>Fri, 28 May 2021 14:22:10 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/howto-make-sure-efa-is-setup-correctly-and-what-to-do-if-it-isnt.html</guid>
+      <description>By popular request, we’re looking today at the EFA software stack and environment: how to make sure it’s set up correctly (so you get great performance from your codes), how to tell if it’s not, and how to fix that.
+Austin Cherian, our performance junkie from the HPC Developer Relations team in AWS Engineering joins us to deep dive into the nitty gritty of the stack and some useful techniques for debugging. We cover both Open MPI and Intel MPI, as well as checking the libfabric providers and the hardware enablement underneath.
+In the discussion, we reference a lot of helpful pages, including:
+the EFA homepage: https://aws.amazon.com/hpc/efa/ supported instances: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types the user guide: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html troubleshooting: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/troubleshooting-ena.html#disable-enhanced-networking-ena-instance-store If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

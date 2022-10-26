@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intel on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/intel.html</link>
+    <description>Recent content in Intel on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Nov 2021 14:00:09 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/intel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CFD performance on Ice Lake CPU with the Amazon EC2 C6i (Part 2)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/cfd-performance-on-ice-lake-cpu-with-the-amazon-ec2-c6i-part-2.html</link>
+      <pubDate>Tue, 02 Nov 2021 14:00:09 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/cfd-performance-on-ice-lake-cpu-with-the-amazon-ec2-c6i-part-2.html</guid>
+      <description>Today we launched the new Amazon EC2 C6i instance family which is powered by the Intel Xeon Ice Lake processor and comes equipped with our Elastic Fabric Adapter.
+Neil Ashton and Nicola Venuti joined us to talk about CFD performance on this new instance family, and spent some time comparing network connectivity options, too.
+This is a two part series of Tech Shorts:
+Part 1) Discuss C6i and how it&amp;rsquo;s put together. Look at OpenFOAM and Siemens Simcenter StarCCM+ Part 2) Ansys Fluent, under populated cores, and some on-premises comparisons for calibration.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>CFD performance on Ice Lake CPU with the Amazon EC2 C6i (Part 1)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/cfd-performance-on-ice-lake-cpu-with-the-amazon-ec2-c6i-part-1.html</link>
+      <pubDate>Fri, 29 Oct 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/cfd-performance-on-ice-lake-cpu-with-the-amazon-ec2-c6i-part-1.html</guid>
+      <description>Today we launched the new Amazon EC2 C6i instance family which is powered by the Intel Xeon Ice Lake processor and comes equipped with our Elastic Fabric Adapter.
+Neil Ashton and Nicola Venuti joined us to talk about CFD performance on this new instance family, and spent some time comparing network connectivity options, too.
+This is a two part series of Tech Shorts:
+Part 1) Discuss C6i and how it&amp;rsquo;s put together. Look at OpenFOAM and Siemens Simcenter StarCCM+ Part 2) Ansys Fluent, under populated cores, and some on-premises comparisons for calibration.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

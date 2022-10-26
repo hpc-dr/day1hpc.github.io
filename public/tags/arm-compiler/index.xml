@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arm compiler on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/arm-compiler.html</link>
+    <description>Recent content in arm compiler on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Aug 2021 15:00:23 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/arm-compiler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arm/AWS Cloud Hackathon - Compilers in HPC, their use and abuse</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/armaws-cloud-hackathon-compilers-in-hpc-their-use-and-abuse.html</link>
+      <pubDate>Thu, 12 Aug 2021 15:00:23 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/armaws-cloud-hackathon-compilers-in-hpc-their-use-and-abuse.html</guid>
+      <description>This is a talk that was delivered at the AWS/Arm Cloud Hackathon in July 2021.
+Will Lovett works for Arm on the Arm compiler, and talk about how compilers work, and how to best leverage them to get the result you&amp;rsquo;re looking for when porting a code or working on performance.
+The Summer Hackathon ran for a week from July 12-16 in 2021. It&amp;rsquo;s purpose was to assemble the HPC community around a common goal of beginning the porting/testing/tuning process for dozens of codes to use Arm-based processors, in this case, AWS&amp;rsquo;s Graviton2&amp;rsquo;s.
+During the week we had a series of talks from global leaders and experts in various fields from compilers to networking, profiling debugging and tooling. We&amp;rsquo;ve published all the talks here in the HPC Tech Shorts channel, in the hope that everyone gets some value from them.</description>
+    </item>
+    
+  </channel>
+</rss>

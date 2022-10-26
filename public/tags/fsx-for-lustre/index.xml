@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FSx for Lustre on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/fsx-for-lustre.html</link>
+    <description>Recent content in FSx for Lustre on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/fsx-for-lustre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expanded filesystems support in AWS ParallelCluster 3.2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/expanded-filesystems-support-in-aws-parallelcluster-32.html</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/expanded-filesystems-support-in-aws-parallelcluster-32.html</guid>
+      <description>AWS ParallelCluster version 3.2 introduces support for two new Amazon FSx filesystem types (NetApp ONTAP and OpenZFS). It also lifts the limit on the number of filesystem mounts you can have on your cluster. We’ll show you how, and help you with the details for getting this going right away.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Using Spot Instances with AWS ParallelCluster and Amazon FSx for Lustre</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/using-spot-instances-with-aws-parallelcluster-and-amazon-fsx-for-lustre.html</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/using-spot-instances-with-aws-parallelcluster-and-amazon-fsx-for-lustre.html</guid>
+      <description>Processing large amounts of complex data often requires leveraging a mix of different Amazon EC2 instance types. These types of computations also benefit from shared, high performance, scalable storage like Amazon FSx for Lustre. A way to save costs on your analysis is to use Amazon EC2 Spot Instances, which can help to reduce EC2 costs up to 90% compared to On-Demand Instance pricing. This post will guide you in the creation of a fault-tolerant cluster using AWS ParallelCluster. We will explain how to configure ParallelCluster to automatically unmount the Amazon FSx for Lustre filesystem and resubmit the interrupted jobs back into the queue in the case of Spot interruption events.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Supporting climate model simulations to accelerate climate science</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/supporting-climate-model-simulations-to-accelerate-climate-science.html</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/supporting-climate-model-simulations-to-accelerate-climate-science.html</guid>
+      <description>The Amazon Sustainability Data Initiative (ASDI), AWS is donating cloud resources, technical support, and access to scalable infrastructure and fast networking providing high performance computing solutions to support simulations of near-term climate using the National Center for Atmospheric Research (NCAR) Community Earth System Model Version 2 (CESM2) and its Whole Atmosphere Community Climate Model (WACCM). In collaboration with ASDI, AWS, and SilverLining, a nonprofit dedicated to ensuring a safe climate, the National Center for Atmospheric Research (NCAR) will run an ensemble of 30 climate-model simulations on AWS. The climate runs will simulate the Earth system over the period of years 2022-2070 under a median scenario for warming and make them available through the AWS Open Data Program. The simulation work will demonstrate the ability to use cloud infrastructure to advance climate models in support of robust scientific studies by researchers around the world and aims to accelerate and democratize climate science.</description>
+    </item>
+    
+    <item>
+      <title>Numerical weather prediction on AWS Graviton2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/numerical-weather-prediction-on-aws-graviton2.html</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/numerical-weather-prediction-on-aws-graviton2.html</guid>
+      <description>The Weather Research and Forecasting (WRF) model is a numerical weather prediction (NWP) system designed to serve both atmospheric research and operational forecasting needs. With the release of Arm-based AWS Graviton2 Amazon Elastic Compute Cloud (EC2) instances, a common question has been how these instances perform on large-scale NWP workloads. In this blog, we will present results from a standard WRF benchmark simulation and compare across three different instance types.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

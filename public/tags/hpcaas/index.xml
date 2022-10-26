@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HPCaaS on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/hpcaas.html</link>
+    <description>Recent content in HPCaaS on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Sep 2021 16:19:34 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/hpcaas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing ParallelCluster 3 - HPC in the Cloud built by customers</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/introducing-parallelcluster-3-hpc-in-the-cloud-built-by-customers.html</link>
+      <pubDate>Fri, 10 Sep 2021 16:19:34 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/introducing-parallelcluster-3-hpc-in-the-cloud-built-by-customers.html</guid>
+      <description>Today we’re announcing AWS ParallelCluster 3.
+Customers, integrators, and other builders have told us they want to build end-to-end “recipes” for HPC, spanning the whole gamut from infrastructure to middleware, libraries, and runtime codes. They also asked to interact with ParallelCluster programmatically to create interfaces and services for their users. We worked backwards from this feedback, using thousands of conversations with customers to create a shiny new version of ParallelCluster rebuilt from the ground up.
+In 15 minutes, we walk through the main features with Nathan Stornetta our Snr Product Manager for ParallelCluster, who also explains what customer feedback lead to each idea.
+This is a big release with loads of new features. But the most exciting part is what it sets us up for next.
+You can find out more about this in our launch blog at: http://hpc.news/pc3day1 and also by checking out the workshop and documentation that are linked to in the bottom of that blog post.</description>
+    </item>
+    
+  </channel>
+</rss>

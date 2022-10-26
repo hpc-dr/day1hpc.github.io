@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trading on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/trading.html</link>
+    <description>Recent content in trading on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Sep 2021 15:53:01 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HPC in Financial Services is not boring, and has some interesting problems to solve.</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/hpc-in-financial-services-is-not-boring-and-has-some-interesting-problems-to-solve.html</link>
+      <pubDate>Thu, 23 Sep 2021 15:53:01 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/hpc-in-financial-services-is-not-boring-and-has-some-interesting-problems-to-solve.html</guid>
+      <description>HPC in Financial Services is interesting for a lot of reasons that have nothing to do with banking. It&amp;rsquo;s an embarrassingly parallel workload, typically made up from zillions of short&amp;rsquo;ish jobs (seconds to minutes). And the decisions it supports are pretty big ones: whole banks and entire economies might be impacted by the outcomes. It&amp;rsquo;s interesting because there are so many fun ways you can solve the problem of &amp;lsquo;get it done fast, cheaply, and soon enough to help the people who are making really big decisions&amp;rsquo;. And whilst you expect us to say this: the cloud truly is a real game changer for this workload.
+Alex Kimber wrote the HPC book at AWS for Financial Services, but what he talks about in this short discussion puts context around the whole thing &amp;hellip; He&amp;rsquo;ll be back to expand on several of the key points in a few weeks.</description>
+    </item>
+    
+  </channel>
+</rss>

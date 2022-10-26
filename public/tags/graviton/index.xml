@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graviton on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/graviton.html</link>
+    <description>Recent content in graviton on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jun 2022 15:15:36 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/graviton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Arm64 developer environments - Part 2 of 2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/the-arm64-developer-environments-part-2-of-2.html</link>
+      <pubDate>Wed, 08 Jun 2022 15:15:36 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/the-arm64-developer-environments-part-2-of-2.html</guid>
+      <description>Olly Perks - our resident Arm64 architecture expert and all round HPC software guy - walks us through the quite extensive support for HPC developers who are planning to work on AWS Graviton processors.
+There&amp;rsquo;s a lot of software and it comes from a number of sources, including open source and commercial groups.
+This is part 2 of a two-part series - the first part was published last week, abd you can find it here: https://youtu.be/qFrpmgvN9Xs
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>What makes the AWS Graviton 3 so interesting to HPC and AI/ML customers?</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/what-makes-the-aws-graviton-3-so-interesting-to-hpc-and-aiml-customers.html</link>
+      <pubDate>Thu, 05 May 2022 16:35:59 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/what-makes-the-aws-graviton-3-so-interesting-to-hpc-and-aiml-customers.html</guid>
+      <description>The AWS Graviton 3 will be launched this year as part of the new C7g instance. Inside this chip are some interesting innovations that already have a lot of HPC and AI/ML customers interested.
+We sat down with Olly Perks, who recently joined AWS HPC Engineering from Arm, to discuss what&amp;rsquo;s most interesting. This is the first of a series of Tech Shorts covering the Graviton 3 architecture. We&amp;rsquo;ll deep dive on techniques and tools for getting the most out of these CPUs.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>How to Arm a world-leading forecast model with AWS Graviton and Lambda</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-to-arm-a-world-leading-forecast-model-with-aws-graviton-and-lambda.html</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-to-arm-a-world-leading-forecast-model-with-aws-graviton-and-lambda.html</guid>
+      <description>The Met Office is the UK’s National Meteorological Service, providing 24×7 world-renowned scientific excellence in weather, climate and environmental forecasts and severe weather warnings for the protection of life and property. They provide forecasts and guidance for the public, to our government and defence colleagues as well as the private sector. As an example, if you’ve been on a plane over Europe, Middle East, or Africa; that plane took off because the Met Office (as one of two World Aviation Forecast Centres) provided a forecast. This article explains one of the ways they use AWS to collect these observations, which has freed them to focus more on top quality delivery for their customers.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Recap on all the HPC developments from re:invent 21</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/recap-on-all-the-hpc-developments-from-reinvent-21.html</link>
+      <pubDate>Tue, 14 Dec 2021 16:00:02 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/recap-on-all-the-hpc-developments-from-reinvent-21.html</guid>
+      <description>reInvent &amp;lsquo;21 is over, but it was a busy week with new tech developments we&amp;rsquo;ve built for customers in pretty much every area of HPC: storage, networking and compute.
+We talk with our HPC General Manager, Ian Colle, about ZFS, Lustre, Graviton3, DDR5, EFA at 400 Gb/s on dozens of instances &amp;hellip; and a lot more.
+If you didn&amp;rsquo;t get to reinvent, or even if you did and couldn&amp;rsquo;t be in 10 places at once, this is a compact recap for you.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>Quantum Chemistry Calculation with FHI-aims code on AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/quantum-chemistry-calculation-with-fhi-aims-code-on-aws.html</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/quantum-chemistry-calculation-with-fhi-aims-code-on-aws.html</guid>
+      <description>This article was contributed by Dr. Fabio Baruffa, Sr. HPC and QC Solutions Architect at AWS, and Dr. Jesús Pérez Ríos, Group Leader at the Fritz Haber Institute, Max-Planck Society. Introduction Quantum chemistry – the study of the inherently quantum interactions between atoms forming part of molecules – is a cornerstone of modern chemistry. […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Spack a software package</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-to-spack-a-software-package.html</link>
+      <pubDate>Thu, 26 Aug 2021 17:26:42 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-to-spack-a-software-package.html</guid>
+      <description>This is a talk that was delivered at the AWS/Arm Cloud Hackathon in July 2021.
+Todd Gamblin (the creator of Spack) and his colleague Greg Becker talk us through the essential skills and concepts needed to understand how to create and deploy Spack recipes to build scientific codes. Spack massively simplifies the task of building scientific applications, which are almost defined by their insane build methods and dependency hierarchies. We made extensive use of Spack in the hackathon, and were extremely grateful for their help.
+The Summer Hackathon ran for a week from July 12-16 in 2021. It&amp;rsquo;s purpose was to assemble the HPC community around a common goal of beginning the porting/testing/tuning process for dozens of codes to use Arm-based processors, in this case, AWS&amp;rsquo;s Graviton2&amp;rsquo;s.
+During the week we had a series of talks from global leaders and experts in various fields from compilers to networking, profiling debugging and tooling.</description>
+    </item>
+    
+    <item>
+      <title>Arm/AWS Cloud Hackathon - Compilers in HPC, their use and abuse</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/armaws-cloud-hackathon-compilers-in-hpc-their-use-and-abuse.html</link>
+      <pubDate>Thu, 12 Aug 2021 15:00:23 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/armaws-cloud-hackathon-compilers-in-hpc-their-use-and-abuse.html</guid>
+      <description>This is a talk that was delivered at the AWS/Arm Cloud Hackathon in July 2021.
+Will Lovett works for Arm on the Arm compiler, and talk about how compilers work, and how to best leverage them to get the result you&amp;rsquo;re looking for when porting a code or working on performance.
+The Summer Hackathon ran for a week from July 12-16 in 2021. It&amp;rsquo;s purpose was to assemble the HPC community around a common goal of beginning the porting/testing/tuning process for dozens of codes to use Arm-based processors, in this case, AWS&amp;rsquo;s Graviton2&amp;rsquo;s.
+During the week we had a series of talks from global leaders and experts in various fields from compilers to networking, profiling debugging and tooling. We&amp;rsquo;ve published all the talks here in the HPC Tech Shorts channel, in the hope that everyone gets some value from them.</description>
+    </item>
+    
+    <item>
+      <title>Arm/AWS Cloud Hackathon Talk - Application Scaling with Jeff Hammond</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/armaws-cloud-hackathon-talk-application-scaling-with-jeff-hammond.html</link>
+      <pubDate>Tue, 03 Aug 2021 15:00:07 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/armaws-cloud-hackathon-talk-application-scaling-with-jeff-hammond.html</guid>
+      <description>This is a talk that was delivered at the AWS/Arm Cloud Hackathon in July 2021.
+Jeff Hammond is a computational scientist at NVIDIA and walks through techniques for getting applications to scale in HPC.
+The Summer Hackathon ran for a week from July 12-16 in 2021. It&amp;rsquo;s purpose was to assemble the HPC community around a common goal of beginning the porting/testing/tuning process for dozens of codes to use Arm-based processors, in this case, AWS&amp;rsquo;s Graviton2&amp;rsquo;s.
+During the week we had a series of talks from global leaders and experts in various fields from compilers to networking, profiling debugging and tooling. We&amp;rsquo;ve published all the talks here in the HPC Tech Shorts channel, in the hope that everyone gets some value from them.
+If you want to join in our collective effort to boost the performance of HPC workloads on Arm, DM us at Twitter (@TechHpc) or head to a-hug.</description>
+    </item>
+    
+    <item>
+      <title>WRF performance teardown on Graviton vs x86</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/wrf-performance-teardown-on-graviton-vs-x86.html</link>
+      <pubDate>Thu, 20 May 2021 16:16:52 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/wrf-performance-teardown-on-graviton-vs-x86.html</guid>
+      <description>(A complete teardown of WRF performance on x86 and AWS Graviton, from memory subsystems, compilers and MPI stacks).
+Weather simulation is a reliably difficult workload for almost any HPC architecture and is often used as a litmus test by many customers before they look too hard at a novel or different systems. Customers have asked us frequently about our performance for codes like WRF, and that’s been even more the case since we launched our Arm-based processor, the AWS Graviton2, in a range of EC2 instances.
+So it’s exciting that Karthik Raman and Matt Koop (two leading engineers from our global HPC solution architecture team) dived deep to look at WRF’s performance across a range of instance types (both Intel and Graviton), with EFA (our fast fabric, as you might remember from last week) as well as investigating the impact of different MPIs and compilers.</description>
+    </item>
+    
+    <item>
+      <title>AWS joins Arm to support Arm-HPC hackathon this summer</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/aws-joins-arm-to-support-arm-hpc-hackathon-this-summer.html</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/aws-joins-arm-to-support-arm-hpc-hackathon-this-summer.html</guid>
+      <description>Arm and AWS are calling all grad students and post-docs who want to gain experience advancing the adoption of the Arm architecture in HPC to join a world-wide community effort lead by the Arm HPC User’s Group (A-HUG). The event will take the form of a hackathon this summer and is aimed at getting open-source HPC codes to build and run fast on Arm-based processors, specifically AWS Graviton2. To make it a bit more exciting, A-HUG will be awarding an Apple M1 MacBook to each member of the team (max. 4 people) that contributes the most back to the Arm HPC community.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Numerical weather prediction on AWS Graviton2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/numerical-weather-prediction-on-aws-graviton2.html</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/numerical-weather-prediction-on-aws-graviton2.html</guid>
+      <description>The Weather Research and Forecasting (WRF) model is a numerical weather prediction (NWP) system designed to serve both atmospheric research and operational forecasting needs. With the release of Arm-based AWS Graviton2 Amazon Elastic Compute Cloud (EC2) instances, a common question has been how these instances perform on large-scale NWP workloads. In this blog, we will present results from a standard WRF benchmark simulation and compare across three different instance types.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>GROMACS price-performance optimizations on AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/gromacs-price-performance-optimizations-on-aws.html</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/gromacs-price-performance-optimizations-on-aws.html</guid>
+      <description>Molecular dynamics (MD) is a simulation method for analyzing the movement and tracing trajectories of atoms and molecules where the dynamics of a system evolve over time. MD simulations are used across various domains such as material sciences, biochemistry, biophysics and are typically used in two broad ways to study a system. The importance of […]
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

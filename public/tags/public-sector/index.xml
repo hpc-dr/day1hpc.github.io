@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Public Sector on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/public-sector.html</link>
+    <description>Recent content in Public Sector on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Sep 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/public-sector/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supporting climate model simulations to accelerate climate science</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/supporting-climate-model-simulations-to-accelerate-climate-science.html</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/supporting-climate-model-simulations-to-accelerate-climate-science.html</guid>
+      <description>The Amazon Sustainability Data Initiative (ASDI), AWS is donating cloud resources, technical support, and access to scalable infrastructure and fast networking providing high performance computing solutions to support simulations of near-term climate using the National Center for Atmospheric Research (NCAR) Community Earth System Model Version 2 (CESM2) and its Whole Atmosphere Community Climate Model (WACCM). In collaboration with ASDI, AWS, and SilverLining, a nonprofit dedicated to ensuring a safe climate, the National Center for Atmospheric Research (NCAR) will run an ensemble of 30 climate-model simulations on AWS. The climate runs will simulate the Earth system over the period of years 2022-2070 under a median scenario for warming and make them available through the AWS Open Data Program. The simulation work will demonstrate the ability to use cloud infrastructure to advance climate models in support of robust scientific studies by researchers around the world and aims to accelerate and democratize climate science.</description>
+    </item>
+    
+    <item>
+      <title>Accelerating research and development of new medical treatments with HPC on AWS</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/accelerating-research-and-development-of-new-medical-treatments-with-hpc-on-aws.html</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/accelerating-research-and-development-of-new-medical-treatments-with-hpc-on-aws.html</guid>
+      <description>Today, more than 290,000 researchers in France are working to provide better support and care for patients through modern medical treatment. To fulfill their mission, these researchers must be equipped with powerful tools. At AWS, we believe that technology has a critical role to play in medical research. Why? Because technology can take advantage of the significant amount of data generated in the healthcare system and in the research community to enable opportunities for more accurate diagnoses, and better treatments for many existing and future diseases. To support elite research in France, we are proud to be a sponsor of two French organizations: Gustave Roussy and Sorbonne University. AWS is providing them with the computing power and machine learning technologies needed to accelerate cancer research and develop a treatment for COVID-19.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

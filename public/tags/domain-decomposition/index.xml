@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domain Decomposition on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/domain-decomposition.html</link>
+    <description>Recent content in Domain Decomposition on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Mar 2022 17:26:49 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/domain-decomposition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling CFD a lot by breaking down a workflow, to speed things up</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/scaling-cfd-a-lot-by-breaking-down-a-workflow-to-speed-things-up.html</link>
+      <pubDate>Thu, 03 Mar 2022 17:26:49 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/scaling-cfd-a-lot-by-breaking-down-a-workflow-to-speed-things-up.html</guid>
+      <description>Sometimes when we&amp;rsquo;re looking for performance we lose the forrest for all those trees - we miss the huge improvements we can do to unglamorous parts of the overall workflow, while we obsess on the pieces that look hard. It&amp;rsquo;s an engineer thing, I think.
+In today&amp;rsquo;s Tech Short, Neil Ashton shows us exactly this kind of example from the world of CFD (using OpenFOAM, but this lesson applies generally) - and shows us how to break the problem down in order to speed it all up - and pretty easily, too.
+The workshops we reference in the discussion are all listed here: https://aws.amazon.com/hpc/cfd/
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

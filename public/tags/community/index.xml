@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/community.html</link>
+    <description>Recent content in Community on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jun 2021 14:45:01 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arm HPC Cloud Hackathon</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/arm-hpc-cloud-hackathon.html</link>
+      <pubDate>Thu, 17 Jun 2021 14:45:01 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/arm-hpc-cloud-hackathon.html</guid>
+      <description>Arm and AWS are jointly sponsoring a summer hackathon that&amp;rsquo;s being run by the Arm HPC User group (A-HUG - and definitely we send a hug to everyone out there). The goal of the hackathon is to get loads of codes with Spack recipes building, running and validating on Arm based systems and identifying the ones that don&amp;rsquo;t work or don&amp;rsquo;t perform well, so we - as a community - can find them and get to work fixing them.
+In today&amp;rsquo;s show we cover the logistics of how the hackathon will work, and especially cover the software and hardware we&amp;rsquo;re going to be using. There are a lot of new tools (especially cool things like Spack and reFrame) that we think are awesome - we&amp;rsquo;re pretty sure you&amp;rsquo;ll agree after you see them in action - Olly gives us a demo with a real test case.</description>
+    </item>
+    
+  </channel>
+</rss>

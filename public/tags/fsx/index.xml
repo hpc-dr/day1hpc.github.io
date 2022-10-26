@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FSx on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/fsx.html</link>
+    <description>Recent content in FSx on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/fsx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expanded filesystems support in AWS ParallelCluster 3.2</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/expanded-filesystems-support-in-aws-parallelcluster-32.html</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/expanded-filesystems-support-in-aws-parallelcluster-32.html</guid>
+      <description>AWS ParallelCluster version 3.2 introduces support for two new Amazon FSx filesystem types (NetApp ONTAP and OpenZFS). It also lifts the limit on the number of filesystem mounts you can have on your cluster. We’ll show you how, and help you with the details for getting this going right away.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

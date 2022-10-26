@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fair share scheduling on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/fair-share-scheduling.html</link>
+    <description>Recent content in fair share scheduling on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Nov 2021 17:55:32 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/fair-share-scheduling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fair share scheduling to maximize user happiness in AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/fair-share-scheduling-to-maximize-user-happiness-in-aws-batch.html</link>
+      <pubDate>Wed, 24 Nov 2021 17:55:32 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/fair-share-scheduling-to-maximize-user-happiness-in-aws-batch.html</guid>
+      <description>If you’re a frequent user of Batch queues, you have opinions about whether it’s scheduling is “fair” on your users.
+But &amp;lsquo;fair&amp;rsquo; means different things to everyone - what’s needed are some levers and dials that allow you to figure out what ‘fair’ means for your organization.
+AWS Batch now has Fair Share Scheduling, and it comes with a whole lot of controls.
+We’re joined this week on Tech Shorts by Aswin Damodar from the Batch engineering team, and Christian Kniep, our Snr Dev Advocate for HPC &amp;amp; Batch, to run through all these controls and what they mean.
+I’m betting this video is going to get watched a LOT. Fair-share scheduling is a complex topic, but the discussion makes it a lot easier to understand that reading the documentation probably will the first time.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

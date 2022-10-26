@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS Elastic Fabric Adapter on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/categories/aws-elastic-fabric-adapter.html</link>
+    <description>Recent content in AWS Elastic Fabric Adapter on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 -0800</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/categories/aws-elastic-fabric-adapter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we enabled uncompressed live video with CDI over EFA</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-we-enabled-uncompressed-live-video-with-cdi-over-efa.html</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-we-enabled-uncompressed-live-video-with-cdi-over-efa.html</guid>
+      <description>We’re going to take you into the world of broadcast video, and explain how it led to us announcing today the general availability of EFA on smaller instance sizes. For a range of applications, this is going to save customers a lot of money because they no longer need to use the biggest instances in each instance family to get HPC-style network performance. But the story of how we got there involves our Elastic Fabric Adapter (EFA), some difficult problems presented to us by customers in the entertainment industry, and an invention called the Cloud Digital Interface (CDI). And it started not very far from Hollywood.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Coming soon: dedicated HPC instances and hybrid functionality</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/coming-soon-dedicated-hpc-instances-and-hybrid-functionality.html</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/coming-soon-dedicated-hpc-instances-and-hybrid-functionality.html</guid>
+      <description>This year, we’ve launched a lot of new capabilities for HPC customers, making AWS the best place for the length and breadth of their workflows. EFA went mainstream and is now available in sixteen instance families for fast fabric capabilities for scaling MPI and NCCL codes. We’ve written deep-dive studies to explore and explain the optimizations that will drive your workloads faster in the cloud than elsewhere. We released a major new version of AWS ParallelCluster with its own API for controlling the cluster lifecycle. AWS Batch became deeply integrated into AWS Step Functions and now supports fair-share scheduling, with multiple levers to control the experience. Today we’re signaling the arrival of a new HPC-dedicated instance family – the Hpc6a – and an enhanced EnginFrame that will bring the best of the cloud and on-premises together in a single interface.</description>
+    </item>
+    
+    <item>
+      <title>EFA is now mainstream, and that’s a Good Thing</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/efa-is-now-mainstream-and-thats-a-good-thing.html</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/efa-is-now-mainstream-and-thats-a-good-thing.html</guid>
+      <description>We have recently launched three new Amazon EC2 instances types enabled with Elastic Fabric Adapter (EFA), our network interface for Amazon EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. These bring our EFA-enabled count to sixteen different instance families covering a wide range of use cases. EFA is going mainstream and we are just getting started.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>In the search for performance, there’s more than one way to build a network</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network.html</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network.html</guid>
+      <description>AWS worked backwards from an essential problem in HPC networking (MPI ranks need to exchange lots of data quickly) and found a different solution for our unique circumstances, without trading off the things customers love the most about cloud: that you can run virtually any application, at scale, and right away. Find out more about how Elastic Fabric Adapter (EFA) can help your HPC workloads scale on AWS.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

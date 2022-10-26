@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drug Design on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/drug-design.html</link>
+    <description>Recent content in Drug Design on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Mar 2021 10:55:25 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/drug-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to accelerate CryoEM Analysis with AWS ParallelCluster and FSx for Lustre</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-to-accelerate-cryoem-analysis-with-aws-parallelcluster-and-fsx-for-lustre.html</link>
+      <pubDate>Thu, 11 Mar 2021 10:55:25 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-to-accelerate-cryoem-analysis-with-aws-parallelcluster-and-fsx-for-lustre.html</guid>
+      <description>In today’s show, we’re talking about how to choose the right compute and storage elements to get great performance for CryoSPARC, which is one of the popular codes used in cryogenic electron microscopy (CryoEM) analysis.
+This is important because, as you’ll hear in the discussion, breaking the pipeline down into different stages and optimizing the infrastructure for each one can speed up the entire workflow, and save a whole lot of money on that compute, too. All these workloads ran on AWS ParallelCluster, which lets you have multiple queues with different instance types and orchestration options (check out last week’s show: https://www.youtube.com/watch?v=C4iSNjcW5O4). ParallelCluster also makes it easy to construct an FSx for Lustre filesystem on the fly using data from an Amazon S3 bucket.
+Steve Litster is our Principal HPC business leader for Healthcare and Lifesciences, based out of Boston, and is a recovering x-ray crystallographer (and still has occasional flashbacks of being in a lab).</description>
+    </item>
+    
+  </channel>
+</rss>

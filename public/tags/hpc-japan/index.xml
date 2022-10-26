@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HPC Japan on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/hpc-japan.html</link>
+    <description>Recent content in HPC Japan on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 17:38:29 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/hpc-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How KEK changed how everyone in Japan does CryoEM (Part 3 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/how-kek-changed-how-everyone-in-japan-does-cryoem-part-3-of-4.html</link>
+      <pubDate>Thu, 20 Oct 2022 17:38:29 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/how-kek-changed-how-everyone-in-japan-does-cryoem-part-3-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is just one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+    <item>
+      <title>KEK&#39;s arsenal of CryoEM benchmark data - a detailed walk through (Part 4 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/keks-arsenal-of-cryoem-benchmark-data-a-detailed-walk-through-part-4-of-4.html</link>
+      <pubDate>Thu, 20 Oct 2022 17:38:23 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/keks-arsenal-of-cryoem-benchmark-data-a-detailed-walk-through-part-4-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is just one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+    <item>
+      <title>KEK&#39;s novel solution for CryoEM&#39;s software and infra (Part 2 of 4)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/keks-novel-solution-for-cryoems-software-and-infra-part-2-of-4.html</link>
+      <pubDate>Tue, 11 Oct 2022 16:53:39 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/keks-novel-solution-for-cryoems-software-and-infra-part-2-of-4.html</guid>
+      <description>CryoEM is an awesome research tool, but it also comes with some challenges. The software stack is complex, and the hardware it needs is sometimes exotic and hard to get. Afterwards, there&amp;rsquo;s a massive dataset and a serious set of challenges to moving it around, and managing it. (No one wants to get stuck baby sitting someone else&amp;rsquo;s petabyte dataset unless they have to).
+The team at KEK in Japan took all these challenges head on and solved them in a very different way (spoiler: it involved the cloud). But as is often the case, when teams in Japan solve a big HPC problem, it&amp;rsquo;s usually something that&amp;rsquo;s going to get picked up around the world. And KEK are very much those kinds of people.
+Today is just one part in a series of Four HPC Tech Shorts dedicated to the work KEK did (yes, it&amp;rsquo;s that awesome).</description>
+    </item>
+    
+  </channel>
+</rss>

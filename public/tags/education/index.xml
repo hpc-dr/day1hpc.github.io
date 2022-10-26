@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/education.html</link>
+    <description>Recent content in Education on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call for participation: PRACE Winter School</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/call-for-participation-prace-winter-school.html</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/call-for-participation-prace-winter-school.html</guid>
+      <description>The Inter University Computing Centre (IUCC) in Israel and AWS have joined forces to train Researchers and Research Software Engineers (RSEs) in the use of AWS for High Performance Computing (HPC) at the PRACE Winter School, 7-9 December 2021, and we’re calling for interested groups to sign up and join us.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

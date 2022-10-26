@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantum on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/quantum.html</link>
+    <description>Recent content in quantum on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Apr 2022 16:16:10 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spooky-action-at-a-distance As a Service (Quantum Computing)</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/spooky-action-at-a-distance-as-a-service-quantum-computing.html</link>
+      <pubDate>Fri, 08 Apr 2022 16:16:10 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/spooky-action-at-a-distance-as-a-service-quantum-computing.html</guid>
+      <description>Amazon Braket is AWS&amp;rsquo;s Quantum Computing service which gives you access to several Quantum Computers using a serverless programming model and &amp;hellip; YOU ACTUALLY GET TO USE REAL QUANTUM COMPUTERS without needing a $50M budget and a cryo facility.
+This is therefore one of the weirdest Tech Shorts we&amp;rsquo;ve done. We even run a Quantum version of &amp;lsquo;Hello, world&amp;rsquo;. No kidding.
+You can get more information about the service at aws.amazon.com/braket
+But : why not try it yourself?
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

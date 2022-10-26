@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nextflow tower on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/nextflow-tower.html</link>
+    <description>Recent content in nextflow tower on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jul 2021 15:00:09 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/nextflow-tower/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nextflow Tower  and how it makes it easy to manage a lot of infrastructure quickly.</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/nextflow-tower-and-how-it-makes-it-easy-to-manage-a-lot-of-infrastructure-quickly.html</link>
+      <pubDate>Thu, 22 Jul 2021 15:00:09 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/nextflow-tower-and-how-it-makes-it-easy-to-manage-a-lot-of-infrastructure-quickly.html</guid>
+      <description>Nextflow Tower became necessary when lots of Nextflow users started to leave the confines of their existing environments in search of more compute, more storage, more capabilities. Nextflow made their workflows portable, but there was still a lot of relatively complex work to be done standing up cloud infrastructure, setting limits, choosing instances, pondering VPCs, Batch compute environments &amp;hellip; You get the idea.
+Nextflow Tower massively simplifies that. It integrates deeply with all these environments (lots of clouds, lots of cluster types, and even in hybrid mode) such that a researcher with a good idea can go from laptop to server to cluster to massive compute farm, step-by-step as their idea and ambition grows.
+Evan Floden, the CEO of Seqera Labs and a core developer of Nextflow (along with his friend and business partner Paolo Di Tommaso) steps in to take us for a drive of Tower and explains some of the tech underpinning it.</description>
+    </item>
+    
+  </channel>
+</rss>

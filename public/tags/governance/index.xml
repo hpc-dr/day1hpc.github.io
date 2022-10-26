@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>governance on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/governance.html</link>
+    <description>Recent content in governance on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Sep 2021 15:50:26 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/governance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Governance and guardrails for researchers with RONIN ISOLATE</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/governance-and-guardrails-for-researchers-with-ronin-isolate.html</link>
+      <pubDate>Wed, 15 Sep 2021 15:50:26 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/governance-and-guardrails-for-researchers-with-ronin-isolate.html</guid>
+      <description>RONIN (www.ronin.cloud) is one of our favorite HPC partners, because they&amp;rsquo;ve done a really comprehensive job providing research customers the governance and guardrails they need around budget management and data security to make insanely easy to explore and experiment with workloads in the cloud. It helps that they pack hundreds of DevOps tasks into every click so you can launch HPC clusters in less time than it takes to buy your groceries online.
+Tara Madhyastha is one of RONIN&amp;rsquo;s Principal Research Scientists based out of Seattle, and she gives us a peek at a new product built on RONIN Core called &amp;lsquo;RONIN Isolate&amp;rsquo;, which takes secure enclaves and project isolation to an obsessive new level to help customers with really extreme (and particular) security and compliance needs.
+Isolate launched this week, and you can find more about it at the RONIN Blo at https://blog.</description>
+    </item>
+    
+  </channel>
+</rss>

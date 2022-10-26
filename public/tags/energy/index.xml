@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Energy on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/energy.html</link>
+    <description>Recent content in Energy on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Aug 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/energy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Price-Performance Analysis of Amazon EC2 GPU Instance Types using NVIDIA’s GPU optimized seismic code</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/price-performance-analysis-of-amazon-ec2-gpu-instance-types-using-nvidias-gpu-optimized-seismic-code.html</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/price-performance-analysis-of-amazon-ec2-gpu-instance-types-using-nvidias-gpu-optimized-seismic-code.html</guid>
+      <description>Seismic imaging is the process of positioning the Earth’s subsurface reflectors. It transforms the seismic data recorded in time at the Earth’s surface to an image of the Earth’s subsurface. This is done by back-propagating data from time to space in a given velocity model. Kirchhoff depth migration is a well-known technique used in geophysics for seismic imaging. Kirchhoff time and depth migration produce an image with higher resolution and generate an image of the subsurface for a subset class of the data, providing valuable information about the petrophysical properties of the rocks and helps to determine how accurate the velocity model is. This blog post looks at the price-performance characteristics computing Kirchhoff migration methods on GPUs using Nvidia’s GPU-optimized code.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

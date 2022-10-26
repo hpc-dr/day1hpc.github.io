@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>object storage on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/object-storage.html</link>
+    <description>Recent content in object storage on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jun 2021 15:19:32 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/object-storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudWatch automation to keep your scratch disks humming, and your clusters running.</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/cloudwatch-automation-to-keep-your-scratch-disks-humming-and-your-clusters-running.html</link>
+      <pubDate>Thu, 10 Jun 2021 15:19:32 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/cloudwatch-automation-to-keep-your-scratch-disks-humming-and-your-clusters-running.html</guid>
+      <description>Some workloads generate a LOT of output files and sometimes quite suddenly. For codes like OpenFOAM, this is data that you may not need until later when you run a post-processing job.
+Given the amount of data isn’t always predictable, there are a few ways to prepare for this deluge, but most of them involve pre-provisioning too much storage in advance (and hoping you guessed correctly).
+We’ve never been fans of guessing like that - we think infrastructure should just expand when you need it.
+Stephen Sachs from our HPC Performance Engineering team came up with a great technique for solving this. He’s built some cloud automation with CloudWatch into AWS ParallelCluster so it triggers a “drain” process (a shell script) that pushes all the output files into Amazon S3 whenever the local filesystem on a compute instance reaches 80%. It’s surprisingly easy to do.</description>
+    </item>
+    
+  </channel>
+</rss>

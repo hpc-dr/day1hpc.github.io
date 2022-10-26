@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gaming on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/gaming.html</link>
+    <description>Recent content in gaming on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Sep 2021 15:28:09 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s the impact of DCV&#39;s pixel streaming on my AWS Bill?</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/whats-the-impact-of-dcvs-pixel-streaming-on-my-aws-bill.html</link>
+      <pubDate>Thu, 02 Sep 2021 15:28:09 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/whats-the-impact-of-dcvs-pixel-streaming-on-my-aws-bill.html</guid>
+      <description>Since our NICE DCV high performance desktop and application streaming product does such a great job of making it feel like you have a cloud dat center sitting behind your laptop screen somewhere, lots of customers have asked &amp;lsquo;Won&amp;rsquo;t that impact my bill? You guys charge for data, right?&amp;rsquo;.
+There&amp;rsquo;s no way to give a precise answer, but what we did do was to put together a range of usage scenarios from fairly pedestrian usage (doing work processing on a remote windows machine) through to high bit-rate gaming and video streaming. We tested them all and measured their consumption. And we show you the results. Bottom line: data charges are&amp;rsquo;t really going to nudge your billing by much unless you&amp;rsquo;re getting close to 4K video streaming.
+Jyothi Venkatesh and Boof put DCV to the test, and we walk you through the scenarios and our analysis.</description>
+    </item>
+    
+  </channel>
+</rss>

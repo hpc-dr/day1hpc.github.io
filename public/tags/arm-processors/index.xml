@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ARM processors on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/arm-processors.html</link>
+    <description>Recent content in ARM processors on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Mar 2021 14:53:51 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/arm-processors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to HPC Tech Shorts!</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/welcome-to-hpc-tech-shorts.html</link>
+      <pubDate>Thu, 04 Mar 2021 14:53:51 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/welcome-to-hpc-tech-shorts.html</guid>
+      <description>Each week we’re going to take you to the water cooler here in AWS to talk to engineers and architects about the technology, tools and techniques that make AWS the best place to run your HPC workloads in the cloud.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>

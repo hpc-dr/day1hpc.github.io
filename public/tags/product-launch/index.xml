@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product Launch on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/product-launch.html</link>
+    <description>Recent content in Product Launch on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 -0800</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/product-launch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing AWS ParallelCluster multiuser support via Active Directory</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/introducing-aws-parallelcluster-multiuser-support-via-active-directory.html</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/introducing-aws-parallelcluster-multiuser-support-via-active-directory.html</guid>
+      <description>Today we’re announcing the release of AWS ParallelCluster 3.1 which now supports multiuser authentication based on Active Directory (AD). Starting with v3.1.1 clusters can be configured to use an AD domain managed via one of the AWS Directory Service options like Simple AD or AWS Managed Microsoft AD (MSAD). This blog post describes the new feature, and gives an example of a configuration block for ParallelCluster 3 configuration files.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+    <item>
+      <title>Introducing fair-share scheduling for AWS Batch</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/introducing-fair-share-scheduling-for-aws-batch.html</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/introducing-fair-share-scheduling-for-aws-batch.html</guid>
+      <description>Today we are announcing fair-share scheduling (FSS) for AWS Batch, which provides fine-grain control of the scheduling behavior by using a scheduling policy. With FSS, customers can prevent “unfair” situations caused by strict first-in, first-out scheduling where high priority jobs can’t “jump the queue” without draining other jobs first. You can now balance resource consumption between groups of workloads and have confidence that the shared compute environment is not dominated by a single workload. In this post, we’ll explain how fair-share scheduling works in more detail. You’ll also find a link to a step-by-step workshop at the end of this post, so you can try it out yourself.
+Read the full post at the AWS HPC Blog.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miniWDL on Day 1 HPC (Staging)</title>
+    <link>https://d175uvn6dnkepf.cloudfront.net/tags/miniwdl.html</link>
+    <description>Recent content in miniWDL on Day 1 HPC (Staging)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Mar 2022 11:29:03 +0000</lastBuildDate><atom:link href="https://d175uvn6dnkepf.cloudfront.net/tags/miniwdl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genomics workflow set made easy with AWS Genomics CLI</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/genomics-workflow-set-made-easy-with-aws-genomics-cli.html</link>
+      <pubDate>Fri, 25 Mar 2022 11:29:03 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/genomics-workflow-set-made-easy-with-aws-genomics-cli.html</guid>
+      <description>The AWS Genomics CLI (or AGC) seriously removes all the grunt work involved in setting up bioinformatics pipelines to run in the cloud. We know that Snakemake, Cromwell, NextFlow and miniWDL all work happily in the cloud on AWS Batch, but AGC means you don&amp;rsquo;t have to know to set all that stuff up - it does it for you.
+You can have completely separate tool chains using completely different workflow languages all running at the same time, on the same infrastructure (if you like), sharing data and tooling.
+Lee Pang from the dev team that built this came along to show us how it works, and - most importantly - how easy it is to get productive. Zero to hero in less than 30 mins - it&amp;rsquo;s really impressive.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+    <item>
+      <title>miniWDL workflows with 100% cloud elasticity, and no DevOps geekery</title>
+      <link>https://d175uvn6dnkepf.cloudfront.net/post/miniwdl-workflows-with-100-cloud-elasticity-and-no-devops-geekery.html</link>
+      <pubDate>Thu, 02 Dec 2021 16:42:11 +0000</pubDate>
+      
+      <guid>https://d175uvn6dnkepf.cloudfront.net/post/miniwdl-workflows-with-100-cloud-elasticity-and-no-devops-geekery.html</guid>
+      <description>Mike Lin is the creator and maintainer of miniWDL and has been working with our Genomics and ML teams to integrate it with Sagemaker Studio and AWS Batch. The result is a working environment that&amp;rsquo;s completely familiar and easy to use (it&amp;rsquo;s Jupyter, after all) and yet has access to all the elasticity of the cloud, but without ever needing to leave the familiar notebook interface to make that magic happen.
+It&amp;rsquo;s a really cool example of bringing the tools to science, rather than forcing the scientists to understand yet another new tool.
+If you have ideas for technical topics you&amp;rsquo;d like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM&amp;rsquo;ing us with your idea.</description>
+    </item>
+    
+  </channel>
+</rss>
