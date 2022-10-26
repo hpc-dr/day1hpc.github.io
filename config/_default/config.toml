@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://day1hpc.com/staging/"
+baseURL = "https://day1hpc.com/"
 title = "Day 1 HPC"
 theme = "logbook-hugo"
 # post pagination
