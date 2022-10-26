@@ -6,10 +6,10 @@ brew install hugo
 
 ## Check out and test the repo
 
-The site is published off the `prod` branch. 
+The site is published off the `main` branch. 
 
 ```shell
-git clone day1hpc/day1hpc.github.io@main
+git clone https://github.com/day1hpc/day1hpc.github.io.git
 cd day1hpc.github.io
 # start server with drafts enabled
 hugo server -D

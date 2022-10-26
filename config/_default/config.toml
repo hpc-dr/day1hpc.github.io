@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://day1hpc.com/staging/"
+baseURL = "https://day1hpc.com/"
 title = "Day 1 HPC"
 theme = "logbook-hugo"
 # post pagination
@@ -12,6 +12,9 @@ googleAnalytics = "" # Ex: UA-123-45
 # disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["fr"] # desable language from here
+
+# Temporary
+enableRobotsTXT = true
 
 ############################# Modules ##############################
 [module]
