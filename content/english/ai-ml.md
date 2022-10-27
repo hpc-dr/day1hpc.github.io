@@ -16,12 +16,14 @@ draft: false
 ---
 
 <style>
-.boof {
-  float:right !important;
-  width:350px;
+.boof-weather {
+  float:center !important;
+  width:1110px;
   padding: 10px;
   }
 </style>
+
+{{< image src="/images/hpc/ml-ident-large.png" position="center" class="boof-weather" >}}
 
 # Learn about AI/ML on AWS HPC
 
