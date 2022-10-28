@@ -422,6 +422,28 @@
     }
   }
 
+  &-list-inline-reversed {
+    li {
+      margin-bottom: 0.62rem;
+
+      a {
+        padding: 2px 0.62rem;
+        border: 1px solid $border-color;
+        border-radius: 2.5rem;
+        display: block;
+        color: $white;
+        background: $color-primary;
+        font-size: 10px;
+
+        &:hover {
+          border-color: $color-primary;
+          background: $white;
+          color: $text-color;
+        }
+      }
+    }
+  }
+
   &-post {
     padding: 0.9rem 0 !important;
 
