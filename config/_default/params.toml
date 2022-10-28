@@ -104,7 +104,7 @@ button = "I Accept"
 sidebar = [
   "categories",
   "recent-post",
-  "tags",
+  # "tags",
 ]
 # available widget : search,about-me,categories,tags,recent-post,social,promotion,subscription
 
