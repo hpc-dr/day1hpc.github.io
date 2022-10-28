@@ -267,7 +267,7 @@ a:hover {
 
   a {
     color: $text-color;
-    border-bottom: 1px dotted $border-color;
+    border-bottom: $link-width $link-style $link-border-color;
 
     &:hover {
       color: $color-primary;

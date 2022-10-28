@@ -17,6 +17,10 @@ border_color = "#ddd"
 black = "#000"
 white = "#fff"
 light = "#f0f0f0"
+# Modify link appearance
+link_border_color = "#ddd"
+link_width = "2px"
+link_style = "solid"
 
 # font variables
 # base font size for full website, 

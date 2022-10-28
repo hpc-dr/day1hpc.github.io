@@ -10,6 +10,11 @@ $black: {{.black}};
 $white: {{.white}};
 $light: {{.light}};
 
+// Link variables
+$link-border-color: {{.link_border_color}};
+$link-width: {{.link_width}};
+$link-style: {{.link_style}};
+
 // Font Variables
 $font-size: {{.font_size | default "16px"}};
 $font-scale: {{.font_scale | default "1.2"}};
