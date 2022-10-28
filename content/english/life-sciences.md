@@ -25,5 +25,5 @@ draft: false
 
 {{< image src="/images/hpc/life-ident-large.png" position="center" class="boof-weather" >}}
 
-## Learn about Healthcare and LIfe Sciences HPC on AWS
+## Learn about Healthcare and Life Sciences HPC on AWS
 
