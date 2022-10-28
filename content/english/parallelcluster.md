@@ -35,7 +35,7 @@ ParallelCluster has a graphical interface (and a CLI) to model and control all t
 <style>
 .boof2 {
   float:right !important;
-  width:500px;
+  width:350px;
   padding: 10px;
   }
 </style>
@@ -75,15 +75,23 @@ First, you should make sure you're comfortable that ParallelCluster is the right
 
 ## Scheduler Migration
 
-{{< image src="/images/hpc/media-ident-square.png" class="boof" >}}
+<style>
+.boof3 {
+  float:right !important;
+  width:250px;
+  padding: 10px;
+  }
+</style>
+{{< image src="/images/hpc/media-ident-square.png" class="boof3" >}}
 
-**Migrating between schedulers doesn't need to be hard**. Since SGE is no longer supported by the community, we worked with the team at [SchedMD](https://www.schedmd.com/) to create a tutorial series to help everyone understand what tools are available in Slurm, to make the shift easier.
+**Migrating between schedulers doesn't need to be hard**.
+
+Since SGE is no longer supported by the community, we worked with the team at [SchedMD](https://www.schedmd.com/) to create a tutorial series to help everyone understand what tools are available in Slurm, to make the shift easier.
 
 **[Easing your migration from SGE to Slurm in AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/)** - a blog post kicking off the tutorial with several handy cheat sheets.
 
-**Tech Shorts series in 4-parts** - hands on tutorials with examples, delivery by experts from SchedMD and AWS.
-
-**[Command Line Tools](https://youtu.be/zCEN4GblrRs)** || **[Job Scripts](https://youtu.be/HYMqq0L6fLU)** || **[Array Jobs](https://youtu.be/PVO7_fZAT0I)** || **[Slurm Accounting](https://youtu.be/TzTIN17CG-s)**
+**Tech Shorts series in 4-parts** - hands on tutorials with examples, delivery by experts from SchedMD and AWS:
+- **[Command Line Tools](https://youtu.be/zCEN4GblrRs)** || **[Job Scripts](https://youtu.be/HYMqq0L6fLU)** || **[Array Jobs](https://youtu.be/PVO7_fZAT0I)** || **[Slurm Accounting](https://youtu.be/TzTIN17CG-s)**
 
 ## Migration for legacy ParallelCluster v2 customers
 
@@ -95,7 +103,7 @@ First, you should make sure you're comfortable that ParallelCluster is the right
 
 ParallelCluster delivers you a canonical Beowulf cluster experience on AWS, but with added twists like elasticity, and support for fast storage and networking, built-in *by design*. That means you can run virtually any workload you like on AWS and expect to see great results.
 
-The tabs here have videos and blog posts describing different use-cases for ParallelCluster.
+The tabs here have videos and blog posts describing different use-cases for ParallelCluster - hopefully you'll recognize a familiar one to your own.
 
 {{< tabs >}}
   {{< tab "CFD/CAE" >}}  

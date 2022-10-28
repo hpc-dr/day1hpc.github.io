@@ -60,12 +60,6 @@ weight = 3
 
 [[main]]
 parent = "Workloads"
-name = "Financial Services"
-url = "/financial-services/"
-weight = 3
-
-[[main]]
-parent = "Workloads"
 name = "Life Sciences"
 url = "/life-sciences/"
 weight = 4
@@ -73,6 +67,7 @@ weight = 4
 [[main]]
 weight = 5
 name = "Learning"
+url = "/learning/"
 hasChildren = true
 
 [[main]]
