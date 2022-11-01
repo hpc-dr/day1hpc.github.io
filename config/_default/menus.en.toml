@@ -2,8 +2,9 @@
 
 [[main]]
 weight = 2
-name = "About"
-url = "post/about/"
+name = "Learn"
+url = "/learning/"
+hasChildren = true
 
 # Dropdown menu
 [[main]]
@@ -66,9 +67,9 @@ weight = 4
 
 [[main]]
 weight = 5
-name = "Learning"
-url = "/learning/"
-hasChildren = true
+name = "About"
+url = "post/about/"
+hasChildren = false
 
 [[main]]
 weight = 6
