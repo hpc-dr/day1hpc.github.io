@@ -27,12 +27,12 @@ draft: false
 
 # Navigating your way into AWS
 
-We get it - there are too many things going on in AWS that if you haven't been following from the beginning, it's daunting to know where to start.
+We get it - there are too many things going on in AWS that if you haven't been following from the beginning, it's daunting to know where to start. We've put material together to help you bridge the knowledge gap. To get high level knowlegde of AWS, so you can bust through the jargon andget on top of the most important concepts, we've created a set of short videos in our YouTube channel - **[HPC Tech Shorts](https://hpc.news/techshorts)** to get started with.
 
-The resources on this page should help you start your journey.
+Workshops dive deeper, and will get you hands-on with the tools to build some practical working clusters. 
 
 ## HPC Tech Shorts Foundations
-We put together a foundational series of videos in our YouTube channel, HPC Tech Shorts, and called them, Tech Shorts Foundations.
+Tech Shorts Foundations are videos which will help you undertsand the jargon, and get on top of the most important concepts around cloud computing, specifically as they apply to HPC.
 
 <style>
 .learn {
