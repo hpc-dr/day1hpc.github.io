@@ -223,6 +223,27 @@ a:hover {
       float: right;
       margin-left: 1.5rem;
     }
+    &.img-drop-shadow{
+      box-shadow: 0 10px 6px -6px #777;
+    }
+    &.img-eighth{
+      max-width: 12.5%;
+    }
+    &.img-quarter{
+      max-width: 25%;
+    }
+    &.img-half{
+      max-width: 50%;
+    }
+    &.img-three-quarters{
+      max-width: 75%;
+    }
+    &.img-one-third{
+      max-width: 33%;
+    }
+    &.img-two-thirds{
+      max-width: 66%;
+    }
   }
   figure{
     display: inline-block;
