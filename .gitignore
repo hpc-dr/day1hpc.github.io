@@ -5,3 +5,4 @@ env/
 public/
 */.DS_Store
 resources/
+.python-version
