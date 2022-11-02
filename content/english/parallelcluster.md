@@ -6,7 +6,7 @@ description: "AWS ParallelCluster is an open source tool that makes it easy to d
 layout: "single-notitle"
 images:
   - "images/hpc/pc-ident-large.png"
-# Taxonomies
+## Taxonomies
 categories: ["AWS ParallelCluster"]
 tags: ["hpc","products"]
 type: "featured" # available type (regular or featured)
@@ -14,7 +14,7 @@ draft: false
 ---
 
 
-# AWS ParallelCluster
+## AWS ParallelCluster
 <div class="container">
 <div class="row">
 
@@ -30,7 +30,7 @@ AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on 
 
 ----
 
-## Latest compute
+### Latest compute
 <div class="container-fluid">
 <div class="row">
 <div class="col-2">{{< image src="/images/hpc/1-pc-ksp-compute-strap.png" class="img-float-center" >}}</div>
@@ -65,7 +65,7 @@ table td {
 
 -----
 
-## Supremely scalable
+### Supremely scalable
 <div class="container-fluid">
 <div class="row">
 <div class="col">
@@ -100,7 +100,7 @@ table td {
 
 -----
 
-## Advanced networking
+### Advanced networking
 <div class="container-fluid">
 <div class="row">
 <div class="col-2">{{< image src="/images/hpc/4-pc-ksp-network-strap.png" class="img-float-center" >}}</div>
@@ -135,7 +135,7 @@ table td {
 
 -----
 
-## Performant storage
+### Performant storage
 <div class="container-fluid">
 <div class="row">
 <div class="col">
@@ -169,7 +169,7 @@ table td {
 
 -----
 
-## Familar interfaces
+### Familar interfaces
 <div class="container-fluid">
 <div class="row">
 
@@ -208,7 +208,7 @@ table td {
 
 -----
 
-## Secure by design
+### Secure by design
 <div class="container-fluid">
 <div class="row">
 <div class="col">
@@ -243,7 +243,7 @@ table td {
 
 -----
 
-## Cloud-ready
+### Cloud-ready
 <div class="container-fluid">
 <div class="row">
 
@@ -280,7 +280,7 @@ table td {
 
 -----
 
-# Learn More About ParallelCluster
+## Learn More About ParallelCluster
 <div class="container-fluid">
 <div class="row">
 <div class="col">
@@ -301,7 +301,7 @@ First, let's make sure you're comfortable that ParallelCluster is the right path
 
 ----
 
-# Build with ParallelCluster
+## Build with ParallelCluster
 
 <div class="container-fluid">
 <div class="row">
@@ -349,7 +349,7 @@ table td {
 
 -----
 
-# Scale with ParallelCluster
+## Scale with ParallelCluster
 
 ParallelCluster delivers you a canonical Beowulf cluster experience on AWS, but with added twists like elasticity, and support for fast storage and networking, built-in *by design*. That means you can run virtually any workload you like on AWS and expect to see great results.
 
