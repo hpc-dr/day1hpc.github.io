@@ -13,12 +13,11 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-
 ## AWS ParallelCluster
 <div class="container">
 <div class="row">
 
-{{< image src="/images/hpc/pcluster-why-pc-banner.gif" position="center" >}}
+{{< image src="/images/hpc/pcluster-why-pc-banner.gif" position="left" >}}
 
 </div>
 <div class="row">
