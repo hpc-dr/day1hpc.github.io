@@ -30,27 +30,26 @@ draft: false
 # AWS Batch
 
 **AWS Batch** is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications.
- **Workflow builders** love it for scaling their workloads, from machine learning to genomics. It scales from **one job to tens of millions**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
+ **Workflow builders** love it for scaling their workloads, from machine learning to genomics. It scales from **one job to millions**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
 
 You may be familiar with usinmg a traditional HPC resource &mdash; such as  an on-prem SLURM cluster &mdash; and probably wondering what makes AWS Batch different. Before you dive in on Batch, it's worth comparing it to [AWS ParallelCluster](/parallelcluster). Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
 
 ----
-
-### Multiple options for your compute resource
+### Scalability for your all your compute needs
 
 <div class="container-fluid">
 <div class="row">
 <div class="col-2">{{< image src="/images/batch/logs.png" class="img-float-center" >}}</div>
 <div class="col">
 
-AWS Batch efficiently and dynamically provisions and scales Amazon Elastic Container Service (ECS) for Amazon Elastic Compute Cloud (Amazon EC2) and , Amazon Elastic Kubernetes Service (EKS), and AWS Fargate compute resources, with an option to use On-Demand or Spot Instances based on your job requirements. AWS Batch provides default job queues and compute environment definitions so you can get started quickly.
+AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Customers run anywhere from a few jobs at a time, to hundreds of thousands of simultaneous jobs within a cluster. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too. 
 
 </div>
 </div>
 
 <div class="row">
 <div class="col">
-{{< collapse "Learn more about logging and monitoring with AWS Batch" >}}
+{{< collapse "Learn more about scaling your workloads with AWS Batch" >}}
 <style>
 table tr th:empty {
   display: none;
@@ -61,8 +60,42 @@ table td {
 </style>
 | | |
 |---|---|
-| [Custom logging with AWS Batch](https://aws.amazon.com/blogs/compute/custom-logging-with-aws-batch/) | [AWS Batch Runtime Monitoring Dashboards Solution](https://github.com/aws-samples/aws-batch-runtime-monitoring) |
+| []() | []() |
+
 {{</ collapse >}}
+
+</div>
+</div>
+</div>
+
+----
+
+### Cost optimized
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-2">{{< image src="/images/batch/logs.png" class="img-float-center" >}}</div>
+<div class="col">
+
+AWS Batch optimizes your workloads for **throughput and cost**. It does so by scaling compute resources based on the work that was submitted to the job queue, and an allocation strategies to allocate compute resources. These strategies allow you to factor in throughput and price when deciding how AWS Batch should scale instances for you. For example, the **best fit progressive** strategy will select instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types with a lower-cost-per-unit vCPU. If additional instances of the previously selected instance types are not available, AWS Batch will select new instance types. Batch is also able to leverage EC2 Spot Instances with the **spot capacity–optimized** strategy, which  will select one or more instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types that are less likely to be interrupted. 
+
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+{{< collapse "Learn more about optimizing costs with AWS Batch" >}}
+<style>
+table tr th:empty {
+  display: none;
+}
+table td {
+  text-align: center;
+}
+</style>
+| | |
+|---|---|
+| []() | []() |
 
 </div>
 </div>
