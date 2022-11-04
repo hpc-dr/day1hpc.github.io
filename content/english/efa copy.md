@@ -33,9 +33,21 @@ It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/d
 
 ## How does it work?
 
-Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times. So we've built this into the **[Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD)**, which underpins EFA's performance.
+Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times.
 
-SRD is different from other HPC datagrams in that it doesn't look for a single fastest path. In a network as large as the one in Amazon EC2, it made sense to exploit as many pathds as possible, so SRD swarms the packets over a lot of fast pathways simultaneously. It turns out that most HPC codes are [more sensitive to reliability between communicators than the latency of any one packet](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/).
+While this leads to different design decisions, it also leads to **interesting discoveries**. It turns out that most HPC codes are more sensitive to networks that can deliver large amounts of data reliability and quickly between communicators. And they're **[far less sensitive to individual packet latency](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/)** than we all thought.
+
+EFA is a great example of how we've been able to keep packets flowing *and* solve some complex problems HPC users face in a novel way - without losing any performance for HPC and ML applications.
+
+<style>
+.boof3 {
+  float:right !important;
+  width:250px;
+  padding: 10px;
+  }
+</style>
+
+{{< image src="/images/hpc/media-ident-square.png" class="boof3" >}}
 
 <style>
 .boof4 {
@@ -46,72 +58,22 @@ SRD is different from other HPC datagrams in that it doesn't look for a single f
 <a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-what-is-efa.png" class="boof4" >}}</a>
 <a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
 
-<div class="row">
-<div class="col">
-{{< collapse "**Background to the design of SRD and EFA**" >}}
-<style>
-table tr th:empty {
-  display: none;
-}
-table td {
-  text-align: center;
-}
-</style>
-| | |
-|---|---|
-| [There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/) | |
-| [Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD) | [Deep dive on EFA and SRD with one of EFA\'s designers](https://youtu.be/IgPWzhIHX68) |
-{{</ collapse >}}
-
-* 
-</div>
-</div>
-
 ---
-
-## Amazon EC2 Instance Support
-
-In 2021, we began the process of using EFA adapters in [most new Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types). That means there are dozens of instances types that now support EFA. That gives you a lot of options to customize a cluster queue specifically for your workloads.
-
-EFA supports instances using Intel Xeon CPUs, AMD's EPYC Milans, and our own Awrm-based AWS Graviton processors. EFA is also present in a wide variety of accelerated instances, built on technology like  NVIDIA's GPUs, as well as AWS Inferentia and AWS Trainiums.
-
-You can [interrogate the AWS CLI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types) to find a **list of all the instances** that are EFA-capable.
-
-<div class="row">
-<div class="col">
-{{< collapse "**Learn more about EFA-supported Amazon EC2 Instances**" >}}
-<style>
-table tr th:empty {
-  display: none;
-}
-table td {
-  text-align: center;
-}
-</style>
-| | |
-|---|---|
-| [Hpc6a - HPC optimzed, AMD x86_64](https://aws.amazon.com/blogs/aws/new-amazon-ec2-hpc6a-instance-optimized-for-high-performance-computing/) | [C7g Instances - HPC-ready AWS Graviton3](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-ec2-c7g-instances-powered-aws-graviton3-processors/) |
-| [P4de - NVIDIA A100s for ML and HPC](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-ec2-p4de-gpu-instances-ml-training-hpc/) | [Trn1 - Custom processors tuned for ML training ](https://aws.amazon.com/blogs/aws/amazon-ec2-trn1-instances-for-high-performance-model-training-are-now-available/) |
-| [C6i - 3rd Generation Intel Ice Lake](https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-ec2-c6i-instances/) | [M6a - Large-Memory AMD EPYC](https://aws.amazon.com/blogs/aws/new-amazon-ec2-m6a-instances-powered-by-3rd-gen-amd-epyc-processors/) |
-{{</ collapse >}}
-
-</div>
-</div>
-
 ## Deeper Dive
 {{< tabs >}}
   {{< tab "Tech Specs" >}}
-**[NCCL on EFA](https://youtu.be/kDtHpRB5luw)** - 15m - An insight into how **machine learning** workloads are supported on EFA from the engineering team who support the libfabric interface to NCCL.
+- **[EFA-enabled Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types)** - there are dozens of instances types that now support EFA. That gives you a lot of options to customize a cluster queue specifically for your workloads.
+- **[A paper at IEEE Spectrum about EFA and SRD](https://hpc.news/ieeeSRD)** - a deep dive into the design decisions and characteristics of EFA and SRD.
 - **[EFA manual setup guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa-start.html)** - if you need to install the EFA stack from scratch yourself, this guide will help you.
   {{< /tab >}}
   {{< tab "Blog Posts" >}}
-
-
+* **[There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/)** - blog post explaining many of the EFA design decisions.
 * **[EFA has gone mainstream](https://aws.amazon.com/blogs/hpc/efa-is-now-mainstream/)** - Most new Amazon EC2 instance families carry EFA-enabled interfaces.
   {{< /tab >}}
   {{< tab "Video explainers" >}}
+* **[Deep dive on EFA and SRD](https://youtu.be/IgPWzhIHX68)** - 36 mins - A deep dive with one of our Principal Engineers into the thought process and design decisions that lead to EFA.
 * **[Speeds\'n\'Feeds Event](https://youtu.be/YjS0e4g7zk0)** - 10-mins - a fast-paced EFA update from January '22 on all the latest news and developments in EFA and - especially - new instance support.
-
+* **[NCCL on EFA](https://youtu.be/kDtHpRB5luw)** - 15m - An insight into how **machine learning** workloads are supported on EFA from the engineering team who support the libfabric interface to NCCL.
   {{< /tab >}}
   {{< tab "Getting Started" >}}
 * [EFA section of hpcworkshops.com](https://www.hpcworkshops.com/08-efa.html) - the same workshops delivered by our Solution Architects every year at SuperComputing and ISC.

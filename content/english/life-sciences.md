@@ -8,6 +8,8 @@ layout: "single-notitle"
 description: "AWS is a great place for your Life Sciences HPC needs."
 images:
   - "images/hpc/efa-ident-large.png"
+  - "images/hpc/ts-ident-large.png"
+  - "images/hpc/ml-ident-large.png"
 # Taxonomies
 categories: []
 tags: ["life-sciences"]
