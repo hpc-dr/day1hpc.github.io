@@ -28,22 +28,32 @@ draft: false
 -->
 
 # AWS Batch
+<div class="container">
+<div class="row" >
+{{< image src="/images/batch/why-batch-banner.gif" position="center" >}}
+</div>
+
+<div class="row" >
 
 **AWS Batch** is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications.
- **Workflow builders** love it for scaling their workloads, from machine learning to genomics. It scales from **one job to millions**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
+ **Workflow builders** love it for scaling their workloads, from machine learning to genomics. Batch scales from **one job** to **millions of jobs**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
 
 You may be familiar with usinmg a traditional HPC resource &mdash; such as  an on-prem SLURM cluster &mdash; and probably wondering what makes AWS Batch different. Before you dive in on Batch, it's worth comparing it to [AWS ParallelCluster](/parallelcluster). Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
+</div>
+</div>
+
 
 ----
-### Scalability for your all your compute needs
+### Scale for all your needs
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/batch/logs.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/batch/scale-bars.png" class="img-float-center" >}}</div>
 <div class="col">
 
 AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Customers run anywhere from a few jobs at a time, to hundreds of thousands of simultaneous jobs within a cluster. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too. 
 
+Rather than being statically provisioned for your peak workload, AWS Batch dynamically allocates compute resources. This means Batch scales up your resource footprint when you have jobs to run, then scale back down again when you don't. You can set a minimum and maximum amount of CPUs to fit your computing needs and budget. Batch leverages **AWS scaling technologies** like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
 </div>
 </div>
 
@@ -70,16 +80,16 @@ table td {
 
 ----
 
-### Cost optimized
+### Cost and throughput optimized
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/batch/logs.png" class="img-float-center" >}}</div>
 <div class="col">
 
 AWS Batch optimizes your workloads for **throughput and cost**. It does so by scaling compute resources based on the work that was submitted to the job queue, and an allocation strategies to allocate compute resources. These strategies allow you to factor in throughput and price when deciding how AWS Batch should scale instances for you. For example, the **best fit progressive** strategy will select instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types with a lower-cost-per-unit vCPU. If additional instances of the previously selected instance types are not available, AWS Batch will select new instance types. Batch is also able to leverage EC2 Spot Instances with the **spot capacity–optimized** strategy, which  will select one or more instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types that are less likely to be interrupted. 
 
 </div>
+<div class="col-2">{{< image src="/images/batch/money.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
@@ -96,6 +106,81 @@ table td {
 | | |
 |---|---|
 | []() | []() |
+
+</div>
+</div>
+</div>
+
+----
+
+### Secure by design
+<div class="container-fluid">
+<div class="row">
+<div class="col-2">{{< image src="/images/batch/enable-security.png" class="img-float-center" >}}</div>
+<div class="col">
+
+Responsbility for security at AWS is [shared between you and AWS](https://aws.amazon.com/compliance/shared-responsibility-model/). AWS protects and [ensures compliance](https://aws.amazon.com/compliance/) for the infrastructure that runs all the services it offers, while you protect the assets you run on AWS. 
+
+AWS Batch uses IAM to control and monitor the AWS resources that your jobs can access, such as Amazon DynamoDB tables. Through IAM, you can also define policies for different users in your organization. For example, administrators can be granted full access permissions to any AWS Batch API operation, developers can have limited permissions related to configuring compute environments and registering jobs, and end users can be restricted to the permissions needed to submit and delete jobs.
+
+
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+{{< collapse "Learn more about HPC security on AWS" >}}
+<style>
+table tr th:empty {
+  display: none;
+}
+table td {
+  text-align: center;
+}
+</style>
+| | |
+|---|---|
+| []() | []() |
+
+{{</ collapse >}}
+
+</div>
+</div>
+</div>
+
+
+
+----
+
+### Advanced scheduling capabilities
+
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+
+With AWS Batch, you can set up multiple queues with different priority levels. Batch jobs are stored in the queues until compute resources are available to run the job. The AWS Batch scheduler evaluates when, where, and how to run jobs that have been submitted to a queue based on the resource requirements of each job. The scheduler evaluates the priority of each queue and runs jobs in priority order on optimal compute resources (for example, memory-optimized compared to CPU-optimized), as long as those jobs have no outstanding dependencies.
+
+</div>
+<div class="col-2">{{< image src="/images/batch/pathway.png" class="img-float-center" >}}</div>
+</div>
+
+<div class="row">
+<div class="col">
+{{< collapse "Learn more about EC2 for HPC" >}}
+<style>
+table tr th:empty {
+  display: none;
+}
+table td {
+  text-align: center;
+}
+</style>
+| | |
+|---|---|
+| []() | []() |
+
+{{</ collapse >}}
 
 </div>
 </div>
@@ -135,35 +220,22 @@ table td {
 </div>
 </div>
 
-----
+-----
 
-### Flexible allocation strategies
-
-With AWS Batch, you can choose three methods to allocate compute resources. These strategies allow you to factor in throughput and price when deciding how AWS Batch should scale instances for you.
-
-Best fit: AWS Batch selects an instance type that best fits the needs of the jobs with a preference for the lowest-cost instance type. If additional instances of the selected instance type are not available, AWS Batch will wait for the additional instances to become available. If there are not enough instances available, or if you are hitting Amazon EC2 service limits, then additional jobs will not run until currently running jobs have completed. This allocation strategy keeps costs lower but can limit scaling.
-
-Best fit progressive: AWS Batch will select additional instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types with a lower-cost-per-unit vCPU. If additional instances of the previously selected instance types are not available, AWS Batch will select new instance types.
-
-Spot capacity–optimized: AWS Batch will select one or more instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types that are less likely to be interrupted. This allocation strategy is only available for Spot Instance compute resources.
-
-----
-
-### Advanced scheduling capabilities
-
+### Cloud-native
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/hpc/1-pc-ksp-compute-strap.png" class="img-float-center" >}}</div>
 <div class="col">
 
-With AWS Batch, you can set up multiple queues with different priority levels. Batch jobs are stored in the queues until compute resources are available to run the job. The AWS Batch scheduler evaluates when, where, and how to run jobs that have been submitted to a queue based on the resource requirements of each job. The scheduler evaluates the priority of each queue and runs jobs in priority order on optimal compute resources (for example, memory-optimized compared to CPU-optimized), as long as those jobs have no outstanding dependencies.
+AWS Batch was built on the cloud, using AWS cloud technologies. This means you can integrate AWS Batch with services like [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/), [AWS Lambda](https://aws.amazon.com/lambda/), and [AWS Step Functions](https://aws.amazon.com/step-functions/) to process events, orchestrate jobs, manage data, and other mission-critical tasks across your entire business, not just your HPC workloads.
 
 </div>
+<div class="col-2">{{< image src="/images/batch/cloud.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
 <div class="col">
-{{< collapse "Learn more about EC2 for HPC" >}}
+{{< collapse "Learn more about cloud-native HPC with AWS Batch" >}}
 <style>
 table tr th:empty {
   display: none;
@@ -173,63 +245,21 @@ table td {
 }
 </style>
 | | |
-|---|---|
-| [Hpc6a - HPC optimzed, AMD x86_64](https://aws.amazon.com/blogs/aws/new-amazon-ec2-hpc6a-instance-optimized-for-high-performance-computing/) | [C7g Instances - HPC-ready AWS Graviton3](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-ec2-c7g-instances-powered-aws-graviton3-processors/) |
-| [P4de - NVIDIA A100s for ML and HPC](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-ec2-p4de-gpu-instances-ml-training-hpc/) | [Trn1 - Custom processors tuned for ML training ](https://aws.amazon.com/blogs/aws/amazon-ec2-trn1-instances-for-high-performance-model-training-are-now-available/) |
-| [C6i - 3rd Generation Intel Ice Lake](https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-ec2-c6i-instances/) | [M6a - Large-Memory AMD EPYC](https://aws.amazon.com/blogs/aws/new-amazon-ec2-m6a-instances-powered-by-3rd-gen-amd-epyc-processors/) |
+|--|--|
+| []() | []() |
+
 {{</ collapse >}}
 
 </div>
 </div>
 </div>
-
-
-----
-### Secure by design
-<div class="container-fluid">
-<div class="row">
-<div class="col">
-
-Responsbility for security at AWS is [shared between you and AWS](https://aws.amazon.com/compliance/shared-responsibility-model/). AWS protects and [ensures compliance](https://aws.amazon.com/compliance/) for the infrastructure that runs all the services it offers, while you protect the assets you run on AWS. ParallelCluster helps with this by offering secure-by-default configurations for user authentication and authorization, networking access, software installation and updates, and more. You can build on these foundations with additional filesystem encryption, IAM policies and roles, integration with Active Directory, networking configuration, and secrets management. These are all provided by AWS services and are usable from within ParallelCluster. 
-
-</div>
-<div class="col-2">{{< image src="/images/hpc/6-pc-ksp-secure-strap.png" class="img-float-center" >}}</div>
-</div>
-
-<div class="row">
-<div class="col">
-
-{{< collapse "Learn more about HPC security on AWS" >}}
-<style>
-table tr th:empty {
-  display: none;
-}
-table td {
-  text-align: center;
-}
-</style>
-| | |
-|---|---|
-| [Security in ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/security.html) | [Complicance validation for ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/security-compliance-validation.html) |
-| [ParallelCluster with Active Directory](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-multiuser-support-via-active-directory/) | [Video guide to Active Directory integration](https://www.youtube.com/watch?v=wvd6bFieht0) |
-{{</ collapse >}}
-
-</div>
-</div>
-</div>
-
-----
-
-### Fine-grained access control
-
-AWS Batch uses IAM to control and monitor the AWS resources that your jobs can access, such as Amazon DynamoDB tables. Through IAM, you can also define policies for different users in your organization. For example, administrators can be granted full access permissions to any AWS Batch API operation, developers can have limited permissions related to configuring compute environments and registering jobs, and end users can be restricted to the permissions needed to submit and delete jobs.
 
 -----
 
 ### Latest compute
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/hpc/1-pc-ksp-compute-strap.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/batch/container-sparkle.png" class="img-float-center" >}}</div>
 <div class="col">
 
 Your AWS Batch jobs run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your Bathc compute environments  to specific workloads. You leverage the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
@@ -261,42 +291,8 @@ table td {
 
 -----
 
-### Supremely scalable
-<div class="container-fluid">
-<div class="row">
-<div class="col-2">{{< image src="/images/hpc/2-pc-ksp-scalable-strap.png" class="img-float-center" >}}</div>
-<div class="col">
 
-Rather than being statically provisioned for your peak workload, AWS Batch dynamically allocates compute resources. This means Batch scales up your resource footprint when you have jobs to run, then scale back down again when you don't. You can set a minimum and maximum amount of CPUs to fit your computing needs and budget. Batch leverages AWS scaling technologies like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
-
-</div>
-</div>
-
-<div class="row">
-<div class="col">
-
-{{< collapse "Learn more about elastic scaling" >}}
-<style>
-table tr th:empty {
-  display: none;
-}
-table td {
-  text-align: center;
-}
-</style>
-| | |
-|---|---|
-| [Thermo Fisher\'s Elastic GPU cluster for CryoEM](https://aws.amazon.com/blogs/hpc/how-thermo-fisher-scientific-accelerated-cryo-em-using-aws-parallelcluster/) | [GROMACS using Spot Instances and AWS Graviton](https://aws.amazon.com/blogs/hpc/running-gromacs-on-spot-with-checkpointing/) |
-| [Migrating from SGE to Slurm in ParallelCluster 3](https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/) | [Memory-aware Slurm job scheduling](https://aws.amazon.com/blogs/hpc/slurm-based-memory-aware-scheduling-in-aws-parallelcluster-3-2/) |
-{{</ collapse >}}
-
-</div>
-</div>
-</div>
-
------
-
-### Major features you'll want to know about
+## Major features you'll want to know about
 
 - [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/)
 - [New console features including container insights in AWS Batch](https://youtu.be/uv4jJ7XIAfs)
