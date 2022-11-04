@@ -27,7 +27,7 @@ draft: false
 {{< image src="/images/hpc/batch-ident-square.png" class="boof" >}}
 -->
 
-# AWS Batch
+## AWS Batch
 <div class="container">
 <div class="row" >
 {{< image src="/images/batch/why-batch-banner.gif" position="center" >}}
