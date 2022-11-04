@@ -444,6 +444,29 @@
     }
   }
 
+  &-list-inline-tags {
+    li {
+      margin-bottom: 0.62rem;
+
+      a {
+        padding: 2px 0.62rem;
+        border: 1px solid $border-color;
+        border-radius: 2.5rem;
+        display: block;
+        color: $text-color;
+        background: $light;
+        font-size: 9px;
+
+        &:hover {
+          border-color: $color-primary;
+          background: $text-color;
+          color: $light;
+        }
+      }
+    }
+  }
+
+
   &-post {
     padding: 0.9rem 0 !important;
 
