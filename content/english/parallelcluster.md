@@ -3,8 +3,9 @@ title: "AWS ParallelCluster"
 date: 2022-10-17
 author: "Matt Vaughn"
 description: "AWS ParallelCluster is an open source tool that makes it easy to deploy and manage HPC clusters on AWS"
-layout: "single-notitle"
+layout: "product"
 images:
+  - "images/hpc/pc-ident-large.png"
   - "images/hpc/pc-ident-large.png"
 ## Taxonomies
 categories: ["AWS ParallelCluster"]
@@ -13,13 +14,7 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-## AWS ParallelCluster
 <div class="container">
-<div class="row">
-
-{{< image src="/images/hpc/pcluster-why-pc-banner.gif" position="left" >}}
-
-</div>
 <div class="row">
 
 AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on AWS**. ParallelCluster HPC systems are powered by the latest compute architectures and are scalable as AWS itself. They feature advanced networking and high-performance storage to handle challenging workloads. But, they are also easy to use, with familiar software environments. They are designed around a high degree of security and compliance to help protect your data. And, they are cloud-ready so you can integrate them with non-HPC systems. 
@@ -197,7 +192,7 @@ table td {
 | | |
 |---|---|
 | [An introduction to DCV](https://youtu.be/-mhNktbKmAc) | [Pushing pixels with NICE DCV](https://aws.amazon.com/blogs/hpc/pushing-pixels-with-nice-dcv/) |
-| [The ParallelCluster Manager GUI](https://youtu.be/PChP3FQWeJQ) | [Connect to EC2 instances via SSM](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/session-manager.html) | 
+| [The PCluster Manager GUI](https://youtu.be/PChP3FQWeJQ) | [Connect to EC2 instances via SSM](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/session-manager.html) | 
 | [Using the Slurm REST API with ParallelCluster](https://aws.amazon.com/blogs/hpc/using-the-slurm-rest-api-to-integrate-with-distributed-architectures-on-aws/) | [The ParallelCluster Serverless API](https://docs.aws.amazon.com/parallelcluster/latest/ug/api-reference-v3.html) |
 {{</ collapse >}}
 
@@ -287,7 +282,7 @@ table td {
 First, let's make sure you're comfortable that ParallelCluster is the right path for your AWS workloads. We also have 100% cloud-native offering known as [AWS Batch](/batch/). Batch builds on many of the same AWS technologies as ParallelCluster, so it is also scalable, flexible, and adaptable to a wide number of use cases. We have an in-depth blog post that helps explain **[when to choose AWS Batch versus AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. Once you're read it over, feel free to keep exploring more resources below describing key features and configurations of ParallelCluster. 
 * [Introducing AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/)- This blog describes the features of ParallelCluster 3.
 * [ParallelCluster 3 - built by customers](https://youtu.be/a-99esKLcls) - In this Tech Short video (17m) the ParallelCluster product team talks about new features in version 3.
-* [PCluster Manager - A new GUI for building and managing clusters](https://youtu.be/Z1vlpJYb1KQ) - A video (20m) tour through the ParallelCluster management console.
+* [PCluster Manager - A new GUI for building and managing clusters](https://youtu.be/Z1vlpJYb1KQ) - A video (20m) tour through the ParallelCluster web console.
 * [ParallelCluster 3\'s config file](https://youtu.be/6gAwAK5IJ2w) - Learn how the ParallelCluster configuration file is an example of *infrastructure as code* (13m).
 * [Customizing ParallelCluster 3 AMIs](https://aws.amazon.com/blogs/hpc/custom-amis-with-parallelcluster-3/) - Learn about customizing the virtual machine image that powers your HPC cluster.
 </div>
@@ -308,9 +303,9 @@ First, let's make sure you're comfortable that ParallelCluster is the right path
 
 There are two ways to get ParallelCluster::
 
-1. **We suggest using [AWS ParallelCluster Manager](https://pcluster.cloud/01-getting-started.html)**, a web-based interface for designing and deploying your clusters. It helps you easily integrate fast file systems (like Lustre), visual desktops, and tools to **control your spend** using Slurm accounting. You can quickly deploy the **PCluster Manager** application in your own AWS account by following the tutorial [here](https://pcluster.cloud/01-getting-started.html).
+1. **We suggest using [PCluster Manager](https://pcluster.cloud/01-getting-started.html)**, a web-based interface for designing and deploying your clusters. It helps you easily integrate fast file systems (like Lustre), visual desktops, and tools to **control your spend** using Slurm accounting. You can quickly deploy the **PCluster Manager** application in your own AWS account by following the tutorial [here](https://pcluster.cloud/01-getting-started.html).
 
-2. If you're familiar with AWS already, or just want a CLI, we have that too. You can install the ParallelCluster Python package on nearly any modern computer. The procedure is [documented here](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html) but starts with:
+2. If you're familiar with AWS already, or just want a CLI, we have that too. You can install the ParallelCluster [Python package](https://pypi.org/project/aws-parallelcluster/) on nearly any modern computer. The procedure is [documented here](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html) but starts with:
 
 ``` bash
 $ python3 -m pip install --upgrade "aws-parallelcluster>3"
