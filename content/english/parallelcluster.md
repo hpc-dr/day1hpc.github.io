@@ -6,7 +6,13 @@ description: "AWS ParallelCluster is an open source tool that makes it easy to d
 layout: "product"
 images:
   - "images/hpc/pc-ident-large.png"
-  - "images/hpc/pc-ident-large.png"
+  - "images/hpc/pc-ksp-compute.png"
+  - "images/hpc/pc-ksp-scalable.png"
+  - "images/hpc/pc-ksp-networking.png"
+  - "images/hpc/pc-ksp-storage.png"
+  - "images/hpc/pc-ksp-interfaces.png"
+  - "images/hpc/pc-ksp-secure.png"
+  - "images/hpc/pc-ksp-cloud.png"
 ## Taxonomies
 categories: ["AWS ParallelCluster"]
 tags: ["hpc","products"]
