@@ -1,11 +1,11 @@
 ---
 title: "AWS ParallelCluster"
-date: 2022-10-17
+date: 2022-11-17
 author: "Matt Vaughn"
 description: "AWS ParallelCluster is an open source tool that makes it easy to deploy and manage HPC clusters on AWS"
 layout: "product"
 images:
-  - "images/hpc/pc-ident-large.png"
+  - "images/hpc/pc-ident-strip.png"
   - "images/hpc/pc-ksp-compute.png"
   - "images/hpc/pc-ksp-scalable.png"
   - "images/hpc/pc-ksp-networking.png"
