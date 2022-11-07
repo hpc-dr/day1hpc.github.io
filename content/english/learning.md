@@ -27,7 +27,7 @@ draft: false
 
 # Navigating your way into AWS
 
-We get it - there are too many things going on in AWS that if you haven't been following from the beginning, it's daunting to know where to start. We've put material together to help you bridge the knowledge gap. To get high level knowlegde of AWS, so you can bust through the jargon andget on top of the most important concepts, we've created a set of short videos in our YouTube channel - **[HPC Tech Shorts](https://hpc.news/techshorts)** to get started with.
+We get it - there are too many things going on in AWS that if you haven't been following from the beginning, it's daunting to know where to start. We've put material together to help you bridge the knowledge gap. To get high level knowledge of AWS, so you can bust through the jargon andget on top of the most important concepts, we've created a set of short videos in our YouTube channel - **[HPC Tech Shorts](https://hpc.news/techshorts)** to get started with.
 
 Workshops dive deeper, and will get you hands-on with the tools to build some practical working clusters. 
 
