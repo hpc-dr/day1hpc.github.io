@@ -3,11 +3,16 @@ title: "NICE DCV"
 date: 2022-10-17
 #author
 author: "Brendan Bouffler"
-layout: "single-notitle"
+layout: "product"
 # description
 description: "NICE DCV is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. You can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet."
 images:
-  - "images/post/DCV.png"
+  - "images/hpc/dcv-ident-strip.png"
+  - "images/hpc/dcv-ksp-desktop.png"
+  - "images/hpc/dcv-ksp-adaptable.png"
+  - "images/hpc/dcv-ksp-secure.png"
+  - "images/hpc/dcv-ksp-versatile.png"
+  - "images/hpc/dcv-ksp-web.png"        
 # Taxonomies
 categories: ["products"]
 tags: ["streaming","visualization"]
