@@ -22,6 +22,10 @@ draft: false
 ---
 
 <div class="container">
+<!-- <div class="row" >
+{{< image src="/images/batch/why-batch-banner.gif" position="center" >}}
+</div> -->
+
 <div class="row" >
 
 **AWS Batch** is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications.
