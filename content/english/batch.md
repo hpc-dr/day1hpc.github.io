@@ -35,7 +35,7 @@ You may be familiar with using a traditional HPC resource - like an traditional 
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/hpc/icons/scale.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/batch/autoscale.png" class="img-float-center" >}}</div>
 <div class="col">
 
 AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Customers run anywhere from a few jobs at a time, to hundreds of thousands of simultaneous jobs within a cluster. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too. 
@@ -246,7 +246,7 @@ table td {
 ### Latest compute
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/hpc/icons/compute.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/batch/compute.png" class="img-float-center" >}}</div>
 <div class="col">
 
 Your AWS Batch jobs run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your Bathc compute environments  to specific workloads. You leverage the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
