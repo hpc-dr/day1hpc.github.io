@@ -5,7 +5,7 @@ author: "Matt Vaughn"
 description: "AWS ParallelCluster is an open source tool that makes it easy to deploy and manage HPC clusters on AWS"
 layout: "product"
 images:
-  - "images/hpc/pc-ident-large.png"
+  - "images/hpc/pc-ident-strip.png"
   - "images/hpc/pc-ksp-compute.png"
   - "images/hpc/pc-ksp-scalable.png"
   - "images/hpc/pc-ksp-networking.png"
@@ -33,7 +33,7 @@ AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on 
 ### Latest compute
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/hpc/1-pc-ksp-compute-strap.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/compute.png" class="img-float-center" >}}</div>
 <div class="col">
 
 Your HPC clusters run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your cluster's compute architecture to specific workloads. You can build clusters powered by the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
@@ -73,7 +73,7 @@ table td {
 Rather than being statically provisioned for your peak workload, your AWS-based clusters can be dynamic. This means they scale up their resource footprint when you have jobs to run, then scale back down again when you don't. ParallelCluster builds on [Slurm](https://www.schedmd.com/), a popular open-source job scheduler, and integrates it with AWS scaling technologies like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
 
 </div>
-<div class="col-2">{{< image src="/images/hpc/2-pc-ksp-scalable-strap.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/scale.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
@@ -216,7 +216,7 @@ table td {
 Responsbility for security at AWS is [shared between you and AWS](https://aws.amazon.com/compliance/shared-responsibility-model/). AWS protects and [ensures compliance](https://aws.amazon.com/compliance/) for the infrastructure that runs all the services it offers, while you protect the assets you run on AWS. ParallelCluster helps with this by offering secure-by-default configurations for user authentication and authorization, networking access, software installation and updates, and more. You can build on these foundations with additional filesystem encryption, IAM policies and roles, integration with Active Directory, networking configuration, and secrets management. These are all provided by AWS services and are usable from within ParallelCluster. 
 
 </div>
-<div class="col-2">{{< image src="/images/hpc/6-pc-ksp-secure-strap.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/secure.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
@@ -247,7 +247,7 @@ table td {
 <div class="container-fluid">
 <div class="row">
 
-<div class="col-2">{{< image src="/images/hpc/7-pc-ksp-cloud-ready-strap.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/cloud.png" class="img-float-center" >}}</div>
 
 <div class="col">
 

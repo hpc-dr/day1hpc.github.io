@@ -1,13 +1,17 @@
 ---
 title: "AWS Batch"
-date: 2022-10-17
-#author
+date: 2022-11-07
 author: "Angel Pizarro"
-# description
 description: "AWS Batch is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications. Workflow builders love it for scaling their workloads, from machine learning to genomics. It scales from one job to tens of millions, and takes away the chore of spinning up fleets of compute instances and keeping them busy."
-layout: "single-notitle"
+layout: "product"
 images:
-  - "images/hpc/batch-ident-large.png"
+  - "images/hpc/batch-ident-strip.png"
+  - "images/hpc/batch-ksp-compute.png"
+  - "images/hpc/batch-ksp-cost.png"
+  - "images/hpc/batch-ksp-scheduling.png"
+  - "images/hpc/batch-ksp-scale.png"
+  - "images/hpc/batch-ksp-secure.png"
+  - "images/hpc/batch-ksp-cloud.png"
 # Taxonomies
 categories: ["products"]
 tags: ["batch","containers", "hpc"]
@@ -15,30 +19,13 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-<!-- 
-<style>
-.boof {
-  float:right !important;
-  width:350px;
-  padding: 10px;
-  }
-</style>
-
-{{< image src="/images/hpc/batch-ident-square.png" class="boof" >}}
--->
-
-## AWS Batch
 <div class="container">
-<div class="row" >
-{{< image src="/images/batch/why-batch-banner.gif" position="center" >}}
-</div>
-
 <div class="row" >
 
 **AWS Batch** is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications.
  **Workflow builders** love it for scaling their workloads, from machine learning to genomics. Batch scales from **one job** to **millions of jobs**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
 
-You may be familiar with usinmg a traditional HPC resource &mdash; such as  an on-prem SLURM cluster &mdash; and probably wondering what makes AWS Batch different. Before you dive in on Batch, it's worth comparing it to [AWS ParallelCluster](/parallelcluster). Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
+You may be familiar with using a traditional HPC resource - like an traditional SLURM cluster - and probably wonder what makes AWS Batch different. Before you dive in on Batch, it's worth comparing it to [AWS ParallelCluster](/parallelcluster). Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
 </div>
 </div>
 
@@ -48,7 +35,7 @@ You may be familiar with usinmg a traditional HPC resource &mdash; such as  an o
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/batch/scale-bars.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/scale.png" class="img-float-center" >}}</div>
 <div class="col">
 
 AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Customers run anywhere from a few jobs at a time, to hundreds of thousands of simultaneous jobs within a cluster. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too. 
@@ -89,7 +76,7 @@ table td {
 AWS Batch optimizes your workloads for **throughput and cost**. It does so by scaling compute resources based on the work that was submitted to the job queue, and an allocation strategies to allocate compute resources. These strategies allow you to factor in throughput and price when deciding how AWS Batch should scale instances for you. For example, the **best fit progressive** strategy will select instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types with a lower-cost-per-unit vCPU. If additional instances of the previously selected instance types are not available, AWS Batch will select new instance types. Batch is also able to leverage EC2 Spot Instances with the **spot capacity–optimized** strategy, which  will select one or more instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types that are less likely to be interrupted. 
 
 </div>
-<div class="col-2">{{< image src="/images/batch/money.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/cost.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
@@ -116,7 +103,7 @@ table td {
 ### Secure by design
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/batch/enable-security.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/secure.png" class="img-float-center" >}}</div>
 <div class="col">
 
 Responsbility for security at AWS is [shared between you and AWS](https://aws.amazon.com/compliance/shared-responsibility-model/). AWS protects and [ensures compliance](https://aws.amazon.com/compliance/) for the infrastructure that runs all the services it offers, while you protect the assets you run on AWS. 
@@ -162,7 +149,7 @@ table td {
 With AWS Batch, you can set up multiple queues with different priority levels. Batch jobs are stored in the queues until compute resources are available to run the job. The AWS Batch scheduler evaluates when, where, and how to run jobs that have been submitted to a queue based on the resource requirements of each job. The scheduler evaluates the priority of each queue and runs jobs in priority order on optimal compute resources (for example, memory-optimized compared to CPU-optimized), as long as those jobs have no outstanding dependencies.
 
 </div>
-<div class="col-2">{{< image src="/images/batch/pathway.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/scheduling.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
@@ -230,7 +217,7 @@ table td {
 AWS Batch was built on the cloud, using AWS cloud technologies. This means you can integrate AWS Batch with services like [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/), [AWS Lambda](https://aws.amazon.com/lambda/), and [AWS Step Functions](https://aws.amazon.com/step-functions/) to process events, orchestrate jobs, manage data, and other mission-critical tasks across your entire business, not just your HPC workloads.
 
 </div>
-<div class="col-2">{{< image src="/images/batch/cloud.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/cloud.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
@@ -259,7 +246,7 @@ table td {
 ### Latest compute
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/batch/container-sparkle.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/icons/compute.png" class="img-float-center" >}}</div>
 <div class="col">
 
 Your AWS Batch jobs run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your Bathc compute environments  to specific workloads. You leverage the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
