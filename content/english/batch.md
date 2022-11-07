@@ -40,9 +40,9 @@ You may be familiar with using a traditional HPC resource - like an traditional 
 <div class="col-2">{{< image src="/images/batch/autoscale.png" class="img-float-center" >}}</div>
 <div class="col">
 
-AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Customers run anywhere from a few jobs at a time, to hundreds of thousands of simultaneous jobs within a cluster. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too. 
+AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Batch can scale from  **one job** to **millions of jobs**. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too! 
 
-Rather than being statically provisioned for your peak workload, AWS Batch dynamically allocates compute resources. This means Batch scales up your resource footprint when you have jobs to run, then scale back down again when you don't. You can set a minimum and maximum amount of CPUs to fit your computing needs and budget. Batch leverages **AWS scaling technologies** like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
+Batch leverages **AWS scaling technologies** like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
 </div>
 </div>
 
@@ -75,7 +75,7 @@ table td {
 <div class="row">
 <div class="col">
 
-AWS Batch optimizes your workloads for **throughput and cost**. It does so by scaling compute resources based on the work that was submitted to the job queue, and an allocation strategies to allocate compute resources. These strategies allow you to factor in throughput and price when deciding how AWS Batch should scale instances for you. For example, the **best fit progressive** strategy will select instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types with a lower-cost-per-unit vCPU. If additional instances of the previously selected instance types are not available, AWS Batch will select new instance types. Batch is also able to leverage EC2 Spot Instances with the **spot capacity–optimized** strategy, which  will select one or more instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types that are less likely to be interrupted. 
+AWS Batch optimizes for **throughput** and **cost**. It does so by scaling compute resources to process jobs in the job queue using **allocation strategies to fit your business needs and budget**. Batch can also use EC2 Spot Instances to save up to a 90% discount compared to On-Demand prices, with a preference for instance types that are less likely to be interrupted. 
 
 </div>
 <div class="col-2">{{< image src="/images/hpc/icons/cost.png" class="img-float-center" >}}</div>
@@ -94,8 +94,8 @@ table td {
 </style>
 | | |
 |---|---|
-| []() | []() |
-
+| [AWS Batch allocations strategies](https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html) | [Using On-Demand or Spot Instances](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice5) |
+| [EC2 Spot Best Practices for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice6) | &nbsp; | 
 </div>
 </div>
 </div>
