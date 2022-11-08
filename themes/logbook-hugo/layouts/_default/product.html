@@ -10,7 +10,7 @@
   <div class="container">
     <article class="row col-12">
       <div class="col-lg-12 mx-auto"> 
-        {{with .Params.images}}
+        {{with .Params.product_images}}
         <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-12{{end}} mb-3">
           <div class="post-slider">
             {{ range .}}
