@@ -36,7 +36,7 @@ AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on 
 ### Latest compute
 <div class="container-fluid">
 <div class="row">
-<div class="col-2">{{< image src="/images/hpc/icons/compute.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/1-pc-ksp-compute-strap.png" class="img-float-center" >}}</div>
 <div class="col">
 
 Your HPC clusters run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your cluster's compute architecture to specific workloads. You can build clusters powered by the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
@@ -76,7 +76,7 @@ table td {
 Rather than being statically provisioned for your peak workload, your AWS-based clusters can be dynamic. This means they scale up their resource footprint when you have jobs to run, then scale back down again when you don't. ParallelCluster builds on [Slurm](https://www.schedmd.com/), a popular open-source job scheduler, and integrates it with AWS scaling technologies like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
 
 </div>
-<div class="col-2">{{< image src="/images/hpc/icons/scale.png" class="img-float-center" >}}</div>
+<div class="col-2">{{< image src="/images/hpc/2-pc-ksp-scalable-strap.png" class="img-float-center" >}}</div>
 </div>
 
 <div class="row">
