@@ -20,6 +20,7 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
+
 <div class="container">
 <div class="row">
 
