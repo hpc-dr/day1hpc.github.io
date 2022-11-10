@@ -8,10 +8,10 @@ draft: false
 <div class="container-fluid">
     <!-- Weekday Anchor Links -->
     <div class="row">
-        <div class="col-sm-2" style="margin-top: 10px;"><a href="#Monday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Monday</a></div>
-        <div class="col-sm-2" style="margin-top: 10px;"><a href="#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a></div>
-        <div class="col-sm-2" style="margin-top: 10px;"><a href="#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a></div>
-        <div class="col-sm-2" style="margin-top: 10px;"><a href="#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Monday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Monday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a></div>
     </div>
 </div>
 
@@ -35,7 +35,7 @@ draft: false
 
     {% raw %}{{</ collapse >}}{% endraw %}
     </div>
-    <div class="col-sm-4"><a href="{{ e.ical_filename }}" class="btn btn-light btn-md active" role="button" aria-pressed="true" style="margin-top: 4px;">+Calendar</a></div>
+    <div class="col-sm-4"><a href="/sc22/{{ e.ical_filename }}" class="btn btn-light btn-md active" role="button" aria-pressed="true" style="margin-top: 4px;">+Calendar</a></div>
 </div>
 {% endfor %}
 </div>

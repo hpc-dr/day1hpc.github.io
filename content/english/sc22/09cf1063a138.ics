@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Alces Flight Center on AWS: The next generation of HPC on the clou
+ d
+DTSTART;TZID=America/Chicago:20221115T130000
+DTEND;TZID=America/Chicago:20221115T150000
+DESCRIPTION:In 2016\, Alces Flight launched one of the first end user mark
+ etplace products specifically for HPC. In this demo\, learn about the late
+ st updates to the full-service cloud HPC management tool Alces Flight Cent
+ er and see how Alces has leveled up all aspects of cloud engagement—from
+  users\, to environments\, to cost control. And\, making its debut at SC22
+ \, see the successor to Alces’s cloud HPC product built entirely for end
+  users\, now ready to take on today’s research challenges. The demo also
+  features real-life cloud-only and hybrid HPC work case studies that were 
+ recognized by HPCWire’s Readers’ Choice in 2020 and 2022.
+LOCATION:AWS Booth #2425\; Demo 5
+END:VEVENT
+END:VCALENDAR

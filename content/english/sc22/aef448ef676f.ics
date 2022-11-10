@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Structure-based drug design as a service
+DTSTART;TZID=America/Chicago:20221115T160000
+DTEND;TZID=America/Chicago:20221115T163000
+DESCRIPTION:In this demo\, join Clovertex to learn about its scientific re
+ search platform and how it can be used to simplify and accelerate structur
+ e-based drug design. Also\, discover how a cryo-EM pipeline can use the po
+ pular CryoSPARC Live application.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

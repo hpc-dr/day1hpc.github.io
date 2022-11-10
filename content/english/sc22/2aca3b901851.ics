@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:A detailed look at Spack’s binary cache
+DTSTART;TZID=America/Chicago:20221115T103000
+DTEND;TZID=America/Chicago:20221115T110000
+DESCRIPTION:At ISC 2022\, Spack and AWS announced Spack’s first public b
+ inary cache\, which speeds up scientific software deployment by over 20 ti
+ mes. Come to this session for a detailed look at how developers at LLNL an
+ d Kitware used AWS and GitLab CI to achieve continuous deployment of signe
+ d\, trusted binaries from a high-velocity Spack repository. Learn about th
+ e challenges and solutions involved in applying both modern DevOps and AWS
+  computing power to an HPC problem space.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

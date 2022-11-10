@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Securing NICE DCV servers behind a Connection Gateway
+DTSTART;TZID=America/Chicago:20221116T153000
+DTEND;TZID=America/Chicago:20221116T160000
+DESCRIPTION:When providing access to VDI\, it is a best practice to have t
+ he remote machines not be public facing. Providing secure access to DCV se
+ rvers that are not public facing can be achieved with Connection Gateway. 
+ In this presentation\, we will talk about how Connection Gateway can be us
+ ed to lock down DCV environments.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

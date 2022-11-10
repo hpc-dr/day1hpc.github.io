@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Enabling high-performance research with Service Workbench on AWS
+DTSTART;TZID=America/Chicago:20221115T163000
+DTEND;TZID=America/Chicago:20221115T170000
+DESCRIPTION:Organizations in the healthcare and life sciences domain have 
+ several applications for on-demand cloud computing. Genome sequencing\, cl
+ inical trial simulations\, and analysis of therapeutic compounds require a
+  scalable\, secure\, and on-demand computing environment. Service Workbenc
+ h on AWS is an open-source solution that enables IT teams to create secure
+  portals for researchers on AWS\, which combine data management\, research
+  tools\, and cost visibility without requiring researchers to use the AWS 
+ console. In this session\, learn about the goals of Service Workbench on A
+ WS and the architecture for HPC customers\, see a demo of a Service Workbe
+ nch HPC prototype with AWS ParallelCluster integration\, and hear about th
+ e roadmap for 2022 and beyond.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

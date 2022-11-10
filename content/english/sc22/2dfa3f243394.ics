@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:How Rescale & AWS accelerate aerospace R&D & optimize CAE applicat
+ ion cost performance
+DTSTART;TZID=America/Chicago:20221115T100000
+DTEND;TZID=America/Chicago:20221115T130000
+DESCRIPTION:Rescale\, a leading provider for high-performance computing bu
+ ilt for AWS\, helps customers utilize AWS services like Amazon S3\, Amazon
+  EC2\, and NICE DCV for engineering and scientific workloads. In this demo
+ \, join Rescale engineer Chris Ramirez to learn how aerospace engineers ar
+ e accelerating compute-driven innovation with Rescale’s platform\, which
+  delivers HPC built for the cloud in collaboration with AWS. Find out how 
+ organizations automate full-stack HPC operations in the cloud to optimize 
+ the cost performance of computer-aided engineering simulations like CFD an
+ d FEA.
+LOCATION:AWS Booth #2425\; Demo 6
+END:VEVENT
+END:VCALENDAR

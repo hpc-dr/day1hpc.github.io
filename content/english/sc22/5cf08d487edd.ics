@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:TotalCAE platform for HPC on AWS
+DTSTART;TZID=America/Chicago:20221115T100000
+DTEND;TZID=America/Chicago:20221115T120000
+DESCRIPTION:The TotalCAE platform empowers engineers to submit hundreds of
+  applications to AWS in just a few clicks. In this demo\, learn how TotalC
+ AE uses AWS services including Elastic Fabric Adaptor (EFA)\, NICE DCV\, a
+ nd Amazon FSx for Lustre and HPC-specific instances like hpc6a.48xlarge. L
+ ook at client case studies utilizing these AWS technologies with TotalCAE 
+ to advance the state of the art of CAE simulation.
+LOCATION:AWS Booth #2425\; Demo 7
+END:VEVENT
+END:VCALENDAR

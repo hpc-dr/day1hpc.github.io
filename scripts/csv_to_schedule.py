@@ -51,7 +51,7 @@ def to_ical(row) -> object:
     return cal
 
 def ical_filename(event) -> str:
-    filename = short_hash('|'.join([event['title'], event['station_name'], event['start'], event['end']])) + '.ics'
+    filename = short_hash('|'.join([event['title'], event['station_name'], event['day_of_week'], event['start'], event['end']])) + '.ics'
     return filename
 
 def write_ical(event) -> None:

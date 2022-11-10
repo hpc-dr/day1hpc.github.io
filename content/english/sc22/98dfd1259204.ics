@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Scheduling made easy with IBM Spectrum LSF on AWS
+DTSTART;TZID=America/Chicago:20221116T130000
+DTEND;TZID=America/Chicago:20221116T160000
+DESCRIPTION:Workload schedulers are a necessary component of a HPC cluster
+ . In this demo\, learn about IBM Spectrum LSF\, a popular choice for HPC w
+ orkload. Over the past 30 years\, LSF has evolved from being just a worklo
+ ad scheduler to represent an entire suite of capabilities covering the lif
+ ecycle of HPC jobs. Some customers have run on-premises HPC workloads with
+  LSF for decades and wish to have a seamless experience as they adopt clou
+ d while retaining legacy tools\, flows and methodologies\, and most import
+ antly\, time and resources. IBM LSF has delivered for customers desiring e
+ ase in license purchase process\, HPC cluster deployment\, and operations.
+LOCATION:AWS Booth #2425\; Demo 6
+END:VEVENT
+END:VCALENDAR

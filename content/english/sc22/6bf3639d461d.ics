@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Programming and benchmarking AWS Graviton for HPC
+DTSTART;TZID=America/Chicago:20221116T113000
+DTEND;TZID=America/Chicago:20221116T120000
+DESCRIPTION:The Arm-based AWS Graviton2 and AWS Graviton3 processors avail
+ able on AWS offer high core-counts\, high memory-bandwidth\, and high floa
+ ting-point performance. This session shares experiences with benchmarking 
+ these processors for HPC-style codes. In addition to lower-level testing o
+ f memory bandwidth and latency\, learn about multi-node performance for la
+ rger applications\, including benchmarks from SPEChpc. Also\, explore prog
+ ramming these Arm-based processors using a diverse range of the latest par
+ allel programming models and many major open-source and vendor compilers\,
+  including standard parallelism in C++ and Fortran.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Maximize HPC productivity\, performance & portability using NVIDIA
+  HPC SDK
+DTSTART;TZID=America/Chicago:20221116T110000
+DTEND;TZID=America/Chicago:20221116T113000
+DESCRIPTION:This session demonstrates how the NVIDIA HPC SDK activates hig
+ h performance computing (HPC) on over 200 Amazon EC2 instance types compri
+ sed of a variety of Arm or x86 CPUs\, with or without GPUs. The NVIDIA HPC
+  SDK is a multi-platform\, standards-compliant\, vendor-supported solution
+  for HPC application development that supports programming models like Ope
+ nMP\, OpenACC\, and CUDA together with ISO standard parallel features in C
+ ++ and Fortran. Its proven compilers\, libraries\, and software tools supp
+ ort AWS Graviton\, x86\, POWER\, and NVIDIA GPUs to maximize developer pro
+ ductivity\, activate hardware platform choice\, and facilitate an optimal 
+ price-performance solution for HPC applications in the cloud.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

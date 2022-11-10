@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AWS Batch and AWS Batch for EKS
+DTSTART;TZID=America/Chicago:20221115T150000
+DTEND;TZID=America/Chicago:20221115T180000
+DESCRIPTION:Run hundreds of thousands of batch computing workloads without
+  managing infrastructure or a job scheduler with AWS Batch. Stop by for li
+ ve demos including "Introduction to AWS Batch"\, "Introduction to AWS Batc
+ h on EKS"\, "A cloud-native SciOps pipeline for GROMACS"\, "Run genomics w
+ orkflows using the Amazon Genomics CLI and AWS Batch"
+LOCATION:AWS Booth #2425\; Demo 2
+END:VEVENT
+END:VCALENDAR

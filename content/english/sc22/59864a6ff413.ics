@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Large-scale distributed training using Enroot & Pyxis on AWS Paral
+ lelCluster with EFA & GPUDirect RDMA
+DTSTART;TZID=America/Chicago:20221115T130000
+DTEND;TZID=America/Chicago:20221115T133000
+DESCRIPTION:Join this demo to learn how deploying Enroot and Pyxis for con
+ tainer orchestration on AWS ParallelCluster integrates nicely with Slurm f
+ or truly scalable deep learning. Also\, discover how GPUDirect RDMA suppor
+ t on Elastic Fabric Adapter (EFA) positively impacts performance.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR
