@@ -124,7 +124,8 @@ def main(values):
                 "speaker": event["speaker"],
                 "speaker_affiliation": event["speaker_affiliation"],
                 "range": event["range"],
-                "id": re.sub('.ics', '', event['ical_filename'])
+                "id": re.sub('.ics', '', event['ical_filename']),
+                "ical_filename": event['ical_filename'],
             }
             data[dow][station_name].append(e)
 
