@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Accelerating machine learning inference on AWS Graviton CPUs
+DTSTART;TZID=America/Chicago:20221117T110000
+DTEND;TZID=America/Chicago:20221117T113000
+DESCRIPTION:Over the last few years\, machine learning (ML)\, more specifi
+ cally deep learning (DL)\, has become important for the HPC community. DL 
+ uses frameworks like TensorFlow and PyTorch\, which use underlying hardwar
+ e features for better performance. In this session\, learn about how DL fr
+ ameworks use ML-specific Arm architecture features like BFloat16 for faste
+ r inference on AWS Graviton3 compared to other platforms.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

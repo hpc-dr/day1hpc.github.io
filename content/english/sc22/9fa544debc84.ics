@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:YellowDog: Clarifying compute-intensive workloads
+DTSTART;TZID=America/Chicago:20221116T163000
+DTEND;TZID=America/Chicago:20221116T180000
+DESCRIPTION:The classification of workloads into precise execution pattern
+ s is difficult and can lead to suboptimal execution in order to avoid the 
+ proliferation of applications\, platforms\, and techniques. What if you co
+ uld choose a unified and intelligent workload submission platform to help 
+ you take advtange of the speed and scalability of the AWS Cloud? Regardles
+ s of your workload type\, if it is compute-intensive\, YellowDog on AWS ca
+ n help you manage it. YellowDog is a fast\, scalable\, simple\, Spot-frien
+ dly extensible scheduler and provisioning platform for hybrid and cloud. C
+ oncentrate on the insights and outcomes your workloads generate\, and let 
+ YellowDog on AWS take care of everything else.
+LOCATION:AWS Booth #2425\; Demo 4
+END:VEVENT
+END:VCALENDAR

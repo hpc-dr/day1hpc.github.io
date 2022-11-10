@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:A high-performance simulation platform for quantum chemistry on th
+ e cloud
+DTSTART;TZID=America/Chicago:20221115T110000
+DTEND;TZID=America/Chicago:20221115T120000
+DESCRIPTION:In this demo\, learn how the QEMIST Cloud platform combines AW
+ S cloud infrastructure\; compute and managed services like Amazon EC2\, Am
+ azon EKS\, and Amazon Aurora\; and the recently announced high-performance
+  scaling service Karpenter to build a massively parallel multi-cluster sup
+ ercomputer for chemistry applications. The computing power of this platfor
+ m was tested by using it to solve a record-breaking near-exact simulation 
+ of Decacene (a molecule with ~200 active electrons in ~600 orbitals) in on
+ ly 11 hours at merely $2K in cloud costs. This demo shows how cloud comput
+ ing and the latest developments in AI and quantum computing are shaping th
+ e future of high-performance simulations for chemistry\, advanced material
+ s\, and drug discovery.
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR

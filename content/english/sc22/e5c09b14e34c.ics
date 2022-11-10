@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:PCluster Manager for simplicity and reproducibility
+DTSTART;TZID=America/Chicago:20221115T123000
+DTEND;TZID=America/Chicago:20221115T130000
+DESCRIPTION:In this demo\, learn how PCluster Manager and Spack’s binary
+  cache together make a great option for easy design and implementation of 
+ highly reproducible environments for scientific research and engineering d
+ esign.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

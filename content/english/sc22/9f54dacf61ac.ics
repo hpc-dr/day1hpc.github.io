@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:A high-performance scientific computing platform on AWS for struct
+ ural biologists
+DTSTART;TZID=America/Chicago:20221115T120000
+DTEND;TZID=America/Chicago:20221115T150000
+DESCRIPTION:CryoElectron Microscopy (CryoEM) is revolutionizing the field 
+ of structure-based drug design by representing protein structures at that 
+ resolutions that are needed for drug discovery. However\, CryoEM analysis 
+ workflow provides unique challenges for data handling\, compute availabili
+ ty\, automation\, and orchestration. In this demo\, learn how Clovertex’
+ s cloud-based scientific discovery platform for structural biologists offe
+ rs single-click deployment in your VPC so you can scalably and affordably 
+ store and process cryoEM data in the cloud. The platform uses 30+ AWS serv
+ ices and brings together the learnings from extensive benchmarking. Empowe
+ r your scientists to focus on science by reducing cost of analysis and ana
+ lyzing more structures in a short amount of time.
+LOCATION:AWS Booth #2425\; Demo Pod #7
+END:VEVENT
+END:VCALENDAR

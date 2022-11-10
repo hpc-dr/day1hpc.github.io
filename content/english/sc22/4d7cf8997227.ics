@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:qBraid platform and qBraid-SDK
+DTSTART;TZID=America/Chicago:20221116T130000
+DTEND;TZID=America/Chicago:20221116T140000
+DESCRIPTION:This hands-on demo shows visitors how to use the qBraid platfo
+ rm and how they can run their first quantum circuits in real time. More ex
+ perienced users can learn how to run quantum jobs built using Qiskit (IBM)
+  on Amazon Braket. Customers experienced in Qiskit can explore Amazon Brak
+ et and many quantum computers available on the AWS platform.
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Elastic Fabric Adapter (EFA) explained
+DTSTART;TZID=America/Chicago:20221116T120000
+DTEND;TZID=America/Chicago:20221116T123000
+DESCRIPTION:In this talk we deep-dive into the origins and technology behi
+ nd our specialized HPC & machine learning network interface\, EFA.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

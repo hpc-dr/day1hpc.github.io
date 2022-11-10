@@ -1,0 +1,45 @@
+---
+title: "SC22 AWS Booth #2425 Theater and Demo Schedule"
+# description
+description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS. Visit AWS at #SC22 at booth 2425."
+draft: false
+---
+
+<div class="container-fluid">
+    <!-- Weekday Anchor Links -->
+    <div class="row">
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Monday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Monday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a></div>
+        <div class="col-sm-2" style="margin-top: 10px;"><a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a></div>
+    </div>
+</div>
+
+----
+
+{% for day, station in data.items() %}
+<a style="font-size: 24px; font-weight: bold; padding-top: 120px; margin-top: -120px;" name="{{ day }}">{{ day }}</a>
+<hr>
+{% raw %}{{< tabs >}}{% endraw %}
+{% for station_name, events in station.items() %}
+{% raw %}{{< tab "{% endraw %}{{ station_name }}{% raw %}" >}}{% endraw %}
+<div class="container-fluid">
+{% for e in events %}
+<div class="row">
+    <div class="col-sm-2">{{ e.range }}</div>
+    <div class="col-md-6">
+    {% raw %}{{< collapse{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
+
+<p>{{ e.speaker }}, {{e.speaker_affiliation}}</p>
+<p>{{ e.abstract }}</p>
+
+    {% raw %}{{</ collapse >}}{% endraw %}
+    </div>
+    <div class="col-sm-4"><a href="/sc22/{{ e.ical_filename }}" class="btn btn-light btn-md active" role="button" aria-pressed="true" style="margin-top: 4px;">+Calendar</a></div>
+</div>
+{% endfor %}
+</div>
+{% raw %}{{< /tab >}}{% endraw %}
+{% endfor %}
+{% raw %}{{< /tabs >}}{% endraw %}
+{% endfor %}

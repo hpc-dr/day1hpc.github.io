@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Delivering HPCaaS in a hybrid environment
+DTSTART;TZID=America/Chicago:20221115T130000
+DTEND;TZID=America/Chicago:20221115T160000
+DESCRIPTION:In this demo\, learn how DXC put together a managed service on
+  AWS to utilize all the benefits of HPC in the cloud with a focus on CAA-I
+ I tooling. The presentation covers the components of a hybrid cloud as wel
+ l as the challenges of legacy and on prem and heterogeneity\, and control 
+ of the cloud—how do you leverage the power of the cloud while preserving
+  budgetary\, security\, and export control? Also learn what makes a great 
+ service and find out about automation\, monitoring integration\, and tooli
+ ng.
+LOCATION:AWS Booth #2425\; Demo 4
+END:VEVENT
+END:VCALENDAR

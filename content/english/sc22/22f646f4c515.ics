@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Arm’s multi-platform developer tools on AWS
+DTSTART;TZID=America/Chicago:20221116T100000
+DTEND;TZID=America/Chicago:20221116T120000
+DESCRIPTION:Arm Forge—widely used in HPC labs in traditional environment
+ s and the cloud—makes HPC debugging and profiling on Amazon EC2 simple r
+ egardless of which processor architecture you use. In this demo\, learn ho
+ w Arm Forge offers you tools that provide seamless access to remote server
+ s\, and dive deep on profiling experiences with AWS Graviton3 on HPC appli
+ cations.
+LOCATION:AWS Booth #2425\; Demo Pod #7
+END:VEVENT
+END:VCALENDAR

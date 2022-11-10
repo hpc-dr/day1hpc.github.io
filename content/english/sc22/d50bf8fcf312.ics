@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Making HPC on the AWS Cloud easy with RONIN
+DTSTART;TZID=America/Chicago:20221116T150000
+DTEND;TZID=America/Chicago:20221116T180000
+DESCRIPTION:In this demo\, learn about RONIN\, a web application that prov
+ ides a user-friendly solution to self-service cloud computing via an intui
+ tive interface\, making the enormous power of AWS and AWS HPC accessible t
+ o even the most novice users. Harnessing the immense scale\, power and cap
+ ability of AWS\, RONIN places research applications as well as scalable\, 
+ on-demand\, cutting-edge CPU and GPU processing power directly in the hand
+ s of researchers. The RONIN team have worked with leading research organiz
+ ations and universities to develop a unique software that releases researc
+ h from traditional on-premises constraints\, empowering researchers and sc
+ ientists to initiate and scale their research cloud computing at the click
+  of a button.
+LOCATION:AWS Booth #2425\; Demo 5
+END:VEVENT
+END:VCALENDAR

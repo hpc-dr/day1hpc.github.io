@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Optimizing your HPC AWS Cloud budgets with HPC CloudSHaper
+DTSTART;TZID=America/Chicago:20221116T100000
+DTEND;TZID=America/Chicago:20221116T130000
+DESCRIPTION:What are the best instances I can use to run my HPC workload? 
+ What is the best instance balance? What is the optimal elasticity strategy
+  for my workload? What is the best use of my budget? How can I limit waste
+ ? Based on OKA\, a leading data science platform for hybrid HPC\, CloudSHa
+ per provides answers to these questions and a lot more. During this demo\,
+  the CloudSHaper team provides a guided tour of the platform.
+LOCATION:AWS Booth #2425\; Demo 5
+END:VEVENT
+END:VCALENDAR

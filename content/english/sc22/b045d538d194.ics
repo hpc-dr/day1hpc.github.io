@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Heterogeneous HPC workflows with Covalent on AWS
+DTSTART;TZID=America/Chicago:20221116T170000
+DTEND;TZID=America/Chicago:20221116T180000
+DESCRIPTION:Covalent is an open-source Pythonic tool for heterogeneous wor
+ kflows (HPC and quantum)\, designed specifically to make computational res
+ earch more scalable\, manageable\, and reproducible. Covalent provides a r
+ ich and intuitive browser-based interface that empowers users to visualize
+  and interact with their workflows. Covalent integrates with a number of A
+ WS cloud services that allow users to dispatch their workflows for remote 
+ execution on diverse compute backends. Using Covalent AWS plugins\, users 
+ can prototype\, iterate and rapidly optimize their workflows. Users can al
+ so self-host Covalent within their own AWS infrastructure. This demo highl
+ ights several use cases where Covalent can be used in conjunction with AWS
+  compute resources.
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Quantum computing with Multiverse Computing’s Singularity Optimi
+ zation
+DTSTART;TZID=America/Chicago:20221115T130000
+DTEND;TZID=America/Chicago:20221115T140000
+DESCRIPTION:Multiverse Computing—a leading deep-tech company developing 
+ quantum software—has developed Singularity Optimization\, a Python libra
+ ry used for modeling and solving generic optimization problems with quantu
+ m and quantum-inspired solvers. Optimization is one of the most promising 
+ use cases for quantum computing\, which offers a way to move beyond the li
+ mitations of conventional computers. Multiverse and commercial quantum har
+ dware providers demonstrate already today that real-life industrial optimi
+ zation problems can be solved efficiently by quantum means. In this demo\,
+  learn about numerous examples of Singularity Optimization at work on AWS\
+ , and dive into a straightforward interface that requires no prior quantum
+  experience or knowledge.
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR

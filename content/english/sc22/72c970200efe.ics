@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:University of British Columbia’s AWS transformation journey & le
+ ssons
+DTSTART;TZID=America/Chicago:20221115T113000
+DTEND;TZID=America/Chicago:20221115T120000
+DESCRIPTION:While researchers are increasingly using cloud computing offer
+ ings\, many aren’t experienced with system administration or cloud servi
+ ce management. This can be challenging for groups without cloud specialist
+ s to manage infrastructure and may reduce cloud engagement. Since 2020\, t
+ he Advanced Research Computing team at the University of British Columbia 
+ (UBC) has been using RONIN to deliver a full-service cloud offering to the
+ ir research community. Come learn about their community\, the challenges t
+ hey faced\, and the lessons they learned with the cloud while using the us
+ er interfaces on AWS. Hear about their experience with RONIN\, what resear
+ chers can expect with RONIN\, and what’s required to create a workflow i
+ n a cloud environment.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Deploy HPC and ML workloads on AWS using Slurm
+DTSTART;TZID=America/Chicago:20221115T160000
+DTEND;TZID=America/Chicago:20221115T180000
+DESCRIPTION:In this demo hear from SchedMD\, the company behind Slurm work
+ load manager software. Slurm is a free open-source workload manager design
+ ed specifically to satisfy the demanding needs of high-performance computi
+ ng. The software is in widespread use at government laboratories\, univers
+ ities\, and companies worldwide and performs workload management for over 
+ half of the top 10 systems in the TOP500. Slurm is a scheduler of choice i
+ n AWS ParallelCluster.
+LOCATION:AWS Booth #2425\; Demo 4
+END:VEVENT
+END:VCALENDAR

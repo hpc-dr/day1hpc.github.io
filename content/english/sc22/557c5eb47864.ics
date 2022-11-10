@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Amazon FSx for Lustre and Amazon File Cache
+DTSTART;TZID=America/Chicago:20221117T130000
+DTEND;TZID=America/Chicago:20221117T150000
+DESCRIPTION:Join this session to learn about AWS’s newest storage servic
+ e: Amazon File Cache\, which helps you burst HPC workloads to the cloud. O
+ r\, come by for a demo of how to configure Amazon FSx for Lustre performan
+ ce and capacity for high scale\, and native access to S3 data.
+LOCATION:AWS Booth #2425\; Demo Pod #3
+END:VEVENT
+END:VCALENDAR

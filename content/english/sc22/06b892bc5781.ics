@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Ansys Gateway on AWS
+DTSTART;TZID=America/Chicago:20221116T100000
+DTEND;TZID=America/Chicago:20221116T130000
+DESCRIPTION:In this demo\, learn about a new service powered by AWS that A
+ nsys is preparing to launch: Ansys Gateway. Ansys Gateway enables simpler 
+ access and deployment for several industry-leading Ansys simulations on AW
+ S. Ansys is also performance-testing several of its products on Amazon EC2
+  instances.
+LOCATION:AWS Booth #2425\; Demo 4
+END:VEVENT
+END:VCALENDAR

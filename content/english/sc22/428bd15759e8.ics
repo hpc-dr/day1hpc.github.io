@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AWS Global Data Egress Waiver program
+DTSTART;TZID=America/Chicago:20221116T170000
+DTEND;TZID=America/Chicago:20221116T173000
+DESCRIPTION:The Global Data Egress Waiver (GDEW) program has been around a
+ t AWS for many years. In this session\, learn how the program works and ho
+ w it reduces the risk that academic and government research organizations 
+ will ever see outbound data charges on their bills.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR
