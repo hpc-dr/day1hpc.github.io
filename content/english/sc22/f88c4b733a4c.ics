@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Trapped ion quantum computing
+DTSTART;TZID=America/Chicago:20221115T120000
+DTEND;TZID=America/Chicago:20221115T130000
+DESCRIPTION:IonQ's quantum computer is the only trapped ion system availab
+ le on Amazon Braket and delivers unparalleled performance for today's quan
+ tum algorithms. Matt Keesan\, VP of Product Development will be discussing
+  our technology and opportunities for near term applications of this trans
+ formative computational approach. Additionally\, Matt will be discussing h
+ ow to access IonQ's quantum computer through the Amazon Braket service.
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR

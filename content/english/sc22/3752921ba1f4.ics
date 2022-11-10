@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Why NICE DCV for remote visualization?
+DTSTART;TZID=America/Chicago:20221116T133000
+DTEND;TZID=America/Chicago:20221116T140000
+DESCRIPTION:With workloads migrating to the cloud\, there is an increasing
+  need to visualize those workloads in a performant manner. In this session
+ \, learn about what NICE DCV is and discover all the features that come wi
+ th it.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

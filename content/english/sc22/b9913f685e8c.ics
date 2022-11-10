@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Nimbix-powered HPC cloud on AWS
+DTSTART;TZID=America/Chicago:20221115T150000
+DTEND;TZID=America/Chicago:20221115T180000
+DESCRIPTION:In this demo\, the Atos Nimbix team presents a state-of-the-ar
+ t container-based solution for multi-site and cloud-based HPC workloads. L
+ earn about this solution\, complete with a fully integrated application ma
+ rketplace featuring curated\, ready-to-use click-to-run workflows for simu
+ lation applications and AI/ML/DL software.
+LOCATION:AWS Booth #2425\; Demo Pod #5
+END:VEVENT
+END:VCALENDAR

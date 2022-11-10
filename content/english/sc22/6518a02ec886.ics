@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Deep dive on high- performance file systems and cloud caching at A
+ WS
+DTSTART;TZID=America/Chicago:20221116T103000
+DTEND;TZID=America/Chicago:20221116T110000
+DESCRIPTION:AWS now has five file systems and a cloud cache. In this sessi
+ on\, get an overview of these options\, get advice about when to use them\
+ , and dive deep into the AWS HPC–specific offerings: Amazon FSx for Lust
+ re\, Amazon FSx for OpenZFS\, and Amazon File Cache. For each service\, di
+ scover common use cases and integrations with other key AWS HPC services s
+ uch as AWS ParallelCluster\, AWS Batch\, and Elastic Fabric Adapter (EFA).
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

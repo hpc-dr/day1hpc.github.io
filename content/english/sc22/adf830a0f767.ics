@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:HPC on AWS with Parallel Works
+DTSTART;TZID=America/Chicago:20221115T150000
+DTEND;TZID=America/Chicago:20221115T180000
+DESCRIPTION:In this live demo\, learn about the Parallel Works single-pane
+ -of-glass\, multi-cloud environment\, which is operated by General Dynamic
+ s Information Technology for NOAA’s R&D HPC organization. The presentati
+ on demonstrates key aspects of the implementation and optimization of the 
+ platform for large-scale HPC-driven R&D. The Parallel Works platform uses 
+ 20+ AWS services\, including Amazon FSx for Lustre\, Amazon S3\, Amazon EC
+ 2\, and Amazon EFS. Dive deep on the end user experience\, which incorpora
+ tes both the familiar on-premises computing environment and the flexibilit
+ y and innovation of the cloud.
+LOCATION:AWS Booth #2425\; Demo Pod #7
+END:VEVENT
+END:VCALENDAR

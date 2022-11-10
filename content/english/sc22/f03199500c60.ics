@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AWS ParallelCluster and Pcluster Manager
+DTSTART;TZID=America/Chicago:20221117T100000
+DTEND;TZID=America/Chicago:20221117T180000
+DESCRIPTION:Launch and manage dynamically scaling high performance computi
+ ng (HPC) clusters on AWS with AWS ParallelCluster. Stop by for demos inclu
+ ding "Introduction to AWS Parallel Cluster"\, "Introduction to Pcluster Ma
+ nager"\, "License Management in AWS ParallelCluster"\, "AWS ParallelCluste
+ r Fast Failover"\, and "My laptop has 50k cores".
+LOCATION:AWS Booth #2425\; Demo 1
+END:VEVENT
+END:VCALENDAR

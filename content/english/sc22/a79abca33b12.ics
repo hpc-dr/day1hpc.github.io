@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Higher education research on AWS
+DTSTART;TZID=America/Chicago:20221116T163000
+DTEND;TZID=America/Chicago:20221116T170000
+DESCRIPTION:Education institutions increasingly use AWS for research\, par
+ ticularly for complex workflows and HTC/HPC workloads. Researchers recogni
+ ze that the flexibility\, breadth of tools\, resources\, and services offe
+ red by AWS provide access to environments that meet their needs on their s
+ chedules\, but they don’t want to spend time learning about computationa
+ l infrastructure. This session illustrates how researchers and institution
+ s can accelerate AWS adoption through curated guidance from the AWS resear
+ ch group. Topics include guides and preconfigured AWS tools like AWS Paral
+ lelCluster\, explainers for software like MATLAB and libraries like Dask t
+ hat support AWS natively\, institutional engagements for on-premises burst
+ ing to AWS\, research-focused services like Amazon Lightsail and Amazon Sa
+ geMaker Studio Lab\, and proposal development.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR
