@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Improved performance with Altair Radioss on AMD-powered EC2 Hpc6a 
+ instances
+DTSTART;TZID=America/Chicago:20221115T143000
+DTEND;TZID=America/Chicago:20221115T150000
+DESCRIPTION:In this session\, learn about the benefits of running Altair R
+ adioss on Amazon EC2 Hpc6a instances powered by third-generation AMD EPYC 
+ processors. For numerous\, diverse industries worldwide\, Radioss is a ver
+ satile and comprehensive high-performance explicit finite element (FE) sol
+ ver\, based on solid and fluid dynamics. It is a standard\, go-to tool to 
+ accurately predict dynamic\, transient-loading effects on structures and p
+ roducts to improve safety and survivability and to design more robust prod
+ ucts. Radioss on Hpc6a instances delivers impressive performance on premis
+ es. Discover the scaling and performance improvements achieved from Radios
+ s running on Hpc6a instances.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

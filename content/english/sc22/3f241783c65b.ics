@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:ReScale: high performance computing built for the cloud
+DTSTART;TZID=America/Chicago:20221116T140000
+DTEND;TZID=America/Chicago:20221116T143000
+DESCRIPTION:Rescale is a premier provider for high performance computing b
+ uilt for AWS. Organizations across all industries have found immense value
+  in using the AWS full-service platform. Join this session to learn how to
+  quickly and efficiently run your various simulation packages on infrastru
+ cture like C6i instances\, powered by Intel’s Xeon Ice Lake processor.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

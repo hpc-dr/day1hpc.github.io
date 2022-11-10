@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Run genomics workflows using the Amazon Genomics CLI and AWS Batch
+DTSTART;TZID=America/Chicago:20221115T110000
+DTEND;TZID=America/Chicago:20221115T113000
+DESCRIPTION:Did you know that the Amazon Genomics CLI supports the top 4 w
+ orklfow languages for genomics? AGC stands up the AWS infrastructure you n
+ eed for running workflows written in WDL\, Nextflow\, CWL\, or SnakeMake. 
+ In this demo\, we will show you how to leverage AGC to run your workflows 
+ on top of AWS Batch.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

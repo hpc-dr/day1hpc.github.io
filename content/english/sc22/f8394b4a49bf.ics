@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AMD-powered Amazon EC2 Hpc6a instances: Performance scaling on HPC
+  workloads
+DTSTART;TZID=America/Chicago:20221116T123000
+DTEND;TZID=America/Chicago:20221116T130000
+DESCRIPTION:Join this session to discover how Amazon EC2 Hpc6a instances p
+ owered by third-generation AMD EPYC processors enable a diverse range of H
+ PC applications\, such as CFD\, weather forecasting\, and molecular dynami
+ cs workloads\, to scale performantly on AWS. See results from Simcenter ST
+ AR-CCM+\, Ansys Fluent\, WRF\, GROMACS\, and LAMMPS.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

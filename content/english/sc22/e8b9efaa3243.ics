@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Windows VDI Solution for HPC Users
+DTSTART;TZID=America/Chicago:20221116T130000
+DTEND;TZID=America/Chicago:20221116T150000
+DESCRIPTION:Engineers are using HPC simulations to accelerate the time nee
+ ded to design and validate new products. To achieve this goal\, they need 
+ not only to run HPC simulations faster but also to easily modify the input
+  files and visualize the results using their preferred CAD and post-proces
+ sing software that usually runs on the Windows OS. This demo covers a Wind
+ ows VDI solution that can create the infrastructure for your users to auth
+ enticate and connect to virtual Windows sessions with Amazon AppStream 2.0
+ \, submit their HPC jobs to a Linux cluster\, and view the output files as
+  they are being written out on an Amazon FSx for NetApp ONTAP file system.
+LOCATION:AWS Booth #2425\; Demo Pod #3
+END:VEVENT
+END:VCALENDAR

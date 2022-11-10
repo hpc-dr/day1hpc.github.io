@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Simplifying HPC on the AWS Cloud with Research Gateway
+DTSTART;TZID=America/Chicago:20221117T100000
+DTEND;TZID=America/Chicago:20221117T120000
+DESCRIPTION:Research Gateway provides a self-service UI portal (featuring 
+ SaaS and enterprise models) for researchers to provision\, run analysis\, 
+ and manage the costs of complex HPC architecture on AWS. The solution allo
+ ws users to create an HPC-powered MyResearch Cloud in less than 30 minutes
+  from a standard catalog\, with the ability to incorporate their own tools
+ . Built on AWS ParallelCluster\, Research Gateway includes intelligent cos
+ t tracking\, blueprints for automated migration\, and project-based data c
+ ollaboration and allows researchers to focus on science and research grant
+ s without the need for AWS Console access. Central IT can easily extend th
+ e self-service models to a group of researchers with built-in governance c
+ ontrols and chargebacks billing.
+LOCATION:AWS Booth #2425\; Demo Pod #4
+END:VEVENT
+END:VCALENDAR

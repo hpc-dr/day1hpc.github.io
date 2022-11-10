@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Neutral-atom quantum computing with QuEra
+DTSTART;TZID=America/Chicago:20221117T130000
+DTEND;TZID=America/Chicago:20221117T140000
+DESCRIPTION:In this demo\, QuEra introduces tools and services for quantum
+  computing. Learn about neutral atom–based analog quantum processors and
+  how they are operated. Explore hardware-efficient application directions 
+ and how they can be efficiently emulated using AWS HPC resources via QuEra
+ 's package\, Bloqade.
+LOCATION:AWS Booth #2425\; Demo Pod #8
+END:VEVENT
+END:VCALENDAR

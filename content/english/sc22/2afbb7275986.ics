@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:The role of ML and HPC in the future of CFD
+DTSTART;TZID=America/Chicago:20221115T140000
+DTEND;TZID=America/Chicago:20221115T143000
+DESCRIPTION:In this session\, explore how AWS is empowering customers to p
+ ush the boundaries of computational fluid dynamics (CFD) and helping engin
+ eers and designers explore more designs and bring products to market faste
+ r. Learn about the move toward GPU-enabled CFD codes\, the benefits of clo
+ ud elasticity\, and the growth of machine learning and deep learning for a
+ ccelerating CFD simulations.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

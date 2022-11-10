@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Quantum computing on AWS: From the lab to the laptop
+DTSTART;TZID=America/Chicago:20221115T170000
+DTEND;TZID=America/Chicago:20221115T173000
+DESCRIPTION:It may seem like science fiction\, but quantum computing is he
+ re—and it’s available on the AWS Cloud. Although production workloads 
+ aren’t available yet\, Amazon Braket gives you the ability to get quantu
+ m-ready by exploring the capabilities of a range of current quantum hardwa
+ re\, including superconducting qubits\, ion traps\, photonic qubits\, and 
+ Rydberg atom arrays\, with more being added regularly. Join this session f
+ or an introduction to quantum computing\, learn about how the Braket servi
+ ce works\, and hear AWS Partners discuss the novel solutions they’ve bui
+ lt on Braket.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:High Fidelity Ray Tracing with Intel oneAPI Rendering Toolkit and 
+ NICE DCV
+DTSTART;TZID=America/Chicago:20221116T150000
+DTEND;TZID=America/Chicago:20221116T153000
+DESCRIPTION:Ray tracing for scientific data provides efficient and realist
+ ic lighting and materials for enhanced visual analysis. Recent advances in
+  hardware and software now provide interactive ray tracing on both CPU and
+  GPU platforms. To fully exploit interactive ray tracing in remote computi
+ ng contexts\, researchers require a performant framework that provides an 
+ interactive experience even in high latency and low bandwidth contexts. Th
+ is chalk talk presents how the Texas Advanced Computing Center (TACC) uses
+  NICE DCV and the Intel oneAPI Rendering Toolkit to provide interactive vi
+ sual analysis.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

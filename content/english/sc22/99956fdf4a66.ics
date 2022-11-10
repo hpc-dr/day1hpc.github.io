@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Run your compute-intense workloads in the cloud using AWS Batch
+DTSTART;TZID=America/Chicago:20221115T150000
+DTEND;TZID=America/Chicago:20221115T153000
+DESCRIPTION:Whether you are training large machine learning models or runn
+ ing genomic sequencing\, EDA\, video encoding\, big data processing\, or a
+ utonomous vehicle simulation workloads in the cloud\, you’re going to ne
+ ed cloud-native scheduling and orchestration. In this session\, learn abou
+ t AWS Batch\, a container-centric\, fully managed service for job schedule
+  and AWS compute resource orchestration. Dive deep into AWS Batch major co
+ mponents\, such as job definition\, job queues\, job states\, compute envi
+ ronments\, instance selection\, job throughput\, and allocation strategies
+ . Also\, discover best practices that can help you build optimized AWS Bat
+ ch architectures and run AWS Batch at scale.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

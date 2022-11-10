@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Getting hands-on with Strangeworks solutions
+DTSTART;TZID=America/Chicago:20221116T100000
+DTEND;TZID=America/Chicago:20221116T110000
+DESCRIPTION:In this demo\, learn how to eliminate the complexity of access
+ ing\, applying\, and managing the flood of emerging compute technologies b
+ y bringing them together into one platform. Strangeworks offers a hardware
+ -agnostic and software-inclusive platform that acts as a central hub for a
+ dvanced computing hardware and software vendors and is built specifically 
+ for enterprises\, academia\, researchers\, scientists\, and engineers to h
+ elp them solve their most complex research and development challenges. Lea
+ rn how to use the Strangeworks service library\, manipulate quantum code\,
+  and generate real results using third-party frameworks and languages. Exp
+ lore real-world examples from customers and partners\, powered by the Stra
+ ngeworks platform.
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR
