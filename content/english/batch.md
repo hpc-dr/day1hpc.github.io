@@ -61,10 +61,6 @@ table td {
 |---|---|
 | [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
 | [Video: AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
-<<<<<<< HEAD
-
-=======
->>>>>>> staging
 {{</ collapse >}}
 
 </div>
