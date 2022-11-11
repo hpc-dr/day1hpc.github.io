@@ -40,9 +40,9 @@ You may be familiar with using a traditional HPC resource - like an traditional 
 <div class="col-2">{{< image src="/images/batch/autoscale.png" class="img-float-center" >}}</div>
 <div class="col">
 
-AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Customers run anywhere from a few jobs at a time, to hundreds of thousands of simultaneous jobs within a cluster. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too. 
+AWS Batch **efficiently** and **dynamically** provisions and scales compute on your behalf. Batch can scale from  **one job** to **millions of jobs**. Our largest analysis (so far) used Batch to orchastrate over five million vCPUs across multiple AWS Regions. And once your work is done, Batch handles scaling down those resources too! 
 
-Rather than being statically provisioned for your peak workload, AWS Batch dynamically allocates compute resources. This means Batch scales up your resource footprint when you have jobs to run, then scale back down again when you don't. You can set a minimum and maximum amount of CPUs to fit your computing needs and budget. Batch leverages **AWS scaling technologies** like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
+Batch leverages **AWS scaling technologies** like [EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet.html) and [Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) used by thousands of customers every day to elastically meet their computing demands. 
 </div>
 </div>
 
@@ -59,13 +59,8 @@ table td {
 </style>
 | | |
 |---|---|
-<<<<<<< Updated upstream
-| []() | []() |
-=======
 | [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
 | [Video: AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
->>>>>>> Stashed changes
-
 {{</ collapse >}}
 
 </div>
@@ -80,7 +75,7 @@ table td {
 <div class="row">
 <div class="col">
 
-AWS Batch optimizes your workloads for **throughput and cost**. It does so by scaling compute resources based on the work that was submitted to the job queue, and an allocation strategies to allocate compute resources. These strategies allow you to factor in throughput and price when deciding how AWS Batch should scale instances for you. For example, the **best fit progressive** strategy will select instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types with a lower-cost-per-unit vCPU. If additional instances of the previously selected instance types are not available, AWS Batch will select new instance types. Batch is also able to leverage EC2 Spot Instances with the **spot capacity–optimized** strategy, which  will select one or more instance types that are large enough to meet the requirements of the jobs in the queue, with a preference for instance types that are less likely to be interrupted. 
+AWS Batch optimizes for **throughput** and **cost**. It does so by scaling compute resources to process jobs in the job queue using **allocation strategies to fit your business needs and budget**. Batch can also use EC2 Spot Instances to save up to a 90% discount compared to On-Demand prices, with a preference for instance types that are less likely to be interrupted. 
 
 </div>
 <div class="col-2">{{< image src="/images/hpc/icons/cost.png" class="img-float-center" >}}</div>
@@ -99,13 +94,8 @@ table td {
 </style>
 | | |
 |---|---|
-<<<<<<< Updated upstream
-| []() | []() |
-
-=======
 | [AWS Batch allocations strategies](https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html) | [Using On-Demand or Spot Instances](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice5) |
 | [EC2 Spot Best Practices for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice6) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/)  | 
->>>>>>> Stashed changes
 </div>
 </div>
 </div>
@@ -148,8 +138,6 @@ table td {
 </div>
 </div>
 </div>
-
-
 
 ----
 
@@ -215,6 +203,7 @@ table td {
 | | |
 |---|---|
 | [Custom logging with AWS Batch](https://aws.amazon.com/blogs/compute/custom-logging-with-aws-batch/) | [AWS Batch Runtime Monitoring Dashboards Solution](https://github.com/aws-samples/aws-batch-runtime-monitoring) |
+| [Video: New console features including container insights in AWS Batch](https://youtu.be/uv4jJ7XIAfs) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/) |
 {{</ collapse >}}
 
 </div>
@@ -247,7 +236,8 @@ table td {
 </style>
 | | |
 |--|--|
-| []() | []() |
+| [Batch can now use Fargate for a truly serverless experience](https://youtu.be/weKeR-qg_-4) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/) | 
+| [Rearchitecting AWS Batch managed services to leverage AWS Fargate](https://aws.amazon.com/blogs/hpc/rearchitecting-aws-batch-managed-services-to-leverage-aws-fargate/) | [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/) |
 
 {{</ collapse >}}
 
@@ -292,7 +282,6 @@ table td {
 
 -----
 
-<<<<<<< Updated upstream
 =======
 ## Learn More About AWS Batch
 <div class="container-fluid">
@@ -316,9 +305,11 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 </div>
 
 ---- 
->>>>>>> Stashed changes
 
 ## Major features you'll want to know about
+<div class="container-fluid">
+<div class="row">
+<div class="col">
 
 - [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/)
 - [New console features including container insights in AWS Batch](https://youtu.be/uv4jJ7XIAfs)
@@ -326,9 +317,16 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 - [AWS Batch's new Faster Scaling features](https://youtu.be/uQCUpw7uSjY)
 - [Introducing support for per-job Amazon EFS volumes in AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-support-for-per-job-amazon-efs-volumes-in-aws-batch/)
 - [Fair share scheduling to maximize user happiness in AWS Batch](https://youtu.be/Ws_fvv1_Sv8)
-
-## Announcements
 - [BioContainers are now available in Amazon ECR Public Gallery](https://aws.amazon.com/blogs/hpc/biocontainers-are-now-available-in-amazon-ecr-public-gallery/)
+
+</div>
+
+<div class="col-5">
+{{< image src="/images/hpc/20s batch.gif" class="boof4" >}}
+</div>
+</div>
+</div>
+
 
 ## Workflow engines love Batch
 
@@ -348,31 +346,7 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 - **[Metaflow\'s Season 2 blockbuster on AWS Batch](https://docs.metaflow.org/getting-started/tutorials/season-2-scaling-out-and-up/episode05)**
   {{< /tab >}}
 {{< /tabs >}}
-<style>
 
-.boof4 {
-  float:right !important;
-  width:450px;
-  padding: 10px;
-  }
-</style>
-{{< image src="/images/hpc/20s batch.gif" class="boof4" >}}
-
-
-## Skills
-
-{{< image src="/images/hpc/media-ident-square.png" class="boof" >}}
-
-- [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/)
-- [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/)
-- [Rearchitecting AWS Batch managed services to leverage AWS Fargate](https://aws.amazon.com/blogs/hpc/rearchitecting-aws-batch-managed-services-to-leverage-aws-fargate/)
-- [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
-- [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
-
-
-- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
-
-- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
 
 ## Use cases
 
@@ -397,18 +371,6 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
   {{< /tab >}}
   {{< tab "Visual FX" >}}
 - [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/)
-<<<<<<< Updated upstream
-  {{< /tab >}}
-  {{< tab "Data Science + Machine Learning" >}}
-- [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
-- [Data Science workflows at insitro: using redun on AWS Batch](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)
-
-- **Bayesian ML Models at Scale with AWS Batch** [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
-
-- **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
-  {{< /tab >}}  
-=======
->>>>>>> Stashed changes
   {{< tab "Others" >}}
 - [Optimize your Monte Carlo simulations using AWS Batch](https://aws.amazon.com/blogs/hpc/optimizing-monte-carlo-simulations-using-aws-batch/)
 - [Building well-architected serverless applications: Optimizing application performance](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-optimizing-application-performance-part-3/)
