@@ -6,8 +6,8 @@ SUMMARY:NICE DCV from Amazon Web Services
 DTSTART;TZID=America/Chicago:20221117T100000
 DTEND;TZID=America/Chicago:20221117T130000
 DESCRIPTION:Visit our NICE DCV demo station for live demonstrations includ
- ing "High-resolution showcase with NICE DCV" and "Streaming High-Performan
- ce Cloud Gaming with DCV".
+ ing "NICE DCV in HPC on AWS"\, "High-resolution showcase with NICE DCV" an
+ d "Streaming High-Performance Cloud Gaming with DCV".
 LOCATION:AWS Booth #2425\; Demo 3
 END:VEVENT
 END:VCALENDAR
