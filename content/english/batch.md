@@ -59,12 +59,8 @@ table td {
 </style>
 | | |
 |---|---|
-<<<<<<< Updated upstream
-| []() | []() |
-=======
 | [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
 | [Video: AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
->>>>>>> Stashed changes
 
 {{</ collapse >}}
 
@@ -99,13 +95,8 @@ table td {
 </style>
 | | |
 |---|---|
-<<<<<<< Updated upstream
-| []() | []() |
-
-=======
 | [AWS Batch allocations strategies](https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html) | [Using On-Demand or Spot Instances](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice5) |
 | [EC2 Spot Best Practices for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice6) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/)  | 
->>>>>>> Stashed changes
 </div>
 </div>
 </div>
@@ -292,8 +283,6 @@ table td {
 
 -----
 
-<<<<<<< Updated upstream
-=======
 ## Learn More About AWS Batch
 <div class="container-fluid">
 <div class="row">
@@ -316,7 +305,6 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 </div>
 
 ---- 
->>>>>>> Stashed changes
 
 ## Major features you'll want to know about
 
@@ -397,18 +385,6 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
   {{< /tab >}}
   {{< tab "Visual FX" >}}
 - [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/)
-<<<<<<< Updated upstream
-  {{< /tab >}}
-  {{< tab "Data Science + Machine Learning" >}}
-- [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
-- [Data Science workflows at insitro: using redun on AWS Batch](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)
-
-- **Bayesian ML Models at Scale with AWS Batch** [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
-
-- **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
-  {{< /tab >}}  
-=======
->>>>>>> Stashed changes
   {{< tab "Others" >}}
 - [Optimize your Monte Carlo simulations using AWS Batch](https://aws.amazon.com/blogs/hpc/optimizing-monte-carlo-simulations-using-aws-batch/)
 - [Building well-architected serverless applications: Optimizing application performance](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-optimizing-application-performance-part-3/)
