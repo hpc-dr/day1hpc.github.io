@@ -8,6 +8,7 @@ import pytz
 import re
 import sys
 
+from collections import OrderedDict
 from datetime import datetime
 from icalendar import Calendar, Event, vText
 from jinja2 import Environment, FileSystemLoader
@@ -66,6 +67,12 @@ def speaker(raw_data) -> str:
     raw_data = raw_data.strip()
     return raw_data
 
+def extract_topics(row) -> List[str]:
+    topics_raw = row.get("Topic", '')
+    topics = topics_raw.split(",")
+    topics = [t.strip() for t in topics]
+    return topics
+
 def row_to_event(row) -> Dict:
     event = {
                 'title': row['Title'],
@@ -77,7 +84,8 @@ def row_to_event(row) -> Dict:
                 'end': row['End'],
                 'range': row['Start'] + '-' + row['End'],
                 'station_name': to_station_name(row['Station']),
-                'ical': to_ical(row)
+                'ical': to_ical(row),
+                'topics': extract_topics(row)
             }
     
     event['ical'] = to_ical(row)
@@ -94,7 +102,7 @@ def row_to_event(row) -> Dict:
 #      "presenter": "Presenter",
 #      "affiliation": "Affiliation",
 #      "ical": "MD5HEX.ics",
-#      "reviewed_id": "3P Identifier"
+#      "topics": ["meep", "merp", "moop"]
 #     }
 # ]}}
 
@@ -104,7 +112,10 @@ def main(values):
     )
     template = environment.get_template("sc22index.md.j2")
 
-    data = {}
+    data = OrderedDict()
+    topics_master_list = []
+    navs = ["Tuesday", "Wednesday", "Thursday"]
+
     with open(values.csv.name, encoding='utf-8-sig') as csv_file:
         csv_reader = csv.DictReader(csv_file, delimiter=",")
         for row in csv_reader:
@@ -114,7 +125,7 @@ def main(values):
             dow = event['day_of_week']
             station_name = event['station_name']
             if dow not in data:
-                data[dow] = {}
+                data[dow] = OrderedDict()
             if station_name not in data[dow]:
                 data[dow][station_name] = []
             
@@ -123,17 +134,52 @@ def main(values):
                 "abstract": event["abstract"],
                 "speaker": event["speaker"],
                 "speaker_affiliation": event["speaker_affiliation"],
+                "day_of_week": event["day_of_week"],
                 "range": event["range"],
+                "location": event["station_name"],
                 "id": re.sub('.ics', '', event['ical_filename']),
                 "ical_filename": event['ical_filename'],
+                "topics": event['topics']
             }
             data[dow][station_name].append(e)
+            topics_master_list.extend(e["topics"])
 
-    content = template.render(data=data)
+    topics_master_list = sorted(list(set(topics_master_list)))
+    navs.extend(topics_master_list)
+
+    # Render index.md
+    content = template.render(data=data, topics=topics_master_list, anchors=navs)
     indexfile = os.path.join(POSTS_DIR, FILENAME)
     with open(indexfile, mode="w", encoding="utf-8") as post:
             post.write(content)
     
+    raise SystemExit()
+
+    # Render demo and theater schedule file for 3P
+
+    fnames = ['day_of_week', 'range', 'location', 'speaker', 'speaker_affiliation', 'title', 'abstract']
+
+    theater = open("./theater_schedule.csv", "w", encoding='utf-8-sig')
+    demos = open("./demo_schedule.csv", "w", encoding='utf-8-sig')
+    
+    twriter = csv.DictWriter(theater, fieldnames=fnames)
+    twriter.writeheader()
+
+    dwriter = csv.DictWriter(demos, fieldnames=fnames)
+    dwriter.writeheader()
+
+    for dow, locs in data.items():
+        for loc, events in locs.items():
+            if "Theater" in loc:
+                for event in events:
+                    event.pop('ical_filename')
+                    event.pop('id')
+                    twriter.writerow(event)
+            else:
+                for event in events:
+                    event.pop('ical_filename')
+                    event.pop('id')
+                    dwriter.writerow(event)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
