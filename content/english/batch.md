@@ -288,16 +288,50 @@ table td {
 
 -----
 
+## Learn More About AWS Batch
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+
+First, let's make sure you're comfortable that AWS Batch is the right tool for your workloads. AWS also has a command line tool for standing up traditional HPC clusters called [AWS ParallelCluster](/parallelcluster/). AWS ParallelCluster builds on many of the same AWS technologies as AWS Batch, so it is also scalable, flexible, and adaptable to a wide number of use cases.
+
+- [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/)
+- [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/)
+- [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
+- [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
+
+- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
+- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
+</div>
+
+<div class="col-4">
+{{< image src="/images/hpc/media-ident-square.png" class="img-float-right" >}}
+</div>
+</div>
+</div>
+
+---- 
 
 ## Major features you'll want to know about
+
+<div class="container-fluid">
+<div class="row">
+<div class="col">
 
 - [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/)
 - [AWS Batch's new Faster Scaling features](https://youtu.be/uQCUpw7uSjY)
 - [Introducing support for per-job Amazon EFS volumes in AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-support-for-per-job-amazon-efs-volumes-in-aws-batch/)
 - [Fair share scheduling to maximize user happiness in AWS Batch](https://youtu.be/Ws_fvv1_Sv8)
-
-## Announcements
 - [BioContainers are now available in Amazon ECR Public Gallery](https://aws.amazon.com/blogs/hpc/biocontainers-are-now-available-in-amazon-ecr-public-gallery/)
+
+</div>
+
+<div class="col-5">
+{{< image src="/images/hpc/20s batch.gif" >}}
+</div>
+</div>
+</div>
+
 
 ## Workflow engines love Batch
 
@@ -317,35 +351,12 @@ table td {
 - **[Metaflow\'s Season 2 blockbuster on AWS Batch](https://docs.metaflow.org/getting-started/tutorials/season-2-scaling-out-and-up/episode05)**
   {{< /tab >}}
 {{< /tabs >}}
-<style>
-
-.boof4 {
-  float:right !important;
-  width:450px;
-  padding: 10px;
-  }
-</style>
-{{< image src="/images/hpc/20s batch.gif" class="boof4" >}}
 
 
-## Skills
 
-{{< image src="/images/hpc/media-ident-square.png" class="boof" >}}
+## Get things done with AWS Batch
 
-- [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/)
-- [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/)
-- [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
-
-- 
-
-- [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
-
-
-- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
-
-- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
-
-## Use cases
+We have customers across all industries running their workloads on AWS Batch. The tabs below feature some videos and blog posts describing how our customers are leveraging AWS Batch to get their work done. Hopefully these will give you some inspiration and guidance for your own workloads!
 
 {{< tabs >}}
   {{< tab "Healthcare & Life Sciences" >}}
@@ -366,9 +377,7 @@ table td {
   {{< tab "Data Science + Machine Learning" >}}
 - [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
 - [Data Science workflows at insitro: using redun on AWS Batch](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)
-
 - **Bayesian ML Models at Scale with AWS Batch** [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
-
 - **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
   {{< /tab >}}  
   {{< tab "Others" >}}
