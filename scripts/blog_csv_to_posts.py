@@ -229,6 +229,7 @@ def row_to_blog(row):
 
 
 def main(values):
+    force_dl = values.force
     environment = Environment(
         loader=FileSystemLoader(os.path.join(PARENT_DIR, "./templates/"))
     )
@@ -240,16 +241,18 @@ def main(values):
             # Render and write blog post stubs
             content = template.render(**data)
             filename = os.path.join(POSTS_DIR, data["filename"])
-            with open(filename, mode="w", encoding="utf-8") as post:
-                post.write(content)
-                print(data["filename"])
-            # Download the illustrative image associated with each post
-            if data["thumbnail"] != "":
-                download_image(data["thumbnail"], data["thumbnail_filename"])
+            print("Post filename:", filename)
+            if not os.path.exists(filename) or force_dl is True:
+                with open(filename, mode="w", encoding="utf-8") as post:
+                    post.write(content)
+                # Download the illustrative image associated with each post
+                if data["thumbnail"] != "":
+                    download_image(data["thumbnail"], data["thumbnail_filename"], force=force_dl)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("csv", type=argparse.FileType("r"), default=sys.stdin)
+    parser.add_argument("csv", type=argparse.FileType("r"), help="AWS HPC blog export file.")
+    parser.add_argument("--force", action="store_true", help="Force re-download")
     args = parser.parse_args()
     main(args)
