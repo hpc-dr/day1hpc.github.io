@@ -11,8 +11,8 @@ images:
 # Taxonomies
 categories: ["HPC Blog Channel"]
 tags: ["photo","image"]
-type: "featured" # available type (regular or featured)
-draft: false
+type: "regular" # available type (regular or featured)
+draft: true
 ---
 
 

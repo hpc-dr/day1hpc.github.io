@@ -1,11 +1,13 @@
 ---
-title: "Talk To Me Anytime :)"
+title: "Ask Us Anything (Or Just Say Hi)"
 # description
-description: "This is meta description"
+description: "This page talks about how to contact the Day1HPC team"
 layout: "contact"
 draft: false
 ---
 
-# Ask Us Anything <br> Or just Say Hi,
+If you see us at a conference, please say ‘hi’ and let us know how we can help.
 
-Rather than just filling out a form, Sleeknote also offers help to the user <br> with links directing them to find  additional information or take popular actions.
+You can find us on Twitter at [@TechHpc](https://twitter.com/TechHpc), on YouTube in the [HPC Tech Shorts Channel](https://hpc.news/techshorts), or blogging to the world from the [AWS HPC Blog Channel](https://hpc.news/blog). 
+
+Please reach out and let us know what you’re finding hard, or easy.

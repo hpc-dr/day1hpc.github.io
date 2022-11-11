@@ -11,8 +11,8 @@ images:
 # Taxonomies
 categories: ["HPC Tech Shorts"]
 tags: ["hpc","image"]
-type: "featured" # available type (regular or featured)
-draft: false
+type: "regular" # available type (regular or featured)
+draft: true
 ---
 
 # HPC Tech Shorts

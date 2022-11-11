@@ -12,7 +12,7 @@ images:
 categories: []
 tags: ["HPC"]
 type: "regular" # available type (regular or featured)
-draft: false
+draft: true
 ---
 
 <style>

@@ -15,11 +15,11 @@
       </div>
       <div class="col-md-6">
         <div class="content mb-5">{{ .Content }}
-          <h4 class="mt-5">{{ i18n "write_email" }}</h4>
+          <h4 class="mt-5">Don't prefer social media? Send us an email!</h4>
           <p><i class="fas fa-envelope-open-text mr-2 text-primary"></i>{{ site.Params.email | markdownify }}</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <form method="POST" action="{{site.Params.contact_form_action}}">
           <div class="form-group">
             <label for="name">{{ i18n "name" }} (Required)</label>
@@ -36,7 +36,7 @@
           <button type="submit" class="btn btn-primary">{{ i18n "send"}}</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 

@@ -9,8 +9,8 @@ images:
 # Taxonomies
 categories: ["HPC Workshops"]
 tags: ["photo","image"]
-type: "featured" # available type (regular or featured)
-draft: false
+type: "regular" # available type (regular or featured)
+draft: true
 ---
 
 # HPC Workshops

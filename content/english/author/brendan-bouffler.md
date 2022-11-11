@@ -15,6 +15,7 @@ social:
   float:right !important;
   width:350px;
   padding: 10px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
   }
 </style>
 
