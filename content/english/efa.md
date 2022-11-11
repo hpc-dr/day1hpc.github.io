@@ -26,7 +26,7 @@ The Elastic Fabric Adapter (EFA) is a custom-built high speed network adapter bu
 
 It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html#gs.f1ru48), [Open MPI](https://www.open-mpi.org/), [MVAPICH](https://mvapich.cse.ohio-state.edu/), and [NCCL](https://developer.nvidia.com/nccl) and is available on across CPU and GPU architectures including our own [AWS Graviton processors](https://aws.amazon.com/ec2/graviton/).
 
-### How does it work?
+## How does it work?
 
 Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times. So we've built this into the **[Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD)**, which underpins EFA's performance.
 
@@ -63,7 +63,7 @@ table td {
 
 ----
 
-### Amazon EC2 Instance Support
+## Amazon EC2 Instance Support
 
 In 2021, we began the process of using EFA adapters in [most new Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types). That means there are dozens of instances types that now support EFA. That gives you a lot of options to customize a cluster queue specifically for your workloads.
 
@@ -94,7 +94,7 @@ table td {
 
 ----
 
-### EFA Performance
+## EFA Performance
 
 Customers tell us their workloads scale on EFA the same way they do on-site using traditional interconnects. We see the same thing in the lab, too.
 
@@ -125,7 +125,7 @@ table td {
 
 ---
 
-### EFA in TV broadcasting - an unexpected use case
+## EFA in TV broadcasting - an unexpected use case
 
 In HPC, we're used to the tools and techniques we create flowing into the rest of the industry, solving lots of problems once thought too hard, and unlocking new possibilities for everyone. This is what happened when the team that [looks after Holywood](https://youtu.be/x3zCTVP_LKQ) asked us for help with solving a networking problem.
 
