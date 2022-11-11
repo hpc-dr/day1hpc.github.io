@@ -114,7 +114,7 @@ draft: false
     {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
 <p>AWS HPC Team, AWS</p>
-<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
@@ -140,7 +140,7 @@ draft: false
     {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
 <p>AWS HPC Team, AWS</p>
-<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="8a9d675406ab.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
@@ -694,7 +694,7 @@ draft: false
     {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
 <p>AWS HPC Team, AWS</p>
-<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="aa17f6d413ed.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
@@ -1287,7 +1287,7 @@ draft: false
     {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
 <p>AWS HPC Team, AWS</p>
-<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p>Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
@@ -1634,7 +1634,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -1650,7 +1650,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="8a9d675406ab.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -1698,7 +1698,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="aa17f6d413ed.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -1730,7 +1730,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -2396,7 +2396,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -2444,7 +2444,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="aa17f6d413ed.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -2460,7 +2460,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -3440,7 +3440,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -3456,7 +3456,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="8a9d675406ab.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -3488,7 +3488,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="aa17f6d413ed.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -3504,7 +3504,7 @@ draft: false
             <div class="col-md-6 h5">
             {{< expando "AWS Batch and AWS Batch for EKS" >}}
 
-<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introduction to AWS Batch", "Introduction to AWS Batch on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
+<p><b>Summary</b>: Run hundreds of thousands of batch computing workloads without managing infrastructure or a job scheduler with AWS Batch. Stop by for live demos including "Introducing AWS Batch Fair Share Scheduling", "Introducing AWS Batch Fair Share Scheduling on EKS", "A cloud-native SciOps pipeline for GROMACS", "Run genomics workflows using the Amazon Genomics CLI and AWS Batch"</p>
 <a href="cd72e93f7917.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
