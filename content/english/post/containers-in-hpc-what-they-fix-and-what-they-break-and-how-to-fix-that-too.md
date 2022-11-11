@@ -11,7 +11,7 @@ video_id: "WQTrA4-9ZXk"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "saurus",  "containers",  "EC2",  "HPC",  "docker",  "GPUs",  "Lustre",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "High Performance Computing",  "Storage",  "techshorts", ]
+tags: [ "High Performance Computing",  "containers",  "CPUs",  "virtualization",  "ParallelCluster",  "EC2",  "saurus",  "Storage",  "HPC",  "Lustre",  "Schedulers",  "docker",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -11,7 +11,7 @@ video_id: "wvd6bFieht0"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "EC2",  "GPUs",  "Lustre",  "encryption",  "virtualization",  "ParallelCluster",  "vizualization",  "High Performance Computing",  "Storage",  "MSAD",  "Covid-19",  "HPC",  "LDAP",  "CPUs",  "Active Directory",  "DCV",  "multi-user",  "authentication",  "Schedulers",  "techshorts", ]
+tags: [ "virtualization",  "EC2",  "MSAD",  "Active Directory",  "High Performance Computing",  "CPUs",  "vizualization",  "DCV",  "LDAP",  "authentication",  "Storage",  "HPC",  "Covid-19",  "Lustre",  "Schedulers",  "GPUs",  "multi-user",  "ParallelCluster",  "encryption",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

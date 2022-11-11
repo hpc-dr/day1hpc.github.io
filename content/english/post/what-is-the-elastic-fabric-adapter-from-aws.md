@@ -1,13 +1,13 @@
 ---
-title: "Winter Invitational Episode II - The Algorithms Strike Back"
-date: 2022-05-19T15:42:17+0000
+title: "What is the Elastic Fabric Adapter from AWS?"
+date: 2022-11-04T14:37:19+0000
 # post thumb
 images:
-    - "images/post/cZpDVD1k6Lo.png"
+    - "images/post/inJxFXMMp0U.png"
 author: "Brendan Bouffler"
 # description
 description: ""
-video_id: "cZpDVD1k6Lo"
+video_id: "inJxFXMMp0U"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
@@ -16,12 +16,10 @@ type: "regular" # available type (regular or featured)
 draft: false
 ---
 
-This is the second part of a two-part set about the Winter Invitational Student Cluster Competition, which the AWS HPC team supported as one of four mentor teams.
+The Elastic Fabric Adapter was created so HPC and machine-learning customers could scale their tightly-coupled codes and models to thousands (and thousands) of cores without missing any performance. It has some very cool design features which means it can take advantage of the cloud's inherent scale to solve some problems that other interconnects struggle with.
 
-This isn't just about the competition or the results. It's about the skills that are important to getting a job, learning new things and solving tough problems. And it's about working together with other people.
-
-If you're able to support these kinds of events, you should give it a try. it's super rewarding. 
+In this Tech Shorts Foundations talk, we cover what EFA is, how it fits in Amazon EC2, and how you can get busy using it.
 
 If you have ideas for technical topics you'd like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM'ing us with your idea.
 
-{{< youtube cZpDVD1k6Lo >}}
+{{< youtube inJxFXMMp0U >}}

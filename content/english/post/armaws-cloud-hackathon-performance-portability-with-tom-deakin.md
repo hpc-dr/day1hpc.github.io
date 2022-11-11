@@ -11,7 +11,7 @@ video_id: "w49zW0pOINY"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "DCV",  "performance",  "Covid-19",  "EC2",  "HPC",  "GPUs",  "Lustre",  "porting",  "vizualization",  "tuning",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "High Performance Computing",  "Storage",  "techshorts", ]
+tags: [ "High Performance Computing",  "DCV",  "CPUs",  "virtualization",  "ParallelCluster",  "EC2",  "porting",  "Storage",  "HPC",  "Covid-19",  "Lustre",  "performance",  "Schedulers",  "vizualization",  "tuning",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

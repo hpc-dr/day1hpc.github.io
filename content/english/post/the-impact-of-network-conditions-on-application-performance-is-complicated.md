@@ -11,7 +11,7 @@ video_id: "gtQeLmZloJo"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "DCV",  "MPI",  "Covid-19",  "latency",  "EC2",  "HPC",  "GPUs",  "Lustre",  "vizualization",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "benchmarks",  "High Performance Computing",  "networking",  "Storage",  "techshorts", ]
+tags: [ "High Performance Computing",  "DCV",  "CPUs",  "virtualization",  "benchmarks",  "ParallelCluster",  "EC2",  "latency",  "Storage",  "HPC",  "Covid-19",  "MPI",  "networking",  "Lustre",  "Schedulers",  "vizualization",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

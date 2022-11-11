@@ -30,21 +30,21 @@ It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/d
 
 Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times. So we've built this into the **[Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD)**, which underpins EFA's performance.
 
-SRD is different from other HPC datagrams in that it doesn't look for a single fastest path. In a network as large as the one in Amazon EC2, it made sense to exploit as many pathds as possible, so SRD swarms the packets over a lot of fast pathways simultaneously. It turns out that most HPC codes are [more sensitive to reliability between communicators than the latency of any one packet](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/).
+SRD is different from other HPC datagrams in that it doesn't look for a single fastest path. In a network as large as the one in Amazon EC2, it made sense to exploit as many paths as possible, so SRD swarms the packets over a lot of fast pathways simultaneously. It turns out that most HPC codes are [more sensitive to reliability between communicators than the latency of any one packet](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/).
 
 <style>
 .boof4 {
-  width:350px;
+  width:300px;
   padding: 10px;
   }
 </style>
 <a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-what-is-efa.png" class="boof4" >}}</a>
-<a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-01">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
+<a href="https://youtu.be/XyllOcIQ_jM" target="2022-10-21-01">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
 <a href="https://hpc.news/ieeeSRD" target="2022-10-21-02">{{< image src="/images/hpc/efa-ieee-picon.png" class="boof4" >}}</a>
 
 <div class="row">
 <div class="col">
-{{< collapse "**Background to the design of SRD and EFA**" >}}
+{{< collapse "**Explore the background design of SRD and EFA**" >}}
 <style>
 table tr th:empty {
   display: none;
@@ -55,7 +55,7 @@ table td {
 </style>
 | | |
 |---|---|
-| [There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/) | |
+| [There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/) | [How does EFA work (in 8 min)?](https://youtu.be/XyllOcIQ_jM) |
 | [Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD) | [Deep dive on EFA and SRD with one of EFA\'s designers](https://youtu.be/IgPWzhIHX68) |
 {{</ collapse >}}
 </div>
@@ -69,7 +69,7 @@ In 2021, we began the process of using EFA adapters in [most new Amazon EC2 inst
 
 EFA supports instances using Intel Xeon CPUs, AMD's EPYC Milans, and our own Awrm-based AWS Graviton processors. EFA is also present in a wide variety of accelerated instances, built on technology like  NVIDIA's GPUs, as well as AWS Inferentia and AWS Trainiums.
 
-You can [use the AWS CLI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types) to get a **list of all the instances** that are EFA-capable.
+You can [use the AWS CLI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types) to get a **list of all the instances** that are EFA-capable in any AWS region you're working in.
 
 <div class="row">
 <div class="col">

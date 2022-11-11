@@ -1,0 +1,9 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $seed := "foo" }}
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+<div class="border border-default collapse-wrapper">
+  <a class="d-flex p-2 collapse-head" data-toggle="collapse" href="#a{{ $random }}" role="button">
+    {{ .Get 0 | markdownify }} <i class="fas fa-plus ml-auto"></i>
+  </a>
+  <div class="collapse" id="a{{ $random }}"><div class="p-2">{{ .Inner | markdownify }}</div></div>
+</div>
