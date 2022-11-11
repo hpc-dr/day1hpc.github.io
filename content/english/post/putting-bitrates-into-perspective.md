@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "NICE DCV", ]
-tags: [ "HPC",  "Best Practices",  "NICE DCV",  "hpcblog", ]
+tags: [ "NICE DCV",  "HPC",  "Best Practices",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

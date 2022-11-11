@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "CAE/CFD", ]
-tags: [ "CAE/CFD",  "HPC",  "Best Practices",  "Simulation",  "hpcblog", ]
+tags: [ "Simulation",  "HPC",  "CAE/CFD",  "Best Practices",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

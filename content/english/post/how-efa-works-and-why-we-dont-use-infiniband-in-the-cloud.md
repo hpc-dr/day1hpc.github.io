@@ -10,8 +10,8 @@ description: ""
 video_id: "IgPWzhIHX68"
 layout: "video"
 # Taxonomies
-categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon Elastic Fabric Adapter", ]
-tags: [ "virtualization",  "EC2",  "low latency",  "fabric",  "Intel MPI",  "MVAPICH",  "High Performance Computing",  "CPUs",  "open MPI",  "Storage",  "HPC",  "networking",  "Lustre",  "Schedulers",  "GPUs",  "ParallelCluster",  "infiniband",  "MPI",  "NCCL",  "techshorts", ]
+categories: [ "AI/ML",  "AWS ParallelCluster",  "Elastic Fabric Adapter", ]
+tags: [ "Schedulers",  "fabric",  "MPI",  "CPUs",  "GPUs",  "NCCL",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "low latency",  "HPC",  "MVAPICH",  "open MPI",  "infiniband",  "Intel MPI",  "virtualization",  "ParallelCluster",  "networking",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

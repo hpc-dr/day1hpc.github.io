@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "AWS Elastic Fabric Adapter", ]
-tags: [ "Media",  "HPC",  "EFA",  "Media & Entertainment",  "hpcblog", ]
+categories: [ "Elastic Fabric Adapter", ]
+tags: [ "Media & Entertainment",  "HPC",  "Media",  "EFA",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

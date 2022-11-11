@@ -26,7 +26,7 @@ Domain Decomposition,
 Drug Design,Life Sciences
 Drug Discovery,Life Sciences
 EC2,
-EFA,Amazon Elastic Fabric Adapter
+EFA,Elastic Fabric Adapter
 EnginFrame,
 FRTB,
 FSI,
@@ -117,10 +117,10 @@ docker,
 dug discovery,Life Sciences
 editing suite,
 elastic,
-elastic fabric adapter,Amazon Elastic Fabric Adapter
+elastic fabric adapter,Elastic Fabric Adapter
 encryption,
-fabric,Amazon Elastic Fabric Adapter
-fabrics,Amazon Elastic Fabric Adapter
+fabric,Elastic Fabric Adapter
+fabrics,Elastic Fabric Adapter
 fair share,
 fair share scheduling,
 filesystems,
@@ -137,7 +137,7 @@ hidden markov models,AI/ML
 hierarchical,
 hpc foundations,
 hybrid,
-infiniband,Amazon Elastic Fabric Adapter
+infiniband,Elastic Fabric Adapter
 isolation,
 japan HPC,
 job accounting,
@@ -155,7 +155,7 @@ multi-user,
 mxnet,AI/ML
 netapp ONTAP,
 netflix,
-networking,Amazon Elastic Fabric Adapter
+networking,Elastic Fabric Adapter
 nextflow,Life Sciences
 nextflow tower,Life Sciences
 nf core,Life Sciences
@@ -163,7 +163,7 @@ nf-core,Life Sciences
 object storage,
 on-prem,
 on-premises,
-open MPI,Amazon Elastic Fabric Adapter
+open MPI,Elastic Fabric Adapter
 openFOAM,
 openfoam,
 openzfs,

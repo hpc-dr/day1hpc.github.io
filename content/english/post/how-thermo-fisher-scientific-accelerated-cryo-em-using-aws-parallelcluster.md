@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "AWS ParallelCluster",  "Life Sciences", ]
-tags: [ "HPC",  "ParallelCluster",  "Life Sciences",  "hpcblog", ]
+categories: [ "Life Sciences",  "AWS ParallelCluster", ]
+tags: [ "HPC",  "Life Sciences",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

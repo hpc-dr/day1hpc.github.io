@@ -22,9 +22,9 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-**[NICE DCV](https://aws.amazon.com/hpc/dcv/)** is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. You can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
+NICE DCV is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. You can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
 
-[DCV makes very frugal use of scarce bandwidth](https://youtu.be/_L-U_ET4qrw), because it's super-lean, uses data-compression techniques, and has always [quickly adopted cutting-edge technologies](https://aws.amazon.com/blogs/hpc/pushing-pixels-with-nice-dcv/) (this is HPC, after all, we leave nothing on the table when it came to exploiting new gadgets).
+DCV makes *very* frugal use of scarce bandwidth, because it's super-lean, uses data-compression techniques and has always quickly adopted cutting-edge technologies (this is HPC, after all, we leave nothing on the table when it came to exploiting new gadgets).
 
 DCV is tightly integrated into ParallelCluster and [PCluster Manager](https://youtu.be/PChP3FQWeJQ) (our UI for building and managing clusters).
 
@@ -36,11 +36,11 @@ All of this is what makes DCV a light-weight visualization package that can stre
 
 ### What's behind DCV?
 
-DCV is another example of great tech that was born in HPC, but has expanded to a lot of places we never imagined - including desktop gaming. Watching some of these different use cases will help you visualize how it might work in your workflows.
+DCV is another example of great tech that was born in HPC, but has expanded to a lot of places we never imagined - including desktop gaming.
 
 <div class="row">
 <div class="col">
-{{< collapse "**Learn more about NICE DCV**" >}}
+{{< collapse "Learn more about NICE DCV" >}}
 <style>
 table tr th:empty {
   display: none;
@@ -78,8 +78,6 @@ Most of the techniques that DCV uses to minimize the effects of internet jitter 
 - **[Supercomputing visualization good enough for the most demanding gamers](https://youtu.be/_L-U_ET4qrw)** - 25min - an insight into some of DCV's tricks (like the QUIC transport layer) that minimize jitter and make the remote desktop feel like it's local. It worked so well, it's now used for gaming.
 
 ## Getting started with DCV
-
-{{< image src="/images/hpc/media-ident-mini.png" class="img-float-left" >}}
 
 It's easy to get started with DCV:
 

@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "CAE/CFD",  "NICE DCV", ]
-tags: [ "CAE/CFD",  "HPC",  "NICE DCV",  "Technical How-to",  "hpcblog", ]
+categories: [ "NICE DCV",  "CAE/CFD", ]
+tags: [ "NICE DCV",  "Technical How-to",  "HPC",  "CAE/CFD",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "Climate/Environment/Weather", ]
-tags: [ "Graviton",  "Arm",  "HPC",  "Modeling",  "Lambda",  "Climate/Environment/Weather",  "hpcblog", ]
+tags: [ "Modeling",  "HPC",  "Climate/Environment/Weather",  "Lambda",  "Arm",  "Graviton",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

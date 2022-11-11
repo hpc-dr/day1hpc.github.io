@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "Life Sciences",  "AI/ML", ]
-tags: [ "Life Sciences",  "AI/ML",  "HPC",  "Public Sector",  "Compliance",  "hpcblog", ]
+tags: [ "Public Sector",  "Compliance",  "Life Sciences",  "HPC",  "AI/ML",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -10,7 +10,7 @@ author: "Matt Vaughn"
 description: ""
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "HPC",  "Batch",  "Elastic Kubernetes Service",  "hpcblog", ]
+tags: [ "Elastic Kubernetes Service",  "HPC",  "Batch",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

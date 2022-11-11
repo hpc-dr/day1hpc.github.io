@@ -166,7 +166,7 @@ def extract_categories(tags: List[str]) -> List[str]:
     TRANSFORMS = {
         "Batch": "AWS Batch",
         "ParallelCluster": "AWS ParallelCluster",
-        "EFA": "AWS Elastic Fabric Adapter",
+        "EFA": "Elastic Fabric Adapter",
         "NICE DCV": "NICE DCV",
         "AI/ML": "AI/ML",
         "CAE/CFD": "CAE/CFD",

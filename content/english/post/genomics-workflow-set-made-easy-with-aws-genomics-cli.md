@@ -11,7 +11,7 @@ video_id: "30cfBPdzykA"
 layout: "video"
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "virtualization",  "EC2",  "cromwell",  "High Performance Computing",  "CPUs",  "miniWDL",  "cloud",  "vizualization",  "AWS Batch",  "DCV",  "nextflow",  "Storage",  "bioinformatics",  "HPC",  "Covid-19",  "Lustre",  "WDL",  "Schedulers",  "GPUs",  "ParallelCluster",  "pipelines",  "snakemake",  "Batch",  "genomics",  "techshorts", ]
+tags: [ "Schedulers",  "genomics",  "Covid-19",  "CPUs",  "GPUs",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "pipelines",  "Batch",  "HPC",  "nextflow",  "snakemake",  "DCV",  "vizualization",  "cloud",  "cromwell",  "virtualization",  "ParallelCluster",  "WDL",  "AWS Batch",  "bioinformatics",  "miniWDL",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

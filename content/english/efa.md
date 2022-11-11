@@ -1,11 +1,11 @@
 ---
-title: "Elastic Fabric Adapter"
+title: "AWS Elastic Fabric Adapter"
 date: 2022-10-17
 #author
 author: "Brendan Bouffler"
 layout: "product"
 # description
-description: "Elastic Fabric Adapter (EFA) is a high performance networking interface for EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS."
+description: "AWS Elastic Fabric Adapter (EFA) is a high performance networking interface for EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS."
 images:
   - "images/hpc/efa-ident-large.png"
 product_images:
@@ -22,29 +22,29 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-The Elastic Fabric Adapter (EFA) is a custom-built high speed network adapter built into dozens (and dozens) of Amazon EC2 instance types. It delivers the same kind of experience as you’d find on a traditional, on-premises, HPC cluster for scaling applications requiring high levels of inter-node communications on AWS.
+The AWS Elastic Fabric Adapter (EFA) is a custom-built high speed network adapter built into dozens (and dozens) of Amazon EC2 instance types. It delivers the same kind of experience as you’d find on a traditional, on-premises, HPC cluster for scaling applications requiring high levels of inter-node communications on AWS.
 
 It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html#gs.f1ru48), [Open MPI](https://www.open-mpi.org/), [MVAPICH](https://mvapich.cse.ohio-state.edu/), and [NCCL](https://developer.nvidia.com/nccl) and is available on across CPU and GPU architectures including our own [AWS Graviton processors](https://aws.amazon.com/ec2/graviton/).
 
-## How does it work?
+### How does it work?
 
 Amazon EC2 compute infrastructure is very much **not** like a ‘normal’ supercomputer (whatever that is). We don’t start with a blank page every few years and design the next big system. It’s a little more like a city where we build on what’s there already, renovate occasionally, and push for bigger and better and faster, while keeping the lights on and the traffic flowing at all times. So we've built this into the **[Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD)**, which underpins EFA's performance.
 
-SRD is different from other HPC datagrams in that it doesn't look for a single fastest path. In a network as large as the one in Amazon EC2, it made sense to exploit as many paths as possible, so SRD swarms the packets over a lot of fast pathways simultaneously. It turns out that most HPC codes are [more sensitive to reliability between communicators than the latency of any one packet](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/).
+SRD is different from other HPC datagrams in that it doesn't look for a single fastest path. In a network as large as the one in Amazon EC2, it made sense to exploit as many pathds as possible, so SRD swarms the packets over a lot of fast pathways simultaneously. It turns out that most HPC codes are [more sensitive to reliability between communicators than the latency of any one packet](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/).
 
 <style>
 .boof4 {
-  width:300px;
+  width:350px;
   padding: 10px;
   }
 </style>
 <a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-what-is-efa.png" class="boof4" >}}</a>
-<a href="https://youtu.be/XyllOcIQ_jM" target="2022-10-21-01">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
+<a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-01">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
 <a href="https://hpc.news/ieeeSRD" target="2022-10-21-02">{{< image src="/images/hpc/efa-ieee-picon.png" class="boof4" >}}</a>
 
 <div class="row">
 <div class="col">
-{{< collapse "**Explore the background design of SRD and EFA**" >}}
+{{< collapse "**Background to the design of SRD and EFA**" >}}
 <style>
 table tr th:empty {
   display: none;
@@ -55,7 +55,7 @@ table td {
 </style>
 | | |
 |---|---|
-| [There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/) | [How does EFA work (in 8 min)?](https://youtu.be/XyllOcIQ_jM) |
+| [There\'s more than one way to build a network](https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/) | |
 | [Scalable Reliable Datagram (SRD)](https://hpc.news/ieeeSRD) | [Deep dive on EFA and SRD with one of EFA\'s designers](https://youtu.be/IgPWzhIHX68) |
 {{</ collapse >}}
 </div>
@@ -63,13 +63,13 @@ table td {
 
 ----
 
-## Amazon EC2 Instance Support
+### Amazon EC2 Instance Support
 
 In 2021, we began the process of using EFA adapters in [most new Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types). That means there are dozens of instances types that now support EFA. That gives you a lot of options to customize a cluster queue specifically for your workloads.
 
 EFA supports instances using Intel Xeon CPUs, AMD's EPYC Milans, and our own Awrm-based AWS Graviton processors. EFA is also present in a wide variety of accelerated instances, built on technology like  NVIDIA's GPUs, as well as AWS Inferentia and AWS Trainiums.
 
-You can [use the AWS CLI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types) to get a **list of all the instances** that are EFA-capable in any AWS region you're working in.
+You can [use the AWS CLI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types) to get a **list of all the instances** that are EFA-capable.
 
 <div class="row">
 <div class="col">
@@ -94,7 +94,7 @@ table td {
 
 ----
 
-## EFA Performance
+### EFA Performance
 
 Customers tell us their workloads scale on EFA the same way they do on-site using traditional interconnects. We see the same thing in the lab, too.
 
@@ -125,7 +125,7 @@ table td {
 
 ---
 
-## EFA in TV broadcasting - an unexpected use case
+### EFA in TV broadcasting - an unexpected use case
 
 In HPC, we're used to the tools and techniques we create flowing into the rest of the industry, solving lots of problems once thought too hard, and unlocking new possibilities for everyone. This is what happened when the team that [looks after Holywood](https://youtu.be/x3zCTVP_LKQ) asked us for help with solving a networking problem.
 
