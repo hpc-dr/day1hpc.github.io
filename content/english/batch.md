@@ -330,7 +330,7 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 ## Workflow engines love Batch
 
 {{< tabs >}}
-  {{< tab "Netflow" >}}
+  {{< tab "Nextflow" >}}
   If you're working with Nextflow natively, then you'll probably love finding out about the **[AWS Genomics CLI](https://aws.amazon.com/genomics-cli/)** which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).
 - **[Genomics Workflows on AWS - Nextflow](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)**
 - **[Nextflow\'s getting started guide for AWS Batch](https://www.nextflow.io/docs/latest/awscloud.html)**
