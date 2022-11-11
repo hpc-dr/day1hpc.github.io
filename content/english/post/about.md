@@ -16,9 +16,9 @@ images:
 
 # Welcome to Day 1
 
-Welcome to **[day1hpc.com](http://day1hpc.com/)** - a community site built and curated by the **Developer Relations team in HPC Engineering at AWS**. Our job is to be the interface between our HPC engineering teams and the people in the HPC community who want to use AWS to create ***powerful*** tools for solving ***hard*** problems.
+Welcome to **[day1hpc.com](http://day1hpc.com/)** - a community site built and curated by the **Developer Advocates from HPC Engineering at AWS**. Our job is to be the interface between our HPC engineering teams and the people in the HPC community who want to use AWS to create ***powerful*** tools for solving ***hard*** problems.
 
-To do that, we'll spend a lot of our time explaining how these services work, and getting your feedback so we can improve them, continuously. You’ll find a lot of things on this site to help you understand AWS a little better, all with the aim of getting you where to want to go, faster.
+To do that, we spend a lot of our time explaining how these services work, and getting your feedback so we can improve them, continuously. You’ll find a lot of things on this site to help you understand AWS a little better, all with the aim of getting you where to want to go, faster.
 
 ## We called the site Day1Hpc for a couple of reasons.
 
@@ -26,7 +26,7 @@ To do that, we'll spend a lot of our time explaining how these services work, an
 
 **The other reason** is that *it's still Day 1 for HPC in the cloud*. We see endless possibilities to improve the productivity of every scientist or engineer who uses HPC as a tool in their exploration. And we're optimistic about where that's going to lead us all.
 
-If you see any of us at a conference, please say ‘hi’ and let us know how we can help.
+If you see any of us at a conference, please say ‘hi’ and let us know how we can help. [We'll be at SC'22](https://pages.awscloud.com/SC-2022.html) in Dallas - maybe you'll see us there.
 
 You can find us on Twitter at **[@TechHpc](https://twitter.com/TechHpc)**, on YouTube in the **[HPC Tech Shorts Channel](https://hpc.news/techshorts)**, or blogging to the world from the **[AWS HPC Blog Channel](https://hpc.news/blog)**. Please reach out and let us know what you’re finding hard, or easy.
 
@@ -37,9 +37,9 @@ You can find us on Twitter at **[@TechHpc](https://twitter.com/TechHpc)**, on Yo
 
 ----
 
-## We're hiring
+## We're hiring soon
 
-So if you want to know what it's like to work in our engineering teams, take it from the people who are alreasy here ...
+So if you want to know what it's like to work in our engineering teams, take it from the people who are already here ...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jEN5be7krDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

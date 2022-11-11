@@ -26,7 +26,7 @@ weight = 2
 
 [[main]]
 parent = "Products"
-name = "AWS Elastic Fabric Adapter"
+name = "Elastic Fabric Adapter"
 url = "/efa/"
 weight = 3
 
@@ -36,34 +36,34 @@ name = "NICE DCV"
 url = "/nice-dcv/"
 weight = 4
 
-[[main]]
-weight = 4
-name = "Workloads"
-hasChildren = true
-
-[[main]]
-parent = "Workloads"
-name = "AI/ML"
-url = "/ai-ml/"
-weight = 1
-
-[[main]]
-parent = "Workloads"
-name = "CAE/CFD"
-url = "/cae-cfd/"
-weight = 2
-
-[[main]]
-parent = "Workloads"
-name = "Climate, Environment & Weather"
-url = "/climate-environment-weather/"
-weight = 3
-
-[[main]]
-parent = "Workloads"
-name = "Life Sciences"
-url = "/life-sciences/"
-weight = 4
+# [[main]]
+# weight = 4
+# name = "Workloads"
+# hasChildren = true
+# 
+# [[main]]
+# parent = "Workloads"
+# name = "AI/ML"
+# url = "/ai-ml/"
+# weight = 1
+# 
+# [[main]]
+# parent = "Workloads"
+# name = "CAE/CFD"
+# url = "/cae-cfd/"
+# weight = 2
+# 
+# [[main]]
+# parent = "Workloads"
+# name = "Climate, Environment & Weather"
+# url = "/climate-environment-weather/"
+# weight = 3
+# 
+# [[main]]
+# parent = "Workloads"
+# name = "Life Sciences"
+# url = "/life-sciences/"
+# weight = 4
 
 [[main]]
 weight = 5
@@ -71,11 +71,11 @@ name = "About"
 url = "post/about/"
 hasChildren = false
 
-[[main]]
-weight = 6
-name = "Resources"
-url = "/resources/"
-hasChildren = false
+# [[main]]
+# weight = 6
+# name = "Resources"
+# url = "/resources/"
+# hasChildren = false
 
 # footer "Quick Links" menu
 [[footer]]

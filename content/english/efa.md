@@ -1,11 +1,11 @@
 ---
-title: "AWS Elastic Fabric Adapter"
+title: "Elastic Fabric Adapter"
 date: 2022-10-17
 #author
 author: "Brendan Bouffler"
 layout: "product"
 # description
-description: "AWS Elastic Fabric Adapter (EFA) is a high performance networking interface for EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS."
+description: "Elastic Fabric Adapter (EFA) is a high performance networking interface for EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS."
 images:
   - "images/hpc/efa-ident-large.png"
 product_images:
@@ -22,7 +22,7 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-The AWS Elastic Fabric Adapter (EFA) is a custom-built high speed network adapter built into dozens (and dozens) of Amazon EC2 instance types. It delivers the same kind of experience as you’d find on a traditional, on-premises, HPC cluster for scaling applications requiring high levels of inter-node communications on AWS.
+The Elastic Fabric Adapter (EFA) is a custom-built high speed network adapter built into dozens (and dozens) of Amazon EC2 instance types. It delivers the same kind of experience as you’d find on a traditional, on-premises, HPC cluster for scaling applications requiring high levels of inter-node communications on AWS.
 
 It's natively supported by [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html#gs.f1ru48), [Open MPI](https://www.open-mpi.org/), [MVAPICH](https://mvapich.cse.ohio-state.edu/), and [NCCL](https://developer.nvidia.com/nccl) and is available on across CPU and GPU architectures including our own [AWS Graviton processors](https://aws.amazon.com/ec2/graviton/).
 

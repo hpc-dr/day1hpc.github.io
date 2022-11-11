@@ -55,9 +55,8 @@ Tech Shorts Foundations are videos which will help you undertsand the jargon, an
 
 ### HPC clusters and job management
 
-<a href="https://youtu.be/u1Djjv8A5Do">{{< image src="/images/tsf/tsf-what-is-pc.png" class="learn" >}}</a>
-<a href="https://youtu.be/u1Djjv8A5Do">{{< image src="/images/tsf/tsf-what-is-batch.png" class="learn" >}}</a>
-<a href="https://youtu.be/u1Djjv8A5Do">{{< image src="/images/tsf/tsf-batch-or-pc.png" class="learn" >}}</a>
+<a href="https://youtu.be/gmw7A3kOh60">{{< image src="/images/tsf/tsf-what-is-pc.png" class="learn" >}}</a>
+<a href="https://youtu.be/24tBOQDAyUA">{{< image src="/images/tsf/tsf-what-is-batch.png" class="learn" >}}</a>
 
 ---
 

@@ -9,10 +9,10 @@ images:
 # Taxonomies
 categories: ["HPC Workshops"]
 tags: ["photo","image"]
-type: "featured" # available type (regular or featured)
+type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 # HPC Workshops
 
-We build workshops that can help you, step-by-step expand your skills and solve problems more efficiently.
+We build workshops that can help you, step-by-step, expand your skills and solve problems more efficiently.
