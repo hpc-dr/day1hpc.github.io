@@ -11,7 +11,7 @@ video_id: "Zz91uPbk12Y"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Life Sciences", ]
-tags: [ "EC2",  "HPC",  "Drug Discovery",  "GPUs",  "Computational Chemistry",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "GROMACS",  "High Performance Computing",  "MD",  "techshorts", ]
+tags: [ "High Performance Computing",  "Drug Discovery",  "CPUs",  "GROMACS",  "virtualization",  "ParallelCluster",  "EC2",  "HPC",  "Computational Chemistry",  "Schedulers",  "GPUs",  "MD",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
