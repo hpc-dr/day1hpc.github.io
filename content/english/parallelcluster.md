@@ -26,7 +26,7 @@ draft: false
 <div class="container">
 <div class="row">
 
-AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on AWS**. ParallelCluster HPC systems are powered by the latest compute architectures and are scalable as AWS itself. They feature advanced networking and high-performance storage to handle challenging workloads. But, they are also easy to use, with familiar software environments. They are designed around a high degree of security and compliance to help protect your data. And, they are cloud-ready so you can integrate them with non-HPC systems. 
+AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on AWS**. ParallelCluster HPC systems are powered by the latest compute architectures and are as scalable as AWS itself. They feature advanced networking and high-performance storage to handle challenging workloads. But, they are also easy to use, with familiar software environments. They are designed around a high degree of security and compliance to help protect your data. And, they are cloud-ready so you can integrate them with non-HPC systems. 
 
 </div>
 </div>
@@ -39,7 +39,7 @@ AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on 
 <div class="col-2">{{< image src="/images/hpc/1-pc-ksp-compute-strap.png" class="img-float-center" >}}</div>
 <div class="col">
 
-Your HPC clusters run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your cluster's compute architecture to specific workloads. You can build clusters powered by the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
+Your HPC clusters run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your cluster's compute architecture to specific workloads. You can build clusters powered by the latest x86 CPUs from Intel or AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful [NVIDIA GPUs](https://aws.amazon.com/nvidia/). If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
 
 </div>
 </div>
@@ -109,7 +109,7 @@ table td {
 <div class="col-2">{{< image src="/images/hpc/4-pc-ksp-network-strap.png" class="img-float-center" >}}</div>
 <div class="col">
 
-[Amazon Elastic Fabric Adapter](https://aws.amazon.com/hpc/efa/) (EFA), our high-performance data-center scale networking protocol, is built in to most modern EC2 instances -- ParallelCluster configures it for you automatically. You can also easily tune inter-instance latency with [instance placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html) that put your HPC EC2 instances in close physical proximity in our data centers. And, your clusters can have any combination of public and private networking (VPCs), SSH bastion hosts, static IP addresses, and policy-based network security groups, all configurable using ParallelCluster.
+[Elastic Fabric Adapter](https://aws.amazon.com/hpc/efa/) (EFA), our custom HPC & ML network interface, is built into most modern Amazon EC2 instances -- ParallelCluster configures it for you automatically. ParallelCluster also tunes for inter-instance latency with [instance placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html) that put your EC2 instances in close physical proximity to each other in our data centers. And, your clusters can have any combination of public and private networking (VPCs), SSH bastion hosts, static IP addresses, and policy-based network security groups, all configurable using ParallelCluster. It's so important, we have a [whole section](/efa) of this site dedicated to it
 
 </div>
 </div>
@@ -128,7 +128,7 @@ table td {
 </style>
 | | |
 |---|---|
-| [What is EFA?](https://youtu.be/inJxFXMMp0U) | [How does EFA work?](https://youtu.be/inJxFXMMp0U) |
+| [What is EFA?](https://youtu.be/inJxFXMMp0U) | [How does EFA work?](https://youtu.be/XyllOcIQ_jM) |
 | [EFA-enabled Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types) | [IEEE Spectrum paper on EFA and SRD](https://hpc.news/ieeeSRD) |
 {{</ collapse >}}
 
@@ -143,7 +143,7 @@ table td {
 <div class="row">
 <div class="col">
 
-Data is just is important as compute the modern HPC universe. ParallelCluster helps you provision, manage, and use high-performance shared filesystems built securely on your choice of Amazon storage technologies. By default, your cluster's home directory is exported to all compute nodes from an [AWS Elastic Block Store](https://aws.amazon.com/ebs/) (EBS) volume. You can add additional shared filesystems built on [FSx for Lustre](https://aws.amazon.com/fsx/lustre/) (as well as [NetApp ONTAP](https://aws.amazon.com/fsx/netapp-ontap/) and [OpenZFS](https://aws.amazon.com/fsx/openzfs/)). If you choose FSx for Lustre, you can integrate with [Amazon S3](https://aws.amazon.com/s3/) and [Amazon File Cache](https://aws.amazon.com/filecache/) to manage data lifecycle, control costs, and integrate with on-premises storage. 
+Data is just is important as compute in the modern HPC universe. ParallelCluster helps you provision, manage, and use high-performance shared filesystems built securely on your choice of Amazon storage technologies. By default, your cluster's home directory is exported to all compute nodes from an [AWS Elastic Block Store](https://aws.amazon.com/ebs/) (EBS) volume. But you can add additional shared filesystems built on **[FSx for Lustre](https://aws.amazon.com/fsx/lustre/)** (as well as [NetApp ONTAP](https://aws.amazon.com/fsx/netapp-ontap/) and **[OpenZFS](https://aws.amazon.com/fsx/openzfs/)**). If you choose FSx for Lustre, you can integrate with [Amazon S3](https://aws.amazon.com/s3/) to manage data lifecycle, control costs. You can also use **[Amazon File Cache](https://aws.amazon.com/filecache/)** which places a Lustre-based cache in front of Amazon S3, or any NFSv3 filers you have including even your on-premise local storage.
 
 </div>
 <div class="col-2">{{< image src="/images/hpc/5-pc-ksp-storage-strap.png" class="img-float-center" >}}</div>
@@ -180,7 +180,7 @@ table td {
 
 <div class = "col">
 
-You can choose from [Amazon Linux](https://aws.amazon.com/linux/), Centos, or Ubuntu operating systems to build your clusters. Each feature a best-of-class user environment that supports modern systems for managing software such as [GNU modules](https://modules.readthedocs.io/en/latest/), [Conda](https://docs.conda.io/en/latest/), and [Spack](https://spack.io/). You can access them directly over SSH, or indirectly via [Amazon Systems Manager](https://docs.aws.amazon.com/systems-manager) or [EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html). You can also use interactive desktops and visualization tools via [NICE DCV](/dcv), which is built-in to ParallelCluster systems. On the management side of things, ParallelCluster has a graphical interface (and a CLI) to model and control all the resources you need for your HPC applications. It also has a web service API you can use for advanced workflow management. 
+You can choose from [Amazon Linux](https://aws.amazon.com/linux/), **Centos**, or **Ubuntu** operating systems to build your clusters. Each of these feature a best-of-class user environment that supports modern systems for managing software such as [GNU modules](https://modules.readthedocs.io/en/latest/), [Conda](https://docs.conda.io/en/latest/), and [Spack](https://spack.io/). You can access them directly over SSH, or indirectly via [Amazon Systems Manager](https://docs.aws.amazon.com/systems-manager) or [EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html). You can also use interactive desktops and visualization tools via [NICE DCV](/dcv), which is built-in to ParallelCluster systems. ParallelCluster also has a **graphical interface (and a CLI)** to model and control all the resources you need for your HPC applications - and, of course, a web service API you can use for advanced workflow management. 
 
 </div>
 
@@ -254,7 +254,7 @@ table td {
 
 <div class="col">
 
-Today's HPC finds itself integrated with complex instrumentation and business systems, many of which are native to the web. ParallelCluster systems are built on the cloud, using cloud technologies. This means you can integrate them with services like [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/), [AWS Lambda](https://aws.amazon.com/lambda/), and [AWS Step Functions](https://aws.amazon.com/step-functions/) to process events, orchestrate jobs, manage data, and other mission-critical tasks that involve non-HPC systems. 
+Today, HPC finds itself integrated with complex instrumentation and business systems, many of which are native to the web. ParallelCluster systems are built on the cloud, using cloud technologies, right next door to more than 200 hundred other AWS services. This means you can integrate them with services like [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/), [AWS Lambda](https://aws.amazon.com/lambda/), and [AWS Step Functions](https://aws.amazon.com/step-functions/) to process events, orchestrate jobs, manage data, and other mission-critical tasks that involve non-HPC systems. 
 
 </div>
 </div>
@@ -288,7 +288,9 @@ table td {
 <div class="row">
 <div class="col">
 
-First, let's make sure you're comfortable that ParallelCluster is the right path for your AWS workloads. We also have 100% cloud-native offering known as [AWS Batch](/batch/). Batch builds on many of the same AWS technologies as ParallelCluster, so it is also scalable, flexible, and adaptable to a wide number of use cases. We have an in-depth blog post that helps explain **[when to choose AWS Batch versus AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. Once you're read it over, feel free to keep exploring more resources below describing key features and configurations of ParallelCluster. 
+First, let's make sure you're comfortable that ParallelCluster is the right path for your AWS workloads. AWS also has a 100% cloud-native service called [AWS Batch](/batch/). Batch builds on many of the same AWS technologies as ParallelCluster, so it is also scalable, flexible, and adaptable to a wide number of use cases.
+
+We have an in-depth blog post that helps explain **[when to choose AWS Batch versus AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. Once you're read it over, feel free to keep exploring more resources below describing key features and configurations of ParallelCluster. 
 * [Introducing AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/)- This blog describes the features of ParallelCluster 3.
 * [ParallelCluster 3 - built by customers](https://youtu.be/a-99esKLcls) - In this Tech Short video (17m) the ParallelCluster product team talks about new features in version 3.
 * [PCluster Manager - A new GUI for building and managing clusters](https://youtu.be/Z1vlpJYb1KQ) - A video (20m) tour through the ParallelCluster web console.
