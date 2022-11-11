@@ -59,7 +59,12 @@ table td {
 </style>
 | | |
 |---|---|
+<<<<<<< Updated upstream
 | []() | []() |
+=======
+| [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
+| [Video: AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
+>>>>>>> Stashed changes
 
 {{</ collapse >}}
 
@@ -94,8 +99,13 @@ table td {
 </style>
 | | |
 |---|---|
+<<<<<<< Updated upstream
 | []() | []() |
 
+=======
+| [AWS Batch allocations strategies](https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html) | [Using On-Demand or Spot Instances](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice5) |
+| [EC2 Spot Best Practices for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice6) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/)  | 
+>>>>>>> Stashed changes
 </div>
 </div>
 </div>
@@ -130,7 +140,8 @@ table td {
 </style>
 | | |
 |---|---|
-| []() | []() |
+| [Security in AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/security.html) | [Compliance Validation for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/compliance.html) |
+| [How to authenticate private container registries using AWS Batch](https://aws.amazon.com/blogs/compute/how-to-authenticate-private-container-registries-using-aws-batch/) | [Identity and Access Management for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/security-iam.html) |
 
 {{</ collapse >}}
 
@@ -167,7 +178,8 @@ table td {
 </style>
 | | |
 |---|---|
-| []() | []() |
+| [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) | [AWS Batch Scheduling Policies User Guide](https://docs.aws.amazon.com/batch/latest/userguide/scheduling-policies.html) |
+| [Video: Fair share scheduling to maximize user happiness in AWS Batch](https://youtu.be/Ws_fvv1_Sv8) | [Workshop: Fair-share scheduling on AWS Batch](https://catalog.us-east-1.prod.workshops.aws/workshops/c3d652f2-6de1-4014-9a1b-c1b3c8f08b8d/en-US/intro/batch) |
 
 {{</ collapse >}}
 
@@ -280,6 +292,31 @@ table td {
 
 -----
 
+<<<<<<< Updated upstream
+=======
+## Learn More About AWS Batch
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+
+First, let's make sure you're comfortable that AWS Batch is the right tool for your workloads. AWS also has a command line tool for standing up traditional HPC clusters called [AWS ParallelCluster](/parallelcluster/). AWS ParallelCluster builds on many of the same AWS technologies as AWS Batch, so it is also scalable, flexible, and adaptable to a wide number of use cases.
+
+- [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/)
+- [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/)
+- [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
+- [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
+- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
+- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
+</div>
+
+<div class="col-4">
+{{< image src="/images/hpc/media-ident-square.png" class="img-float-right" >}}
+</div>
+</div>
+</div>
+
+---- 
+>>>>>>> Stashed changes
 
 ## Major features you'll want to know about
 
@@ -340,6 +377,12 @@ table td {
 ## Use cases
 
 {{< tabs >}}
+  {{< tab "Data Science + Machine Learning" >}}
+- [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
+- [Data Science workflows at insitro: using redun on AWS Batch](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)
+- **Bayesian ML Models at Scale with AWS Batch** [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
+- **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
+  {{< /tab >}}  
   {{< tab "Healthcare & Life Sciences" >}}
 - [Optimize Protein Folding Costs with OpenFold on AWS Batch](https://aws.amazon.com/blogs/hpc/optimize-protein-folding-costs-with-openfold-on-aws-batch/)
 - [Protein folding in the cloud - a protein primer with Brian Loyal](https://youtu.be/h9QPdUGWkZQ)
@@ -351,9 +394,10 @@ table td {
 - [Nextflow Tower and how it makes it easy to manage a lot of infrastructure quickly.](https://youtu.be/JOguxRohITA)
 - [Genomics workflow set made easy with AWS Genomics CLI](https://youtu.be/30cfBPdzykA)
 - [Getting Started with NVIDIA Clara Parabricks on AWS Batch using AWS CloudFormation](https://aws.amazon.com/blogs/hpc/getting-started-with-nvidia-parabricks-on-aws-batch-using-aws-cloudformation/)
-{{< /tab >}}
+  {{< /tab >}}
   {{< tab "Visual FX" >}}
 - [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/)
+<<<<<<< Updated upstream
   {{< /tab >}}
   {{< tab "Data Science + Machine Learning" >}}
 - [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
@@ -363,7 +407,10 @@ table td {
 
 - **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
   {{< /tab >}}  
+=======
+>>>>>>> Stashed changes
   {{< tab "Others" >}}
 - [Optimize your Monte Carlo simulations using AWS Batch](https://aws.amazon.com/blogs/hpc/optimizing-monte-carlo-simulations-using-aws-batch/)
+- [Building well-architected serverless applications: Optimizing application performance](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-optimizing-application-performance-part-3/)
   {{< /tab >}}  
 {{< /tabs >}}
