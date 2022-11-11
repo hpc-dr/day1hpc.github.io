@@ -11,7 +11,7 @@ video_id: "5O-Zdl740fw"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "DCV",  "Covid-19",  "visual effects",  "compound screening",  "EC2",  "HPC",  "GPUs",  "Lustre",  "CGI",  "vizualization",  "yellowdog",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "dug discovery",  "High Performance Computing",  "Storage",  "techshorts", ]
+tags: [ "yellowdog",  "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "Covid-19",  "virtualization",  "visual effects",  "ParallelCluster",  "CGI",  "DCV",  "compound screening",  "CPUs",  "GPUs",  "vizualization",  "dug discovery",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "AWS Batch",  "Life Sciences", ]
-tags: [ "Batch",  "HPC",  "Simulation",  "Life Sciences",  "hpcblog", ]
+categories: [ "Life Sciences",  "AWS Batch", ]
+tags: [ "Life Sciences",  "Simulation",  "HPC",  "Batch",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

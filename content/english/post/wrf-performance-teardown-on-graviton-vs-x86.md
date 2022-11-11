@@ -11,7 +11,7 @@ video_id: "D2ppdRKSz5I"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
-tags: [ "MPI",  "performance",  "weather simulation",  "Graviton",  "EC2",  "HPC",  "GPUs",  "Lustre",  "WRF",  "x86",  "CPUs",  "virtualization",  "ParallelCluster",  "Schedulers",  "Arm",  "High Performance Computing",  "Storage",  "techshorts", ]
+tags: [ "Arm",  "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "weather simulation",  "WRF",  "x86",  "Graviton",  "virtualization",  "performance",  "ParallelCluster",  "MPI",  "CPUs",  "GPUs",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

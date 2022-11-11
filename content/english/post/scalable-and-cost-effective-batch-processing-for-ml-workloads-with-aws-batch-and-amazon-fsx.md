@@ -9,8 +9,8 @@ author: "Matt Vaughn"
 # description
 description: ""
 # Taxonomies
-categories: [ "AI/ML",  "AWS Batch",  "Financial Services", ]
-tags: [ "AI/ML",  "Technical How-to",  "Batch",  "Machine Learning",  "HPC",  "Modeling",  "Financial Services",  "hpcblog", ]
+categories: [ "Financial Services",  "AI/ML",  "AWS Batch", ]
+tags: [ "Modeling",  "Financial Services",  "HPC",  "Machine Learning",  "AI/ML",  "Batch",  "Technical How-to",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
