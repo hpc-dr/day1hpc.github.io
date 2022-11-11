@@ -207,6 +207,8 @@ def video_to_blog(video):
 
 def main(values):
     
+    force_dl = values.force
+
     environment = Environment(
         loader=FileSystemLoader(os.path.join(PARENT_DIR, "./templates/"))
     )
@@ -231,11 +233,12 @@ def main(values):
 
         content = template.render(**data)
         filename = os.path.join(POSTS_DIR, data["filename"])
-        with open(filename, mode="w", encoding="utf-8") as post:
-            post.write(content)
-            # Download the illustrative image associated with each post
-            if data["thumbnail"] != "":
-                download_image(data["thumbnail"], data["thumbnail_filename"])
+        if not os.path.exists(filename) or force_dl:
+            with open(filename, mode="w", encoding="utf-8") as post:
+                post.write(content)
+                # Download the illustrative image associated with each post
+                if data["thumbnail"] != "":
+                    download_image(data["thumbnail"], data["thumbnail_filename"], force=force_dl)
 
     print("Filenames:")
     print("\n".join(filenames))
@@ -249,5 +252,6 @@ if __name__ == "__main__":
     parser.add_argument("--channel", type=str, required=False, default="UChSIn5kcWQvJxW17KIjdLVw", help="Channel ID (optional)")
     parser.add_argument("--uploads", type=str, required=False, default="UUhSIn5kcWQvJxW17KIjdLVw", help="Uploads Playlist ID (optional)")
     parser.add_argument("--key", type=str, required=True, default="oxDEADBEEF", help="Youtube Data V3 API Key")
+    parser.add_argument("--force", action="store_true", help="Force re-download")
     args = parser.parse_args()
     main(args)
