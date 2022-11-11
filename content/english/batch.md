@@ -63,7 +63,8 @@ table td {
 </style>
 | | |
 |---|---|
-| []() | []() |
+| [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
+| [Video: AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | |
 
 {{</ collapse >}}
 
@@ -207,6 +208,7 @@ table td {
 | | |
 |---|---|
 | [Custom logging with AWS Batch](https://aws.amazon.com/blogs/compute/custom-logging-with-aws-batch/) | [AWS Batch Runtime Monitoring Dashboards Solution](https://github.com/aws-samples/aws-batch-runtime-monitoring) |
+| [New console features including container insights in AWS Batch](https://youtu.be/uv4jJ7XIAfs) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/) |
 {{</ collapse >}}
 
 </div>
@@ -239,7 +241,9 @@ table td {
 </style>
 | | |
 |--|--|
-| []() | []() |
+| [Batch can now use Fargate for a truly serverless experience](https://youtu.be/weKeR-qg_-4) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/) | 
+| [Rearchitecting AWS Batch managed services to leverage AWS Fargate](https://aws.amazon.com/blogs/hpc/rearchitecting-aws-batch-managed-services-to-leverage-aws-fargate/) | [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/) |
+
 
 {{</ collapse >}}
 
@@ -288,8 +292,6 @@ table td {
 ## Major features you'll want to know about
 
 - [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/)
-- [New console features including container insights in AWS Batch](https://youtu.be/uv4jJ7XIAfs)
-- [Batch can now use Fargate for a truly serverless experience](https://youtu.be/weKeR-qg_-4)
 - [AWS Batch's new Faster Scaling features](https://youtu.be/uQCUpw7uSjY)
 - [Introducing support for per-job Amazon EFS volumes in AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-support-for-per-job-amazon-efs-volumes-in-aws-batch/)
 - [Fair share scheduling to maximize user happiness in AWS Batch](https://youtu.be/Ws_fvv1_Sv8)
@@ -332,8 +334,10 @@ table td {
 
 - [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/)
 - [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/)
-- [Rearchitecting AWS Batch managed services to leverage AWS Fargate](https://aws.amazon.com/blogs/hpc/rearchitecting-aws-batch-managed-services-to-leverage-aws-fargate/)
 - [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
+
+- 
+
 - [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
 
 
