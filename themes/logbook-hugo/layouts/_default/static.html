@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $sidebar:= site.Params.sidebar }}
+{{ $hasbar:= or (eq $sidebar `left`) (eq $sidebar `right`)}}
+{{ $widget:= site.Params.widgets.sidebar }}
+
+<section class="section">
+  <div class="container">
+    <article class="row col-12">
+      <div class="col-lg-12 mx-auto"> 
+        {{with .Params.images}}
+        <div class="{{if not (or (eq $sidebar `left`) (eq $sidebar `right`))}}col-12{{end}} mb-3">
+          <div class="post-slider">
+            {{ range .}}
+            {{ if (fileExists (add `assets/` .)) }}
+            {{ $image:= resources.Get . }}
+            {{ $imageFallback:= $image.Resize "750x" }}
+            {{ $imageLG:= $image.Resize "750x webp" }}
+            {{ $imageMD:= $image.Resize "710x webp" }}
+            {{ $imageSM:= $image.Resize "540x webp" }}
+            {{ $imageXS:= $image.Resize "400x webp" }}
+            <picture>
+              <source srcset="{{ $imageXS.RelPermalink }}" media="(max-width: 575px)">
+              <source srcset="{{ $imageSM.RelPermalink }}" media="(max-width: 767px)">
+              <source srcset="{{ $imageMD.RelPermalink }}" media="(max-width: 991px)">
+              <source srcset="{{ $imageLG.RelPermalink }}" media="(max-width: 1200px)">
+              <source srcset="{{$imageLG.RelPermalink}}">
+              <img loading="lazy" class="img-fluid w-100" src="{{$imageLG.RelPermalink}}" alt="post-thumb">
+            </picture>
+            {{ else }}
+            <img loading="lazy" class="img-fluid" src="{{ $imageFallback.RelPermalink }}" alt="post-thumb">
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{end}}
+        <div class="content">{{.Content}}</div>
+       </div>
+
+    </article>
+  </div>
+</section>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{.Permalink}}"
+    },
+    "headline": "{{.Title}}",
+    "description": "{{.Params.description}}",
+    "image": "{{.Params.images | relURL}}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{site.Params.author}}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{site.Params.logo}}"
+      }
+    },
+    "datePublished": "{{.PublishDate.Format `2006-01-02`}}"
+  }
+</script>
+
+{{ end }}

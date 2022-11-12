@@ -68,7 +68,7 @@ weight = 4
 [[main]]
 weight = 5
 name = "About"
-url = "post/about/"
+url = "about/"
 hasChildren = false
 
 # [[main]]
@@ -80,7 +80,7 @@ hasChildren = false
 # footer "Quick Links" menu
 [[footer]]
 name = "About"
-url = "post/about/"
+url = "about/"
 weight = 1
 
 [[footer]]
