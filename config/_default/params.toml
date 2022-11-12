@@ -58,7 +58,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["HPC", "AWS", "Batch Computing", "HPC Cloud", "Cloud", "Scientific Computing", "Research Computing", "CFD"]
+keywords = ["HPC", "AWS", "Batch Computing", "HPC Cloud", "Cloud", "Scientific Computing", "Research Computing", "CFD", "Machine Learning", "CAE", "Modeling", "Simulation"]
 description = "This is the community website for HPC on AWS"
 author = "AWS"
 image = "images/day1hpc-favicon.png"                                       # this image will be used as fallback if a page has no image of its own
