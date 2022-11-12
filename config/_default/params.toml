@@ -7,7 +7,7 @@ logo = "images/hpc/day1-ident-main.png"
 logo_width = "450px"
 # logo text will only show when logo is missing.
 logo_text = "Day 1 HPC"
-page_not_found_image = "images/404.png" # 404 error page image
+page_not_found_image = "images/404.jpg" # 404 error page image
 # image gallery shortcode
 image_gallery = true
 # email address
