@@ -1,6 +1,6 @@
 ---
 title: "Learning pathways to the cloud"
-date: 2022-10-28
+date: 2022-11-13
 #author
 author: "Brendan Bouffler"
 layout: "single-notitle"
@@ -27,12 +27,13 @@ draft: false
 
 ## Navigating your way into AWS
 
-We get it - there are too many things going on in AWS that if you haven't been following from the beginning, it's daunting to know where to start. We've put material together to help you bridge the knowledge gap. To get high level knowledge of AWS, so you can bust through the jargon andget on top of the most important concepts, we've created a set of short videos in our YouTube channel - **[HPC Tech Shorts](https://hpc.news/techshorts)** to get started with.
+We get it - there are too many things going on in AWS that if you haven't been following from the beginning, it's daunting to know where to start. We've put material together to help you bridge the knowledge gap. To get high level knowledge of AWS, so you can bust through the jargon and get on top of the most important concepts, we've created a set of short videos in our YouTube channel - **[HPC Tech Shorts](https://hpc.news/techshorts)** to get started with.
 
 Workshops dive deeper, and will get you hands-on with the tools to build some practical working clusters. 
 
 ## HPC Tech Shorts Foundations
-Tech Shorts Foundations are videos which will help you undertsand the jargon, and get on top of the most important concepts around cloud computing, specifically as they apply to HPC.
+
+The [HPC Tech Shorts](https://hpc.news/techshorts) channel releases new shows each week, including a subset dedicated for addressing foundational topics about HPC in the cloud. Consider subscribing to the channel so you get updates as new content is released.
 
 <style>
 .learn {
@@ -72,11 +73,11 @@ Tech Shorts Foundations are videos which will help you undertsand the jargon, an
 
 {{< image src="/images/hpc/ws-ident-large.png" class="ws" >}}
 
-Our field teams conduct a lot of HPC training throughout the year, and the content here draws from that.
+Our solution architect teams conduct a lot of HPC training throughout the year, and the content here draws from that.
 
 There are two primary groups of workshops:
 
-1. **Whole Day Workshops** - the content we use for delivering workshops at large events like SuperComputing and ISC, in the tutorial tracks. This content is designed for a whole day of immersion, with AWS instructors on-hand to answer questions and help you debug. it lives at **[hpcworkshops.com](https://hpcworkshops.com)**. 
+1. **Whole Day Workshops** - the content we use for delivering workshops at large events like SuperComputing and ISC, in the tutorial tracks. This content is designed for a whole day of immersion, with AWS instructors on-hand to answer questions and help you debug. it lives at **[hpcworkshops.com](https://hpcworkshops.com)**.
 2. **Specific topics** - these workshops often drill down into a specific task you might want to accomplish, like '*standing up my favorite CFD code on a cluster in the cloud*'.
 
 ## AWS ParallelCluster workshops
