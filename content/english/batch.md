@@ -25,6 +25,7 @@ draft: false
 <div class="row" >
 
 **AWS Batch** is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications.
+
  **Workflow builders** love it for scaling their workloads, from machine learning to genomics. Batch scales from **one job** to **millions of jobs**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
 
 You may be familiar with using a traditional HPC resource - like an traditional SLURM cluster - and probably wonder what makes AWS Batch different. Before you dive in on Batch, it's worth comparing it to [AWS ParallelCluster](/parallelcluster). Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 

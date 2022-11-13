@@ -26,7 +26,9 @@ draft: false
 <div class="container">
 <div class="row">
 
-AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on AWS**. ParallelCluster HPC systems are powered by the latest compute architectures and are scalable as AWS itself. They feature advanced networking and high-performance storage to handle challenging workloads. But, they are also easy to use, with familiar software environments. They are designed around a high degree of security and compliance to help protect your data. And, they are cloud-ready so you can integrate them with non-HPC systems. 
+AWS ParallelCluster helps you build and manage cost-efficient **HPC Clusters on AWS**. 
+
+ParallelCluster HPC systems are powered by the latest compute architectures and are scalable as AWS itself. They feature advanced networking and high-performance storage to handle challenging workloads. But, they are also easy to use, with familiar software environments. They are designed around a high degree of security and compliance to help protect your data. And, they are cloud-ready so you can integrate them with non-HPC systems. 
 
 </div>
 </div>
