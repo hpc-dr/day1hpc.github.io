@@ -7,7 +7,7 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
 tags: [ "HPC",  "Slurm",  "ParallelCluster",  "hpcblog", ]
@@ -17,4 +17,4 @@ draft: false
 
 In this post, we highlight a little-known configuration option for Slurm on @awscloud ParallelCluster that can reduce costs and increase your iteration speed by preventing idle batch instances from launching when EC2 capacity is limited.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/minimize-hpc-compute-costs-with-all-or-nothing-instance-launching/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

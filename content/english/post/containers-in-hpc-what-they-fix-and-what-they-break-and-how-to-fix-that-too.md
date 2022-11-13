@@ -6,12 +6,12 @@ images:
     - "images/post/WQTrA4-9ZXk.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "WQTrA4-9ZXk"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "containers",  "saurus",  "virtualization",  "ParallelCluster",  "docker",  "CPUs",  "GPUs",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "containers",  "docker",  "CPUs",  "Schedulers",  "Storage",  "EC2",  "GPUs",  "saurus",  "Lustre",  "ParallelCluster",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

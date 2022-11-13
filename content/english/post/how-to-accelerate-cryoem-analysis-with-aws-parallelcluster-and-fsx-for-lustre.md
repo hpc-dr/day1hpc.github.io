@@ -6,12 +6,12 @@ images:
     - "images/post/24QVburwONo.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "24QVburwONo"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Life Sciences", ]
-tags: [ "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "Drug Design",  "ParallelCluster",  "CryoEM",  "CPUs",  "GPUs",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "CPUs",  "Schedulers",  "Storage",  "EC2",  "GPUs",  "Lustre",  "ParallelCluster",  "Drug Design",  "CryoEM",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

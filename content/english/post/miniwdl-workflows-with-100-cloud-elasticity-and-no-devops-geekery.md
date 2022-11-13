@@ -6,12 +6,12 @@ images:
     - "images/post/N-IlEZKa_-0.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "N-IlEZKa_-0"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "Covid-19",  "workflows",  "virtualization",  "miniWDL",  "ParallelCluster",  "WDL",  "DCV",  "genomics",  "CPUs",  "GPUs",  "vizualization",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "Covid-19",  "genomics",  "CPUs",  "Schedulers",  "Storage",  "EC2",  "WDL",  "DCV",  "GPUs",  "Lustre",  "ParallelCluster",  "workflows",  "miniWDL",  "vizualization",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

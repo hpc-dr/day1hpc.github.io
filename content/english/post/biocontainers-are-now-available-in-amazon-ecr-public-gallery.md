@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
-categories: [ "Life Sciences",  "AWS Batch", ]
-tags: [ "HPC",  "Life Sciences",  "Compute",  "Batch",  "hpcblog", ]
+categories: [ "AWS Batch",  "Life Sciences", ]
+tags: [ "Batch",  "Life Sciences",  "HPC",  "Compute",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Today we are excited to announce that all 9000+ applications provided by the BioContainers community are available within ECR Public Gallery! You don’t need an AWS account to access these images, but having one allows many more pulls to the internet, and unmetered usage within AWS. If you perform any sort of bioinformatics analysis on AWS, you should check it out!
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/biocontainers-are-now-available-in-amazon-ecr-public-gallery/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

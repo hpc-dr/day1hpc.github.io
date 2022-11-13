@@ -7,7 +7,7 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: []
 tags: [ "HPC",  "hpcblog", ]
@@ -17,4 +17,4 @@ draft: false
 
 Today we’re introducing AWS HPC Connector, a new feature in NICE EnginFrame that allows customers to leverage managed HPC resources on AWS. With this release, EnginFrame provides a unified interface for administrators to make hybrid HPC resources available to their users both on-premises and within AWS. In this post, we’ll provide some context around EnginFrame’s typical use cases, and show how you can use AWS HPC Connector to stand up HPC compute resources on AWS.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/introducing-aws-hpc-connector/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

@@ -6,12 +6,12 @@ images:
     - "images/post/IgPWzhIHX68.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "IgPWzhIHX68"
 layout: "video"
 # Taxonomies
 categories: [ "AI/ML",  "AWS ParallelCluster",  "Elastic Fabric Adapter", ]
-tags: [ "Schedulers",  "fabric",  "MPI",  "CPUs",  "GPUs",  "NCCL",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "low latency",  "HPC",  "MVAPICH",  "open MPI",  "infiniband",  "Intel MPI",  "virtualization",  "ParallelCluster",  "networking",  "techshorts", ]
+tags: [ "HPC",  "Schedulers",  "Storage",  "Intel MPI",  "ParallelCluster",  "MVAPICH",  "fabric",  "MPI",  "open MPI",  "networking",  "virtualization",  "High Performance Computing",  "low latency",  "EC2",  "GPUs",  "CPUs",  "infiniband",  "NCCL",  "Lustre",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

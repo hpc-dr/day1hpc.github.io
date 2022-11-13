@@ -6,12 +6,12 @@ images:
     - "images/post/D2ppdRKSz5I.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "D2ppdRKSz5I"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Climate/Environment/Weather", ]
-tags: [ "Arm",  "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "weather simulation",  "WRF",  "x86",  "Graviton",  "virtualization",  "performance",  "ParallelCluster",  "MPI",  "CPUs",  "GPUs",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "CPUs",  "x86",  "Schedulers",  "Storage",  "EC2",  "GPUs",  "weather simulation",  "WRF",  "Lustre",  "ParallelCluster",  "MPI",  "performance",  "Graviton",  "Arm",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

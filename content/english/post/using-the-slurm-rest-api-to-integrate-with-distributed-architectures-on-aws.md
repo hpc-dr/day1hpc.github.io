@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "Slurm",  "HPC",  "Amplify",  "ParallelCluster",  "hpcblog", ]
+tags: [ "Amplify",  "HPC",  "Slurm",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 The Slurm Workload Manager by SchedMD is a popular HPC scheduler and is supported by AWS ParallelCluster, an elastic HPC cluster management service offered by AWS. Traditional HPC workflows involve logging into a head node and running shell commands to submit jobs to a scheduler and check job status. Modern distributed systems often use representational […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/using-the-slurm-rest-api-to-integrate-with-distributed-architectures-on-aws/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

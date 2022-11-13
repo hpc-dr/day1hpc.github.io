@@ -6,12 +6,12 @@ images:
     - "images/post/F8YzcuYr7YI.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "F8YzcuYr7YI"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "hierarchical",  "Schedulers",  "snappyHexMesh",  "Meshing",  "Covid-19",  "CPUs",  "GPUs",  "Domain Decomposition",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "Solver performance",  "HPC",  "redistributePar",  "DCV",  "vizualization",  "CFD",  "scotch",  "openfoam",  "virtualization",  "clusters",  "ParallelCluster",  "techshorts", ]
+tags: [ "HPC",  "CFD",  "Schedulers",  "Storage",  "openfoam",  "ParallelCluster",  "Covid-19",  "hierarchical",  "Domain Decomposition",  "Meshing",  "virtualization",  "High Performance Computing",  "EC2",  "snappyHexMesh",  "GPUs",  "vizualization",  "scotch",  "CPUs",  "redistributePar",  "DCV",  "Solver performance",  "clusters",  "Lustre",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
-categories: [ "Financial Services",  "AI/ML",  "AWS Batch", ]
-tags: [ "Modeling",  "Financial Services",  "HPC",  "Machine Learning",  "AI/ML",  "Batch",  "Technical How-to",  "hpcblog", ]
+categories: [ "AWS Batch",  "Financial Services",  "AI/ML", ]
+tags: [ "Batch",  "Technical How-to",  "HPC",  "Modeling",  "Financial Services",  "AI/ML",  "Machine Learning",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Batch processing is a common need across varied machine learning use cases such as video production, financial modeling, drug discovery, or genomic research. The elasticity of the cloud provides efficient ways to scale and simplify batch processing workloads while cutting costs. In this post, you’ll learn a scalable and cost-effective approach to configure AWS Batch Array jobs to process datasets that are stored on Amazon S3 and presented to compute instances with Amazon FSx for Lustre.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

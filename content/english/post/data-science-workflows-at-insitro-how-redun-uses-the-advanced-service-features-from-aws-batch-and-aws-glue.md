@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
-categories: [ "Life Sciences",  "AWS Batch", ]
-tags: [ "Life Sciences",  "Artificial Intelligence",  "HPC",  "Batch",  "Glue",  "hpcblog", ]
+categories: [ "AWS Batch",  "Life Sciences", ]
+tags: [ "Batch",  "HPC",  "Life Sciences",  "Glue",  "Artificial Intelligence",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Matt Rasmussen, VP of Software Engineering at insitro, expands on his first post on redun, insitro’s data science tool for bioinformatics, to describe how redun makes use of advanced AWS features. Specifically, Matt describes how AWS Batch’s Array Jobs is used to support workflows with large fan-out, and how AWS Glue’s DynamicFrame is used to run computationally heterogenous workflows with different back-end needs such as Spark, all in the same workflow definition.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

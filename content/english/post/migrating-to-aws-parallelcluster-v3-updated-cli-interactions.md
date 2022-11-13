@@ -7,7 +7,7 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
 tags: [ "HPC",  "ParallelCluster",  "hpcblog", ]
@@ -17,4 +17,4 @@ draft: false
 
 The AWS ParallelCluster version 3 CLI differs significantly from ParallelCluster version 2. This post provides some guidance on mapping between versions to help you with migrating to ParallelCluster 3. We also summarize new CLI features in ParallelCluster 3 to expose the things you just couldn’t do previously.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/aws-parallelcluster-v3-updated-cli/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

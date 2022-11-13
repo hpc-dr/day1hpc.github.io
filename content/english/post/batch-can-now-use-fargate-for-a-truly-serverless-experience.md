@@ -6,7 +6,7 @@ images:
     - "images/post/weKeR-qg_-4.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "weKeR-qg_-4"
 layout: "video"
 # Taxonomies

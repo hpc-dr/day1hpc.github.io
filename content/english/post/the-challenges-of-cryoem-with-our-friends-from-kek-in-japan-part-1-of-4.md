@@ -6,12 +6,12 @@ images:
     - "images/post/u3oFHPFOL68.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "u3oFHPFOL68"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Elastic Fabric Adapter",  "Life Sciences", ]
-tags: [ "Schedulers",  "MPI",  "CPUs",  "GPUs",  "KEK",  "Storage",  "EC2",  "elastic fabric adapter",  "High Performance Computing",  "Lustre",  "autoscaling",  "technical computing",  "EFA",  "HPC",  "japan HPC",  "tightly-coupled",  "elastic",  "infiniband",  "DCV",  "cloud computing",  "vizualization",  "cryoEM",  "virtualization",  "ParallelCluster",  "bioinformatics",  "scientific computing",  "techshorts", ]
+tags: [ "HPC",  "Schedulers",  "Storage",  "KEK",  "elastic fabric adapter",  "ParallelCluster",  "MPI",  "elastic",  "scientific computing",  "virtualization",  "High Performance Computing",  "japan HPC",  "EC2",  "cryoEM",  "GPUs",  "tightly-coupled",  "vizualization",  "bioinformatics",  "cloud computing",  "CPUs",  "technical computing",  "infiniband",  "DCV",  "Lustre",  "EFA",  "autoscaling",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

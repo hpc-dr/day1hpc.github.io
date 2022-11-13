@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "HPC",  "ParallelCluster",  "Product Launch",  "hpcblog", ]
+tags: [ "Product Launch",  "HPC",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Today we’re announcing the release of AWS ParallelCluster 3.1 which now supports multiuser authentication based on Active Directory (AD). Starting with v3.1.1 clusters can be configured to use an AD domain managed via one of the AWS Directory Service options like Simple AD or AWS Managed Microsoft AD (MSAD). This blog post describes the new feature, and gives an example of a configuration block for ParallelCluster 3 configuration files.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-multiuser-support-via-active-directory/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

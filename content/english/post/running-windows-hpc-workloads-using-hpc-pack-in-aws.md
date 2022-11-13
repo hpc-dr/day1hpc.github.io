@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: []
-tags: [ "Simulation",  "Technical How-to",  "Windows",  "HPC",  "hpcblog", ]
+tags: [ "Simulation",  "Technical How-to",  "HPC",  "Windows",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 This blog post shows you how to deploy an HPC cluster for Windows workloads. We have provided an AWS CloudFormation template that automates the creation process to deploy an HPC Pack 2019 Windows cluster. This will help you get started quickly to run Windows-based HPC workloads, while leveraging highly scalable, resilient, and secure AWS infrastructure. As an example, we show how to run a sample parametric sweep for EnergyPlus, an open source energy simulation tool maintained by the U.S. Department of Energy’s Building Technology Office.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/running-windows-hpc-workloads-using-hpc-pack-in-aws/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
