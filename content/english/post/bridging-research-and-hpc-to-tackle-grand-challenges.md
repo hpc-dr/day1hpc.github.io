@@ -7,7 +7,7 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: []
 tags: [ "HPC",  "Sustainability",  "hpcblog", ]
@@ -17,4 +17,4 @@ draft: false
 
 Today we announced the AWS Impact Computing Project at the Harvard Data Science Initiative (HDSI) to identify potential solutions that can improve the lives of humans, other species, and natural ecosystems. Deb Goldfarb describes its goals and our joint vision.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/bridging-research-and-hpc-to-tackle-grand-challenges/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

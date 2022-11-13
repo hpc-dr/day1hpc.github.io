@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "HPC",  "Batch",  "Best Practices",  "hpcblog", ]
+tags: [ "Batch",  "Best Practices",  "HPC",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 This post covers the different ways you can encode a dependency between basic and array jobs in AWS Batch. We also cover why you may want to encode dependencies outside of Batch altogether using a workflow system like AWS Step Functions or Apache Airflow.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

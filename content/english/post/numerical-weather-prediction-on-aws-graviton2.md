@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Climate/Environment/Weather",  "AWS ParallelCluster", ]
-tags: [ "Modeling",  "Best Practices",  "HPC",  "Climate/Environment/Weather",  "FSx for Lustre",  "Simulation",  "Arm",  "Graviton",  "ParallelCluster",  "hpcblog", ]
+tags: [ "Simulation",  "HPC",  "Graviton",  "Modeling",  "Arm",  "Climate/Environment/Weather",  "FSx for Lustre",  "Best Practices",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 The Weather Research and Forecasting (WRF) model is a numerical weather prediction (NWP) system designed to serve both atmospheric research and operational forecasting needs. With the release of Arm-based AWS Graviton2 Amazon Elastic Compute Cloud (EC2) instances, a common question has been how these instances perform on large-scale NWP workloads. In this blog, we will present results from a standard WRF benchmark simulation and compare across three different instance types.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/numerical-weather-prediction-on-aws-graviton2/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

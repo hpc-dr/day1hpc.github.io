@@ -6,12 +6,12 @@ images:
     - "images/post/wvd6bFieht0.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "wvd6bFieht0"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Schedulers",  "Active Directory",  "Covid-19",  "CPUs",  "GPUs",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "encryption",  "HPC",  "MSAD",  "DCV",  "authentication",  "vizualization",  "multi-user",  "LDAP",  "virtualization",  "ParallelCluster",  "techshorts", ]
+tags: [ "HPC",  "Schedulers",  "Storage",  "ParallelCluster",  "Covid-19",  "encryption",  "virtualization",  "High Performance Computing",  "LDAP",  "EC2",  "GPUs",  "multi-user",  "vizualization",  "CPUs",  "Active Directory",  "authentication",  "MSAD",  "DCV",  "Lustre",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

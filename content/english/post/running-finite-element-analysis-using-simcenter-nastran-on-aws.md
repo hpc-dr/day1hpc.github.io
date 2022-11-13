@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "Best Practices",  "HPC",  "Cloud9",  "EC2",  "ParallelCluster",  "hpcblog", ]
+tags: [ "HPC",  "EC2",  "Cloud9",  "Best Practices",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 This post was written by Dnyanesh Digraskar, Sr. Partner Solutions Architect for HPC at AWS and co-authored by Wei Zhang and Ravi Gupta, Sr Software Engineers for Simcenter Nastran at Siemens. Introduction In this blog, we demonstrate the deployment, performance, and price comparisons of Simcenter Nastran for three finite element analysis (FEA) based use cases […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/running-finite-element-analysis-using-simcenter-nastran-on-aws/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

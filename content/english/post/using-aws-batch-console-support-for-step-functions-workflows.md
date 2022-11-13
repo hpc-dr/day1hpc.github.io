@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
-categories: [ "Life Sciences",  "AWS Batch", ]
-tags: [ "Life Sciences",  "HPC",  "Step Functions",  "Batch",  "Technical How-to",  "hpcblog", ]
+categories: [ "AWS Batch",  "Life Sciences", ]
+tags: [ "Batch",  "Technical How-to",  "HPC",  "Life Sciences",  "Step Functions",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Last year, we published the Genomics Secondary Analysis Using AWS Step Functions and AWS Batch solution as a companion solution to the Genomics Data Transfer, Analytics, and Machine Learning Using AWS Services whitepaper. Since then, many customers have used the secondary analysis solution to automate their bioinformatics pipelines in AWS. A common pain point expressed […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

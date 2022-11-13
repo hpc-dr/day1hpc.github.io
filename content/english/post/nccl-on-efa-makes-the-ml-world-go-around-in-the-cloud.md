@@ -6,12 +6,12 @@ images:
     - "images/post/kDtHpRB5luw.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "kDtHpRB5luw"
 layout: "video"
 # Taxonomies
 categories: [ "AI/ML",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Elastic Fabric Adapter",  "Life Sciences", ]
-tags: [ "ML frameworks",  "Schedulers",  "MPI",  "tensorflow",  "CPUs",  "GPUs",  "machine learning",  "Storage",  "EC2",  "elastic fabric adapter",  "High Performance Computing",  "Lustre",  "autoscaling",  "pytorch",  "technical computing",  "EFA",  "HPC",  "mxnet",  "tightly-coupled",  "elastic",  "infiniband",  "DCV",  "cloud computing",  "model training",  "vizualization",  "tensor flow",  "virtualization",  "ParallelCluster",  "bioinformatics",  "scientific computing",  "techshorts", ]
+tags: [ "HPC",  "Schedulers",  "Storage",  "elastic fabric adapter",  "pytorch",  "ParallelCluster",  "MPI",  "tensor flow",  "tensorflow",  "elastic",  "scientific computing",  "virtualization",  "machine learning",  "High Performance Computing",  "EC2",  "GPUs",  "tightly-coupled",  "mxnet",  "ML frameworks",  "vizualization",  "bioinformatics",  "cloud computing",  "CPUs",  "technical computing",  "infiniband",  "DCV",  "model training",  "Lustre",  "EFA",  "autoscaling",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

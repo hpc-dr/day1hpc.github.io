@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences", ]
-tags: [ "Life Sciences",  "Marketplace",  "HPC",  "hpcblog", ]
+tags: [ "Marketplace",  "HPC",  "Life Sciences",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 This blog provides an overview of NVIDIA’s Clara Parabricks along with a guide on how to use Parabricks within the AWS Marketplace. It focuses on germline analysis for whole genome and whole exome applications using GPU accelerated bwa-mem and GATK’s HaplotypeCaller.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/benchmarking-the-nvidia-clara-parabricks-germline-pipeline-on-aws/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

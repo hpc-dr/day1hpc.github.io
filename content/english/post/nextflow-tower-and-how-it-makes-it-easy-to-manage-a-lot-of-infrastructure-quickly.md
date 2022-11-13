@@ -6,12 +6,12 @@ images:
     - "images/post/JOguxRohITA.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "JOguxRohITA"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Schedulers",  "seqera labs",  "genomics",  "Covid-19",  "CPUs",  "GPUs",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "workflows",  "nf-core",  "HCLS",  "HPC",  "nextflow",  "seqera",  "DCV",  "vizualization",  "genomics pipelines",  "nextflow tower",  "virtualization",  "ParallelCluster",  "tower",  "spot",  "scilife",  "nf core",  "techshorts", ]
+tags: [ "HPC",  "nextflow",  "Schedulers",  "Storage",  "ParallelCluster",  "workflows",  "genomics pipelines",  "nf-core",  "scilife",  "Covid-19",  "nextflow tower",  "virtualization",  "tower",  "High Performance Computing",  "seqera",  "EC2",  "GPUs",  "vizualization",  "nf core",  "genomics",  "HCLS",  "CPUs",  "spot",  "DCV",  "seqera labs",  "Lustre",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

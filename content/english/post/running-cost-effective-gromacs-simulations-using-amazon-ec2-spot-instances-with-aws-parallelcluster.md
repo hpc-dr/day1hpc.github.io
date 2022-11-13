@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences",  "AWS ParallelCluster", ]
-tags: [ "HPC",  "Life Sciences",  "Simulation",  "ParallelCluster",  "hpcblog", ]
+tags: [ "Simulation",  "Life Sciences",  "HPC",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 In this blog post, we cover how to run GROMACS – a popular open source designed for simulations of proteins, lipids, and nucleic acids – cost effectively by leveraging EC2 Spot Instances within AWS ParallelCluster. We also show how to checkpoint GROMACS to recover gracefully from possible Spot Instance interruptions.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/running-gromacs-on-spot-with-checkpointing/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

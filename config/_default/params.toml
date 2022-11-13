@@ -134,3 +134,7 @@ link = "https://hpc.news/techshorts"
 # name = "github"
 # icon = "fab fa-github" # fontawesome icons: https://fontawesome.com/icons/
 # link = "#"
+
+[variables]
+color_primary = "#3D6397"
+font_secondary = "Rubik"

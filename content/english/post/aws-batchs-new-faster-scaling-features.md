@@ -6,7 +6,7 @@ images:
     - "images/post/uQCUpw7uSjY.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "uQCUpw7uSjY"
 layout: "video"
 # Taxonomies

@@ -6,12 +6,12 @@ images:
     - "images/post/30cfBPdzykA.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "30cfBPdzykA"
 layout: "video"
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Schedulers",  "genomics",  "Covid-19",  "CPUs",  "GPUs",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "pipelines",  "Batch",  "HPC",  "nextflow",  "snakemake",  "DCV",  "vizualization",  "cloud",  "cromwell",  "virtualization",  "ParallelCluster",  "WDL",  "AWS Batch",  "bioinformatics",  "miniWDL",  "techshorts", ]
+tags: [ "HPC",  "nextflow",  "Schedulers",  "Storage",  "AWS Batch",  "ParallelCluster",  "Covid-19",  "miniWDL",  "virtualization",  "High Performance Computing",  "Batch",  "EC2",  "WDL",  "snakemake",  "GPUs",  "vizualization",  "genomics",  "bioinformatics",  "CPUs",  "cloud",  "pipelines",  "DCV",  "Lustre",  "cromwell",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

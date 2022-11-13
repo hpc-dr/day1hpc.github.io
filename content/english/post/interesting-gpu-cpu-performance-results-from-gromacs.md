@@ -6,12 +6,12 @@ images:
     - "images/post/Zz91uPbk12Y.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "Zz91uPbk12Y"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Life Sciences", ]
-tags: [ "Computational Chemistry",  "Drug Discovery",  "GROMACS",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "virtualization",  "ParallelCluster",  "CPUs",  "GPUs",  "MD",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "MD",  "CPUs",  "Schedulers",  "GROMACS",  "EC2",  "Drug Discovery",  "GPUs",  "ParallelCluster",  "virtualization",  "Computational Chemistry",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

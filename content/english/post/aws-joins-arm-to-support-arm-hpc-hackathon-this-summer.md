@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: []
-tags: [ "HPC",  "Arm",  "Graviton",  "hpcblog", ]
+tags: [ "HPC",  "Graviton",  "Arm",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Arm and AWS are calling all grad students and post-docs who want to gain experience advancing the adoption of the Arm architecture in HPC to join a world-wide community effort lead by the Arm HPC User’s Group (A-HUG). The event will take the form of a hackathon this summer and is aimed at getting open-source HPC codes to build and run fast on Arm-based processors, specifically AWS Graviton2. To make it a bit more exciting, A-HUG will be awarding an Apple M1 MacBook to each member of the team (max. 4 people) that contributes the most back to the Arm HPC community.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/aws-arm-hpc-hackathon-2021/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

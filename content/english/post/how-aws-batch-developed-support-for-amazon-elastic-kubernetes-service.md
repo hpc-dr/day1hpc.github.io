@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "Elastic Kubernetes Service",  "HPC",  "Batch",  "hpcblog", ]
+tags: [ "Batch",  "HPC",  "Elastic Kubernetes Service",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Today, we discuss AWS batch on Amazon EKS, and the initial motivation and design choices the team made when we developed the service, and some of the challenges to overcome.
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/how-aws-batch-developed-support-for-amazon-elastic-kubernetes-service/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "Elastic File System (EFS)",  "HPC",  "Elastic Container Service",  "Batch",  "Fargate",  "Technical How-to",  "hpcblog", ]
+tags: [ "Batch",  "Technical How-to",  "HPC",  "Elastic Container Service",  "Fargate",  "Elastic File System (EFS)",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Large-scale data analysis usually involves some multi-step process where the output of one job acts as the input of subsequent jobs. Customers using AWS Batch for data analysis want a simple and performant storage solution to share with and between jobs. We are excited to announce that customers can now use Amazon Elastic File System (Amazon […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/introducing-support-for-per-job-amazon-efs-volumes-in-aws-batch/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

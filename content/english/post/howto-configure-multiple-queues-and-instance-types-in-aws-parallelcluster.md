@@ -6,12 +6,12 @@ images:
     - "images/post/C4iSNjcW5O4.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "C4iSNjcW5O4"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "HPC",  "Schedulers",  "High Performance Computing",  "Slurm",  "ParallelCluster",  "CPUs",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "CPUs",  "Schedulers",  "ParallelCluster",  "Slurm",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -6,12 +6,12 @@ images:
     - "images/post/TzTIN17CG-s.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "TzTIN17CG-s"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Schedulers",  "slurm",  "Covid-19",  "CPUs",  "GPUs",  "Storage",  "EC2",  "High Performance Computing",  "Lustre",  "job scripts",  "HPC",  "sge",  "slurm accounting",  "DCV",  "vizualization",  "job accounting",  "virtualization",  "ParallelCluster",  "workflow",  "techshorts", ]
+tags: [ "HPC",  "Schedulers",  "Storage",  "ParallelCluster",  "slurm accounting",  "Covid-19",  "sge",  "virtualization",  "job scripts",  "High Performance Computing",  "job accounting",  "EC2",  "workflow",  "GPUs",  "vizualization",  "slurm",  "CPUs",  "DCV",  "Lustre",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

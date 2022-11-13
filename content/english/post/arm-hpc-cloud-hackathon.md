@@ -6,12 +6,12 @@ images:
     - "images/post/NrsZvFsdxug.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "NrsZvFsdxug"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "Covid-19",  "Arm",  "virtualization",  "Processors",  "Community",  "ParallelCluster",  "DCV",  "Hackathon",  "CPUs",  "GPUs",  "vizualization",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "Covid-19",  "Processors",  "CPUs",  "Schedulers",  "Storage",  "EC2",  "DCV",  "GPUs",  "Lustre",  "ParallelCluster",  "vizualization",  "Community",  "Arm",  "virtualization",  "Hackathon",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

@@ -6,12 +6,12 @@ images:
     - "images/post/xCFgdLB07PE.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "xCFgdLB07PE"
 layout: "video"
 # Taxonomies
 categories: []
-tags: [ "CFD",  "HPC",  "High Performance Computing",  "ARM processors",  "CPUs",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "CFD",  "CPUs",  "ARM processors",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

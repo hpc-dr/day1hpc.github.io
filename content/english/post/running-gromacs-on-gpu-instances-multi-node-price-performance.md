@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences",  "AWS ParallelCluster", ]
-tags: [ "Best Practices",  "Life Sciences",  "HPC",  "EC2",  "ParallelCluster",  "hpcblog", ]
+tags: [ "HPC",  "EC2",  "Life Sciences",  "Best Practices",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 This three-part series of posts cover the price performance characteristics of running GROMACS on Amazon Elastic Compute Cloud (Amazon EC2) GPU instances. Part 1 covered some background no GROMACS and how it utilizes GPUs for acceleration. Part 2 covered the price performance of GROMACS on a particular GPU instance family running on a single instance. […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/running-gromacs-on-gpu-instances-multi-node-price-performance/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

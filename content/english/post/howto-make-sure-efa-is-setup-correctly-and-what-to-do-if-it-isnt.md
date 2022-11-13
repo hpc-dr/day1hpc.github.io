@@ -6,12 +6,12 @@ images:
     - "images/post/Wq8EMMXsvyo.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "Wq8EMMXsvyo"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Elastic Fabric Adapter", ]
-tags: [ "EFA",  "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "elastic fabric adapter",  "virtualization",  "ParallelCluster",  "fabrics",  "infiniband",  "CPUs",  "GPUs",  "vizualization",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "CPUs",  "infiniband",  "Schedulers",  "Storage",  "EC2",  "fabrics",  "GPUs",  "elastic fabric adapter",  "Lustre",  "ParallelCluster",  "EFA",  "vizualization",  "virtualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

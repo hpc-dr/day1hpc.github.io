@@ -6,12 +6,12 @@ images:
     - "images/post/6NV3VukjNRI.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "6NV3VukjNRI"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Elastic Fabric Adapter",  "Life Sciences", ]
-tags: [ "shared storage",  "Schedulers",  "instance diversity",  "MPI",  "instance allocation strategies",  "CPUs",  "GPUs",  "Storage",  "EC2",  "elastic fabric adapter",  "High Performance Computing",  "Lustre",  "autoscaling",  "technical computing",  "EFA",  "HPC",  "lustre",  "tightly-coupled",  "slurm accounting",  "on demand capacity reservation",  "elastic",  "infiniband",  "DCV",  "cloud computing",  "vizualization",  "aws",  "virtualization",  "ParallelCluster",  "bioinformatics",  "scientific computing",  "ODCR",  "techshorts", ]
+tags: [ "HPC",  "Schedulers",  "Storage",  "ODCR",  "elastic fabric adapter",  "ParallelCluster",  "MPI",  "lustre",  "slurm accounting",  "on demand capacity reservation",  "instance diversity",  "elastic",  "scientific computing",  "virtualization",  "High Performance Computing",  "EC2",  "aws",  "GPUs",  "tightly-coupled",  "vizualization",  "instance allocation strategies",  "bioinformatics",  "cloud computing",  "CPUs",  "technical computing",  "infiniband",  "DCV",  "Lustre",  "EFA",  "autoscaling",  "shared storage",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

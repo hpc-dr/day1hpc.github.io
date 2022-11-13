@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:HPC graphs in the AWS Cloud
+DTSTART;TZID=America/Chicago:20221114T193000
+DTEND;TZID=America/Chicago:20221114T200000
+DESCRIPTION:Graph Analytics is a form of data analysis that enables us to 
+ find and understand complex relationships between data entities. In this p
+ resentation\, we dive into current work on algorithms and methods that bui
+ ld in network latency tolerance to perform large-scale graph calculations\
+ , and discuss results using Elastic Fabric Adapter (EFA)\, the network int
+ erface for Amazon EC2 instances targeted to run applications requiring hig
+ h levels of inter-node communications on AWS.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//AWS Booth #2425 Schedule//aws.dev//
 BEGIN:VEVENT
 SUMMARY:AWS Batch and AWS Batch for EKS
-DTSTART;TZID=America/Chicago:20221115T100000
-DTEND;TZID=America/Chicago:20221115T130000
+DTSTART;TZID=America/Chicago:20221114T180000
+DTEND;TZID=America/Chicago:20221114T130000
 DESCRIPTION:Run hundreds of thousands of batch computing workloads without
   managing infrastructure or a job scheduler with AWS Batch. Stop by for li
  ve demos including "Introducing AWS Batch Fair Share Scheduling"\, "Introd

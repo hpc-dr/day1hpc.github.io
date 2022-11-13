@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences",  "AWS ParallelCluster", ]
-tags: [ "Best Practices",  "Life Sciences",  "HPC",  "Simulation",  "Graviton",  "EC2",  "ParallelCluster",  "hpcblog", ]
+tags: [ "HPC",  "Graviton",  "EC2",  "Life Sciences",  "Simulation",  "Best Practices",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Molecular dynamics (MD) is a simulation method for analyzing the movement and tracing trajectories of atoms and molecules where the dynamics of a system evolve over time. MD simulations are used across various domains such as material sciences, biochemistry, biophysics and are typically used in two broad ways to study a system. The importance of […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/gromacs-price-performance-optimizations-on-aws/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

@@ -6,12 +6,12 @@ images:
     - "images/post/Ws_fvv1_Sv8.png"
 author: "Brendan Bouffler"
 # description
-description: ""
+description: " (reposted from HPC Tech Shorts Youtube channel)"
 video_id: "Ws_fvv1_Sv8"
 layout: "video"
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "Storage",  "Schedulers",  "HPC",  "High Performance Computing",  "EC2",  "Lustre",  "Covid-19",  "aws batch",  "fair share",  "virtualization",  "ParallelCluster",  "fair share scheduling",  "DCV",  "batch",  "CPUs",  "GPUs",  "vizualization",  "reservations",  "techshorts", ]
+tags: [ "HPC",  "High Performance Computing",  "Covid-19",  "CPUs",  "Schedulers",  "Storage",  "EC2",  "DCV",  "fair share",  "GPUs",  "fair share scheduling",  "Lustre",  "ParallelCluster",  "batch",  "vizualization",  "aws batch",  "virtualization",  "reservations",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

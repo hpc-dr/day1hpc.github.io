@@ -7,14 +7,14 @@ images:
 #author
 author: "Matt Vaughn"
 # description
-description: ""
+description: " (reposted from AWS HPC Blog)"
 # Taxonomies
-categories: [ "AWS ParallelCluster",  "AWS Batch", ]
-tags: [ "HPC",  "ParallelCluster",  "Batch",  "hpcblog", ]
+categories: [ "AWS Batch",  "AWS ParallelCluster", ]
+tags: [ "Batch",  "HPC",  "ParallelCluster",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 It’s an understatement that AWS has a lot of services (more than 200 at the time of this post!). We’re usually the first to point out that there’s more than one way to solve a problem. HPC is no different in this regard, because we offer a choice: customers can run their HPC workloads using AWS […]
 
-Read the full post at the [AWS HPC Blog](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/).
+<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
