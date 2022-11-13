@@ -137,3 +137,4 @@ link = "https://hpc.news/techshorts"
 
 [variables]
 color_primary = "#3D6397"
+font_secondary = "Rubik"
