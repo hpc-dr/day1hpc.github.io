@@ -22,7 +22,7 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-NICE DCV is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. With NICE DCV, you can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
+NICE DCV is a **high performance, low latency pixel streaming protocol** that encrypts and transports pixels to devices, putting your desktop closer to your results. With NICE DCV, you can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
 
 DCV makes *very* frugal use of scarce bandwidth, because it's super-lean, uses data-compression techniques, and has always quickly adopted cutting-edge technologies (this is HPC, after all, we leave nothing on the table when it came to exploiting new gadgets).
 
