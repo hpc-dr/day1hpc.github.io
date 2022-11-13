@@ -6,76 +6,76 @@ draft: false
 ---
 <p>Choose conference day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -1646,76 +1646,76 @@ draft: false
 
 
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -1853,76 +1853,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -2123,76 +2123,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -2441,76 +2441,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -2615,76 +2615,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -2853,76 +2853,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -3027,76 +3027,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -3265,76 +3265,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -3455,76 +3455,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -3549,76 +3549,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -3723,76 +3723,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -3881,76 +3881,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -4071,76 +4071,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -4245,76 +4245,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -4339,76 +4339,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -4849,76 +4849,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -5311,76 +5311,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -5757,76 +5757,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -6043,76 +6043,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -6217,76 +6217,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -6423,76 +6423,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
@@ -6565,76 +6565,76 @@ draft: false
 </div>
 </div>
 <hr>
-<div class="container-fluid"><div class="row"><div class="col-sm-auto" style="margin-top: 8px;">
+<div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Tuesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Tuesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Wednesday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Wednesday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Thursday" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Thursday</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Batch" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Batch</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CFD" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CFD</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#CPUs" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">CPUs</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Containers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Containers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#DCV" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">DCV</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Developer Tools" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Developer Tools</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#EFA" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">EFA</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Graviton" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Graviton</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Hybrid" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Hybrid</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Kubernetes" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Kubernetes</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Life Sciences" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Life Sciences</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Lustre" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Lustre</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Machine Learning" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Machine Learning</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Open Source" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Open Source</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#ParallelCluster" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">ParallelCluster</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Portal" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Portal</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Quantum" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Quantum</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Research Computing" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Research Computing</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Schedulers" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Schedulers</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#Storage" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Storage</a>
     </div>
-<div class="col-sm-auto" style="margin-top: 8px;">
+<div class="col-xs-auto" style="margin-top: 8px;">
     <a href="/sc22/#VDI" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">VDI</a>
     </div>
 </div></div>
