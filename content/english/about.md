@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-date: 2022-10-17
+date: 2022-11-13
 email: "bouffler@amazon.com"
 description: "Welcome to Day1 - a community site built and curated by the Developer Relations team in HPC Engineering at AWS"
 layout: "static"
@@ -37,7 +37,7 @@ You can find us on Twitter at **[@TechHpc](https://twitter.com/TechHpc)**, on Yo
 
 ----
 
-### We're hiring
+### We're hiring again soon
 
 If you want to know what it's like to work in our engineering teams, take it from the people who are already here:
 

@@ -1,6 +1,6 @@
 ---
 title: "NICE DCV"
-date: 2022-10-17
+date: 2022-11-13
 #author
 author: "Brendan Bouffler"
 layout: "product"
@@ -22,9 +22,9 @@ type: "featured" # available type (regular or featured)
 draft: false
 ---
 
-NICE DCV is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. With NICE DCV, you can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
+NICE DCV is a **high performance, low latency pixel streaming protocol** that encrypts and transports pixels to devices, putting your desktop closer to your results. With NICE DCV, you can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet.
 
-DCV makes *very* frugal use of scarce bandwidth, because it's super-lean, uses data-compression techniques and has always quickly adopted cutting-edge technologies (this is HPC, after all, we leave nothing on the table when it came to exploiting new gadgets).
+DCV makes *very* frugal use of scarce bandwidth, because it's super-lean, uses data-compression techniques, and has always quickly adopted cutting-edge technologies (this is HPC, after all, we leave nothing on the table when it came to exploiting new gadgets).
 
 DCV is tightly integrated into ParallelCluster and [PCluster Manager](https://youtu.be/PChP3FQWeJQ) (our UI for building and managing clusters).
 
@@ -51,8 +51,8 @@ table td {
 </style>
 | | |
 |---|---|
-| **[The evolution of NICE DCV](https://aws.amazon.com/blogs/hpc/pushing-pixels-with-nice-dcv/)** | **[Supercomputing visualization good enough for gamers](https://youtu.be/_L-U_ET4qrw)** |
-| **[An overview of DCV](https://youtu.be/-mhNktbKmAc)** | Impact of video quality on bitrates **[[Blog]](https://aws.amazon.com/blogs/hpc/putting-bitrates-into-perspective/) [[Video]](https://www.youtube.com/watch?v=-YBh4d_zKxc)** |
+| [The evolution of NICE DCV](https://aws.amazon.com/blogs/hpc/pushing-pixels-with-nice-dcv/) | [Supercomputing visualization good enough for gamers](https://youtu.be/_L-U_ET4qrw) |
+| [An overview of DCV](https://youtu.be/-mhNktbKmAc) | Impact of video quality on bitrates **[[Blog]](https://aws.amazon.com/blogs/hpc/putting-bitrates-into-perspective/)** **[[Video]](https://www.youtube.com/watch?v=-YBh4d_zKxc)** |
 {{</ collapse >}}
 
 </div>
@@ -75,7 +75,7 @@ table td {
 Most of the techniques that DCV uses to minimize the effects of internet jitter and unpredictable latency, work really well for cloud gaming, too.
 
 - **[Pushing pixels with NICE DCV](https://aws.amazon.com/blogs/hpc/pushing-pixels-with-nice-dcv/)** - a short post explaining where DCV came from and how it solves some hard problems in novel ways.
-- **[Supercomputing visualization good enough for the most demanding gamers](https://youtu.be/_L-U_ET4qrw)** - 25min - an insight into some of DCV's tricks (like the QUIC transport layer) that minimize jitter and make the remote desktop feel like it's local. It worked so well, it's now used for gaming.
+- **[Supercomputing visualization good enough for the most demanding gamers](https://youtu.be/_L-U_ET4qrw)** - an insight into some of DCV's tricks (like the QUIC transport layer) that minimize jitter and make the remote desktop feel like it's local. It worked so well, it's now used for gaming.
 
 ## Getting started with DCV
 

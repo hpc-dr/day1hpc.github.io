@@ -24,11 +24,9 @@ draft: false
 <div class="container">
 <div class="row" >
 
-**AWS Batch** is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications.
+AWS Batch is is an **always-on job scheduler and resource orchestrator** that lets you easily and efficiently run thousands of containerized applications.
 
  **Workflow builders** love it for scaling their workloads, from machine learning to genomics. Batch scales from **one job** to **millions of jobs**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
-
-You may be familiar with using a traditional HPC resource - like an traditional SLURM cluster - and probably wonder what makes AWS Batch different. Before you dive in on Batch, it's worth comparing it to [AWS ParallelCluster](/parallelcluster). Angel wrote a great blog post about **[choosing between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
 </div>
 </div>
 
@@ -61,7 +59,7 @@ table td {
 | | |
 |---|---|
 | [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
-| [Video: AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
+| [AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
 {{</ collapse >}}
 
 </div>
@@ -109,10 +107,9 @@ table td {
 <div class="col-2">{{< image src="/images/hpc/icons/secure.png" class="img-float-center" >}}</div>
 <div class="col">
 
-Responsbility for security at AWS is [shared between you and AWS](https://aws.amazon.com/compliance/shared-responsibility-model/). AWS protects and [ensures compliance](https://aws.amazon.com/compliance/) for the infrastructure that runs all the services it offers, while you protect the assets you run on AWS. 
+Responsbility for security at AWS is [shared between you and AWS](https://aws.amazon.com/compliance/shared-responsibility-model/). AWS protects the infrastructure that runs all the services it offers, while you protect the assets you run on AWS. 
 
 AWS Batch uses IAM to control and monitor the AWS resources that your jobs can access, such as Amazon DynamoDB tables. Through IAM, you can also define policies for different users in your organization. For example, administrators can be granted full access permissions to any AWS Batch API operation, developers can have limited permissions related to configuring compute environments and registering jobs, and end users can be restricted to the permissions needed to submit and delete jobs.
-
 
 </div>
 </div>
@@ -254,7 +251,7 @@ table td {
 <div class="col-2">{{< image src="/images/batch/compute.png" class="img-float-center" >}}</div>
 <div class="col">
 
-Your AWS Batch jobs run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your Bathc compute environments  to specific workloads. You leverage the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
+Your AWS Batch jobs run on [Amazon EC2](https://aws.amazon.com/ec2/). With over 500 (and growing) [instance types](https://aws.amazon.com/ec2/instance-explorer/) available, you can tailor your Batch compute environments  to specific workloads. You leverage the latest x86 CPUs from Intel and AMD, [AWS Graviton](https://aws.amazon.com/ec2/graviton/) (our Arm-based processors), and accelerators like [Trainium](https://aws.amazon.com/machine-learning/trainium/) or powerful NVIDIA GPUs. If a new instance type meets your needs, adding it to your production infastructure is as simple as changing a configuration setting.
 
 </div>
 </div>
@@ -290,22 +287,23 @@ table td {
 
 First, let's make sure you're comfortable that AWS Batch is the right tool for your workloads. AWS also has a command line tool for standing up traditional HPC clusters called [AWS ParallelCluster](/parallelcluster/). AWS ParallelCluster builds on many of the same AWS technologies as AWS Batch, so it is also scalable, flexible, and adaptable to a wide number of use cases.
 
-- [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/)
-- [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/)
-- [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/)
-- [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/)
-- [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/)
-- [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/)
+If you're  familiar with using a traditional HPC resource - like a SLURM cluster - you may wonder what makes AWS Batch different. To find out, read our post to help you **[choose between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
+
+| | |
+|---|---|
+| [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/) | [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/) |
+| [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/) | [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/) |
+| [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/) | [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/) |
 </div>
 
-<div class="col-4">
-{{< image src="/images/hpc/media-ident-square.png" class="img-float-right" >}}
-</div>
+<!-- <div class="col-4">
+{{< image src="/images/hpc/media-ident-mini.png" class="img-float-right" >}}
+</div> -->
 </div>
 </div>
 
 ---- 
-
+<!-- 
 ## Major features you'll want to know about
 <div class="container-fluid">
 <div class="row">
@@ -326,24 +324,24 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 </div>
 </div>
 </div>
-
+ -->
 
 ## Workflow engines love Batch
 
+If you're working with Nextflow or Cromwell natively, then you'll probably love finding out about the **[AWS Genomics CLI](https://aws.amazon.com/genomics-cli/)** which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).
+
 {{< tabs >}}
-  {{< tab "Nextflow" >}}
-  If you're working with Nextflow natively, then you'll probably love finding out about the **[AWS Genomics CLI](https://aws.amazon.com/genomics-cli/)** which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).
-- **[Genomics Workflows on AWS - Nextflow](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)**
-- **[Nextflow\'s getting started guide for AWS Batch](https://www.nextflow.io/docs/latest/awscloud.html)**
-- **[Nextflow\'s Summit in 2022](https://summit.nextflow.io/)** - lots of great talks.
+  {{< tab "Netflow" >}}
+- [Genomics Workflows on AWS - Nextflow](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)
+- [Nextflow\'s getting started guide for AWS Batch](https://www.nextflow.io/docs/latest/awscloud.html)
+- [Nextflow\'s Summit in 2022](https://summit.nextflow.io/) - lots of great talks.
   {{< /tab >}}
   {{< tab "Cromwell" >}}
-  If you're working with Nextflow natively, then you'll probably love finding out about the **[AWS Genomics CLI](https://aws.amazon.com/genomics-cli/)** which does pretty much all the boring set up work for you and sets you up for running Nextflow piplines in around half an hour (from a standing start).
-- **[Genomics Workflows on AWS - Cromwell](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)**
-- **[Cromwell on AWS](https://aws.amazon.com/blogs/industries/cromwell-on-aws-a-simpler-and-improved-aws-batch-backend/)** - blog post by Mark Schreiber about an improved integration.
+- [Genomics Workflows on AWS - Cromwell](https://docs.opendata.aws/genomics-workflows/orchestration/nextflow/nextflow-overview.html)
+- [Cromwell on AWS](https://aws.amazon.com/blogs/industries/cromwell-on-aws-a-simpler-and-improved-aws-batch-backend/) - blog post by Mark Schreiber about an improved integration.
   {{< /tab >}}
   {{< tab "Metaflow" >}}
-- **[Metaflow\'s Season 2 blockbuster on AWS Batch](https://docs.metaflow.org/getting-started/tutorials/season-2-scaling-out-and-up/episode05)**
+- [Metaflow\'s Season 2 blockbuster on AWS Batch](https://docs.metaflow.org/getting-started/tutorials/season-2-scaling-out-and-up/episode05)
   {{< /tab >}}
 {{< /tabs >}}
 
@@ -352,10 +350,9 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 
 {{< tabs >}}
   {{< tab "Data Science + Machine Learning" >}}
-- [Data Science workflows at insitro: how redun uses the advanced service features from AWS Batch and AWS Glue](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)
-- [Data Science workflows at insitro: using redun on AWS Batch](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)
-- **Bayesian ML Models at Scale with AWS Batch** [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
-- **[Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)**
+- Data Science workflows at insitro: advanced service features from AWS Batch and AWS Glue - **[[Part 1]](https://aws.amazon.com/blogs/hpc/how-insitro-redun-uses-advanced-aws-features/)** **[[Part 2]](https://aws.amazon.com/blogs/hpc/data-science-workflows-at-insitro-using-redun-on-aws-batch/)**
+- Bayesian ML Models at Scale with AWS Batch [[Blog Post]](https://aws.amazon.com/blogs/hpc/bayesian-ml-models-at-scale-with-aws-batch/) || [[Video]](https://youtu.be/CcqeeRyx93k) - with the data science team from Ampersand in New York.
+- [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/)
   {{< /tab >}}  
   {{< tab "Healthcare & Life Sciences" >}}
 - [Optimize Protein Folding Costs with OpenFold on AWS Batch](https://aws.amazon.com/blogs/hpc/optimize-protein-folding-costs-with-openfold-on-aws-batch/)
@@ -371,6 +368,7 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
   {{< /tab >}}
   {{< tab "Visual FX" >}}
 - [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/)
+  {{< /tab >}}
   {{< tab "Others" >}}
 - [Optimize your Monte Carlo simulations using AWS Batch](https://aws.amazon.com/blogs/hpc/optimizing-monte-carlo-simulations-using-aws-batch/)
 - [Building well-architected serverless applications: Optimizing application performance](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-optimizing-application-performance-part-3/)
