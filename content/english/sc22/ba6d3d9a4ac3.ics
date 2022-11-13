@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CLASSIQ: Quantum software at a higher level
+DTSTART;TZID=America/Chicago:20221117T100000
+DTEND;TZID=America/Chicago:20221117T110000
+DESCRIPTION:It's relatively easy to explain how popular quantum algorithms
+  work - how to perform a Grover search\, how to optimize an asset portfoli
+ o\, how to analyze credit risks\, and even how Shor's algorithm works. It 
+ is much more difficult\, however\, to implement these algorithms in a gene
+ ralized way\, to allow them to run at scale\, and code them in an efficien
+ t and hardware-aware way. Come see our demo and experience a radically bet
+ ter way to develop quantum software. Our platform automatically creates op
+ timized and hardware-aware circuits from high-level functional models. It 
+ automates and simplifies the difficult process of creating quantum algorit
+ hms allowing you to create 100+ qubit software in minutes. 
+LOCATION:AWS Booth #2425\; Demo 8
+END:VEVENT
+END:VCALENDAR
