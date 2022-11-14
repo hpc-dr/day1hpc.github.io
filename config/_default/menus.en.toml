@@ -1,6 +1,12 @@
 ############### English navigation ################
 
 [[main]]
+weight = 1
+name = "SC22 AWS Booth Schedule"
+url = "/sc22/"
+hasChildren = false
+
+[[main]]
 weight = 2
 name = "Learn"
 url = "/learning/"
