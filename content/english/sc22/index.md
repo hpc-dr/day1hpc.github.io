@@ -3,6 +3,9 @@ title: "SC22 AWS Booth #2425 Theater and Demo Schedule"
 # description
 description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS. Visit AWS at #SC22 at booth 2425."
 draft: false
+thumbnail: "/images/twitter-card.png"
+images:
+    - "/images/twitter-card.png"
 ---
 <p>Choose conference day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
 <hr>
