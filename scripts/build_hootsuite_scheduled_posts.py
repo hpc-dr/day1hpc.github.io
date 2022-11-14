@@ -23,9 +23,9 @@ IMAGE_ASSETS_SUBDIR = os.path.join("images", "post")
 FILENAME = "index.md"
 TIME_DELTA = 120
 MAX_LENGTH = 256
-URL = 'https://day1hpc.com/sc22'
+URL = 'https://day1hpc.com/sc22/'
 
-def post_time(row) -> datetime:
+def to_post_time(row) -> datetime:
     start_time = row['Date'] + '-2022' + ' ' + row['Start']
     end_time = row['Date'] + '-2022' + ' ' + row['End']
     start_dt = datetime.strptime(start_time, '%d-%b-%Y %H:%M')
@@ -38,14 +38,15 @@ def short_hash(value: str, length=12) -> str:
 
 def to_station_name(station) -> str:
     if station == 'T':
-        return 'Booth Theater'
+        return 'the Theater'
     else:
-        return 'Demo Station ' + str(station)
+        return 'Demo Pod ' + str(station)
 
 def speaker(raw_data) -> str:
     pattern = r'<\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b>'
     raw_data = re.sub(pattern, '', raw_data)
     raw_data = raw_data.strip()
+    raw_data = raw_data.replace(';', '+')
     if 'Team' in raw_data:
         raw_data = 'the ' + raw_data
     return raw_data
@@ -70,7 +71,7 @@ def row_to_event(row) -> Dict:
                 'end': row['End'],
                 'range': row['Start'] + '-' + row['End'],
                 'station_name': to_station_name(row['Station']),
-                'post_time': post_time(row),
+                'post_time': to_post_time(row),
                 'tags': topics_to_tags(extract_topics(row))
             }    
     return event
@@ -87,12 +88,20 @@ def randomize_post_time(pt):
     post_time = pt - td
     return post_time
 
-def schedule_posts(posts, times=None):
-    if times == None:
-        times = []
+def schedule_posts(posts):
+
+    times = []
+    scheduled_posts = []
+
     for p in posts:
-        p['post_time'] = randomize_post_time(p['post_time'])
-    
+        nptemp = randomize_post_time(p['post_time'])
+        while nptemp in times:
+            nptemp = randomize_post_time(p['post_time'])
+        p['post_time'] = nptemp
+        times.append(nptemp)
+        scheduled_posts.append(p)
+
+    return scheduled_posts
 
 def main(values):
 
@@ -102,26 +111,27 @@ def main(values):
     templates = []
     templates.append(environment.get_template("post1.j2"))
     templates.append(environment.get_template("post2.j2"))
-    templates.append(environment.get_template("post3.j2"))
+    # templates.append(environment.get_template("post3.j2"))
 
-    posts = []
 
-    with open("scheduled_posts.csv", "w") as posts_file:
+    with open("scheduled_posts.csv", "w", encoding='utf-8-sig') as posts_file:
+        posts = []
         post_writer = csv.writer(posts_file)
         with open(values.csv.name, encoding='utf-8-sig') as csv_file:
-            csv_reader = csv.DictReader(csv_file, delimiter=",")
+            csv_reader = csv.DictReader(csv_file, dialect='excel', delimiter=",")
             for row in csv_reader:
                 event = row_to_event(row)
-                post = build_post(event, templates)
-                posts.append(post)
+                event['post'] = build_post(event, templates)
+                posts.append(event)
+    
+        # schedule posts
+        posts = schedule_posts(posts)
 
-    # schedule posts
-    posts = schedule_posts(posts)
-
-    for post in posts:
-        post_timestr = event['post_time'].strftime("%-m/%-d/%Y %H:%M:%S")
-        post_url = URL
-        post_writer.writerow([post_timestr, post, post_url])
+        # write out
+        for post in posts:
+            post_timestr = post['post_time'].strftime("%-m/%-d/%Y %H:%M:%S")
+            post_url = URL
+            post_writer.writerow([post_timestr, post['post'], post_url])
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
