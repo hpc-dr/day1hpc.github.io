@@ -70,3 +70,5 @@ rel = "manifest"
 [params]
 # Taxonomies
 categories = ["AWS Batch", "AWS ParallelCluster", "Elastic Fabric Adapter", "NICE DCV", "AI/ML", "CAE/CFD", "Financial Services", "Climate/Environment/Weather", "Life Sciences"]
+
+twitter_cards = true
