@@ -3,9 +3,6 @@ title: "SC22 AWS Booth #2425 Theater and Demo Schedule"
 # description
 description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS. Visit AWS at #SC22 at booth 2425."
 draft: false
-thumbnail: "/images/twitter-card.png"
-images:
-    - "/images/twitter-card.png"
 ---
 <p>Choose conference day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
 <hr>
@@ -391,7 +388,7 @@ images:
     <div class="col-md-10">
     {{< expando "Arm’s multi-platform developer tools on AWS" >}}
 
-<p>Beau Paisley , Louise Spellacy, Arm</p>
+<p>Beau Paisley ; Louise Spellacy, Arm</p>
 <p>Arm Forge—widely used in HPC labs in traditional environments and the cloud—makes HPC debugging and profiling on Amazon EC2 simple regardless of which processor architecture you use. In this demo, learn how Arm Forge offers you tools that provide seamless access to remote servers, and dive deep on profiling experiences with AWS Graviton3 on HPC applications.</p>
 <a href="/sc22/36884c5da2e8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -604,7 +601,7 @@ images:
     <div class="col-md-10">
     {{< expando "University of British Columbia’s AWS transformation journey & lessons" >}}
 
-<p>Ken Bigelow, Advanced Research Computing Systems Administrator, Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</p>
+<p>Ken Bigelow, Advanced Research Computing Systems Administrator; Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</p>
 <p>While researchers are increasingly using cloud computing offerings, many aren’t experienced with system administration or cloud service management. This can be challenging for groups without cloud specialists to manage infrastructure and may reduce cloud engagement. Since 2020, the Advanced Research Computing team at the University of British Columbia (UBC) has been using RONIN to deliver a full-service cloud offering to their research community. Come learn about their community, the challenges they faced, and the lessons they learned with the cloud while using the user interfaces on AWS. Hear about their experience with RONIN, what researchers can expect with RONIN, and what’s required to create a workflow in a cloud environment.</p>
 <a href="/sc22/651c3de85a3c.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -881,7 +878,7 @@ images:
     <div class="col-md-10">
     {{< expando "YellowDog: Clarifying compute-intensive workloads" >}}
 
-<p>Niall Kennedy , Fiona Burgess, YellowDog</p>
+<p>Niall Kennedy ; Fiona Burgess, YellowDog</p>
 <p>The classification of workloads into precise execution patterns is difficult and can lead to suboptimal execution in order to avoid the proliferation of applications, platforms, and techniques. What if you could choose a unified and intelligent workload submission platform to help you take advtange of the speed and scalability of the AWS Cloud? Regardless of your workload type, if it is compute-intensive, YellowDog on AWS can help you manage it. YellowDog is a fast, scalable, simple, Spot-friendly extensible scheduler and provisioning platform for hybrid and cloud. Concentrate on the insights and outcomes your workloads generate, and let YellowDog on AWS take care of everything else.</p>
 <a href="/sc22/482c0158a3ca.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -958,7 +955,7 @@ images:
     <div class="col-md-10">
     {{< expando "Scheduling made easy with IBM Spectrum LSF on AWS" >}}
 
-<p>, IBM</p>
+<p>IBM Team, IBM</p>
 <p>Workload schedulers are a necessary component of a HPC cluster. In this demo, learn about IBM Spectrum LSF, a popular choice for HPC workload. Over the past 30 years, LSF has evolved from being just a workload scheduler to represent an entire suite of capabilities covering the lifecycle of HPC jobs. Some customers have run on-premises HPC workloads with LSF for decades and wish to have a seamless experience as they adopt cloud while retaining legacy tools, flows and methodologies, and most importantly, time and resources. IBM LSF has delivered for customers desiring ease in license purchase process, HPC cluster deployment, and operations.</p>
 <a href="/sc22/98dfd1259204.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -990,7 +987,7 @@ images:
     <div class="col-md-10">
     {{< expando "Arm’s multi-platform developer tools on AWS" >}}
 
-<p>Beau Paisley , Louise Spellacy, Arm</p>
+<p>Beau Paisley ; Louise Spellacy, Arm</p>
 <p>Arm Forge—widely used in HPC labs in traditional environments and the cloud—makes HPC debugging and profiling on Amazon EC2 simple regardless of which processor architecture you use. In this demo, learn how Arm Forge offers you tools that provide seamless access to remote servers, and dive deep on profiling experiences with AWS Graviton3 on HPC applications.</p>
 <a href="/sc22/e5b0f98e9bc5.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -1197,7 +1194,7 @@ images:
     <div class="col-md-10">
     {{< expando "Elastic Fabric Adapter (EFA) explained" >}}
 
-<p>Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering, Matt Koop, Principal Engineer, HPC Engineering, AWS</p>
+<p>Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering; Matt Koop, Principal Engineer, HPC Engineering, AWS</p>
 <p>In this talk we deep-dive into the origins and technology behind our specialized HPC & machine learning network interface, EFA.</p>
 <a href="/sc22/4da2114c9f4e.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -1448,7 +1445,7 @@ images:
     <div class="col-md-10">
     {{< expando "Scheduling made easy with IBM Spectrum LSF on AWS" >}}
 
-<p>, IBM</p>
+<p>IBM Team, IBM</p>
 <p>Workload schedulers are a necessary component of a HPC cluster. In this demo, learn about IBM Spectrum LSF, a popular choice for HPC workload. Over the past 30 years, LSF has evolved from being just a workload scheduler to represent an entire suite of capabilities covering the lifecycle of HPC jobs. Some customers have run on-premises HPC workloads with LSF for decades and wish to have a seamless experience as they adopt cloud while retaining legacy tools, flows and methodologies, and most importantly, time and resources. IBM LSF has delivered for customers desiring ease in license purchase process, HPC cluster deployment, and operations.</p>
 <a href="/sc22/c5a923b9b69d.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
@@ -1833,7 +1830,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Niall Kennedy , Fiona Burgess, YellowDog</div>
+            <div class="col-md-4">Niall Kennedy ; Fiona Burgess, YellowDog</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 16:30-18:00 &#64; Demo 4</div>
         </div>
     </div>
@@ -2229,7 +2226,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Beau Paisley , Louise Spellacy, Arm</div>
+            <div class="col-md-4">Beau Paisley ; Louise Spellacy, Arm</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-16:00 &#64; Demo 6</div>
         </div>
     </div>
@@ -2341,7 +2338,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering, Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
+            <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering; Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-12:30 &#64; Theater</div>
         </div>
     </div>
@@ -2959,7 +2956,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Beau Paisley , Louise Spellacy, Arm</div>
+            <div class="col-md-4">Beau Paisley ; Louise Spellacy, Arm</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-16:00 &#64; Demo 6</div>
         </div>
     </div>
@@ -2991,7 +2988,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Beau Paisley , Louise Spellacy, Arm</div>
+            <div class="col-md-4">Beau Paisley ; Louise Spellacy, Arm</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 10:00-12:00 &#64; Demo 7</div>
         </div>
     </div>
@@ -3229,7 +3226,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering, Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
+            <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering; Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-12:30 &#64; Theater</div>
         </div>
     </div>
@@ -3371,7 +3368,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Beau Paisley , Louise Spellacy, Arm</div>
+            <div class="col-md-4">Beau Paisley ; Louise Spellacy, Arm</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-16:00 &#64; Demo 6</div>
         </div>
     </div>
@@ -3387,7 +3384,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Beau Paisley , Louise Spellacy, Arm</div>
+            <div class="col-md-4">Beau Paisley ; Louise Spellacy, Arm</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 10:00-12:00 &#64; Demo 7</div>
         </div>
     </div>
@@ -4557,7 +4554,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Ken Bigelow, Advanced Research Computing Systems Administrator, Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</div>
+            <div class="col-md-4">Ken Bigelow, Advanced Research Computing Systems Administrator; Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 11:30-12:00 &#64; Theater</div>
         </div>
     </div>
@@ -4733,7 +4730,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering, Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
+            <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering; Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-12:30 &#64; Theater</div>
         </div>
     </div>
@@ -5028,22 +5025,6 @@ images:
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "Getting hands-on with Strangeworks solutions" >}}
-
-<p><b>Summary</b>: In this demo, learn how to eliminate the complexity of accessing, applying, and managing the flood of emerging compute technologies by bringing them together into one platform. Strangeworks offers a hardware-agnostic and software-inclusive platform that acts as a central hub for advanced computing hardware and software vendors and is built specifically for enterprises, academia, researchers, scientists, and engineers to help them solve their most complex research and development challenges. Learn how to use the Strangeworks service library, manipulate quantum code, and generate real results using third-party frameworks and languages. Explore real-world examples from customers and partners, powered by the Strangeworks platform.</p>
-<a href="/sc22/4fd4cf630515.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Steve Gibson, Strangeworks</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-18:00 &#64; Demo 8</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "University of British Columbia’s AWS transformation journey & lessons" >}}
 
 <p><b>Summary</b>: While researchers are increasingly using cloud computing offerings, many aren’t experienced with system administration or cloud service management. This can be challenging for groups without cloud specialists to manage infrastructure and may reduce cloud engagement. Since 2020, the Advanced Research Computing team at the University of British Columbia (UBC) has been using RONIN to deliver a full-service cloud offering to their research community. Come learn about their community, the challenges they faced, and the lessons they learned with the cloud while using the user interfaces on AWS. Hear about their experience with RONIN, what researchers can expect with RONIN, and what’s required to create a workflow in a cloud environment.</p>
@@ -5051,7 +5032,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Ken Bigelow, Advanced Research Computing Systems Administrator, Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</div>
+            <div class="col-md-4">Ken Bigelow, Advanced Research Computing Systems Administrator; Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 11:30-12:00 &#64; Theater</div>
         </div>
     </div>
@@ -5131,7 +5112,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Niall Kennedy , Fiona Burgess, YellowDog</div>
+            <div class="col-md-4">Niall Kennedy ; Fiona Burgess, YellowDog</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 16:30-18:00 &#64; Demo 4</div>
         </div>
     </div>
@@ -5213,22 +5194,6 @@ images:
             </div>
             <div class="col-md-4">Jim Burnham, Ansys</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 16:00-18:00 &#64; Demo 6</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
-            {{< expando "Getting hands-on with Strangeworks solutions" >}}
-
-<p><b>Summary</b>: In this demo, learn how to eliminate the complexity of accessing, applying, and managing the flood of emerging compute technologies by bringing them together into one platform. Strangeworks offers a hardware-agnostic and software-inclusive platform that acts as a central hub for advanced computing hardware and software vendors and is built specifically for enterprises, academia, researchers, scientists, and engineers to help them solve their most complex research and development challenges. Learn how to use the Strangeworks service library, manipulate quantum code, and generate real results using third-party frameworks and languages. Explore real-world examples from customers and partners, powered by the Strangeworks platform.</p>
-<a href="/sc22/ae66b78dd4d9.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Steve Gibson, Strangeworks</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 10:00-11:00 &#64; Demo 8</div>
         </div>
     </div>
 </div>
@@ -5522,6 +5487,22 @@ images:
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
+            {{< expando "Getting hands-on with Strangeworks solutions" >}}
+
+<p><b>Summary</b>: In this demo, learn how to eliminate the complexity of accessing, applying, and managing the flood of emerging compute technologies by bringing them together into one platform. Strangeworks offers a hardware-agnostic and software-inclusive platform that acts as a central hub for advanced computing hardware and software vendors and is built specifically for enterprises, academia, researchers, scientists, and engineers to help them solve their most complex research and development challenges. Learn how to use the Strangeworks service library, manipulate quantum code, and generate real results using third-party frameworks and languages. Explore real-world examples from customers and partners, powered by the Strangeworks platform.</p>
+<a href="/sc22/4fd4cf630515.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Steve Gibson, Strangeworks</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-18:00 &#64; Demo 8</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
             {{< expando "Quantum computing on AWS: From the lab to the laptop" >}}
 
 <p><b>Summary</b>: It may seem like science fiction, but quantum computing is here—and it’s available on the AWS Cloud. Although production workloads aren’t available yet, Amazon Braket gives you the ability to get quantum-ready by exploring the capabilities of a range of current quantum hardware, including superconducting qubits, ion traps, photonic qubits, and Rydberg atom arrays, with more being added regularly. Join this session for an introduction to quantum computing, learn about how the Braket service works, and hear AWS Partners discuss the novel solutions they’ve built on Braket.</p>
@@ -5547,6 +5528,22 @@ images:
             </div>
             <div class="col-md-4">AWS Quantum Team, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 16:00-18:00 &#64; Demo 2</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Getting hands-on with Strangeworks solutions" >}}
+
+<p><b>Summary</b>: In this demo, learn how to eliminate the complexity of accessing, applying, and managing the flood of emerging compute technologies by bringing them together into one platform. Strangeworks offers a hardware-agnostic and software-inclusive platform that acts as a central hub for advanced computing hardware and software vendors and is built specifically for enterprises, academia, researchers, scientists, and engineers to help them solve their most complex research and development challenges. Learn how to use the Strangeworks service library, manipulate quantum code, and generate real results using third-party frameworks and languages. Explore real-world examples from customers and partners, powered by the Strangeworks platform.</p>
+<a href="/sc22/ae66b78dd4d9.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Steve Gibson, Strangeworks</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 10:00-11:00 &#64; Demo 8</div>
         </div>
     </div>
 </div>
@@ -5872,22 +5869,6 @@ images:
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "Getting hands-on with Strangeworks solutions" >}}
-
-<p><b>Summary</b>: In this demo, learn how to eliminate the complexity of accessing, applying, and managing the flood of emerging compute technologies by bringing them together into one platform. Strangeworks offers a hardware-agnostic and software-inclusive platform that acts as a central hub for advanced computing hardware and software vendors and is built specifically for enterprises, academia, researchers, scientists, and engineers to help them solve their most complex research and development challenges. Learn how to use the Strangeworks service library, manipulate quantum code, and generate real results using third-party frameworks and languages. Explore real-world examples from customers and partners, powered by the Strangeworks platform.</p>
-<a href="/sc22/4fd4cf630515.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Steve Gibson, Strangeworks</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-18:00 &#64; Demo 8</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "University of British Columbia’s AWS transformation journey & lessons" >}}
 
 <p><b>Summary</b>: While researchers are increasingly using cloud computing offerings, many aren’t experienced with system administration or cloud service management. This can be challenging for groups without cloud specialists to manage infrastructure and may reduce cloud engagement. Since 2020, the Advanced Research Computing team at the University of British Columbia (UBC) has been using RONIN to deliver a full-service cloud offering to their research community. Come learn about their community, the challenges they faced, and the lessons they learned with the cloud while using the user interfaces on AWS. Hear about their experience with RONIN, what researchers can expect with RONIN, and what’s required to create a workflow in a cloud environment.</p>
@@ -5895,7 +5876,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Ken Bigelow, Advanced Research Computing Systems Administrator, Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</div>
+            <div class="col-md-4">Ken Bigelow, Advanced Research Computing Systems Administrator; Jacob Boschee, Advanced Research Computing Systems Administrator, University of British Columbia</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 11:30-12:00 &#64; Theater</div>
         </div>
     </div>
@@ -5929,22 +5910,6 @@ images:
             </div>
             <div class="col-md-4">Nathan Albrighton, RONIN</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 15:00-18:00 &#64; Demo 5</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
-            {{< expando "Getting hands-on with Strangeworks solutions" >}}
-
-<p><b>Summary</b>: In this demo, learn how to eliminate the complexity of accessing, applying, and managing the flood of emerging compute technologies by bringing them together into one platform. Strangeworks offers a hardware-agnostic and software-inclusive platform that acts as a central hub for advanced computing hardware and software vendors and is built specifically for enterprises, academia, researchers, scientists, and engineers to help them solve their most complex research and development challenges. Learn how to use the Strangeworks service library, manipulate quantum code, and generate real results using third-party frameworks and languages. Explore real-world examples from customers and partners, powered by the Strangeworks platform.</p>
-<a href="/sc22/ae66b78dd4d9.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Steve Gibson, Strangeworks</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 10:00-11:00 &#64; Demo 8</div>
         </div>
     </div>
 </div>
@@ -6165,7 +6130,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">Niall Kennedy , Fiona Burgess, YellowDog</div>
+            <div class="col-md-4">Niall Kennedy ; Fiona Burgess, YellowDog</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 16:30-18:00 &#64; Demo 4</div>
         </div>
     </div>
@@ -6181,7 +6146,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">, IBM</div>
+            <div class="col-md-4">IBM Team, IBM</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 13:00-16:00 &#64; Demo 6</div>
         </div>
     </div>
@@ -6213,7 +6178,7 @@ images:
 
             {{</ expando >}}
             </div>
-            <div class="col-md-4">, IBM</div>
+            <div class="col-md-4">IBM Team, IBM</div>
             <div class="col-md-2" style="font-weight: bold;">Thursday 12:00-14:00 &#64; Demo 4</div>
         </div>
     </div>
