@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #2425 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Hybrid HPC on AWS
+DTSTART;TZID=America/Chicago:20221115T130000
+DTEND;TZID=America/Chicago:20221115T133000
+DESCRIPTION:Join this demo for an introduction to extending your current o
+ n-premises cluster to make use of AWS HPC resources. See a walkthrough on 
+ the different requirements for a hybrid architecture\, including infrastru
+ cture management\, security\, data transfer\, cost\, and best practices. A
+ lso\, discover how to deploy and use a hybrid HPC cluster.
+LOCATION:AWS Booth #2425\; Theater
+END:VEVENT
+END:VCALENDAR

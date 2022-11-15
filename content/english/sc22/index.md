@@ -86,25 +86,6 @@ draft: false
 <hr>
 {{< tabs >}}
 
-{{< tab "Theater" >}}
-<div class="container-fluid">
-
-<div class="row border">
-    <div class="col-sm-2">19:30-20:00</div>
-    <div class="col-md-10">
-    {{< expando "HPC graphs in the AWS Cloud" >}}
-
-<p>Roger Pearce, Computer Scientist; Grant Johnson, Computer Scientist, LLNL</p>
-<p>Graph Analytics is a form of data analysis that enables us to find and understand complex relationships between data entities. In this presentation, we dive into current work on algorithms and methods that build in network latency tolerance to perform large-scale graph calculations, and discuss results using Elastic Fabric Adapter (EFA), the network interface for Amazon EC2 instances targeted to run applications requiring high levels of inter-node communications on AWS.</p>
-<a href="/sc22/b3afbcfce1c1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-    {{</ expando >}}
-    </div>
-</div>
-
-</div>
-{{< /tab >}}
-
 {{< tab "Demo 1" >}}
 <div class="container-fluid">
 
@@ -154,6 +135,25 @@ draft: false
 <p>NICE DCV Team, AWS</p>
 <p>Visit our NICE DCV demo station for live demonstrations including "NICE DCV in HPC on AWS", "High-resolution showcase with NICE DCV" and "Streaming High-Performance Cloud Gaming with DCV".</p>
 <a href="/sc22/9bb0c3f86779.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+    {{</ expando >}}
+    </div>
+</div>
+
+</div>
+{{< /tab >}}
+
+{{< tab "Theater" >}}
+<div class="container-fluid">
+
+<div class="row border">
+    <div class="col-sm-2">19:30-20:00</div>
+    <div class="col-md-10">
+    {{< expando "HPC graphs in the AWS Cloud" >}}
+
+<p>Roger Pearce, Computer Scientist; Grant Johnson, Computer Scientist, LLNL</p>
+<p>Graph Analytics is a form of data analysis that enables us to find and understand complex relationships between data entities. In this presentation, we dive into current work on algorithms and methods that build in network latency tolerance to perform large-scale graph calculations, and discuss results using Elastic Fabric Adapter (EFA), the network interface for Amazon EC2 instances targeted to run applications requiring high levels of inter-node communications on AWS.</p>
+<a href="/sc22/b3afbcfce1c1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
     </div>
@@ -638,11 +638,11 @@ draft: false
 <div class="row border">
     <div class="col-sm-2">13:00-13:30</div>
     <div class="col-md-10">
-    {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
+    {{< expando "Hybrid HPC on AWS" >}}
 
-<p>Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</p>
-<p>Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
-<a href="/sc22/59864a6ff413.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<p>Brian Skjerven, Senior HPC Specialist Solutions Architect, AWS</p>
+<p>Join this demo for an introduction to extending your current on-premises cluster to make use of AWS HPC resources. See a walkthrough on the different requirements for a hybrid architecture, including infrastructure management, security, data transfer, cost, and best practices. Also, discover how to deploy and use a hybrid HPC cluster.</p>
+<a href="/sc22/d6984e71e3ec.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
     </div>
@@ -1218,11 +1218,11 @@ draft: false
 <div class="row border">
     <div class="col-sm-2">13:00-13:30</div>
     <div class="col-md-10">
-    {{< expando "Hybrid HPC on AWS" >}}
+    {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
 
-<p>Brian Skjerven, Senior HPC Specialist Solutions Architect, AWS</p>
-<p>Join this demo for an introduction to extending your current on-premises cluster to make use of AWS HPC resources. See a walkthrough on the different requirements for a hybrid architecture, including infrastructure management, security, data transfer, cost, and best practices. Also, discover how to deploy and use a hybrid HPC cluster.</p>
-<a href="/sc22/82c7f3bdeae8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<p>Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</p>
+<p>Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
+<a href="/sc22/db400443746f.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
     </div>
@@ -3155,22 +3155,6 @@ draft: false
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
-
-<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
-<a href="/sc22/59864a6ff413.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-13:30 &#64; Theater</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "Accelerating HPC for engineers on AWS with TotalCAE" >}}
 
 <p><b>Summary</b>: The TotalCAE platform makes it possible for engineers to submit hundreds of applications to AWS in just a few clicks. Learn how TotalCAE uses AWS services including Elastic Fabric Adapter (EFA), HPC-specific instances such as hpc6a.48xlarge, NICE DCV, and Amazon FSx for Lustre. In this session, TotalCAE discusses client case studies using these AWS technologies with TotalCAE to advance the state of the art in CAE simulation.</p>
@@ -3228,6 +3212,22 @@ draft: false
             </div>
             <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering; Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-12:30 &#64; Theater</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
+
+<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
+<a href="/sc22/db400443746f.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 13:00-13:30 &#64; Theater</div>
         </div>
     </div>
 </div>
@@ -3538,12 +3538,12 @@ draft: false
             {{< expando "Hybrid HPC on AWS" >}}
 
 <p><b>Summary</b>: Join this demo for an introduction to extending your current on-premises cluster to make use of AWS HPC resources. See a walkthrough on the different requirements for a hybrid architecture, including infrastructure management, security, data transfer, cost, and best practices. Also, discover how to deploy and use a hybrid HPC cluster.</p>
-<a href="/sc22/82c7f3bdeae8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/sc22/d6984e71e3ec.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Brian Skjerven, Senior HPC Specialist Solutions Architect, AWS</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 13:00-13:30 &#64; Theater</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-13:30 &#64; Theater</div>
         </div>
     </div>
 </div>
@@ -4167,22 +4167,6 @@ draft: false
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
-
-<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
-<a href="/sc22/59864a6ff413.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-13:30 &#64; Theater</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "The role of ML and HPC in the future of CFD" >}}
 
 <p><b>Summary</b>: In this session, explore how AWS is empowering customers to push the boundaries of computational fluid dynamics (CFD) and helping engineers and designers explore more designs and bring products to market faster. Learn about the move toward GPU-enabled CFD codes, the benefits of cloud elasticity, and the growth of machine learning and deep learning for accelerating CFD simulations.</p>
@@ -4208,6 +4192,22 @@ draft: false
             </div>
             <div class="col-md-4">Jess Arrington, SchedMD</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-14:00 &#64; Demo 7</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
+
+<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
+<a href="/sc22/db400443746f.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 13:00-13:30 &#64; Theater</div>
         </div>
     </div>
 </div>
@@ -4419,22 +4419,6 @@ draft: false
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "HPC graphs in the AWS Cloud" >}}
-
-<p><b>Summary</b>: Graph Analytics is a form of data analysis that enables us to find and understand complex relationships between data entities. In this presentation, we dive into current work on algorithms and methods that build in network latency tolerance to perform large-scale graph calculations, and discuss results using Elastic Fabric Adapter (EFA), the network interface for Amazon EC2 instances targeted to run applications requiring high levels of inter-node communications on AWS.</p>
-<a href="/sc22/b3afbcfce1c1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Roger Pearce, Computer Scientist; Grant Johnson, Computer Scientist, LLNL</div>
-            <div class="col-md-2" style="font-weight: bold;">Monday 19:30-20:00 &#64; Theater</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "AWS ParallelCluster and Pcluster Manager" >}}
 
 <p><b>Summary</b>: Launch and manage dynamically scaling high performance computing (HPC) clusters on AWS with AWS ParallelCluster. Stop by for demos including "Introduction to AWS Parallel Cluster", "Introduction to Pcluster Manager", "License Management in AWS ParallelCluster", "AWS ParallelCluster Fast Failover", and "My laptop has 50k cores".</p>
@@ -4444,6 +4428,22 @@ draft: false
             </div>
             <div class="col-md-4">AWS HPC Team, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Monday 18:00-20:00 &#64; Demo 1</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "HPC graphs in the AWS Cloud" >}}
+
+<p><b>Summary</b>: Graph Analytics is a form of data analysis that enables us to find and understand complex relationships between data entities. In this presentation, we dive into current work on algorithms and methods that build in network latency tolerance to perform large-scale graph calculations, and discuss results using Elastic Fabric Adapter (EFA), the network interface for Amazon EC2 instances targeted to run applications requiring high levels of inter-node communications on AWS.</p>
+<a href="/sc22/b3afbcfce1c1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Roger Pearce, Computer Scientist; Grant Johnson, Computer Scientist, LLNL</div>
+            <div class="col-md-2" style="font-weight: bold;">Monday 19:30-20:00 &#64; Theater</div>
         </div>
     </div>
 </div>
@@ -4595,22 +4595,6 @@ draft: false
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
-
-<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
-<a href="/sc22/59864a6ff413.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-13:30 &#64; Theater</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "Structure-based drug design as a service" >}}
 
 <p><b>Summary</b>: In this demo, join Clovertex to learn about its scientific research platform and how it can be used to simplify and accelerate structure-based drug design. Also, discover how a cryo-EM pipeline can use the popular CryoSPARC Live application.</p>
@@ -4732,6 +4716,22 @@ draft: false
             </div>
             <div class="col-md-4">Brendan Bouffler, Head of HPC Developer Relations, HPC Engineering; Matt Koop, Principal Engineer, HPC Engineering, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-12:30 &#64; Theater</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
+
+<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
+<a href="/sc22/db400443746f.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 13:00-13:30 &#64; Theater</div>
         </div>
     </div>
 </div>
@@ -6107,22 +6107,6 @@ draft: false
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
-            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
-
-<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
-<a href="/sc22/59864a6ff413.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
-
-            {{</ expando >}}
-            </div>
-            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 13:00-13:30 &#64; Theater</div>
-        </div>
-    </div>
-</div>
-<div class="row border">
-    <div class="col-12"">
-        <div class="row">
-            <div class="col-md-6 h5">
             {{< expando "YellowDog: Clarifying compute-intensive workloads" >}}
 
 <p><b>Summary</b>: The classification of workloads into precise execution patterns is difficult and can lead to suboptimal execution in order to avoid the proliferation of applications, platforms, and techniques. What if you could choose a unified and intelligent workload submission platform to help you take advtange of the speed and scalability of the AWS Cloud? Regardless of your workload type, if it is compute-intensive, YellowDog on AWS can help you manage it. YellowDog is a fast, scalable, simple, Spot-friendly extensible scheduler and provisioning platform for hybrid and cloud. Concentrate on the insights and outcomes your workloads generate, and let YellowDog on AWS take care of everything else.</p>
@@ -6164,6 +6148,22 @@ draft: false
             </div>
             <div class="col-md-4">Jess Arrington, SchedMD</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 12:00-14:00 &#64; Demo 7</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Large-scale distributed training using Enroot & Pyxis on AWS ParallelCluster with EFA & GPUDirect RDMA" >}}
+
+<p><b>Summary</b>: Join this demo to learn how deploying Enroot and Pyxis for container orchestration on AWS ParallelCluster integrates nicely with Slurm for truly scalable deep learning. Also, discover how GPUDirect RDMA support on Elastic Fabric Adapter (EFA) positively impacts performance.</p>
+<a href="/sc22/db400443746f.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Amr Ragab, Principal Solutions Architect – Amazon EC2, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 13:00-13:30 &#64; Theater</div>
         </div>
     </div>
 </div>
