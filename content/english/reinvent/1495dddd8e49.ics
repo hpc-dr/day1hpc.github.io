@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP320: Accelerating semiconductor design\, simulation\, and verif
+ ication
+DTSTART;TZID=US/Pacific:20221128T104500
+DTEND;TZID=US/Pacific:20221128T114500
+DESCRIPTION:AWS offers many solutions to design\, simulate\, and verify th
+ e advanced semiconductor devices that are the foundation of modern technol
+ ogy. Electronic design automation (EDA) workloads are critical to the succ
+ ess of chip development. EDA requires computing for digital and analog sim
+ ulations\, logic synthesis\, design rule checks\, and physical verificatio
+ n. In this session\, discover best practices for running HPC or EDA worklo
+ ads on AWS using Amazon EC2. Hear from Arm about how they use AWS to accel
+ erate EDA workloads in the cloud using Arm-based AWS Graviton instances. A
+ lso\, Marvell shares how they’re using EDA in the cloud to scale their h
+ ighly differentiated cloud-optimized silicon solutions for customers like 
+ AWS.
+LOCATION:Level 1\, Grand 115\, MGM Grand\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

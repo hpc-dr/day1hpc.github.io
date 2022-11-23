@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:GEO032: Discover the full power of HPC on AWS and remove infrastru
+ cture constraints
+DTSTART;TZID=US/Pacific:20221129T143000
+DTEND;TZID=US/Pacific:20221129T153000
+DESCRIPTION:This talk is delivered in Italian. High performance computing 
+ (HPC) has always been about utilizing the most effective technologies to s
+ olve the world’s most complex problems. However\, many HPC users have be
+ en constrained by the need to purchase and deploy on-premises infrastructu
+ re to gain access to the best technologies for their applications. AWS HPC
+  helps you innovate beyond the limitations of on-premises HPC infrastructu
+ re. In this talk\, see how to create and manage HPC environments with AWS 
+ ParallelCluster\, access 400 Gbps networking with Elastic Fabric Adapter\,
+  and chose from over 500 Amazon EC2 instances to run your largest\, most c
+ omplex HPC workloads in the cloud.
+LOCATION:Level 1\, Casanova Foyer- AWS Global Lounge\, Venetian\, Las Vega
+ s\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

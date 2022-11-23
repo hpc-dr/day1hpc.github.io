@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:STG343: Deep dive on accelerating HPC and ML with Amazon FSx
+DTSTART;TZID=US/Pacific:20221128T100000
+DTEND;TZID=US/Pacific:20221128T110000
+DESCRIPTION:File services are often asked to deliver performant capabiliti
+ es with low latencies for compute-intensive workloads or high IOPS for dat
+ a-intensive applications. In this session\, learn best practices for choos
+ ing how to rightsize your performance\, reduce latency\, increase throughp
+ ut\, and optimize cost. The Amazon FSx family of managed file storage serv
+ ices provides feature sets and performance profiles supporting a variety o
+ f use cases. Many workloads like machine learning (ML)\, high performance 
+ computing (HPC)\, video rendering\, and financial analytics require cost o
+ ptimizations and deployment options. This session also shares tips and bes
+ t practices for migrating performant-dependent use cases to AWS.
+LOCATION:Level 1 North\, South Pacific F\, Mandalay Bay\, Las Vegas\, NV\,
+  USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

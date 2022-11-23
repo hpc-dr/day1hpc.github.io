@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP211-R: A framework for physics-informed neural networks on PyTo
+ rch
+DTSTART;TZID=US/Pacific:20221128T100000
+DTEND;TZID=US/Pacific:20221128T110000
+DESCRIPTION:In this chalk talk\, learn about a new physics-informed neural
+  network (PINNs) framework for simulations on PyTorch for fast-to-compute 
+ and highly accurate models for various applications. The computational cos
+ t associated with multi-physics simulations often impose serious limitatio
+ ns for design space exploration\, optimization\, and uncertainty quantific
+ ation. Learn how to apply methods for solving partial differential equatio
+ ns that govern the physics of engineering systems using PINNs and other re
+ levant applications in engineering. This was developed and implemented by 
+ AWS in collaboration with the University of Central Florida.
+LOCATION:Level 1\, Forum 104\, Caesars Forum\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

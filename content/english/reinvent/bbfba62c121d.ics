@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:PRT220: How to maximize HPC productivity\, performance\, and porta
+ bility (sponsored by NVIDIA)
+DTSTART;TZID=US/Pacific:20221128T160000
+DTEND;TZID=US/Pacific:20221128T170000
+DESCRIPTION:In this session\, learn how NVIDIA enables high-performance co
+ mputing (HPC) on over 200 Amazon EC2 instance types. NVIDIA provides a mul
+ ti-platform\, standards-compliant\, vendor-supported solution for HPC appl
+ ication development that supports all major programming models. Its proven
+  compilers\, libraries\, and software tools support AWS Graviton to maximi
+ ze developer productivity\, enable hardware platform choice\, and facilita
+ te an optimal price-performance solution for HPC applications in the cloud
+ . This presentation is brought to you by NVIDIA\, an AWS Partner.
+LOCATION:Level 3 South\, South Seas C\, Mandalay Bay\, Las Vegas\, NV\, US
+ A
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR
