@@ -193,7 +193,7 @@ images:
             {{< expando "A framework for physics-informed neural networks on PyTorch" >}}
 
 <p><b>Summary</b>: In this chalk talk, learn about a new physics-informed neural network (PINNs) framework for simulations on PyTorch for fast-to-compute and highly accurate models for various applications. The computational cost associated with multi-physics simulations often impose serious limitations for design space exploration, optimization, and uncertainty quantification. Learn how to apply methods for solving partial differential equations that govern the physics of engineering systems using PINNs and other relevant applications in engineering. This was developed and implemented by AWS in collaboration with the University of Central Florida.</p>
-<p><b>Session Type</b>: Chalk Talk | <b>Session ID:</b> CMP211-R</p>
+<p><b>Session Type</b>: Chalk Talk | <b>Session ID:</b> CMP211-R1</p>
 <a href="/reinvent/f16271d97126.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -317,12 +317,12 @@ images:
 
 <p><b>Summary</b>: This talk is delivered in Italian. High performance computing (HPC) has always been about utilizing the most effective technologies to solve the world’s most complex problems. However, many HPC users have been constrained by the need to purchase and deploy on-premises infrastructure to gain access to the best technologies for their applications. AWS HPC helps you innovate beyond the limitations of on-premises HPC infrastructure. In this talk, see how to create and manage HPC environments with AWS ParallelCluster, access 400 Gbps networking with Elastic Fabric Adapter, and chose from over 500 Amazon EC2 instances to run your largest, most complex HPC workloads in the cloud.</p>
 <p><b>Session Type</b>: Geo Talk | <b>Session ID:</b> GEO032</p>
-<a href="/reinvent/69eb78fa8dc8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/f939e1c20ec1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Nicola Venuti, Principal Specialist Solution Architect (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-15:30 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-14:50 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
         </div>
     </div>
 </div>
@@ -474,12 +474,12 @@ images:
 
 <p><b>Summary</b>: As the world strives to solve increasingly complex problems, single on-premises general-purpose supercomputers can fall short. In this session, you’ll learn how AWS is reimagining supercomputing to provide scientists and engineers more access to world-class facilities and technology. Whether it’s finding new life-saving drugs, localizing natural disaster prediction, or designing airplanes powered by alternative energy sources, High Performance Computing (HPC) is transforming our lives. Nearly everything we use, such as our cars and electronics, are designed using supercomputers, a class of HPC computing. Supercomputers divide a single problem across hundreds to thousands of servers to perform high-speed calculations that reduce overall time to solution.</p>
 <p><b>Session Type</b>: Breakout | <b>Session ID:</b> CMP222</p>
-<a href="/reinvent/f90bfb6d8446.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/565257e7b5be.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Heidi Poxon and Neil Ashton (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:00-20:00 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:45-20:45 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
         </div>
     </div>
 </div>
@@ -728,12 +728,12 @@ images:
 
 <p><b>Summary</b>: This talk is delivered in Italian. High performance computing (HPC) has always been about utilizing the most effective technologies to solve the world’s most complex problems. However, many HPC users have been constrained by the need to purchase and deploy on-premises infrastructure to gain access to the best technologies for their applications. AWS HPC helps you innovate beyond the limitations of on-premises HPC infrastructure. In this talk, see how to create and manage HPC environments with AWS ParallelCluster, access 400 Gbps networking with Elastic Fabric Adapter, and chose from over 500 Amazon EC2 instances to run your largest, most complex HPC workloads in the cloud.</p>
 <p><b>Session Type</b>: Geo Talk | <b>Session ID:</b> GEO032</p>
-<a href="/reinvent/69eb78fa8dc8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/f939e1c20ec1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Nicola Venuti, Principal Specialist Solution Architect (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-15:30 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-14:50 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
         </div>
     </div>
 </div>
@@ -830,12 +830,12 @@ images:
 
 <p><b>Summary</b>: As the world strives to solve increasingly complex problems, single on-premises general-purpose supercomputers can fall short. In this session, you’ll learn how AWS is reimagining supercomputing to provide scientists and engineers more access to world-class facilities and technology. Whether it’s finding new life-saving drugs, localizing natural disaster prediction, or designing airplanes powered by alternative energy sources, High Performance Computing (HPC) is transforming our lives. Nearly everything we use, such as our cars and electronics, are designed using supercomputers, a class of HPC computing. Supercomputers divide a single problem across hundreds to thousands of servers to perform high-speed calculations that reduce overall time to solution.</p>
 <p><b>Session Type</b>: Breakout | <b>Session ID:</b> CMP222</p>
-<a href="/reinvent/f90bfb6d8446.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/565257e7b5be.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Heidi Poxon and Neil Ashton (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:00-20:00 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:45-20:45 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
         </div>
     </div>
 </div>
@@ -1765,7 +1765,7 @@ images:
             {{< expando "A framework for physics-informed neural networks on PyTorch" >}}
 
 <p><b>Summary</b>: In this chalk talk, learn about a new physics-informed neural network (PINNs) framework for simulations on PyTorch for fast-to-compute and highly accurate models for various applications. The computational cost associated with multi-physics simulations often impose serious limitations for design space exploration, optimization, and uncertainty quantification. Learn how to apply methods for solving partial differential equations that govern the physics of engineering systems using PINNs and other relevant applications in engineering. This was developed and implemented by AWS in collaboration with the University of Central Florida.</p>
-<p><b>Session Type</b>: Chalk Talk | <b>Session ID:</b> CMP211-R</p>
+<p><b>Session Type</b>: Chalk Talk | <b>Session ID:</b> CMP211-R1</p>
 <a href="/reinvent/f16271d97126.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -1800,12 +1800,12 @@ images:
 
 <p><b>Summary</b>: This talk is delivered in Italian. High performance computing (HPC) has always been about utilizing the most effective technologies to solve the world’s most complex problems. However, many HPC users have been constrained by the need to purchase and deploy on-premises infrastructure to gain access to the best technologies for their applications. AWS HPC helps you innovate beyond the limitations of on-premises HPC infrastructure. In this talk, see how to create and manage HPC environments with AWS ParallelCluster, access 400 Gbps networking with Elastic Fabric Adapter, and chose from over 500 Amazon EC2 instances to run your largest, most complex HPC workloads in the cloud.</p>
 <p><b>Session Type</b>: Geo Talk | <b>Session ID:</b> GEO032</p>
-<a href="/reinvent/69eb78fa8dc8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/f939e1c20ec1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Nicola Venuti, Principal Specialist Solution Architect (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-15:30 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-14:50 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
         </div>
     </div>
 </div>
@@ -1868,12 +1868,12 @@ images:
 
 <p><b>Summary</b>: As the world strives to solve increasingly complex problems, single on-premises general-purpose supercomputers can fall short. In this session, you’ll learn how AWS is reimagining supercomputing to provide scientists and engineers more access to world-class facilities and technology. Whether it’s finding new life-saving drugs, localizing natural disaster prediction, or designing airplanes powered by alternative energy sources, High Performance Computing (HPC) is transforming our lives. Nearly everything we use, such as our cars and electronics, are designed using supercomputers, a class of HPC computing. Supercomputers divide a single problem across hundreds to thousands of servers to perform high-speed calculations that reduce overall time to solution.</p>
 <p><b>Session Type</b>: Breakout | <b>Session ID:</b> CMP222</p>
-<a href="/reinvent/f90bfb6d8446.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/565257e7b5be.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Heidi Poxon and Neil Ashton (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:00-20:00 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:45-20:45 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
         </div>
     </div>
 </div>
@@ -2556,12 +2556,12 @@ images:
 
 <p><b>Summary</b>: This talk is delivered in Italian. High performance computing (HPC) has always been about utilizing the most effective technologies to solve the world’s most complex problems. However, many HPC users have been constrained by the need to purchase and deploy on-premises infrastructure to gain access to the best technologies for their applications. AWS HPC helps you innovate beyond the limitations of on-premises HPC infrastructure. In this talk, see how to create and manage HPC environments with AWS ParallelCluster, access 400 Gbps networking with Elastic Fabric Adapter, and chose from over 500 Amazon EC2 instances to run your largest, most complex HPC workloads in the cloud.</p>
 <p><b>Session Type</b>: Geo Talk | <b>Session ID:</b> GEO032</p>
-<a href="/reinvent/69eb78fa8dc8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/f939e1c20ec1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Nicola Venuti, Principal Specialist Solution Architect (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-15:30 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-14:50 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
         </div>
     </div>
 </div>
@@ -2658,12 +2658,12 @@ images:
 
 <p><b>Summary</b>: As the world strives to solve increasingly complex problems, single on-premises general-purpose supercomputers can fall short. In this session, you’ll learn how AWS is reimagining supercomputing to provide scientists and engineers more access to world-class facilities and technology. Whether it’s finding new life-saving drugs, localizing natural disaster prediction, or designing airplanes powered by alternative energy sources, High Performance Computing (HPC) is transforming our lives. Nearly everything we use, such as our cars and electronics, are designed using supercomputers, a class of HPC computing. Supercomputers divide a single problem across hundreds to thousands of servers to perform high-speed calculations that reduce overall time to solution.</p>
 <p><b>Session Type</b>: Breakout | <b>Session ID:</b> CMP222</p>
-<a href="/reinvent/f90bfb6d8446.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/565257e7b5be.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Heidi Poxon and Neil Ashton (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:00-20:00 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:45-20:45 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
         </div>
     </div>
 </div>
@@ -3362,7 +3362,7 @@ images:
             {{< expando "A framework for physics-informed neural networks on PyTorch" >}}
 
 <p><b>Summary</b>: In this chalk talk, learn about a new physics-informed neural network (PINNs) framework for simulations on PyTorch for fast-to-compute and highly accurate models for various applications. The computational cost associated with multi-physics simulations often impose serious limitations for design space exploration, optimization, and uncertainty quantification. Learn how to apply methods for solving partial differential equations that govern the physics of engineering systems using PINNs and other relevant applications in engineering. This was developed and implemented by AWS in collaboration with the University of Central Florida.</p>
-<p><b>Session Type</b>: Chalk Talk | <b>Session ID:</b> CMP211-R</p>
+<p><b>Session Type</b>: Chalk Talk | <b>Session ID:</b> CMP211-R1</p>
 <a href="/reinvent/f16271d97126.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
@@ -3842,12 +3842,12 @@ images:
 
 <p><b>Summary</b>: This talk is delivered in Italian. High performance computing (HPC) has always been about utilizing the most effective technologies to solve the world’s most complex problems. However, many HPC users have been constrained by the need to purchase and deploy on-premises infrastructure to gain access to the best technologies for their applications. AWS HPC helps you innovate beyond the limitations of on-premises HPC infrastructure. In this talk, see how to create and manage HPC environments with AWS ParallelCluster, access 400 Gbps networking with Elastic Fabric Adapter, and chose from over 500 Amazon EC2 instances to run your largest, most complex HPC workloads in the cloud.</p>
 <p><b>Session Type</b>: Geo Talk | <b>Session ID:</b> GEO032</p>
-<a href="/reinvent/69eb78fa8dc8.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/f939e1c20ec1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Nicola Venuti, Principal Specialist Solution Architect (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-15:30 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 14:30-14:50 &#64; Level 1, Casanova Foyer- AWS Global Lounge, Venetian</div>
         </div>
     </div>
 </div>
@@ -3910,12 +3910,12 @@ images:
 
 <p><b>Summary</b>: As the world strives to solve increasingly complex problems, single on-premises general-purpose supercomputers can fall short. In this session, you’ll learn how AWS is reimagining supercomputing to provide scientists and engineers more access to world-class facilities and technology. Whether it’s finding new life-saving drugs, localizing natural disaster prediction, or designing airplanes powered by alternative energy sources, High Performance Computing (HPC) is transforming our lives. Nearly everything we use, such as our cars and electronics, are designed using supercomputers, a class of HPC computing. Supercomputers divide a single problem across hundreds to thousands of servers to perform high-speed calculations that reduce overall time to solution.</p>
 <p><b>Session Type</b>: Breakout | <b>Session ID:</b> CMP222</p>
-<a href="/reinvent/f90bfb6d8446.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+<a href="/reinvent/565257e7b5be.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {{</ expando >}}
             </div>
             <div class="col-md-4">Heidi Poxon and Neil Ashton (AWS)</div>
-            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:00-20:00 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 19:45-20:45 &#64; Level 3, South, South Seas A, Mandalay Bay</div>
         </div>
     </div>
 </div>
