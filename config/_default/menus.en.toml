@@ -7,6 +7,12 @@
 # hasChildren = false
 
 [[main]]
+weight = 1
+name = "AWS re:Invent"
+url = "/reinvent/"
+hasChildren = true
+
+[[main]]
 weight = 2
 name = "Learn"
 url = "/learning/"

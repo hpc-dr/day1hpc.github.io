@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP402: A day in the life of a cloud-empowered aerodynamics engine
+ er
+DTSTART;TZID=US/Pacific:20221130T104500
+DTEND;TZID=US/Pacific:20221130T114500
+DESCRIPTION:Imagine yourself as an aerodynamics engineer who uses computat
+ ional fluid dynamics (CFD) to design new cars and planes\, and you want th
+ e fastest turnaround times while retaining accuracy. This interactive chal
+ k talk walks through techniques for optimizing complex workflows by combin
+ ing AWS capabilities with optimization tricks to reduce simulation time fo
+ r popular CFD codes such as OpenFOAM and Siemens Simcenter STAR-CCM+.
+LOCATION:Level 1\, Academy 412\, Caesars Forum\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

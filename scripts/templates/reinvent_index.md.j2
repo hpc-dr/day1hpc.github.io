@@ -1,0 +1,72 @@
+---
+title: "AWS re:Invent 2022 Session Schedule"
+# description
+description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS."
+draft: false
+images:
+  - "images/day1-ident-feature.png"
+
+---
+<p>Choose <a href="https://reinvent.awsevents.com/">AWS re:Invent</a> day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
+{% include 'reinvent_nav.md.j2' %}
+
+{% for day, station in data.items() %}
+<a style="font-size: 24px; font-weight: bold; padding-top: 120px; margin-top: -120px;" name="{{ day }}">{{ day }}</a>
+<div class="container-fluid">
+{% for dday, station in data.items() -%}
+{% for station_name, events in station.items() -%}
+{% for e in events if day == e["day_of_week"] -%}
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
+
+<p><b>Summary</b>: {{ e.abstract }}</p>
+<p><b>Session Type</b>: {{ e.session_type }} | <b>Session ID:</b> {{e.session_id}}</p>
+<a href="/reinvent/{{ e.ical_filename }}" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {% raw %}{{</ expando >}}{% endraw %}
+            </div>
+            <div class="col-md-4">{{ e.speakers }}</div>
+            <div class="col-md-2" style="font-weight: bold;">{{ e.day_of_week }} {{ e.range }} &#64; {{ e.location }}</div>
+        </div>
+    </div>
+</div>
+{% endfor -%}
+{% endfor -%}
+{% endfor -%}
+</div>
+{% endfor %}
+
+{% include 'reinvent_nav.md.j2' %}
+
+{% for topic in topics -%}
+<a style="font-size: 24px; font-weight: bold; padding-top: 120px; margin-top: -120px;" name="{{ topic }}">{{ topic }}</a>
+<div class="container-fluid">
+{% for day, station in data.items() -%}
+{% for station_name, events in station.items() -%}
+{% for e in events if topic in e['topics'] -%}
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
+
+<p><b>Summary</b>: {{ e.abstract }}</p>
+<p><b>Session Type</b>: {{ e.session_type }} | <b>Session ID:</b> {{e.session_id}}</p>
+<a href="/reinvent/{{ e.ical_filename }}" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {% raw %}{{</ expando >}}{% endraw %}
+            </div>
+            <div class="col-md-4">{{ e.speakers }}</div>
+            <div class="col-md-2" style="font-weight: bold;">{{ e.day_of_week }} {{ e.range }} &#64; {{ e.location }}</div>
+        </div>
+    </div>
+</div>
+{% endfor -%}
+{% endfor -%}
+{% endfor -%}
+</div>
+{% include 'reinvent_nav.md.j2' %}
+{% endfor -%}
