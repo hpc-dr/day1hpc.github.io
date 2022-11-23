@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP220:How AWS and aerospace and geospatial companies are rethinki
+ ng HPC
+DTSTART;TZID=US/Pacific:20221202T083000
+DTEND;TZID=US/Pacific:20221202T093000
+DESCRIPTION:In this session\, learn about model-based design and the high-
+ performance computing (HPC) this drives. Hear from AWS customers who are r
+ ethinking and reworking their HPC workloads on AWS with a focus on innovat
+ ion\, agility\, and the use of deep learning in combination with HPC. Addi
+ tionally\, AWS experts present new approaches for the convergence of model
+ -based design\, machine learning\, data analytics\, and HPC with applicati
+ on to aerospace and engineering challenges.
+LOCATION:Level 1\, Forum 113\, Caesars Forum\, Las Vegas\, NV\, USA
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP316:Solving problems in TV broadcasting and production with HPC
+  and ML
+DTSTART;TZID=US/Pacific:20221128T173000
+DTEND;TZID=US/Pacific:20221128T183000
+DESCRIPTION:In this chalk talk\, learn about unexpected developments in br
+ oadcast video production that allowed major studio production to move to h
+ igh performance computing (HPC) on AWS. As part of the solution deep dive\
+ , get a refresher on the AWS Nitro System. Learn about Elastic Fabric Adap
+ ter (EFA)\, a network for Amazon EC2 instances and how they enable scalabl
+ e AI/ML model training for advanced HPC workloads that go beyond broadcast
+ ing to drug discovery\, weather\, and other use cases.
+LOCATION:Level 1\, Lafite 4\, Wynn\, Las Vegas\, NV\, USA
+END:VEVENT
+END:VCALENDAR

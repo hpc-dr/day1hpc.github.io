@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP317-R1:AWS Batch ask me anything
+DTSTART;TZID=US/Pacific:20221201T144500
+DTEND;TZID=US/Pacific:20221201T154500
+DESCRIPTION:In this interactive builders’ session\, the leading AWS Batc
+ h product manager and team answer common questions about the service. Get 
+ the opportunity to provide feedback to the people planning the next set of
+  AWS Batch features. Come prepared to share your questions and thoughts. Y
+ ou must bring your laptop to participate.
+LOCATION:Level 1\, Latour 7\, Wynn\, Las Vegas\, NV\, USA
+END:VEVENT
+END:VCALENDAR

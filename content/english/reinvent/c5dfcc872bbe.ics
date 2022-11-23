@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP305:Best practices for high performance computing in the cloud
+DTSTART;TZID=US/Pacific:20221130T091500
+DTEND;TZID=US/Pacific:20221130T111500
+DESCRIPTION:Join this workshop to gain a solid skills foundation to run co
+ mmon high performance computing (HPC) workloads using cloud technologies. 
+ Start with a primer on modern cloud foundations and how they map to common
+  HPC concepts. Then\, get a deeper view into how to use cloud-native techn
+ ologies\, such as object storage\, in HPC workflows. Get hands-on experien
+ ce setting up your own cluster in the cloud and running a sample applicati
+ on. You must bring your laptop to participate.
+LOCATION:Level 3\, Premier 315\, MGM Grand\, Las Vegas\, NV\, USA
+END:VEVENT
+END:VCALENDAR

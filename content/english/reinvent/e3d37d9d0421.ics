@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP407:Elastic Fabric Adapter advanced topics for AI/ML and HPC
+DTSTART;TZID=US/Pacific:20221130T194500
+DTEND;TZID=US/Pacific:20221130T204500
+DESCRIPTION:Elastic Fabric Adapter (EFA)\, built on the Scalable Reliable 
+ Datagram (SRD) protocol\, is the foundation for scaling message passing in
+ terface (MPI) and NVIDIA Collective Communications Library–based high pe
+ rformance computing (HPC) and machine learning (ML) codes at AWS. This bui
+ lders’ session addresses application scaling challenges and is led by an
+  AWS EFA team principal engineer. It includes a roundtable-style discussio
+ n\, so come prepared to share your thoughts and questions. You must bring 
+ your laptop to participate.
+LOCATION:Level 1\, Latour 7\, Wynn\, Las Vegas\, NV\, USA
+END:VEVENT
+END:VCALENDAR
