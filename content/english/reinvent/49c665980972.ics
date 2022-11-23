@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP325:Coding for multiple CPU architectures using lessons learned
-  in HPC
+SUMMARY:CMP325: Coding for multiple CPU architectures using lessons learne
+ d in HPC
 DTSTART;TZID=US/Pacific:20221129T161500
 DTEND;TZID=US/Pacific:20221129T171500
 DESCRIPTION:This chalk talk details best practices and lessons learned abo
@@ -17,5 +17,6 @@ DESCRIPTION:This chalk talk details best practices and lessons learned abo
  can be applied to almost any compute workload and how to effectively code 
  for multiple compute infrastructure architectures.
 LOCATION:Level 1\, Forum 126\, Caesars Forum\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

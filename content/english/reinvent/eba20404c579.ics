@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP335-R:Data analysis with Amazon EKS and AWS Batch
+SUMMARY:CMP335-R: Data analysis with Amazon EKS and AWS Batch
 DTSTART;TZID=US/Pacific:20221129T140000
 DTEND;TZID=US/Pacific:20221129T160000
 DESCRIPTION:In this session\, you'll gain an understanding for the recentl
@@ -14,5 +14,6 @@ DESCRIPTION:In this session\, you'll gain an understanding for the recentl
  learning model. You must bring your laptop to participate in hands-on exer
  cises.
 LOCATION:Level 3\, Murano 3204\, Venetian\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP316:Solving problems in TV broadcasting and production with HPC
-  and ML
+SUMMARY:CMP316: Solving problems in TV broadcasting and production with HP
+ C and ML
 DTSTART;TZID=US/Pacific:20221128T173000
 DTEND;TZID=US/Pacific:20221128T183000
 DESCRIPTION:In this chalk talk\, learn about unexpected developments in br
@@ -14,5 +14,6 @@ DESCRIPTION:In this chalk talk\, learn about unexpected developments in br
  e AI/ML model training for advanced HPC workloads that go beyond broadcast
  ing to drug discovery\, weather\, and other use cases.
 LOCATION:Level 1\, Lafite 4\, Wynn\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP317-R:AWS Batch ask me anything
+SUMMARY:CMP317-R: AWS Batch ask me anything
 DTSTART;TZID=US/Pacific:20221128T104500
 DTEND;TZID=US/Pacific:20221128T114500
 DESCRIPTION:In this interactive builders’ session\, the leading AWS Batc
@@ -11,5 +11,6 @@ DESCRIPTION:In this interactive builders’ session\, the leading AWS Batc
   AWS Batch features. Come prepared to share your questions and thoughts. Y
  ou must bring your laptop to participate.
 LOCATION:Level 1\, Latour 7\, Wynn\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

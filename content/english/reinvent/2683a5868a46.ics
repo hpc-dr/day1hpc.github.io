@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP003:AWS Batch on Amazon EKS: Full lifecycle job management for 
- batch workloads
+SUMMARY:CMP003: AWS Batch on Amazon EKS: Full lifecycle job management for
+  batch workloads
 DTSTART;TZID=US/Pacific:20221129T170000
 DTEND;TZID=US/Pacific:20221129T172000
 DESCRIPTION:Organizations are using Kubernetes to manage their microservic
@@ -15,5 +15,6 @@ DESCRIPTION:Organizations are using Kubernetes to manage their microservic
  rn how to easily run batch jobs at scale.
 LOCATION:Hall B\, Expo\, AWS Village\, Village Theater\, Booth #1335\, Ven
  etian\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

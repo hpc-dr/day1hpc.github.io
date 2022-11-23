@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP205:Solve complex problems with pay-as-you-go infrastructure
+SUMMARY:CMP205: Solve complex problems with pay-as-you-go infrastructure
 DTSTART;TZID=US/Pacific:20221130T143000
 DTEND;TZID=US/Pacific:20221130T153000
 DESCRIPTION:In this session\, learn how high performance computing (HPC) o
@@ -16,5 +16,6 @@ DESCRIPTION:In this session\, learn how high performance computing (HPC) o
  off when you’re done and start it up when you’re ready to begin again\
  , helping you optimize your HPC costs.
 LOCATION:Level 1\, Terrace 151\, MGM Grand\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

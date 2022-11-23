@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP220:How AWS and aerospace and geospatial companies are rethinki
- ng HPC
+SUMMARY:CMP220: How AWS and aerospace and geospatial companies are rethink
+ ing HPC
 DTSTART;TZID=US/Pacific:20221202T083000
 DTEND;TZID=US/Pacific:20221202T093000
 DESCRIPTION:In this session\, learn about model-based design and the high-
@@ -14,5 +14,6 @@ DESCRIPTION:In this session\, learn about model-based design and the high-
  -based design\, machine learning\, data analytics\, and HPC with applicati
  on to aerospace and engineering challenges.
 LOCATION:Level 1\, Forum 113\, Caesars Forum\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

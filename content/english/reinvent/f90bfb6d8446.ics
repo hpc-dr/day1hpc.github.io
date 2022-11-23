@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP222:Redefining Supercomputing on AWS
+SUMMARY:CMP222: Redefining Supercomputing on AWS
 DTSTART;TZID=US/Pacific:20221130T190000
 DTEND;TZID=US/Pacific:20221130T200000
 DESCRIPTION:As the world strives to solve increasingly complex problems\, 
@@ -18,5 +18,6 @@ DESCRIPTION:As the world strives to solve increasingly complex problems\,
  culations that reduce overall time to solution.
 LOCATION:Level 3\, South\, South Seas A\, Mandalay Bay\, Las Vegas\, NV\, 
  USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

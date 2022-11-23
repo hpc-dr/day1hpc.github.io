@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP326:The convergence of HPC and ML on AWS
+SUMMARY:CMP326: The convergence of HPC and ML on AWS
 DTSTART;TZID=US/Pacific:20221128T160000
 DTEND;TZID=US/Pacific:20221128T170000
 DESCRIPTION:Discover the power of combining traditional HPC simulations wi
@@ -16,5 +16,6 @@ DESCRIPTION:Discover the power of combining traditional HPC simulations wi
  ributed systems. Dive deep on technology innovations and architecture opti
  mizations for HPC-scale ML use cases.
 LOCATION:Level 3\, 301\, MGM Grand\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

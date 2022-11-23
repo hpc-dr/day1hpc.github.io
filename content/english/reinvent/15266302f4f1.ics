@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP329-R:Deep dive on using AWS Batch with container-based cluster
- s
+SUMMARY:CMP329-R: Deep dive on using AWS Batch with container-based cluste
+ rs
 DTSTART;TZID=US/Pacific:20221130T164500
 DTEND;TZID=US/Pacific:20221130T174500
 DESCRIPTION:In this chalk talk\, learn how to efficiently and cost-effecti
@@ -16,5 +16,6 @@ DESCRIPTION:In this chalk talk\, learn how to efficiently and cost-effecti
  er-based clusters and automatically scale resources to match your job requ
  irements.
 LOCATION:Level 1\, Montrachet 1\, Wynn\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
 END:VEVENT
 END:VCALENDAR

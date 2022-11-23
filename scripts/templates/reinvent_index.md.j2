@@ -1,37 +1,39 @@
 ---
 title: "AWS re:Invent 2022 Session Schedule"
 # description
-description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS. Visit AWS at #SC22 at booth 2425."
+description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS."
 draft: false
 ---
-<p>Choose conference day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
-{% include 'sc22nav.md.j2' %}
+<p>Choose <a href="https://reinvent.awsevents.com/">AWS re:Invent</a> day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
+{% include 'reinvent_nav.md.j2' %}
 
 {% for day, station in data.items() %}
 <a style="font-size: 24px; font-weight: bold; padding-top: 120px; margin-top: -120px;" name="{{ day }}">{{ day }}</a>
-<hr>
-{% raw %}{{< tabs >}}{% endraw %}
-{% for station_name, events in station.items() %}
-{% raw %}{{< tab "{% endraw %}{{ station_name }}{% raw %}" >}}{% endraw %}
 <div class="container-fluid">
-{% for e in events %}
-<div class="row border">
-    <div class="col-sm-2">{{ e.range }}</div>
-    <div class="col-md-10">
-    {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
+{% for dday, station in data.items() -%}
+{% for station_name, events in station.items() -%}
+{% for e in events if day == e["day_of_week"] -%}
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
 
-<p>{{ e.speaker }}, {{e.speaker_affiliation}}</p>
-<p>{{ e.abstract }}</p>
+<p><b>Summary</b>: {{ e.abstract }}</p>
+<p><b>Session Type</b>: {{ e.session_type }} | <b>Session ID:</b> {{e.session_id}}</p>
 <a href="/reinvent/{{ e.ical_filename }}" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
-    {% raw %}{{</ expando >}}{% endraw %}
+            {% raw %}{{</ expando >}}{% endraw %}
+            </div>
+            <div class="col-md-4">{{ e.speakers }}</div>
+            <div class="col-md-2" style="font-weight: bold;">{{ e.day_of_week }} {{ e.range }} &#64; {{ e.location }}</div>
+        </div>
     </div>
 </div>
-{% endfor %}
+{% endfor -%}
+{% endfor -%}
+{% endfor -%}
 </div>
-{% raw %}{{< /tab >}}{% endraw %}
-{% endfor %}
-{% raw %}{{< /tabs >}}{% endraw %}
 {% endfor %}
 
 {% include 'reinvent_nav.md.j2' %}
@@ -42,18 +44,19 @@ draft: false
 {% for day, station in data.items() -%}
 {% for station_name, events in station.items() -%}
 {% for e in events if topic in e['topics'] -%}
-<div class="row border">
+<div class="row border" style="padding: 4px">
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
             {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
 
 <p><b>Summary</b>: {{ e.abstract }}</p>
+<p><b>Session Type</b>: {{ e.session_type }} | <b>Session ID:</b> {{e.session_id}}</p>
 <a href="/reinvent/{{ e.ical_filename }}" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
             {% raw %}{{</ expando >}}{% endraw %}
             </div>
-            <div class="col-md-4">{{ e.speaker }}, {{ e.speaker_affiliation }}</div>
+            <div class="col-md-4">{{ e.speakers }}</div>
             <div class="col-md-2" style="font-weight: bold;">{{ e.day_of_week }} {{ e.range }} &#64; {{ e.location }}</div>
         </div>
     </div>
@@ -62,5 +65,5 @@ draft: false
 {% endfor -%}
 {% endfor -%}
 </div>
-{% include 'sc22nav.md.j2' %}
+{% include 'reinvent_nav.md.j2' %}
 {% endfor -%}

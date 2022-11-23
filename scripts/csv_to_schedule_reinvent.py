@@ -24,10 +24,10 @@ FILENAME = "index.md"
 def short_hash(value: str, length=12) -> str:
     return hashlib.md5(value.encode()).hexdigest()[:length]
 
-def to_station_name(station) -> str:
+def to_station_name(station:str) -> str:
     return station
 
-def to_ical(row) -> object:
+def to_ical(row:Dict) -> object:
 
     start_time = row['Date'] + '/2022' + ' ' + row['Start']
     end_time = row['Date'] + '/2022' + ' ' + row['End']
@@ -40,38 +40,73 @@ def to_ical(row) -> object:
     cal.add('prodid', '-//AWS re:Invent Schedule//aws.dev//')
     cal.add('version', '2.0')
     event = Event()
-    event.add('summary', row['Session_ID'] + ':' + row['Title'])
+    event.add('summary', row['Session_ID'] + ': ' + row['Title'])
     event.add('description', row['Abstract'])
     event.add('dtstart', start_dt)
     event.add('dtend', end_dt)
+    event.add('url', 'https://day1hpc.com/reinvent/')
     event['location'] = to_station_name(row['Location']) + ', Las Vegas, NV, USA'
     cal.add_component(event)
     return cal
 
-def ical_filename(event) -> str:
+def ical_filename(event:Dict) -> str:
     filename = short_hash('|'.join([event['title'], event['station_name'], event['day_of_week'], event['start'], event['end']])) + '.ics'
     return filename
 
-def write_ical(event) -> None:
+def write_ical(event:Dict) -> None:
     filepath = os.path.join(POSTS_DIR, event['ical_filename'])
     with open(filepath, 'wb') as f:
         f.write(event['ical'].to_ical())
     return filepath
 
-def speaker(raw_data) -> str:
+def extract_topics(row:Dict) -> List[str]:
+    topics_raw = row.get("Tags", '')
+    topics = topics_raw.split(",")
+    topics = [t.strip() for t in topics]
+    return topics
+
+def cleanup_speaker(raw_data:str) -> str:
     # Strip out emails
     pattern = r'<\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b>'
     raw_data = re.sub(pattern, '', raw_data)
     raw_data = raw_data.strip()
     return raw_data
 
-def extract_topics(row) -> List[str]:
-    topics_raw = row.get("Topic", '')
-    topics = topics_raw.split(",")
-    topics = [t.strip() for t in topics]
-    return topics
+def get_speakers(row:Dict) -> Dict:
+    speakers = {}
+    for a in ['Speaker_1', 'Speaker_2']:
+        ak = a + '_Aff'
+        aff = row.get(ak, None)
+        if aff is not None and aff != '':
+            if aff not in speakers:
+                speakers[aff] = []
+            spk = row.get(a).split(';')
+            spk = [s.strip() for s in spk]
+            spk = [cleanup_speaker(s) for s in spk]
+            spk = sorted(spk)
+            speakers[aff].extend(spk)
+    return speakers
 
-def row_to_event(row) -> Dict:
+def build_speakers_text(speakers:Dict) -> str:
+    response = ''
+    spkaffs = []
+    for aff, spks in speakers.items():
+        spaf = ''
+        a = '(' + aff + ')'
+        if len(spks) == 1:
+            spaf = spks[0] + ' ' + a
+        elif len(spks) == 2:
+            spaf = spks[0] + ' and ' + spks[1] + ' ' + a
+        else:
+            spaf = ', '.join(spks) + ' ' + a
+        spkaffs.append(spaf)
+    if len(spkaffs) == 1:
+        response = spkaffs[0]
+    else:
+        response = ' | '.join(spkaffs)
+    return response
+
+def row_to_event(row:Dict) -> Dict:
     event = {
                 'title': row['Title'],
                 'session_id': row['Session_ID'],
@@ -82,8 +117,7 @@ def row_to_event(row) -> Dict:
                 'day_of_week': row['Dow'],
                 'speaker': '',
                 'speaker_affiliation': '',
-                # 'speaker': speaker(row.get('Speaker_1', '')),
-                # 'speaker_affiliation': row.get('Speaker_1_Affil', ''),
+                'speakers': get_speakers(row),
                 'start': row['Start'],
                 'end': row['End'],
                 'range': row['Start'] + '-' + row['End'],
@@ -97,20 +131,7 @@ def row_to_event(row) -> Dict:
 
     return event
 
-# {"Tuesday": {"T": [
-#     {
-#     "title": "Title",
-#      "abstract": "Abstract",
-#      "start": "Datetime",
-#      "end": "Datetime",
-#      "presenter": "Presenter",
-#      "affiliation": "Affiliation",
-#      "ical": "MD5HEX.ics",
-#      "topics": ["meep", "merp", "moop"]
-#     }
-# ]}}
-
-def main(values):
+def main(values:Dict):
     environment = Environment(
         loader=FileSystemLoader(os.path.join(PARENT_DIR, "./templates/"))
     )
@@ -136,8 +157,11 @@ def main(values):
             e = {
                 "title": event["title"],
                 "abstract": event["abstract"],
-                "speaker": event["speaker"],
-                "speaker_affiliation": event["speaker_affiliation"],
+                "session_type": event["session_type"],
+                "session_id": event["session_id"],
+                "speakers": build_speakers_text(event["speakers"]),
+                "speaker": "",
+                "speaker_affiliation": "",
                 "day_of_week": event["day_of_week"],
                 "range": event["range"],
                 "location": event["station_name"],
@@ -145,6 +169,7 @@ def main(values):
                 "ical_filename": event['ical_filename'],
                 "topics": event['topics']
             }
+
             data[dow][station_name].append(e)
             topics_master_list.extend(e["topics"])
 
@@ -157,33 +182,6 @@ def main(values):
     with open(indexfile, mode="w", encoding="utf-8") as post:
             post.write(content)
     
-    raise SystemExit()
-
-    # Render demo and theater schedule file for 3P
-
-    fnames = ['day_of_week', 'range', 'location', 'speaker', 'speaker_affiliation', 'title', 'abstract']
-
-    theater = open("./theater_schedule.csv", "w", encoding='utf-8-sig')
-    demos = open("./demo_schedule.csv", "w", encoding='utf-8-sig')
-    
-    twriter = csv.DictWriter(theater, fieldnames=fnames)
-    twriter.writeheader()
-
-    dwriter = csv.DictWriter(demos, fieldnames=fnames)
-    dwriter.writeheader()
-
-    for dow, locs in data.items():
-        for loc, events in locs.items():
-            if "Theater" in loc:
-                for event in events:
-                    event.pop('ical_filename')
-                    event.pop('id')
-                    twriter.writerow(event)
-            else:
-                for event in events:
-                    event.pop('ical_filename')
-                    event.pop('id')
-                    dwriter.writerow(event)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
