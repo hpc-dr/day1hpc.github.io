@@ -7,6 +7,8 @@ images:
   - "images/day1-ident-feature.png"
 
 ---
+{{< image src="images/reinvent-page-banner.png" position="center" command="fill" >}}
+
 <p>Choose <a href="https://reinvent.awsevents.com/">AWS re:Invent</a> day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
 <hr>
 <div class="container-fluid"><div class="row"><div class="col-xs-auto" style="margin-top: 8px;">
