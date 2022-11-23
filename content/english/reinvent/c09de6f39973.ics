@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:ENU402: Modernizing HPC workloads using AWS services
+DTSTART;TZID=US/Pacific:20221128T151500
+DTEND;TZID=US/Pacific:20221128T161500
+DESCRIPTION:For decades\, industries have been using high-performance comp
+ uting (HPC) to solve problems that are not solvable on a single machine or
+  to shorten problem-solving run time. Traditionally\, HPC workloads are la
+ unched and managed on the master node\, which represents a single point of
+  failure. Building HPC clusters on AWS allows you to keep the same user ex
+ perience of launching\, monitoring\, and managing an HPC workload. In this
+  chalk talk\, learn how to launch\, monitor\, and manage an HPC workload u
+ sing native AWS services\, following a seismic processing problem as an ex
+ ample.
+LOCATION:Level 1\, Academy 412\, Caesars Forum\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

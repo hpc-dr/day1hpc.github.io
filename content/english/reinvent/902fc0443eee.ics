@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP205-OF: Solve complex problems with pay-as-you-go infrastructur
+ e (Overflow room)
+DTSTART;TZID=US/Pacific:20221130T143000
+DTEND;TZID=US/Pacific:20221130T153000
+DESCRIPTION:In this session\, learn how high performance computing (HPC) o
+ n AWS makes extreme-scale compute possible so that you can solve some of t
+ he world’s toughest environmental\, social\, health\, and scientific pro
+ blems. Learn about infrastructure that can help you design your products f
+ aster with simulations\, predict the weather\, detect seismic activity wit
+ h greater precision\, and much more. Discover how to run your massively pa
+ rallel workloads and analyze more data with virtually unlimited infrastruc
+ ture and nearly endless scale. Finally\, learn how you can simply turn it 
+ off when you’re done and start it up when you’re ready to begin again\
+ , helping you optimize your HPC costs.
+LOCATION:Level 1\, Summit 231\, Content Hub\, Red Screen\, Caesars Forum\,
+  Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

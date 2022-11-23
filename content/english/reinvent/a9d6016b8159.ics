@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:PRT278: How Intel & AWS collaborate to solve some of the world’s
+  most urgent issues (sponsored by Intel)
+DTSTART;TZID=US/Pacific:20221130T134500
+DTEND;TZID=US/Pacific:20221130T144500
+DESCRIPTION:AWS and Intel are committed to solving the world’s most crit
+ ical social and environmental challenges through the power of HPC. Intel a
+ nd AWS have collaborated to deliver first-rate engineering\, resources\, a
+ nd results to impact customers around the world. Join this session to hear
+  from Harvard Cancer Center\, IKTOS\, and Good Chemistry Co.\, who have ut
+ ilized the scalability and availability of cloud computing powered by Inte
+ l to address problems spanning from cancer to ‘forever chemicals’ in w
+ ater. This presentation is brought to you by Intel\, an AWS Partner.
+LOCATION:Upper Convention Promenade\, Cristal 7\, Wynn\, Las Vegas\, NV\, 
+ USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP331-R: High-throughput computing for financial risk management 
+ and modeling
+DTSTART;TZID=US/Pacific:20221128T100000
+DTEND;TZID=US/Pacific:20221128T110000
+DESCRIPTION:In this chalk talk\, explore how financial services industry o
+ rganizations can achieve greater elasticity\, higher throughput\, and sign
+ ificant cost savings with a cloud-native high-throughput computing (HTC) g
+ rid solution built on AWS core services. Using modular architecture made u
+ p of managed services such as Amazon EKS\, Amazon DynamoDB\, Amazon SQS\, 
+ and Amazon EC2 Spot Instances\, HTC grid solutions dynamically scale compu
+ ting resources to meet the demanding throughput requirements of risk-analy
+ tics workloads. Join the talk to learn about the modular architecture\, sc
+ alability\, and performance you can achieve with this solution.
+LOCATION:Level 1\, Room 101\, MGM Grand\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:PRT107: Faster drug discovery design with WEKA on AWS (sponsored b
+ y WEKA)
+DTSTART;TZID=US/Pacific:20221201T123500
+DTEND;TZID=US/Pacific:20221201T125000
+DESCRIPTION:New methods like cryo-EM are enabling rapid advances in drug d
+ iscovery. Using the right analysis workflow and tools are critical to succ
+ ess. In this lightning talk\, join WEKA and Clovertex to learn how you can
+  accelerate your drug design workflows using the WEKA data platform and Cl
+ overtex’s services on AWS. This presentation is brought to you by WEKA\,
+  an AWS Partner.
+LOCATION:Hall B\, Expo\, Lightning Theater 2 \, Booth #3543\,\, Las Vegas\
+ , NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

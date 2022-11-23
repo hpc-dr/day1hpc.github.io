@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:ENU401: Ephemeral HPC to accelerate energy and utility workflows
+DTSTART;TZID=US/Pacific:20221129T131500
+DTEND;TZID=US/Pacific:20221129T141500
+DESCRIPTION:Energy and utility companies use high performance computing (H
+ PC) to design and optimize operations. Elastic\, cloud-based HPC resources
+  can dynamically provide the computational power needed for simulations on
+  demand by creating reusable pipelines. HPC on AWS can be instantiated wit
+ h the nodes and memory to optimize turnaround time while keeping the resul
+ ts sufficiently accurate. This allows you to make decisions about tradeoff
+ s between cost\, run time\, and accuracy resolution based on your organiza
+ tion’s priorities. This chalk talk explores how to create HPC using infr
+ astructure as code with AWS CloudFormation\, Amazon EC2 Image Builder\, Am
+ azon FSx for Lustre\, and inherited IAM permissions.
+LOCATION:Level 1\, Room 104\, MGM Grand\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR
