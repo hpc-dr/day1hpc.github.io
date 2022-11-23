@@ -3,6 +3,9 @@ title: "AWS re:Invent 2022 Session Schedule"
 # description
 description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS."
 draft: false
+images:
+  - "images/day1-ident-feature.png"
+
 ---
 <p>Choose <a href="https://reinvent.awsevents.com/">AWS re:Invent</a> day or topic from the items below. Select a title to view details. Select <b>+Calendar</b> to add to your calendar.<p>
 <hr>
