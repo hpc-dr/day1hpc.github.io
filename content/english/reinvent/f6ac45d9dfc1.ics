@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP329-R1: Deep dive on using AWS Batch with container-based clust
+ ers
+DTSTART;TZID=US/Pacific:20221202T100000
+DTEND;TZID=US/Pacific:20221202T110000
+DESCRIPTION:In this chalk talk\, learn how to efficiently and cost-effecti
+ vely run your high-scale\, compute-intensive workloads using the capabilit
+ ies of AWS Batch. Scaling containers for batch workloads like machine lear
+ ning training\, simulations\, and large dataset processing in a timely fas
+ hion is challenging. AWS Batch is a fully managed service for orchestratin
+ g AWS compute resources for batch processing or parallel computing at any 
+ scale. AWS Batch can schedule\, orchestrate\, and run your jobs on contain
+ er-based clusters and automatically scale resources to match your job requ
+ irements.
+LOCATION:Level 1\, Forum 110\, Caesars Forum\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP326: The convergence of HPC and ML on AWS
+DTSTART;TZID=US/Pacific:20221128T160000
+DTEND;TZID=US/Pacific:20221128T170000
+DESCRIPTION:Discover the power of combining traditional HPC simulations wi
+ th AI/ML services to activate new workflows and scientific breakthroughs. 
+ In this chalk talk\, learn about combined AWS HPC and ML solutions that ha
+ ve evolved to state-of-the-art supercomputing models\, powered by AWS serv
+ ices like Elastic Fabric Adapter\, AWS ParallelCluster\, Amazon EC2 instan
+ ces\, Amazon FSx for Lustre\, and AWS Batch. Learn how AWS trained and dep
+ loyed a new open-source PyTorch-based protein folding model called OpenFol
+ d Single Sequence to accelerate drug discovery on AWS using HPC-grade dist
+ ributed systems. Dive deep on technology innovations and architecture opti
+ mizations for HPC-scale ML use cases.
+LOCATION:Level 3\, 301\, MGM Grand\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR
