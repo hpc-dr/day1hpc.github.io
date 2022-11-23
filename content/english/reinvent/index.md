@@ -402,6 +402,23 @@ images:
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
+            {{< expando "Data analysis with Amazon EKS and AWS Batch" >}}
+
+<p><b>Summary</b>: In this session, you'll gain an understanding for the recently added AWS Batch support for managing and scheduling large-scale data analysis using Amazon Elastic Kubernetes Service (EKS). Join this hands-on workshop and learn AWS Batch fundamental concepts, and how it works together with your other AWS services running within EKS. You will deploy an EKS cluster, leverage AWS Batch to managed pods, and train a simple machine learning model. You must bring your laptop to participate in hands-on exercises.</p>
+<p><b>Session Type</b>: Workshop | <b>Session ID:</b> CMP335-R1</p>
+<a href="/reinvent/696000f7f2a5.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Angel Pizarro and Maxime Hugues (AWS)</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 11:30-13:30 &#64; Level 3, Murano 3204, Venetian</div>
+        </div>
+    </div>
+</div>
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
             {{< expando "How Intel & AWS collaborate to solve some of the world’s most urgent issues (sponsored by Intel)" >}}
 
 <p><b>Summary</b>: AWS and Intel are committed to solving the world’s most critical social and environmental challenges through the power of HPC. Intel and AWS have collaborated to deliver first-rate engineering, resources, and results to impact customers around the world. Join this session to hear from Harvard Cancer Center, IKTOS, and Good Chemistry Co., who have utilized the scalability and availability of cloud computing powered by Intel to address problems spanning from cancer to ‘forever chemicals’ in water. This presentation is brought to you by Intel, an AWS Partner.</p>
@@ -768,6 +785,23 @@ images:
             </div>
             <div class="col-md-4">Lowell Wofford and Maxime Hugues (AWS)</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 9:15-11:15 &#64; Level 3, Premier 315, MGM Grand</div>
+        </div>
+    </div>
+</div>
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Data analysis with Amazon EKS and AWS Batch" >}}
+
+<p><b>Summary</b>: In this session, you'll gain an understanding for the recently added AWS Batch support for managing and scheduling large-scale data analysis using Amazon Elastic Kubernetes Service (EKS). Join this hands-on workshop and learn AWS Batch fundamental concepts, and how it works together with your other AWS services running within EKS. You will deploy an EKS cluster, leverage AWS Batch to managed pods, and train a simple machine learning model. You must bring your laptop to participate in hands-on exercises.</p>
+<p><b>Session Type</b>: Workshop | <b>Session ID:</b> CMP335-R1</p>
+<a href="/reinvent/696000f7f2a5.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Angel Pizarro and Maxime Hugues (AWS)</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 11:30-13:30 &#64; Level 3, Murano 3204, Venetian</div>
         </div>
     </div>
 </div>
@@ -1383,6 +1417,23 @@ images:
             </div>
             <div class="col-md-4">Angel Pizarro (AWS)</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-17:20 &#64; Hall B, Expo, AWS Village, Village Theater, Booth #1335, Venetian</div>
+        </div>
+    </div>
+</div>
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Data analysis with Amazon EKS and AWS Batch" >}}
+
+<p><b>Summary</b>: In this session, you'll gain an understanding for the recently added AWS Batch support for managing and scheduling large-scale data analysis using Amazon Elastic Kubernetes Service (EKS). Join this hands-on workshop and learn AWS Batch fundamental concepts, and how it works together with your other AWS services running within EKS. You will deploy an EKS cluster, leverage AWS Batch to managed pods, and train a simple machine learning model. You must bring your laptop to participate in hands-on exercises.</p>
+<p><b>Session Type</b>: Workshop | <b>Session ID:</b> CMP335-R1</p>
+<a href="/reinvent/696000f7f2a5.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Angel Pizarro and Maxime Hugues (AWS)</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 11:30-13:30 &#64; Level 3, Murano 3204, Venetian</div>
         </div>
     </div>
 </div>
@@ -3070,6 +3121,23 @@ images:
             </div>
             <div class="col-md-4">Angel Pizarro (AWS)</div>
             <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-17:20 &#64; Hall B, Expo, AWS Village, Village Theater, Booth #1335, Venetian</div>
+        </div>
+    </div>
+</div>
+<div class="row border" style="padding: 4px">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Data analysis with Amazon EKS and AWS Batch" >}}
+
+<p><b>Summary</b>: In this session, you'll gain an understanding for the recently added AWS Batch support for managing and scheduling large-scale data analysis using Amazon Elastic Kubernetes Service (EKS). Join this hands-on workshop and learn AWS Batch fundamental concepts, and how it works together with your other AWS services running within EKS. You will deploy an EKS cluster, leverage AWS Batch to managed pods, and train a simple machine learning model. You must bring your laptop to participate in hands-on exercises.</p>
+<p><b>Session Type</b>: Workshop | <b>Session ID:</b> CMP335-R1</p>
+<a href="/reinvent/696000f7f2a5.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Angel Pizarro and Maxime Hugues (AWS)</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 11:30-13:30 &#64; Level 3, Murano 3204, Venetian</div>
         </div>
     </div>
 </div>
