@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//AWS re:Invent Schedule//aws.dev//
 BEGIN:VEVENT
-SUMMARY:CMP211-R: A framework for physics-informed neural networks on PyTo
- rch
+SUMMARY:CMP211-R1: A framework for physics-informed neural networks on PyT
+ orch
 DTSTART;TZID=US/Pacific:20221128T134500
 DTEND;TZID=US/Pacific:20221128T144500
 DESCRIPTION:In this chalk talk\, learn about a new physics-informed neural
