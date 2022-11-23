@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS re:Invent Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:CMP335-R1: Data analysis with Amazon EKS and AWS Batch
+DTSTART;TZID=US/Pacific:20221130T113000
+DTEND;TZID=US/Pacific:20221130T133000
+DESCRIPTION:In this session\, you'll gain an understanding for the recentl
+ y added AWS Batch support for managing and scheduling large-scale data ana
+ lysis using Amazon Elastic Kubernetes Service (EKS). Join this hands-on wo
+ rkshop and learn AWS Batch fundamental concepts\, and how it works togethe
+ r with your other AWS services running within EKS. You will deploy an EKS 
+ cluster\, leverage AWS Batch to managed pods\, and train a simple machine 
+ learning model. You must bring your laptop to participate in hands-on exer
+ cises.
+LOCATION:Level 3\, Murano 3204\, Venetian\, Las Vegas\, NV\, USA
+URL:https://day1hpc.com/reinvent/
+END:VEVENT
+END:VCALENDAR
