@@ -14,7 +14,7 @@ googleAnalytics = "" # Ex: UA-123-45
 disableLanguages = ["fr"] # desable language from here
 
 # Temporary
-# enableRobotsTXT = true
+enableRobotsTXT = true
 
 ############################# Modules ##############################
 [module]
