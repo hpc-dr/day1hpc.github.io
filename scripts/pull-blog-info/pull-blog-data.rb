@@ -41,5 +41,5 @@ while true
     break
   end
 end
-f = open('tmp/blog-posts.json','w') 
+f = open('./blog-posts.json','w') 
 f.write(results.to_json)
