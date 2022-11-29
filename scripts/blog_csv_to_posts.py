@@ -148,7 +148,10 @@ def transform_tags(tags: List) -> List[str]:
 
 def date_published_to_iso(date_published: str) -> str:
     # extract from string date
-    dt = datetime.strptime(date_published, "%d %b %Y")
+    try:
+        dt = datetime.strptime(date_published, "%d %b %y")
+    except ValueError:
+        dt = datetime.strptime(date_published, "%d-%b-%y")
     # set time zone
     timezone = pytz.timezone("America/Los_Angeles")
     dt2 = timezone.localize(dt)
