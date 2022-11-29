@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "Batch",  "Product Launch",  "HPC",  "hpcblog", ]
+tags: [ "HPC",  "Batch",  "Product Launch",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Today we are announcing fair-share scheduling (FSS) for AWS Batch, which provides fine-grain control of the scheduling behavior by using a scheduling policy. With FSS, customers can prevent “unfair” situations caused by strict first-in, first-out scheduling where high priority jobs can’t “jump the queue” without draining other jobs first. You can now balance resource consumption between groups of workloads and have confidence that the shared compute environment is not dominated by a single workload. In this post, we’ll explain how fair-share scheduling works in more detail. You’ll also find a link to a step-by-step workshop at the end of this post, so you can try it out yourself.
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Climate/Environment/Weather",  "AWS ParallelCluster", ]
-tags: [ "Simulation",  "HPC",  "Modeling",  "Sustainability",  "Media",  "Climate/Environment/Weather",  "FSx for Lustre",  "Research",  "Public Sector",  "ParallelCluster",  "hpcblog", ]
+tags: [ "Climate/Environment/Weather",  "ParallelCluster",  "FSx for Lustre",  "Sustainability",  "Research",  "Media",  "HPC",  "Public Sector",  "Simulation",  "Modeling",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 The Amazon Sustainability Data Initiative (ASDI), AWS is donating cloud resources, technical support, and access to scalable infrastructure and fast networking providing high performance computing solutions to support simulations of near-term climate using the National Center for Atmospheric Research (NCAR) Community Earth System Model Version 2 (CESM2) and its Whole Atmosphere Community Climate Model (WACCM). In collaboration with ASDI, AWS, and SilverLining, a nonprofit dedicated to ensuring a safe climate, the National Center for Atmospheric Research (NCAR) will run an ensemble of 30 climate-model simulations on AWS. The climate runs will simulate the Earth system over the period of years 2022-2070 under a median scenario for warming and make them available through the AWS Open Data Program. The simulation work will demonstrate the ability to use cloud infrastructure to advance climate models in support of robust scientific studies by researchers around the world and aims to accelerate and democratize climate science.
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/supporting-climate-model-simulations-to-accelerate-climate-science/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

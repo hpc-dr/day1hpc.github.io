@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS ParallelCluster", ]
-tags: [ "HPC",  "Graviton",  "Quantum technologies",  "Research",  "ParallelCluster",  "hpcblog", ]
+tags: [ "Graviton",  "ParallelCluster",  "Quantum technologies",  "Research",  "HPC",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 This article was contributed by Dr. Fabio Baruffa, Sr. HPC and QC Solutions Architect at AWS, and Dr. Jesús Pérez Ríos, Group Leader at the Fritz Haber Institute, Max-Planck Society.   Introduction Quantum chemistry – the study of the inherently quantum interactions between atoms forming part of molecules – is a cornerstone of modern chemistry. […]
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/quantum-chemistry-calculation-on-aws/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
