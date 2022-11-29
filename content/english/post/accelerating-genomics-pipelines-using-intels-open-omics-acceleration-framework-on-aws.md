@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences", ]
-tags: [ "Best Practices",  "HPC",  "Life Sciences",  "hpcblog", ]
+tags: [ "HPC",  "Best Practices",  "Life Sciences",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 In this blog, we showcase the first version of Open Omics and benchmark three applications that are used in processing NGS data – sequence alignment tools BWA-MEM, minimap2, and single cell ATAC-Seq on Xeon-based Amazon Elastic Compute Cloud (Amazon EC2) Instances.
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/accelerating-genomics-pipelines-using-intel-open-omics-on-aws/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

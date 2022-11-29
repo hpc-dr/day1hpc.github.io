@@ -17,4 +17,4 @@ draft: false
 
 This post was written by Swapnil Bhatkar, Cloud Engineer, NREL in collaboration with Edward Eng Ph.D. and Micah Rapp Ph.D, both SEMC/NYSBC, and Evan Bollig Ph.D. and Aniket Deshpande, both AWS. Introduction Cryo-electron microscopy (Cryo-EM) technology allows biomedical researchers to image frozen biological molecules, such as proteins, viruses and nucleic acids, and obtain structures of […]
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/stion-a-saas-for-cryo-em-data-processing-on-aws/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

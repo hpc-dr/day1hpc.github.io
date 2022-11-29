@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences", ]
-tags: [ "HPC",  "EC2",  "Life Sciences",  "Simulation",  "Best Practices",  "hpcblog", ]
+tags: [ "Best Practices",  "Life Sciences",  "HPC",  "Simulation",  "EC2",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Comparing the performance of real applications across different Amazon Elastic Compute Cloud (Amazon EC2) instance types is the best way we’ve found for finding optimal configurations for HPC applications here at AWS. Previously, we wrote about price-performance optimizations for GROMACS that showed how the GROMACS molecular dynamics simulation runs on single instances, and how it […]
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/running-gromacs-on-gpu-instances/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

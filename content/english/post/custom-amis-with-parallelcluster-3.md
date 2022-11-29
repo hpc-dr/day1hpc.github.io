@@ -17,4 +17,4 @@ draft: false
 
 This blog post shows how you can create and manage custom AMI images for AWS ParallelCluster 3 using the new AMI creation and management process, which is built using EC2 Image Builder.
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/custom-amis-with-parallelcluster-3/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>

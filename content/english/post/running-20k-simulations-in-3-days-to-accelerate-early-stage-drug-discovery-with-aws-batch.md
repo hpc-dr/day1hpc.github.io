@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS Batch",  "Life Sciences", ]
-tags: [ "Batch",  "Simulation",  "HPC",  "Life Sciences",  "hpcblog", ]
+tags: [ "HPC",  "Batch",  "Simulation",  "Life Sciences",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 In this blog post, we’ll describe an ensemble run of 20K simulations to accelerate the drug discovery process, while also optimizing for run time and cost. We used two popular open-source packages — GROMACS, which does a molecular dynamics simulations, and pmx, a free-energy calculation package from the Computational Biomolecular Dynamics Group at Max Planck Institute in Germany.
 
-<a href="{{ url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/running-20k-simulations-in-3-days-with-aws-batch/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
