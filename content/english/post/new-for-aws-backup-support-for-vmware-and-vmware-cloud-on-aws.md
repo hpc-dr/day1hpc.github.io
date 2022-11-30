@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: []
-tags: [ "VMware Cloud on AWS",  "Compute",  "Product Launch",  "Backup",  "re:Invent",  "News",  "Storage",  "hpcblog", ]
+tags: [ "Product Launch",  "News",  "re:Invent",  "VMware Cloud on AWS",  "Compute",  "Backup",  "Storage",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Today, I am happy to announce AWS Backup support for VMware, a new capability that enables you to centralize and automate data protection of virtual machines (VMs) running on VMware on premises and VMware CloudTM on AWS. You can now use a single, centrally managed policy in AWS Backup to protect these VMware environments together […]
 
-<a href="https://aws.amazon.com/blogs/aws/new-for-aws-backup-support-for-vmware-and-vmware-cloud-on-aws/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/aws/new-for-aws-backup-support-for-vmware-and-vmware-cloud-on-aws/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

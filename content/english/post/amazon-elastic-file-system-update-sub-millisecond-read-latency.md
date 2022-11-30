@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: []
-tags: [ "Product Launch",  "Elastic File System (EFS)",  "News",  "re:Invent",  "hpcblog", ]
+tags: [ "Elastic File System (EFS)",  "Product Launch",  "News",  "re:Invent",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Amazon Elastic File System (Amazon EFS) was announced in early 2015 and became generally available in 2016. We launched EFS in order to make it easier for you to build applications that need shared access to file data. EFS is (and always has been) simple and serverless: you simply create a file system, attach it […]
 
-<a href="https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-update-sub-millisecond-read-latency/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-update-sub-millisecond-read-latency/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

@@ -9,12 +9,12 @@ author: "Matt Vaughn"
 # description
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
-categories: [ "AWS ParallelCluster",  "Life Sciences",  "CAE/CFD", ]
-tags: [ "HPC",  "ParallelCluster",  "Life Sciences",  "CAE/CFD",  "hpcblog", ]
+categories: [ "CAE/CFD",  "AWS ParallelCluster",  "Life Sciences", ]
+tags: [ "HPC",  "CAE/CFD",  "ParallelCluster",  "Life Sciences",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Running HPC workloads, like computational fluid dynamics (CFD), molecular dynamics, or weather forecasting typically involves a lot of moving parts. You need a hundreds or thousands of compute cores, a job scheduler for keeping them fed, a shared file system that’s tuned for throughput or IOPS (or both), loads of libraries, a fast network, and […]
 
-<a href="https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

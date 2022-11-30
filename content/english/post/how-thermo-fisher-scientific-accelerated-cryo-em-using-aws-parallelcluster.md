@@ -17,4 +17,4 @@ draft: false
 
 In this blog post, we’ll walk you through the process of building a successful Cryo-EM benchmarking pilot using AWS ParallelCluster, Amazon FSx for Lustre, and cryoSPARC (from Structura Biotechnology) and explain some of our design decisions along the way.
 
-<a href="https://aws.amazon.com/blogs/hpc/how-thermo-fisher-scientific-accelerated-cryo-em-using-aws-parallelcluster/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/how-thermo-fisher-scientific-accelerated-cryo-em-using-aws-parallelcluster/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

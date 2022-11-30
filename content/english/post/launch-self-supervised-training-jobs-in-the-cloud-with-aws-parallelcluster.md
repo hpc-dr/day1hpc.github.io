@@ -17,4 +17,4 @@ draft: false
 
 In this post we describe the process to launch large, self-supervised training jobs using AWS ParallelCluster and Facebook’s Vision Self-Supervised Learning (VISSL) library.
 
-<a href="https://aws.amazon.com/blogs/hpc/launch-self-supervised-training-jobs-in-the-cloud-with-aws-parallelcluster/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/launch-self-supervised-training-jobs-in-the-cloud-with-aws-parallelcluster/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

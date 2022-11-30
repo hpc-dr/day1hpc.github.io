@@ -17,4 +17,4 @@ draft: false
 
 This post is written by Deepak Singh, Vice President of Compute Services. At AWS, we love working with customers to solve their toughest challenges. High performance computing (HPC) is one of those challenges that pushes against the boundaries of AWS performance at scale. HPC is also a personal interest of mine, as I came to […]
 
-<a href="https://aws.amazon.com/blogs/hpc/welcome-to-the-aws-hpc-blog/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/welcome-to-the-aws-hpc-blog/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>
