@@ -289,7 +289,7 @@ def main(values):
                     with open(filename, mode="w", encoding="utf-8") as post:
                         post.write(content)
                     # Download the illustrative image associated with each post
-                    if data["thumbnail"] != "":
+                    if data["thumbnail"] != "" and data["thumbnail"] is not None:
                         download_image(data["thumbnail"], data["thumbnail_filename"], force=force_dl)
 
 
