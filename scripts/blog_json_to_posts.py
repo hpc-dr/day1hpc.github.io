@@ -10,7 +10,7 @@ import sys
 
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
-from typing import List
+from typing import Dict, List
 from urllib.parse import urlparse
 
 SELF = os.path.realpath(__file__)
@@ -145,16 +145,20 @@ def transform_tags(tags: List) -> List[str]:
             filtered_tags.append(tag)
     return filtered_tags
 
-
-def date_published_to_iso(date_published: str) -> str:
+def datestr_to_datetime(datestr:str) -> datetime:
     # extract from string date
     formats = ["%d %b %y", "%d %b %Y", "%d-%b-%y"]
     for f in formats:
         try:
-            dt = datetime.strptime(date_published, f)
-            continue
+            dt = datetime.strptime(datestr, f)
+            return dt
         except Exception:
             pass
+    raise ValueError("{0} was not in a recognized format".format(datestr))
+
+def date_published_to_iso(date_published: str) -> str:
+    # extract from string date
+    dt = datestr_to_datetime(date_published)
     # try:
     #     dt = datetime.strptime(date_published, "%d %b %y")
     # except ValueError:
@@ -214,6 +218,7 @@ def row_to_blog(row):
         "thumbnail": row["image"],
         "thumbnail_filename": image_path(row["image"]),
         "url": row["url"],
+        "datetime_published": datestr_to_datetime(row["datePublished"]),
         "date_published": date_published_to_iso(row["datePublished"]),
         "filename": slugify(row["title"]) + ".md",
     }
@@ -244,6 +249,28 @@ def row_to_blog(row):
     return blog
 
 
+def intersection(lst1:List, lst2:List) -> bool: 
+    temp = set(lst2)
+    lst3 = [value for value in lst1 if value in temp]
+    return len(lst3) > 0
+
+def validate(data:Dict, source:str="hpc"):
+    includes = ["HPC", "Compute", "Graviton", "Elastic File System (EFS)", "File Cache"]
+    cats = data["tags"]
+    if source == "hpc":
+        return True
+
+    # Filters for omitting AWS News Blog entries
+    if source == "aws":
+        if "Week in Review" in data["title"]:
+            return False
+        if not intersection(includes, data["tags"]):
+            return False
+        if data["datetime_published"] < datetime(2021, 11, 30):
+            return False
+
+    return True
+
 def main(values):
     force_dl = values.force
     environment = Environment(
@@ -254,20 +281,22 @@ def main(values):
         data = json.load(jf)
         for row in data:
             data = row_to_blog(row)
-            content = template.render(**data)
-            filename = os.path.join(POSTS_DIR, data["filename"])
-            print("Post filename:", filename)
-            if not os.path.exists(filename) or force_dl is True:
-                with open(filename, mode="w", encoding="utf-8") as post:
-                    post.write(content)
-                # Download the illustrative image associated with each post
-                if data["thumbnail"] != "":
-                    download_image(data["thumbnail"], data["thumbnail_filename"], force=force_dl)
+            if validate(data, values.source):
+                content = template.render(**data)
+                filename = os.path.join(POSTS_DIR, data["filename"])
+                print("Post filename:", filename)
+                if not os.path.exists(filename) or force_dl is True:
+                    with open(filename, mode="w", encoding="utf-8") as post:
+                        post.write(content)
+                    # Download the illustrative image associated with each post
+                    if data["thumbnail"] != "":
+                        download_image(data["thumbnail"], data["thumbnail_filename"], force=force_dl)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("json", type=str, help="AWS HPC blog export file (JSON).")
+    parser.add_argument("json", type=str, help="Blog export file (JSON).")
+    parser.add_argument("--source", default="hpc", choices=["hpc", "aws"], help="Data source")
     parser.add_argument("--force", action="store_true", help="Force re-download")
     args = parser.parse_args()
     main(args)
