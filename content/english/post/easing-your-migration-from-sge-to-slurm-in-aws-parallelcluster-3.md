@@ -17,4 +17,4 @@ draft: false
 
 This post will help you understand the tools available to ease the stress of migrating your cluster (and your users) from SGE to Slurm, which is necessary since the HPC community is no longer supporting SGE’s open-source codebase.
 
-<a href="https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

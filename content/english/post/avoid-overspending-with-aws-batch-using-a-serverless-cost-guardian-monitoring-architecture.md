@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "AWS Batch", ]
-tags: [ "HPC",  "Compute",  "Batch",  "hpcblog", ]
+tags: [ "HPC",  "Batch",  "Compute",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Pay-as-you-go resources are a compelling but budget-limited researchers performing HPC workloads need help working within the bounds of their grants. In this post, we show how to build a real-time cost guardian for AWS Batch to help enforce those limits.
 
-<a href="https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

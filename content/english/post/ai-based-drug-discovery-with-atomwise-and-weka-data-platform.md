@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Life Sciences",  "AI/ML", ]
-tags: [ "HPC",  "Life Sciences",  "AI/ML",  "hpcblog", ]
+tags: [ "Life Sciences",  "HPC",  "AI/ML",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Drug discovery is an expensive proposition, with a $2.6 billion cost over 10 years and just a 12% success rate. AI promises to significantly improve the success rate by finding small molecule hits for undruggable targets. On the forefront of using AI in drug discovery is Atomwise, with its AtomNet® platform. In this blog, we will lay out the challenges of the drug discovery process, and show how AI/ML startups are solving these challenges using solutions from Atomwise, AWS, and WEKA.
 
-<a href="https://aws.amazon.com/blogs/hpc/ai-based-drug-discovery-with-atomwise-and-weka-data-platform/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/ai-based-drug-discovery-with-atomwise-and-weka-data-platform/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>

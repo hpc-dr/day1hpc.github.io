@@ -10,11 +10,11 @@ author: "Matt Vaughn"
 description: " (reposted from AWS HPC Blog)"
 # Taxonomies
 categories: [ "Financial Services", ]
-tags: [ "HPC",  "Financial Services",  "Modeling",  "hpcblog", ]
+tags: [ "Modeling",  "HPC",  "Financial Services",  "hpcblog", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
 
 Understanding deal and portfolio risk and capital requirements is a computationally expensive process that requires the execution of multiple financial forecasting models every day and in often in real time. This post describes how it works at RenaissanceRe, one of the world’s leading reinsurance companies.
 
-<a href="https://aws.amazon.com/blogs/hpc/a-serverless-architecture-for-high-performance-financial-modelling/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS HPC Blog</a>
+<a href="https://aws.amazon.com/blogs/hpc/a-serverless-architecture-for-high-performance-financial-modelling/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">Read the Post on the AWS Blog Channel</a>
