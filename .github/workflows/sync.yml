@@ -38,4 +38,4 @@ jobs:
       uses: EndBug/add-and-commit@v9
       with:
         message: 'Automatic sync with HPC TechShorts Youtube channel'
-        add: '["content/english/post", "assets/post"]'
+        add: '["content/english/post", "assets/images/post"]'
