@@ -2,7 +2,7 @@
 name: Sync AWS Blog Channels
 on:
   schedule:
-    - cron:  '30 5,17 * * *'
+    - cron:  '30 2,13 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   
