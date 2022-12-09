@@ -104,7 +104,7 @@ def extract_categories(tags:List[str]) -> List[str]:
     with open(os.path.join(PARENT_DIR, "youtube-tags-categories.csv"), encoding='utf-8-sig') as csv_file:
         csv_reader = csv.DictReader(csv_file, dialect='excel', delimiter=",")
         for row in csv_reader:
-            print(row)
+            # print(row)
             if row["Category"] != "":
                 TRANSFORMS[row["Tag"]] = row["Category"]
 
