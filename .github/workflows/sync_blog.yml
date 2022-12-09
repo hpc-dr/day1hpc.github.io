@@ -1,0 +1,39 @@
+# Sync Blog Channel
+name: Sync AWS Blog Channels
+on:
+  schedule:
+    - cron:  '30 5,17 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+# Allow one concurrent deployment
+concurrency:
+  group: "sync"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  Sync-Blog-Channels:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+    - name: Setup Ruby interpreter
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1.2'
+    - name: Install dependencies
+      run: cd scripts/pull-blog-info && bundle install
+    - name: Sync AWS Blog channel
+      run: ruby pull-aws-blog-data-filtered.rb
+    - name: Sync HPC Blog channel
+      run: ruby pull-hpc-blog-data.rb
