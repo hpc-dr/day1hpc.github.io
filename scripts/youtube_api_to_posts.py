@@ -251,7 +251,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--channel", type=str, required=False, default="UChSIn5kcWQvJxW17KIjdLVw", help="Channel ID (optional)")
     parser.add_argument("--uploads", type=str, required=False, default="UUhSIn5kcWQvJxW17KIjdLVw", help="Uploads Playlist ID (optional)")
-    parser.add_argument("--key", type=str, required=True, default="oxDEADBEEF", help="Youtube Data V3 API Key")
+    # Reaad default from os.env 
+    parser.add_argument("--key", type=str, required=True, default=os.environ.get("YOUTUBE_DATA_API_KEY", "oxDEADBEEF"), help="Youtube Data V3 API Key [YOUTUBE_DATA_API_KEY]")
     parser.add_argument("--force", action="store_true", help="Force re-download")
     args = parser.parse_args()
     main(args)
