@@ -6,7 +6,9 @@ fields:
   name: title
   label: Title
   config:
-    max: 70
+    max: 85
+    required: true
+    min: 50
 - type: datetime
   name: date
   label: Date
@@ -39,7 +41,7 @@ fields:
   type: select
   default: regular
   config:
-    required: false
+    required: true
     options:
     - regular
     - featured
@@ -53,24 +55,22 @@ fields:
   type: list
   config:
     use_select: true
-    min: 
+    min: 1
     max: 
     source:
       type: simple
     options:
-    - AWS ParallelCluster
     - AWS Batch
-    - Amazon EFA
-    - AWS NICE DCV
-    - Life Sciences
-    - CFD/CAE
-    - ML/AI
+    - AWS ParallelCluster
+    - Elastic Fabric Adapter
+    - NICE DCV
+    - AI/ML
+    - CAE/CFD
     - Financial Services
-    - Weather/Climate
+    - Climate/Environment/Weather
+    - Life Sciences
   label: Categories
 - name: tags
   type: tag_list
   default: []
   label: Tags
-pages:
-- content/english/post/meep.md
