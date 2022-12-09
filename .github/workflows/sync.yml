@@ -21,11 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3.1.0
+      uses: actions/checkout@v3
+      with:
+        ref: staging
     - name: Setup Python interpreter
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.9'
         cache: 'pip'
     - name: Install dependencies
       run: pip install -r scripts/requirements.txt
@@ -33,3 +35,8 @@ jobs:
       run: python -m scripts.youtube_api_to_posts
       env:
         YOUTUBE_DATA_API_KEY: ${{ secrets.YOUTUBE_DATA_API_KEY }}
+    - name: Add and commit
+      uses: EndBug/add-and-commit@v9
+      with:
+        message: 'Automatic sync with HPC TechShorts Youtube channel'
+        add: '["content/english/post", "assets/post"]'
