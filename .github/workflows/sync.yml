@@ -25,6 +25,8 @@ jobs:
       with:
         ref: main
         token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
     - name: Setup Python interpreter
       uses: actions/setup-python@v4
       with:
@@ -37,6 +39,8 @@ jobs:
         YOUTUBE_DATA_API_KEY: ${{ secrets.YOUTUBE_DATA_API_KEY }}
     - name: Add and commit
       uses: EndBug/add-and-commit@v9
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
       with:
         message: 'Automatic sync with HPC TechShorts Youtube channel'
         add: '["content/english/post", "assets/images/post"]'
