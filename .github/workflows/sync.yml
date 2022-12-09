@@ -1,0 +1,33 @@
+# Sync youtube
+name: Sync YouTube Channel
+on:
+  schedule:
+    - cron:  '30 5,17 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow one concurrent deployment
+concurrency:
+  group: "sync"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  Sync-Youtube-Channel:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3.1.0
+    - name: Setup Python interpreter
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    - name: Install dependencies
+      run: pip install -r scripts/requirements.txt
+    - name: Run sync script
+      run: python -m scripts.youtube_api_to_posts -h
