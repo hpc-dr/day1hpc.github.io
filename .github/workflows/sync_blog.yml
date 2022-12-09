@@ -52,5 +52,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
       with:
-        message: 'Automatic sync with HPC TechShorts Youtube channel'
+        message: 'Automatic sync with AWS News and Blog channels'
         add: '["content/english/post", "assets/images/post"]'
