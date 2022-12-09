@@ -44,6 +44,6 @@ jobs:
     - name: Install dependencies
       run: pip install -r scripts/requirements.txt
     - name: Run sync script for AWS Blog
-      run: python -m python -m scripts.blog_json_to_posts --source aws scripts/pull-blog-info/news-blog-posts.json
+      run: python -m scripts.blog_json_to_posts --source aws scripts/pull-blog-info/news-blog-posts.json
     - name: Run sync script for HPC Blog
-      run: python -m python -m scripts.blog_json_to_posts --source hpc scripts/pull-blog-info/blog-posts.json
+      run: python -m scripts.blog_json_to_posts --source hpc scripts/pull-blog-info/blog-posts.json
