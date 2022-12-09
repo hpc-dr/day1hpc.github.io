@@ -34,6 +34,6 @@ jobs:
     - name: Install dependencies
       run: cd scripts/pull-blog-info && bundle install
     - name: Sync AWS Blog channel
-      run: ruby pull-aws-blog-data-filtered.rb
+      run: cd scripts/pull-blog-info && ruby pull-aws-blog-data-filtered.rb
     - name: Sync HPC Blog channel
-      run: ruby pull-hpc-blog-data.rb
+      run: cd scripts/pull-blog-info && ruby pull-hpc-blog-data.rb
