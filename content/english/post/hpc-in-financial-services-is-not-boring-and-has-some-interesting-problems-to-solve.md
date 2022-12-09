@@ -11,7 +11,7 @@ video_id: "pCtyWCwVgz0"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Financial Services",  "Life Sciences", ]
-tags: [ "HPC",  "High Performance Computing",  "Covid-19",  "risk",  "CPUs",  "Schedulers",  "Storage",  "FSI",  "EC2",  "FRTB",  "DCV",  "GPUs",  "Lustre",  "ParallelCluster",  "financial services",  "vizualization",  "trading",  "virtualization",  "techshorts", ]
+tags: [ "CPUs",  "Covid-19",  "DCV",  "EC2",  "FRTB",  "FSI",  "GPUs",  "HPC",  "High Performance Computing",  "Lustre",  "ParallelCluster",  "Schedulers",  "Storage",  "financial services",  "risk",  "trading",  "virtualization",  "vizualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

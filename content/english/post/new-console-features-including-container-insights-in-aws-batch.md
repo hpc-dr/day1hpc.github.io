@@ -11,7 +11,7 @@ video_id: "uv4jJ7XIAfs"
 layout: "video"
 # Taxonomies
 categories: [ "AWS Batch",  "AWS ParallelCluster",  "Amazon NICE DCV",  "Elastic Fabric Adapter",  "Life Sciences", ]
-tags: [ "HPC",  "Schedulers",  "Storage",  "elastic fabric adapter",  "AWS Batch",  "ParallelCluster",  "MPI",  "advanced logging",  "elastic",  "scientific computing",  "virtualization",  "High Performance Computing",  "batch console",  "EC2",  "GPUs",  "tightly-coupled",  "containr insights",  "vizualization",  "bioinformatics",  "cloud computing",  "CPUs",  "technical computing",  "infiniband",  "DCV",  "Lustre",  "batch",  "EFA",  "autoscaling",  "techshorts", ]
+tags: [ "AWS Batch",  "CPUs",  "DCV",  "EC2",  "EFA",  "GPUs",  "HPC",  "High Performance Computing",  "Lustre",  "MPI",  "ParallelCluster",  "Schedulers",  "Storage",  "advanced logging",  "autoscaling",  "batch",  "batch console",  "bioinformatics",  "cloud computing",  "containr insights",  "elastic",  "elastic fabric adapter",  "infiniband",  "scientific computing",  "technical computing",  "tightly-coupled",  "virtualization",  "vizualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

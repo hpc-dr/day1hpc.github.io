@@ -11,7 +11,7 @@ video_id: "6NV3VukjNRI"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Elastic Fabric Adapter",  "Life Sciences", ]
-tags: [ "HPC",  "Schedulers",  "Storage",  "ODCR",  "elastic fabric adapter",  "ParallelCluster",  "MPI",  "lustre",  "slurm accounting",  "on demand capacity reservation",  "instance diversity",  "elastic",  "scientific computing",  "virtualization",  "High Performance Computing",  "EC2",  "aws",  "GPUs",  "tightly-coupled",  "vizualization",  "instance allocation strategies",  "bioinformatics",  "cloud computing",  "CPUs",  "technical computing",  "infiniband",  "DCV",  "Lustre",  "EFA",  "autoscaling",  "shared storage",  "techshorts", ]
+tags: [ "CPUs",  "DCV",  "EC2",  "EFA",  "GPUs",  "HPC",  "High Performance Computing",  "Lustre",  "MPI",  "ODCR",  "ParallelCluster",  "Schedulers",  "Storage",  "autoscaling",  "aws",  "bioinformatics",  "cloud computing",  "elastic",  "elastic fabric adapter",  "infiniband",  "instance allocation strategies",  "instance diversity",  "lustre",  "on demand capacity reservation",  "scientific computing",  "shared storage",  "slurm accounting",  "technical computing",  "tightly-coupled",  "virtualization",  "vizualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

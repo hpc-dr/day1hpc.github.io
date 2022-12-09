@@ -11,7 +11,7 @@ video_id: "Ow7yP3AhyRY"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "CAE/CFD",  "Life Sciences", ]
-tags: [ "HPC",  "CFD",  "openFOAM",  "Schedulers",  "Storage",  "ParallelCluster",  "Intel",  "Covid-19",  "starccm",  "Ice Lake",  "virtualization",  "High Performance Computing",  "EC2",  "GPUs",  "vizualization",  "CPUs",  "DCV",  "Lustre",  "C6i",  "techshorts", ]
+tags: [ "C6i",  "CFD",  "CPUs",  "Covid-19",  "DCV",  "EC2",  "GPUs",  "HPC",  "High Performance Computing",  "Ice Lake",  "Intel",  "Lustre",  "ParallelCluster",  "Schedulers",  "Storage",  "openFOAM",  "starccm",  "virtualization",  "vizualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

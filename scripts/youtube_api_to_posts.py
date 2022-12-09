@@ -195,7 +195,7 @@ def video_to_blog(video):
     )
     tags = extract_tags(video["snippet"].get("tags", []))
     tags.extend(infer_tags(blog['excerpt'], blog['title']))
-    tags = list(set(tags))
+    tags = sorted(list(set(tags)))
     blog['tags'] = tags
     # Add "techshorts" to tags
     blog["tags"].append("techshorts")

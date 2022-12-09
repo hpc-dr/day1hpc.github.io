@@ -11,7 +11,7 @@ video_id: "DCSy0zVx86Y"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Amazon NICE DCV",  "Life Sciences", ]
-tags: [ "HPC",  "High Performance Computing",  "Covid-19",  "nextflow",  "CPUs",  "genomics",  "bioinformatics",  "Schedulers",  "Storage",  "EC2",  "DCV",  "GPUs",  "Lustre",  "ParallelCluster",  "workflows",  "science",  "vizualization",  "virtualization",  "techshorts", ]
+tags: [ "CPUs",  "Covid-19",  "DCV",  "EC2",  "GPUs",  "HPC",  "High Performance Computing",  "Lustre",  "ParallelCluster",  "Schedulers",  "Storage",  "bioinformatics",  "genomics",  "nextflow",  "science",  "virtualization",  "vizualization",  "workflows",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---

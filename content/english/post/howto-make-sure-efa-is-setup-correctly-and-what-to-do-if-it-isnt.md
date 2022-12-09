@@ -11,7 +11,7 @@ video_id: "Wq8EMMXsvyo"
 layout: "video"
 # Taxonomies
 categories: [ "AWS ParallelCluster",  "Elastic Fabric Adapter", ]
-tags: [ "HPC",  "High Performance Computing",  "CPUs",  "infiniband",  "Schedulers",  "Storage",  "EC2",  "fabrics",  "GPUs",  "elastic fabric adapter",  "Lustre",  "ParallelCluster",  "EFA",  "vizualization",  "virtualization",  "techshorts", ]
+tags: [ "CPUs",  "EC2",  "EFA",  "GPUs",  "HPC",  "High Performance Computing",  "Lustre",  "ParallelCluster",  "Schedulers",  "Storage",  "elastic fabric adapter",  "fabrics",  "infiniband",  "virtualization",  "vizualization",  "techshorts", ]
 type: "regular" # available type (regular or featured)
 draft: false
 ---
