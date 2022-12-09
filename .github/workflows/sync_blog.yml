@@ -47,3 +47,10 @@ jobs:
       run: python -m scripts.blog_json_to_posts --source aws scripts/pull-blog-info/news-blog-posts.json
     - name: Run sync script for HPC Blog
       run: python -m scripts.blog_json_to_posts --source hpc scripts/pull-blog-info/blog-posts.json
+    - name: Add and commit
+      uses: EndBug/add-and-commit@v9
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+      with:
+        message: 'Automatic sync with HPC TechShorts Youtube channel'
+        add: '["content/english/post", "assets/images/post"]'
