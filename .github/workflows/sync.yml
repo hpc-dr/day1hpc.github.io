@@ -30,4 +30,6 @@ jobs:
     - name: Install dependencies
       run: pip install -r scripts/requirements.txt
     - name: Run sync script
-      run: python -m scripts.youtube_api_to_posts -h
+      run: python -m scripts.youtube_api_to_posts
+      env:
+        YOUTUBE_DATA_API_KEY: ${{ secrets.YOUTUBE_DATA_API_KEY }}
