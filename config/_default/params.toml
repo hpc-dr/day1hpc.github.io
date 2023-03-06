@@ -2,7 +2,7 @@
 # favicon
 favicon = "images/day1hpc-favicon.png"
 # logo
-logo = "images/hpc/day1-ident-main.png"
+logo = "images/hpc/day1-ident-main-g2.png"
 # use `x` with logo_width, example: "100x"
 logo_width = "450px"
 # logo text will only show when logo is missing.
@@ -11,7 +11,7 @@ page_not_found_image = "images/404.jpg" # 404 error page image
 # image gallery shortcode
 image_gallery = true
 # email address
-email = "bouffler@amazon.com"
+email = "ask-hpc@amazon.com"
 # contact form action
 # contact_form_action = "#" # contact form works with https://formspree.io
 # search

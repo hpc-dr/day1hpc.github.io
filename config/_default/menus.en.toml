@@ -6,11 +6,11 @@
 # url = "/sc22/"
 # hasChildren = false
 
-[[main]]
-weight = 1
-name = "AWS re:Invent"
-url = "/reinvent/"
-hasChildren = true
+# [[main]]
+# weight = 1
+# name = "AWS re:Invent"
+# url = "/reinvent/"
+# hasChildren = true
 
 [[main]]
 weight = 2
