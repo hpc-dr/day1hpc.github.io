@@ -35,13 +35,5 @@ You can find us on Twitter at **[@TechHpc](https://twitter.com/TechHpc)**, on Yo
 
 {{< image src="images/hpc/thumbnail-jumble-banner.png" position="center" command="fill" >}}
 
-----
-
-### We're hiring again soon
-
-If you want to know what it's like to work in our engineering teams, take it from the people who are already here:
-
-{{< youtube jEN5be7krDY >}}
-
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jEN5be7krDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
