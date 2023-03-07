@@ -5,7 +5,7 @@ author: "Angel Pizarro"
 description: "AWS Batch is is an always-on job scheduler and resource orchestrator that lets you easily and efficiently run thousands of containerized applications. Workflow builders love it for scaling their workloads, from machine learning to genomics. It scales from one job to tens of millions, and takes away the chore of spinning up fleets of compute instances and keeping them busy."
 layout: "product"
 images:
-  - "images/hpc/batch-ident-large.png"
+  - "images/hpc/Ident-Batch@3x.webp"
 product_images:
   - "images/hpc/batch-ident-strip.png"
   - "images/hpc/batch-ksp-compute.png"

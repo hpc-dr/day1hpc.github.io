@@ -7,7 +7,7 @@ layout: "product"
 # description
 description: "NICE DCV is a high performance, low latency pixel streaming protocol that encrypts and transports pixels to devices, putting your desktop closer to your results. You can access, manipulate, and share business-critical information, regardless of your location, over local networks or the internet."
 images:
-  - "images/hpc/dcv-ident-large.png"
+  - "images/hpc/Ident-DCV@3x.webp"
 product_images:
   - "images/hpc/dcv-ident-strip.png"
   - "images/hpc/dcv-ksp-desktop.png"

@@ -7,7 +7,7 @@ layout: "product"
 # description
 description: "Elastic Fabric Adapter (EFA) is a high performance networking interface for EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS."
 images:
-  - "images/hpc/efa-ident-large.png"
+  - "images/hpc/Ident-EFA@3x.webp"
 product_images:
   - "images/hpc/efa-ident-strip.png"
   - "images/hpc/efa-ksp-compute.png"

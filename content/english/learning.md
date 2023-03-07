@@ -7,7 +7,7 @@ layout: "single-notitle"
 # description
 description: "AWS is a great place for your Life Sciences HPC needs."
 images:
-  - "images/hpc/learning-ident-large.png"
+  - "images/hpc/Ident-Learning@3x.webp"
 # Taxonomies
 categories: []
 tags: ["life-sciences"]
