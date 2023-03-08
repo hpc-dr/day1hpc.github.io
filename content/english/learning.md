@@ -23,7 +23,7 @@ draft: false
   }
 </style>
 
-{{< image src="/images/hpc/learning-ident-large.png" position="center" class="boof-weather" >}}
+{{< image src="/images/hpc/Ident-Learning@3x.webp" position="center" class="boof-weather" >}}
 
 ## Navigating your way into AWS
 
@@ -71,7 +71,7 @@ The [HPC Tech Shorts](https://hpc.news/techshorts) channel releases new shows ea
 
 ## Hands-on Workshops
 
-{{< image src="/images/hpc/ws-ident-large.png" class="ws" >}}
+{{< image src="/images/hpc/hpcworkshops-dot-com@3x.webp" class="ws" >}}
 
 Our solution architect teams conduct a lot of HPC training throughout the year, and the content here draws from that.
 

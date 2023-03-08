@@ -28,10 +28,28 @@ draft: false
 
 AWS ParallelCluster helps you **build and manage cost-efficient HPC Clusters on AWS**. 
 
-ParallelCluster HPC systems are powered by the latest compute architectures and are scalable as AWS itself. They feature advanced networking and high-performance storage to handle challenging workloads. But, they are also easy to use, with familiar software environments. They are designed around a high degree of security and compliance to help protect your data. And, they are cloud-ready so you can integrate them with non-HPC systems. 
+ParallelCluster HPC systems are powered by the **latest compute architectures** and are as scalable as AWS itself. They feature **advanced networking** and **high-performance storage** to handle challenging workloads. But, they are also easy to use, with familiar software environments, and designed with a high degree of security and compliance in mind to help protect your data. 
+
+And they're **cloud-ready** so you can integrate them with other services and stacks.
 
 </div>
 </div>
+
+<p>
+<style>
+.boof4 {
+  width:300px;
+  padding: 10px;
+  }
+</style>
+<center>
+<a href="https://youtu.be/gmw7A3kOh60" target="2023-03-08-01">{{< image src="/images/tsf/tsf-what-is-pc.png" class="boof4" >}}</a>
+<a href="https://youtu.be/FAfVbiTVk24" target="2023-03-08-00">{{< image src="/images/post/FAfVbiTVk24.png" class="boof4" >}}</a>
+<a href="https://youtu.be/ayPnYIEaHHQ" target="2023-03-08-01">{{< image src="/images/post/ayPnYIEaHHQ.png" class="boof4" >}}</a>
+
+</center>
+
+</p>
 
 ----
 
@@ -61,7 +79,7 @@ table td {
 |---|---|
 | [Hpc6a - HPC optimzed, AMD x86_64](https://aws.amazon.com/blogs/aws/new-amazon-ec2-hpc6a-instance-optimized-for-high-performance-computing/) | [C7g Instances - HPC-ready AWS Graviton3](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-ec2-c7g-instances-powered-aws-graviton3-processors/) |
 | [P4de - NVIDIA A100s for ML and HPC](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-ec2-p4de-gpu-instances-ml-training-hpc/) | [Trn1 - Custom processors tuned for ML training ](https://aws.amazon.com/blogs/aws/amazon-ec2-trn1-instances-for-high-performance-model-training-are-now-available/) |
-| [C6i - 3rd Generation Intel Ice Lake](https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-ec2-c6i-instances/) | [M6a - Large-Memory AMD EPYC](https://aws.amazon.com/blogs/aws/new-amazon-ec2-m6a-instances-powered-by-3rd-gen-amd-epyc-processors/) |
+| [Hpc6id - Powered by 3rd Generation Intel Ice Lake](https://youtu.be/xA89duBRWwo) | [M6a - Large-Memory AMD EPYC](https://aws.amazon.com/blogs/aws/new-amazon-ec2-m6a-instances-powered-by-3rd-gen-amd-epyc-processors/) |
 {{</ collapse >}}
 
 </div>
@@ -95,7 +113,7 @@ table td {
 </style>
 | | |
 |---|---|
-| [Thermo Fisher\'s Elastic GPU cluster for CryoEM](https://aws.amazon.com/blogs/hpc/how-thermo-fisher-scientific-accelerated-cryo-em-using-aws-parallelcluster/) | [GROMACS using Spot Instances and AWS Graviton](https://aws.amazon.com/blogs/hpc/running-gromacs-on-spot-with-checkpointing/) |
+| [Thermo Fisher\'s Elastic GPU cluster for CryoEM](https://aws.amazon.com/blogs/hpc/how-thermo-fisher-scientific-accelerated-cryo-em-using-aws-parallelcluster/) | [Multiple Availability Zones now supported in AWS ParallelCluster 3.4](https://aws.amazon.com/blogs/hpc/multiple-availability-zones-now-supported-in-aws-parallelcluster-3-4/) |
 | [Migrating from SGE to Slurm in ParallelCluster 3](https://aws.amazon.com/blogs/hpc/easing-your-migration-from-sge-to-slurm-in-aws-parallelcluster-3/) | [Memory-aware Slurm job scheduling](https://aws.amazon.com/blogs/hpc/slurm-based-memory-aware-scheduling-in-aws-parallelcluster-3-2/) |
 {{</ collapse >}}
 
@@ -293,7 +311,7 @@ table td {
 First, let's make sure you're comfortable that ParallelCluster is the right path for your AWS workloads. We also have 100% cloud-native offering known as [AWS Batch](/batch/). Batch builds on many of the same AWS technologies as ParallelCluster, so it is also scalable, flexible, and adaptable to a wide number of use cases. We have an in-depth blog post that helps explain **[when to choose AWS Batch versus AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. Once you're read it over, feel free to keep exploring more resources below describing key features and configurations of ParallelCluster. 
 * [Introducing AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/)- This blog describes the features of ParallelCluster 3.
 * [ParallelCluster 3 - built by customers](https://youtu.be/a-99esKLcls) - In this Tech Short video (17m) the ParallelCluster product team talks about new features in version 3.
-* [PCluster Manager - A new GUI for building and managing clusters](https://youtu.be/Z1vlpJYb1KQ) - A video (20m) tour through the ParallelCluster web console.
+* [ParallelCluster UI](https://youtu.be/FAfVbiTVk24) - Introducing ParallelCluster's new UI.
 * [ParallelCluster 3\'s config file](https://youtu.be/6gAwAK5IJ2w) - Learn how the ParallelCluster configuration file is an example of *infrastructure as code* (13m).
 * [Customizing ParallelCluster 3 AMIs](https://aws.amazon.com/blogs/hpc/custom-amis-with-parallelcluster-3/) - Learn about customizing the virtual machine image that powers your HPC cluster.
 </div>
@@ -314,7 +332,7 @@ First, let's make sure you're comfortable that ParallelCluster is the right path
 
 There are two ways to get ParallelCluster::
 
-1. **We suggest using [PCluster Manager](https://pcluster.cloud/01-getting-started.html)**, a web-based interface for designing and deploying your clusters. It helps you easily integrate fast file systems (like Lustre), visual desktops, and tools to **control your spend** using Slurm accounting. You can quickly deploy the **PCluster Manager** application in your own AWS account by following the tutorial [here](https://pcluster.cloud/01-getting-started.html).
+1. **We suggest using [ParallelCluster UI](https://docs.aws.amazon.com/parallelcluster/latest/ug/pcui-using-v3.html)**, a web-based interface for designing and deploying your clusters. It helps you easily integrate fast file systems (like Lustre), visual desktops, and tools to **control your spend** using Slurm accounting. It takes a few minutes to deploy your own private ParallelCluster console in your account - see the tutorial [here](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-pcui-v3.html).
 
 2. If you're familiar with AWS already, or just want a CLI, we have that too. You can install the ParallelCluster [Python package](https://pypi.org/project/aws-parallelcluster/) on nearly any modern computer. The procedure is [documented here](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html) but starts with:
 
