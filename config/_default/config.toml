@@ -3,7 +3,7 @@ baseURL = "https://day1hpc.com/"
 title = "Day 1 HPC"
 theme = "logbook-hugo"
 # post pagination
-paginate = "4"
+paginate = "8"
 # post excerpt
 summaryLength = "140"
 # google analytics
