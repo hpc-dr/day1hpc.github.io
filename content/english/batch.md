@@ -29,7 +29,21 @@ AWS Batch is is an **always-on job scheduler and resource orchestrator** that le
  **Workflow builders** love it for scaling their workloads, from machine learning to genomics. Batch scales from **one job** to **millions of jobs**, and takes away the chore of spinning up fleets of compute instances and keeping them busy.
 </div>
 </div>
+<p>
+<style>
+.boof4 {
+  width:300px;
+  padding: 10px;
+  }
+</style>
+<center>
+<a href="https://youtu.be/24tBOQDAyUA" target="2023-03-08-01">{{< image src="/images/tsf/tsf-what-is-batch.png" class="boof4" >}}</a>
+<a href="https://youtu.be/su5gGg8A1H8" target="2023-03-08-00">{{< image src="/images/post/su5gGg8A1H8.png" class="boof4" >}}</a>
+<a href="https://youtu.be/XAvosrqaCMQ" target="2023-03-08-01">{{< image src="/images/post/XAvosrqaCMQ.png" class="boof4" >}}</a>
 
+</center>
+
+</p>
 
 ----
 ### Scale for all your needs
@@ -59,7 +73,7 @@ table td {
 | | |
 |---|---|
 | [Scalable and Cost-Effective Batch Processing for ML workloads with AWS Batch and Amazon FSx](https://aws.amazon.com/blogs/hpc/ml-training-with-aws-batch-and-amazon-fsx/) | [Introducing fair-share scheduling for AWS Batch](https://aws.amazon.com/blogs/hpc/introducing-fair-share-scheduling-for-aws-batch/) |
-| [AWS Batch\'s new Faster Scaling features](https://youtu.be/uQCUpw7uSjY) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
+| [AWS Batch now supports Kubernetes](https://aws.amazon.com/blogs/aws/aws-batch-for-amazon-elastic-kubernetes-service/) | [Span AWS Regions using the AWS Cyclone solution with AWS Batch](https://github.com/awslabs/aws-cyclone-solution)|
 {{</ collapse >}}
 
 </div>
@@ -289,12 +303,14 @@ First, let's make sure you're comfortable that AWS Batch is the right tool for y
 
 If you're  familiar with using a traditional HPC resource - like a SLURM cluster - you may wonder what makes AWS Batch different. To find out, read our post to help you **[choose between AWS Batch or AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/choosing-between-batch-or-parallelcluster-for-hpc/)**. 
 
+{{< collapse "Tools for learning more about AWS Batch" >}}
 | | |
 |---|---|
 | [AWS Batch Dos and Don’ts: Best Practices in a Nutshell](https://aws.amazon.com/blogs/hpc/aws-batch-best-practices/) | [What\'s the difference between canceling and terminating a job in AWS Batch?](https://aws.amazon.com/blogs/hpc/reader-question-what-is-the-difference-between-canceling-and-terminating-a-job-in-aws-batch/) |
 | [Understanding the AWS Batch termination process](https://aws.amazon.com/blogs/hpc/understanding-the-aws-batch-termination-process/) | [Using AWS Batch Console Support for Step Functions Workflows](https://aws.amazon.com/blogs/hpc/using-aws-batch-console-support-for-step-functions/) |
 | [AWS Batch updates: higher compute utilization, AWS PrivateLink support, and updatable compute environments](https://aws.amazon.com/blogs/hpc/aws-batch-updates-higher-compute-utilization-aws-privatelink-support-and-updatable-compute-environments/) | [Encoding workflow dependencies in AWS Batch](https://aws.amazon.com/blogs/hpc/encoding-workflow-dependencies-in-aws-batch/) |
 </div>
+{{</ collapse >}}
 
 <!-- <div class="col-4">
 {{< image src="/images/hpc/media-ident-mini.png" class="img-float-right" >}}
