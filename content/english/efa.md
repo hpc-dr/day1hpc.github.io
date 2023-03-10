@@ -36,14 +36,14 @@ It turns out that most HPC codes are [more sensitive to reliability between comm
 
 <style>
 .boof4 {
-  width:300px;
+  width:250px;
   padding: 10px;
   }
 </style>
 <a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-00">{{< image src="/images/hpc/ts-title-what-is-efa.png" class="boof4" >}}</a>
 <a href="https://youtu.be/inJxFXMMp0U" target="2022-10-21-01">{{< image src="/images/hpc/ts-title-how-does-efa-work.png" class="boof4" >}}</a>
-<a href="https://hpc.news/ieeeSRD" target="2022-10-21-02">{{< image src="/images/hpc/efa-ieee-picon@3x.webp" class="boof4" >}}</a>
-
+<a href="https://youtu.be/R11YgBEZzqE" target="2022-10-21-03">{{< image src="/images/hpc/EFA-desantis.webp" class="boof4" >}}</a>
+<a href="https://hpc.news/ieeeSRD" target="2022-10-21-04">{{< image src="/images/hpc/efa-ieee-picon@3x.webp" class="boof4" >}}</a>
 <div class="row">
 <div class="col">
 {{< collapse "**Background to the design of SRD and EFA**" >}}
