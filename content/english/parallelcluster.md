@@ -7,14 +7,14 @@ layout: "product"
 images:
   - "images/hpc/Ident-PC@3x.webp"
 product_images:
-  - "images/hpc/pc-ident-strip.png"
-  - "images/hpc/pc-ksp-compute.png"
-  - "images/hpc/pc-ksp-scalable.png"
-  - "images/hpc/pc-ksp-networking.png"
-  - "images/hpc/pc-ksp-storage.png"
-  - "images/hpc/pc-ksp-interfaces.png"
-  - "images/hpc/pc-ksp-secure.png"
-  - "images/hpc/pc-ksp-cloud.png"
+  - "images/g3/ksp-pc-title.webp"
+  - "images/g3/ksp-pc-compute.webp"
+  - "images/g3/ksp-pc-scalable.webp"
+  - "images/g3/ksp-pc-networking.webp"
+  - "images/g3/ksp-pc-storage.webp"
+  - "images/g3/ksp-pc-familiar.webp"
+  - "images/g3/ksp-pc-secure.webp"
+  - "images/g3/ksp-pc-cloud.webp"
 ## Taxonomies
 categories: ["AWS ParallelCluster"]
 tags: ["hpc","products"]
