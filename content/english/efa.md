@@ -9,12 +9,12 @@ description: "Elastic Fabric Adapter (EFA) is a high performance networking inte
 images:
   - "images/hpc/Ident-EFA@3x.webp"
 product_images:
-  - "images/hpc/efa-ident-strip.png"
-  - "images/hpc/efa-ksp-compute.png"
-  - "images/hpc/efa-ksp-performance.png"
-  - "images/hpc/efa-ksp-scalable.png"
-  - "images/hpc/efa-ksp-familiar.png"
-  - "images/hpc/efa-ksp-cloud.png"
+  - "images/g3/ksp-efa-title.webp"
+  - "images/g3/ksp-efa-compute.webp"
+  - "images/g3/ksp-efa-performance.webp"
+  - "images/g3/ksp-efa-scalable.webp"
+  - "images/g3/ksp-efa-nocode.webp"
+  - "images/g3/ksp-efa-cloud.webp"
 # Taxonomies
 categories: ["Elastic Fabric Adapter"]
 tags: ["networking","HPC"]
