@@ -7,13 +7,13 @@ layout: "product"
 images:
   - "images/hpc/Ident-Batch@3x.webp"
 product_images:
-  - "images/hpc/batch-ident-strip.png"
-  - "images/hpc/batch-ksp-compute.png"
-  - "images/hpc/batch-ksp-cost.png"
-  - "images/hpc/batch-ksp-scheduling.png"
-  - "images/hpc/batch-ksp-scale.png"
-  - "images/hpc/batch-ksp-secure.png"
-  - "images/hpc/batch-ksp-cloud.png"
+  - "images/g3/ksp-batch-title.webp"
+  - "images/g3/ksp-batch-compute.webp"
+  - "images/g3/ksp-batch-cost.webp"
+  - "images/g3/ksp-batch-scheduler.webp"
+  - "images/g3/ksp-batch-scale.webp"
+  - "images/g3/ksp-batch-secure.webp"
+  - "images/g3/ksp-batch-cloud.webp"
 # Taxonomies
 categories: ["AWS Batch", "products"]
 tags: ["batch","containers", "hpc"]
