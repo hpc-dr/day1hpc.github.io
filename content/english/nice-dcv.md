@@ -9,12 +9,12 @@ description: "NICE DCV is a high performance, low latency pixel streaming protoc
 images:
   - "images/hpc/Ident-DCV@3x.webp"
 product_images:
-  - "images/hpc/dcv-ident-strip.png"
-  - "images/hpc/dcv-ksp-desktop.png"
-  - "images/hpc/dcv-ksp-adaptable.png"
-  - "images/hpc/dcv-ksp-secure.png"
-  - "images/hpc/dcv-ksp-versatile.png"
-  - "images/hpc/dcv-ksp-web.png"        
+  - "images/g3/ksp-dcv-title.webp"
+  - "images/g3/ksp-dcv-desktop.webp"
+  - "images/g3/ksp-dcv-adaptable.webp"
+  - "images/g3/ksp-dcv-secure.webp"
+  - "images/g3/ksp-dcv-versatile.webp"
+  - "images/g3/ksp-dcv-sdk.webp"        
 # Taxonomies
 categories: ["NICE DCV", "products"]
 tags: ["streaming","visualization"]
