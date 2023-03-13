@@ -1,6 +1,6 @@
 ---
 title: "GPUdirect RDMA massively speeds up machine learning at AWS - here's why"
-date: 2023-03-09T15:52:21+0000
+date: 2023-02-09T15:52:21+0000
 # post thumb
 images:
     - "images/post/o_noqdK5Sdc.png"
