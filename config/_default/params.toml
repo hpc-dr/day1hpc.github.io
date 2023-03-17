@@ -17,7 +17,7 @@ email = "ask-hpc@amazon.com"
 # search
 search = true
 # main sections
-mainSections = ["post"]
+mainSections = ["post", "blog"]
 # featured post
 featured_post = true
 # layout
