@@ -18,7 +18,7 @@ draft: true
 
 The [AWS Billing Dashboard](https://console.aws.amazon.com/billing/) helps you monitor your spending with customizable billing and usage alerts. In this tutorial, we will set up example billing alerts and configure them to send a combination of email, Slack, and push notifications. 
 
-## Overview
+## Overview {#overview}
 
 Periodically during the day, the AWS billing system computes your current bill. At the end of each month, the owner of the account will receive an invoice and that invoice is paid. This is usually done automatically via credit card. If you are the account owner or access to an IAM account with billing console privileges, you can set up rules that will send notifications under certain billing conditions. Those notifications can be sent over email, or you can send them to other communications channels. In that case, you will need to create an Amazon SNS topic to receive the notifications and you will need to set up a consumer for the SNS notifications. In this tutorial, we will be using a Slack channel as the consumer, but you can do a lot of other interesting things. For example, you could use [IFTTT](https://ifttt.com/) to turn your IoT-enabled desk lamp a certain color depending on your budget status!
 
@@ -32,9 +32,9 @@ Here are the steps we’re going to take to get our first billing notification t
 We’ll iterate on this a couple more times to illustrate some helpful patterns you can implement.
 * * *
 
-## Access the AWS Billing Dashboard
+## Access the AWS Billing Dashboard {#billing-dashboard}
 
-Before we dive into budgets and notifications, let’s get oriented to the AWS Billing Dashboard. If you are familiar with it, feel free to [skip ahead](https://quip-amazon.com/nxhwA8G3waCY/Setting-Up-Budgets-and-Billing-Alerts-on-AWS#temp:C:TYZ419ca03505d94606bb8ffa55e). 
+Before we dive into budgets and notifications, let’s get oriented to the AWS Billing Dashboard. If you are familiar with it, feel free to [skip ahead](#sns-slack). 
 
 Start by logging onto the [AWS Console](https://console.aws.amazon.com/). 
 
@@ -50,14 +50,14 @@ Here is an example billing dashboard. Some highlights are the forecasted spend (
 
 ![Example AWS Billing Dashboard](03-example-dashboard.jpg)
 
-If you only want to set up email notifications, you don’t need to configure an Amazon SNS topic or Slack integration. You can proceed directly to the section on [setting up budgets](https://quip-amazon.com/nxhwA8G3waCY/Setting-Up-Budgets-and-Billing-Alerts-on-AWS#temp:C:TYZ6aab5e8d5d924cd8a972c9212).
+If you only want to set up email notifications, you don’t need to configure an Amazon SNS topic or Slack integration. You can proceed directly to the section on [setting up budgets](#create-budget).
 * * *
 
-## Setting up Amazon SNS and Slack Integration
+## Setting up Amazon SNS and Slack Integration {#sns-slack}
 
 You will be using two AWS services together: [Amazon SNS](https://aws.amazon.com/sns/) and [AWS Chatbot](https://aws.amazon.com/chatbot/). Amazon SNS is a cloud-based web service that delivers push messages. But, it’s designed to help computers talk to one another, so the format of SNS messages is often not very readable or understandable by people. To help with that, we’re going to create a Slack bot that listens to Amazon SNS and turns the messages it gets from the AWS Billing Dashboard into chat messages you can read. 
 
-### Create an Amazon SNS topic
+### Create an Amazon SNS topic {#sns-topic}
 
 You need to create an Amazon SNS topic. Think of a topic like a mailbox or sorting tray for SNS messages. You can have many SNS topics, and each SNS topic can have many subscribers. A subscriber is a process or service that waits for a message to arrive in the SNS topic then takes action on it. If you have an SNS topic with two subscribers and you send a message to it, both subscribers can receive (and act on) it at once. This is an example of a software pattern known as *publish/subscribe* (pub/sub). It is a very powerful building block for reliable distributed systems.
 
@@ -101,7 +101,7 @@ We’ve highlighted the text you need to edit in **bold text**. Choose **Save ch
 
 If you want to learn more about Amazon SNS topic access policies, they are covered in detail in the AWS Billing and Cost management [documentation pages](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-sns-policy.html).
 
-### Configure an AWS Chatbot
+### Configure an AWS Chatbot {#config-chatbot}
 
 Now, you need to create a subscriber for your Amazon SNS topic. This will be an [AWS Chatbot](https://aws.amazon.com/chatbot/) that can send messages to a Slack channel that you have access to. 
 
@@ -111,7 +111,7 @@ Why do we need to create a chatbot? Strictly speaking, we don’t, but we do nee
 
 Not compelling reading is it?
 
-#### Integrate AWS Chatbot with Slack
+#### Integrate AWS Chatbot with Slack {#chatbot-to-slack}
 
 One way of doing the translation is to have an AWS Lambda function that subscribes to an Amazon SNS topic, converts messages it receives to the Slack API format, then transmits them on to the Slack. But that’s decidedly more programming than we need to do today. Instead, we can rely on AWS Chatbot. This service can communicate with Amazon Chime, Microsoft Teams, and Slack communications systems without your having to learn their API implementation details. Instead, it’s just a few actions in the AWS Console to set up communications. 
 
@@ -140,7 +140,7 @@ If it worked, congratulations - you’ve just added to your own Slack inbox over
 If it did not work, especially if you do not directly own the Slack workspace you are connecting to AWS, you may need to ask someone with administrative privileges to help you out with this setup. 
 * * *
 
-## Create a Budget in AWS Billing Dashboard
+## Create a Budget in AWS Billing Dashboard {#create-budget}
 
 Navigate to the **[AWS Billing Dashboard](https://console.aws.amazon.com/billing/home/),** then choose **Budgets** from the navigation menu on the left. Select **Create a budget**. Under **Choose budget type**, select **Customize (advanced)**. Then, under **Budget types**, choose **Cost budget - recommended**. Finally, choose **Next**.
 
@@ -160,7 +160,7 @@ Under **Threshold**, enter **80**. Add one or more email addresses under **Email
 
 * * *
 
-## Receiving Notifications
+## Receiving Notifications {#receive-notifications}
 
 Once your budget meets its threshold, you will get an email and a Slack notification. Here is an example of such an email.
 
@@ -172,7 +172,7 @@ Here is the same message, delivered via the Slack integration with Amazon SNS.
 🥳Voila! You’re done setting up a monthly budget threshold notification. Read on to learn more alert patterns you can implement to keep an eye on your cloud spending. 
 * * *
 
-## Daily Spending Report
+## Daily Spending Report {#daily-spending}
 
 You can share a daily spending report with your team via Slack. This can be help you get comfortable with your daily cloud consumption and also give you early notice if something changes. The user interface will look nearly the same as for the monthly alert we set up earlier, so here we will simply explain what to do and show you an example of the output.
 
@@ -195,7 +195,7 @@ If you have any active spend on your account, you should get a Slack message tha
 ![An example daily spend Slack message](01-daily-spend-slack.jpg)
 * * *
 
-## Mobile Push Notifications with Pushover
+## Mobile Push Notifications with Pushover {#push-notifications}
 
 If you’ve ever asked yourself whether you would like more push notifications on your phone, and would like to get one when your AWS budget threshold has been exceeded, there is a straightforward solution using a platform called [Pushover](https://pushover.net/). 
 
@@ -228,7 +228,7 @@ The next time a budget notification is triggered, you will get a mobile notifica
 
 You probably don’t want daily push notifications from AWS, so we recommend that you use this pattern for your most high urgency communications. For example, set it up to trigger when your spend is close to exceeding its budget. That way you can go take action, such as deactivating some AWS resources.  
 
-## Summary and Next Steps
+## Summary and Next Steps {#summary}
 
 This tutorial has shown you the basics of setting up AWS Billing Dashboard budgets and alerts to send messages with email, Slack, and mobile push notifications. There are many other things you can do with the tools we’ve shown you. Some examples include:
 
