@@ -38,17 +38,17 @@ Before we dive into budgets and notifications, let’s get oriented to the AWS B
 
 Start by logging onto the [AWS Console](https://console.aws.amazon.com/). 
 
-![AWS Console](./01-aws-console.jpg)
+![AWS Console](/blog/setting-up-budgets-on-aws/01-aws-console.jpg)
 
 You can get to the AWS Billing Dashboard in two ways. First, you can just search for **Billing** in the query box (a). Or, you can choose the AWS account menu (b), then choose choose **Billing Dashboard**. Both options take you to the AWS Billing Dashboard. 
 
-![Navigate to the Billing Dashboard](./02-nav-to-billing.jpg)
+![Navigate to the Billing Dashboard](/blog/setting-up-budgets-on-aws/02-nav-to-billing.jpg)
 
 ### Example AWS Billing Dashboard
 
 Here is an example billing dashboard. Some highlights are the forecasted spend (a), the month-to-date balance (b), and the previous month balance (c). We will be using **Budgets** and **Budget reports** (d) to set up custom notifications.
 
-![Example AWS Billing Dashboard](./03-example-dashboard.jpg)
+![Example AWS Billing Dashboard](/blog/setting-up-budgets-on-aws/03-example-dashboard.jpg)
 
 If you only want to set up email notifications, you don’t need to configure an Amazon SNS topic or Slack integration. You can proceed directly to the section on [setting up budgets](#create-budget).
 * * *
@@ -63,13 +63,13 @@ You need to create an Amazon SNS topic. Think of a topic like a mailbox or sorti
 
 Open the [Amazon SNS Console](https://console.aws.amazon.com/sns/v3/home). Then, in the navigation sidebar, choose **Topics**. Choose **Create Topic** and select the Standard type of topic. Enter a **Name** for your topic such as “budget-topic-001”. Optionally, you can provide a more descriptive **Display name** for the topic as well. Choose **Create topic**. 
 
-![Create an SNS Topic](./01-create-sns-topic.jpg)
+![Create an SNS Topic](/blog/setting-up-budgets-on-aws/01-create-sns-topic.jpg)
 
 🚨But wait, **you’re not done**! You need to configure the *access policy* for your new topic. If you don’t do this, messages will not flow from the billing console to your downstream Slack integration. 
 
 Navigate to your new topic in the AWS SNS console. Copy the ARN for the topic. It will look something like `arn:aws:sns:us-east-1:012345678901:budget-project-001`.
 
-![Find your SNS topic ARN](./02-get-topic-arn.jpg)
+![Find your SNS topic ARN](/blog/setting-up-budgets-on-aws/02-get-topic-arn.jpg)
 
 Next, choose **Edit,** then choose **Access policy**, then choose **Advanced.** You will see a JSON text field, which you will need to edit. After the characters `Statement": [` add a JSON dictionary modeled on this example, but with some changes. 
 
@@ -107,7 +107,7 @@ Now, you need to create a subscriber for your Amazon SNS topic. This will be an 
 
 Why do we need to create a chatbot? Strictly speaking, we don’t, but we do need some way of translating the messages in the SNS topic to a format that Slack can understand. That’s because Amazon SNS messages look something like this:
 
-![Example SNS message payload in JSON format](./01-example-sns-payload.jpg)
+![Example SNS message payload in JSON format](/blog/setting-up-budgets-on-aws/01-example-sns-payload.jpg)
 
 Not compelling reading is it?
 
@@ -117,23 +117,23 @@ One way of doing the translation is to have an AWS Lambda function that subscrib
 
 Open the [AWS Chatbot console](https://console.aws.amazon.com/chatbot/) and choose **Configure new client**. You will be directed to a Slack-operated page to authorize the connection between AWS Chatbot and your Slack workspace. If you have multiple workspaces, you can select among them using the workspaces toggle (a). To allow the connection, choose **Allow** (b). 
 
-![Authorize AWS Chatbot to talk to Slack](./01-chatbot-slack-authz.jpg)
+![Authorize AWS Chatbot to talk to Slack](/blog/setting-up-budgets-on-aws/01-chatbot-slack-authz.jpg)
 
 Now, you configure a channel. In the AWS Chatbot console, choose your workspace name under **Slack**. Then, choose **Configure a new channel**. Under **Configuration details**, give your configuration a distinctive name. Then, provide the **Slack channel ID**. 
 
 The Slack channel ID is not the name of the Slack channel but its globally unique identifier. Here’s how to find it. Go into your Slack workspace and open the channel where you want to post messages. Here, we demonstrate with a channel called **hpc-dr-slack-bots**. Choose the channel name (e) at the top of the Slack window to get the channel details. At the bottom of the channel details pop-up window, find the **Channel ID** (f) and copy it.
 
-![Find your Slack channel ID](./02-find-slack-channel-id.jpg)
+![Find your Slack channel ID](/blog/setting-up-budgets-on-aws/02-find-slack-channel-id.jpg)
 
 Back in the AWS Chatbot console entry for your new channel, paste the channel ID into **Channel ID** under **Slack channel.** Now, either select an existing IAM role for AWS Chatbot to assign or create a new IAM role. If creating a role, give it a distinctive name such as *MyAWSChatbotRole*. Configure a **Channel guardrail policy**. Since we don’t want the Slack channel to have any ability to take action on this AWS account, choose **ViewOnlyAccess**.
 
 Under **Notifications** choose the AWS region where your SNS topic(s) was created. Next, choose the topic or topics you wish to connect to the Slack channel. Now choose **Configure**. This will take you back to the Slack workspace configuration, but now your channel configuration will show up under **Configured channels.** Choose the new channel. Now, choose **Send test message**. You will get a success message in the console if all is configured appropriately.
 
-![AWS Chatbot connected to Slack](./03-successful-channel.jpg)
+![AWS Chatbot connected to Slack](/blog/setting-up-budgets-on-aws/03-successful-channel.jpg)
 
 The real test, however, is whether the message showed up in Slack. Go back to your workspace, go to the appropriate channel, and look for a message that looks like this. 
 
-![Test message to Slack](./04-slack-test-message.jpg)
+![Test message to Slack](/blog/setting-up-budgets-on-aws/04-slack-test-message.jpg)
 
 If it worked, congratulations - you’ve just added to your own Slack inbox overload 🏆. 
 
@@ -144,17 +144,17 @@ If it did not work, especially if you do not directly own the Slack workspace yo
 
 Navigate to the **[AWS Billing Dashboard](https://console.aws.amazon.com/billing/home/),** then choose **Budgets** from the navigation menu on the left. Select **Create a budget**. Under **Choose budget type**, select **Customize (advanced)**. Then, under **Budget types**, choose **Cost budget - recommended**. Finally, choose **Next**.
 
-![Create a budget](./01-create-budget.jpg)
+![Create a budget](/blog/setting-up-budgets-on-aws/01-create-budget.jpg)
 
 On Step 2 of the Create budget wizard, under **Details**, give your budget a distinctive name. This name can show up in messages and email notifications, so consider making it informative as well. In this example, we are setting up a monthly budget, so we have named it *Monthly - Special project Y*.  Under **Set budget amount,** select **Monthly** from the **Period** menu. Choose the Recurring budget renewal type and choose a **Start month**. Keep the **Budgeting method** as **Fixed**. Enter your **budgeted amount** of AWS spend for the month, such as $100.00.
 
-![Create budget details](./02-create-budget-details.jpg)
+![Create budget details](/blog/setting-up-budgets-on-aws/02-create-budget-details.jpg)
 
 Under **Budget scope**, choose **All AWS services** unless you have a reason to omit specific aspects of AWS expenditure. Leave the **Advanced options** as their default values and choose **Next**. 
 
 You will taken to the **Configure alerts** page. Choose **Add an alert threshold**. Let’s start with a guardrail notification that will both email and send a Slack message when your actual monthly bill meets or exceeds 80% of the budgeted amount. In other words, this notification will be triggered every day your pending monthly bill is $80 or more. 
 
-![Add an alert threshold](./04-configure-alert-threshold.jpg)
+![Add an alert threshold](/blog/setting-up-budgets-on-aws/04-configure-alert-threshold.jpg)
 
 Under **Threshold**, enter **80**. Add one or more email addresses under **Email recipients**. Then, if you elected to set up an Amazon SNS topic as outlined above, paste the ARN from that topic into **Choose an Amazon SNS ARN**. Then, choose **Next** to go to the **Attach actions** page. Choose **Next** again to review your work. Finally, choose **Create budget**.
 
@@ -164,10 +164,10 @@ Under **Threshold**, enter **80**. Add one or more email addresses under **Email
 
 Once your budget meets its threshold, you will get an email and a Slack notification. Here is an example of such an email.
 
-![An example budget exceeded email message](./01-monthly-email.jpg)
+![An example budget exceeded email message](/blog/setting-up-budgets-on-aws/01-monthly-email.jpg)
 
 Here is the same message, delivered via the Slack integration with Amazon SNS.
-![An example budget exceeded Slack message](./02-monthly-slack.jpg)
+![An example budget exceeded Slack message](/blog/setting-up-budgets-on-aws/02-monthly-slack.jpg)
 
 🥳Voila! You’re done setting up a monthly budget threshold notification. Read on to learn more alert patterns you can implement to keep an eye on your cloud spending. 
 * * *
@@ -192,7 +192,7 @@ You can share a daily spending report with your team via Slack. This can be help
 7. Choose **Next**, then choose **Create budget** on the Review screen.
 
 If you have any active spend on your account, you should get a Slack message that looks like this.
-![An example daily spend Slack message](./01-daily-spend-slack.jpg)
+![An example daily spend Slack message](/blog/setting-up-budgets-on-aws/01-daily-spend-slack.jpg)
 * * *
 
 ## Mobile Push Notifications with Pushover {#push-notifications}
@@ -200,7 +200,7 @@ If you have any active spend on your account, you should get a Slack message tha
 If you’ve ever asked yourself whether you would like more push notifications on your phone, and would like to get one when your AWS budget threshold has been exceeded, there is a straightforward solution using a platform called [Pushover](https://pushover.net/). 
 
 Pushover is a managed notifications service that takes care of the many, many details involved in setting up push notifications. It has a mobile app that is available on the [Apple](https://apps.apple.com/us/app/pushover-notifications/id506088175?ls=1) (iOS) and [Google Play](https://play.google.com/store/apps/details?id=net.superblock.pushover&pli=1) (Android) app stores. 
-![Pushover web site](./01-pushover-site.jpg)
+![Pushover web site](/blog/setting-up-budgets-on-aws/01-pushover-site.jpg)
 
 The app is not free - it costs (at the time of this article) $4.99 for a perpetual license. If you’ve ever gone through the process of getting an app in a major app store or operated a push notification service, you will probably agree that 5 bucks is worth the portion of your existence you would dedicate to replicating Pushover. 
 
@@ -211,20 +211,20 @@ Sign up for a free Pushover account at https://pushover.net/. Make sure to valid
 ### Configure Pushover
 
 Open the Pushover app on your mobile device. Log in using your Pushover account. Then, select the settings menu, which is highlighted in the figure below. 
-![Finding the Pushover settings menu](./02-pushover-settings.jpg)
+![Finding the Pushover settings menu](/blog/setting-up-budgets-on-aws/02-pushover-settings.jpg)
 
 ### Configure AWS Billing Dashboard
 
 After you have opened the Settings page, you will see two interesting-looking configuration fields. Your **Pushover User Key**, which we will not use in this example, is for [programmatically sending messages](https://pushover.net/api) to Pushover. Instead, we’re going to use your **Pushover Email Alias**. This is a special email inbox that turns email addressed to it into push notifications on your mobile device. 
-![Your Pushover email alias](./03-pushover-email-alias.jpg)
+![Your Pushover email alias](/blog/setting-up-budgets-on-aws/03-pushover-email-alias.jpg)
 
 Go to the [AWS Billing Dashboard](https://console.aws.amazon.com/billing/) and select a budget, such as the one you created for this tutorial. Choose **Edit** to change the budget’s configuration. Navigate to the **Configure alerts** page for the budget. Add your Pushover Email Alias to the budget email recipients field. Then, save your changes to the budget. 
-![Add Pushover to your billing alert](./04-pushover-configure-alert.jpg)
+![Add Pushover to your billing alert](/blog/setting-up-budgets-on-aws/04-pushover-configure-alert.jpg)
 
 ### Receive Push Notifications
 
 The next time a budget notification is triggered, you will get a mobile notification via the Pushover app. Depending on your phone operating system and notifications settings, it will look something like this example. Selecting the message will take you to the Pushover app where you can read its full contents. 
-![Example Pushover mobile notification](./05-pushover-notification.jpg)
+![Example Pushover mobile notification](/blog/setting-up-budgets-on-aws/05-pushover-notification.jpg)
 
 You probably don’t want daily push notifications from AWS, so we recommend that you use this pattern for your most high urgency communications. For example, set it up to trigger when your spend is close to exceeding its budget. That way you can go take action, such as deactivating some AWS resources.  
 
