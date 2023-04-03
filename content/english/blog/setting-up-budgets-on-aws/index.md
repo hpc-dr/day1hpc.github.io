@@ -164,7 +164,7 @@ Under **Threshold**, enter **80**. Add one or more email addresses under **Email
 
 Once your budget meets its threshold, you will get an email and a Slack notification. Here is an example of such an email.
 
-![An example budget exceeded email message](/blog/setting-up-budgets-on-aws/01-monthly-email.jpg)
+![An example budget exceeded email message](/blog/setting-up-budgets-on-aws/01-monthly-email.png)
 
 Here is the same message, delivered via the Slack integration with Amazon SNS.
 ![An example budget exceeded Slack message](/blog/setting-up-budgets-on-aws/02-monthly-slack.jpg)
