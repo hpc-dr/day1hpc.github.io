@@ -13,7 +13,7 @@ description: "The AWS Billing Dashboard helps you monitor your cloud spending wi
 categories: []
 tags: []
 type: "regular" # available type (regular or featured)
-draft: true
+draft: false
 ---
 
 The [AWS Billing Dashboard](https://console.aws.amazon.com/billing/) helps you monitor your spending with customizable billing and usage alerts. In this tutorial, we will set up example billing alerts and configure them to send a combination of email, Slack, and push notifications. 
