@@ -1,6 +1,6 @@
 ---
 title: "Setting Up Budgets and Billing Alerts on AWS"
-date: 2023-03-17T14:00:40-04:00
+date: 2023-04-02T14:00:40-04:00
 # post thumb
 thumbnail: images/blog-default.png
 images:
