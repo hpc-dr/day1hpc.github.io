@@ -27,6 +27,7 @@
               <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.author }}</a>
             </li>
             <li class="list-inline-item">{{ i18n "date"}} : {{ .PublishDate.Format "January 2, 2006" }}</li>
+            {{ if and (ne .Section "blog") (ne .Section "blogs") }}
             <li class="list-inline-item">{{ i18n "categories" }} :
               {{ range $i,$p:= .Params.Categories }}{{if ne $i 0}},{{end}}<a
                 href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ml-1">{{ . }} </a>
@@ -34,6 +35,7 @@
             <li class="list-inline-item">{{i18n "tags"}} : {{ range $i,$p:= .Params.Tags }}{{if ne $i 0}},{{end}}<a
                 href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/" class="ml-1">{{ . | humanize | lower }} </a> {{end}}
             </li>
+            {{ end }}
           </ul>
         </div>
         {{with .Params.images}}
