@@ -22,7 +22,7 @@ That threshold can be 1 cent, or it could be 80% of your planned monthly spend. 
 
 Matt and Boof explain this in today's Tech Short, and the implementation is documented in a blog on our day1hpc community website here:
 
-https://day1hpc.com/ParallelCluster
+[https://day1hpc.com/](https://day1hpc.com/blog/setting-up-budgets-on-aws/)
 
 If you have ideas for technical topics you'd like to see us cover in a future show, let us know by finding us on Twitter (@TechHpc) and DM'ing us with your idea.
 
