@@ -43,6 +43,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
+      - name: Cache resources and deploy assets
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./public
+            ./resources
+          key: hugo-${{ hashFiles('**/*.index.html*') }}
+          restore-keys: hugo-
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
