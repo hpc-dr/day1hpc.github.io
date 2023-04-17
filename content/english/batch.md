@@ -109,6 +109,7 @@ table td {
 |---|---|
 | [AWS Batch allocations strategies](https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html) | [Using On-Demand or Spot Instances](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice5) |
 | [EC2 Spot Best Practices for AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html#bestpractice6) | [A serverless cost gaurdian solution for AWS Batch](https://aws.amazon.com/blogs/hpc/avoid-overspending-with-aws-batch-using-a-serverless-cost-guardian-monitoring-architecture/)  | 
+{{</ collapse >}}
 </div>
 </div>
 </div>

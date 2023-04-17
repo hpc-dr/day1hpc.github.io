@@ -16,6 +16,13 @@ disableLanguages = ["fr"] # desable language from here
 # Temporary
 enableRobotsTXT = true
 
+# Tags
+# disableKinds = ["taxonomy", "term"]
+
+# [taxonomies]
+#     category = "categories"
+#     tag = "tags"
+
 ############################# Modules ##############################
 [module]
 [module.hugoVersion]
@@ -30,7 +37,7 @@ home = ["HTML", "RSS", "JSON", "WebAppManifest"]
 [imaging]
 # See https://github.com/disintegration/imaging
 # Default JPEG or WebP quality setting. Default is 75.
-quality = 90
+quality = 75
 
 
 ############################# Caches ###############################

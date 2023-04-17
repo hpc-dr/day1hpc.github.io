@@ -39,10 +39,14 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	
 	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
+	{{ if (ne .Section "tags") }}
 	{{ partialCached "essentials/footer.html" . }}
+	{{end}}
 	{{ partialCached "essentials/script.html" . }}
 	{{ else }}
+	{{ if (ne .Section "tags") }}
 	{{ partial "essentials/footer.html" . }}
+	{{end}}
 	{{ partial "essentials/script.html" . }}
 	{{ end }}
 </body>
