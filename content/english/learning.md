@@ -45,7 +45,7 @@ The [HPC Tech Shorts](https://hpc.news/techshorts) channel releases new shows ea
 ### Intro to AWS
 
 <a href="https://youtu.be/KHx22oJSNso">{{< image src="/images/tsf/tsf-getting-familiar.png" class="learn" >}}</a>
-<a href="https://youtu.be/9eZ-53klGoE">{{< image src="https://i9.ytimg.com/vi/9eZ-53klGoE/maxresdefault.jpg?v=64426675&sqp=CITXiaIG&rs=AOn4CLCYhEj38ye7S1BS5myP0aSgv2SwCg" class="learn" >}}</a>
+<a href="https://youtu.be/9eZ-53klGoE">{{< image src="/images/post/9eZ-53klGoE.png" class="learn" >}}</a>
 
 ----
 
@@ -59,10 +59,11 @@ The [HPC Tech Shorts](https://hpc.news/techshorts) channel releases new shows ea
 
 <a href="https://youtu.be/gmw7A3kOh60">{{< image src="/images/tsf/tsf-what-is-pc.png" class="learn" >}}</a>
 <a href="https://youtu.be/24tBOQDAyUA">{{< image src="/images/tsf/tsf-what-is-batch.png" class="learn" >}}</a>
+<a href="https://youtu.be/9eZ-53klGoE">{{< image src="/images/post/9eZ-53klGoE.png" class="learn" >}}</a>
 
 #### Elements of cluster design
 
-<a href="https://youtu.be/cGaBaxDR9Qo">{{< image src="https://i9.ytimg.com/vi/cGaBaxDR9Qo/maxresdefault.jpg?v=6442679c&sqp=CITXiaIG&rs=AOn4CLDifY0FrT8q2QnKlez82SJxXrrVLg" class="learn" >}}</a>
+<a href="https://youtu.be/cGaBaxDR9Qo">{{< image src="/images/post/cGaBaxDR9Qo.png" class="learn" >}}</a>
 ---
 
 <style>
