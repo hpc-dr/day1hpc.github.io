@@ -64,6 +64,7 @@ The [HPC Tech Shorts](https://hpc.news/techshorts) channel releases new shows ea
 #### Elements of cluster design
 
 <a href="https://youtu.be/cGaBaxDR9Qo">{{< image src="/images/post/cGaBaxDR9Qo.png" class="learn" >}}</a>
+<a href="https://youtu.be/h72NVKYru0Y">{{< image src="/images/post/h72NVKYru0Y.png" class="learn" >}}</a>
 ---
 
 <style>
