@@ -59,12 +59,30 @@ The [HPC Tech Shorts](https://hpc.news/techshorts) channel releases new shows ea
 
 <a href="https://youtu.be/gmw7A3kOh60">{{< image src="/images/tsf/tsf-what-is-pc.png" class="learn" >}}</a>
 <a href="https://youtu.be/24tBOQDAyUA">{{< image src="/images/tsf/tsf-what-is-batch.png" class="learn" >}}</a>
+<a href="https://youtu.be/Rwl-ZSQzXXk">{{< image src="images/post/Rwl-ZSQzXXk.png" class="learn" >}}</a>
 
-#### Elements of cluster design
+### Elements of cluster design
 
 <a href="https://youtu.be/cGaBaxDR9Qo">{{< image src="/images/post/cGaBaxDR9Qo.png" class="learn" >}}</a>
 <a href="https://youtu.be/h72NVKYru0Y">{{< image src="/images/post/h72NVKYru0Y.png" class="learn" >}}</a>
 <a href="https://youtu.be/cyNarSvc0mY">{{< image src="/images/post/cyNarSvc0mY.png" class="learn" >}}</a>
+
+### Hybrid HPC
+
+<a href="https://youtu.be/CEP3j7tYUj8">{{< image src="/images/post/CEP3j7tYUj8.png" class="learn" >}}</a>
+<a href="https://youtu.be/Q1Rdc-77bSc">{{< image src="/images/post/Q1Rdc-77bSc.png" class="learn" >}}</a>
+<a href="https://youtu.be/6GBfD3Wi0Jk">{{< image src="/images/post/6GBfD3Wi0Jk.png" class="learn" >}}</a>
+
+### HPC for government customers
+
+We've put up a [new series of short tutorials](https://www.youtube.com/playlist?list=PL6tstO5J3TREBNz6VyZhJ2v8OBwysjelz) designed to help government customers get their head around HPC on AWS from their point of view.
+
+<a href="https://www.youtube.com/playlist?list=PL6tstO5J3TREBNz6VyZhJ2v8OBwysjelz">{{< image src="/images/govt/hpc4gov-playlist.png" class="learn" >}}</a>
+<a href="https://youtu.be/BN6EOprKkq8">{{< image src="/images/govt/hpc4gov-one.png" class="learn" >}}</a>
+<a href="https://youtu.be/qd4_BsSdvL0">{{< image src="/images/govt/hpc4gov-two.png" class="learn" >}}</a>
+<a href="https://youtu.be/iwlvwDgkRJs">{{< image src="/images/govt/hpc4gov-three.png" class="learn" >}}</a>
+<a href="https://youtu.be/IKi5zUYTOLE">{{< image src="/images/govt/hpc4gov-four.png" class="learn" >}}</a>
+<a href="https://youtu.be/XB437mZlsG4">{{< image src="/images/govt/hpc4gov-five.png" class="learn" >}}</a>
 
 ---
 
