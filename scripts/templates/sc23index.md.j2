@@ -1,0 +1,70 @@
+---
+# title: "SC'23 Denver, AWS Booth #1001 Theater and Demo Schedule"
+# description
+description: "Run your large, complex simulations and deep learning workloads in the cloud with a complete suite of #HPC products and services on AWS. Visit AWS at #SC23 at booth 1001."
+draft: false
+---
+
+![image](/AWS-at-SC23-banner.png)
+<p>
+<h2>Find a talk, community event, or a demo, and get a reminder in your calendar so you don't forget!</h2>
+
+{% include 'sc23nav.md.j2' %}
+
+{% for day, station in data.items() %}
+<a style="font-size: 24px; font-weight: bold; padding-top: 120px; margin-top: -120px;" name="{{ day }}">{{ day }}</a>
+<hr>
+{% raw %}{{< tabs >}}{% endraw %}
+{% for station_name, events in station.items() %}
+{% raw %}{{< tab "{% endraw %}{{ station_name }}{% raw %}" >}}{% endraw %}
+<div class="container-fluid">
+{% for e in events %}
+<div class="row border">
+    <div class="col-sm-2">{{ e.range }}</div>
+    <div class="col-md-10">
+    {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
+
+<p>{{ e.speaker }}, {{e.speaker_affiliation}}</p>
+<p>{{ e.abstract }}</p>
+<a href="/sc23/{{ e.ical_filename }}" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+    {% raw %}{{</ expando >}}{% endraw %}
+    </div>
+</div>
+{% endfor %}
+</div>
+{% raw %}{{< /tab >}}{% endraw %}
+{% endfor %}
+{% raw %}{{< /tabs >}}{% endraw %}
+{% endfor %}
+
+{% include 'sc23nav.md.j2' %}
+
+{% for topic in topics -%}
+<a style="font-size: 24px; font-weight: bold; padding-top: 120px; margin-top: -120px;" name="{{ topic }}">{{ topic }}</a>
+<div class="container-fluid">
+{% for day, station in data.items() -%}
+{% for station_name, events in station.items() -%}
+{% for e in events if topic in e['topics'] -%}
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {% raw %}{{< expando{% endraw %} "{{ e.title }}" {% raw %}>}}{% endraw %}
+
+<p><b>Summary</b>: {{ e.abstract }}</p>
+<a href="/sc23/{{ e.ical_filename }}" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {% raw %}{{</ expando >}}{% endraw %}
+            </div>
+            <div class="col-md-4">{{ e.speaker }}, {{ e.speaker_affiliation }}</div>
+            <div class="col-md-2" style="font-weight: bold;">{{ e.day_of_week }} {{ e.range }} &#64; {{ e.location }}</div>
+        </div>
+    </div>
+</div>
+{% endfor -%}
+{% endfor -%}
+{% endfor -%}
+</div>
+{% include 'sc23nav.md.j2' %}
+{% endfor -%}
