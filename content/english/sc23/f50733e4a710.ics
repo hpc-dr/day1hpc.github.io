@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:HDF5 BoF: Building on 25 Years of Success
+DTSTART;TZID=America/Denver:20231115T171500
+DTEND;TZID=America/Denver:20231115T184500
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=bof212&sess=s
+ ess354 Rm 401-402
+LOCATION:Rm 401-402
+END:VEVENT
+END:VCALENDAR
