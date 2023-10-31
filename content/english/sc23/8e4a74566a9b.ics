@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Best Practices of HPC in the Cloud
+DTSTART;TZID=America/Denver:20231113T083000
+DTEND;TZID=America/Denver:20231113T170000
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=tut144&sess=s
+ ess238 Rm 205
+LOCATION:AWS Booth #1001\; Community Event
+END:VEVENT
+END:VCALENDAR

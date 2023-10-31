@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Arm HPC User Group BoF 
+DTSTART;TZID=America/Denver:20231114T171500
+DTEND;TZID=America/Denver:20231114T184500
+DESCRIPTION:This BoF brings together the Arm HPC community to discuss expe
+ riences and lessons learnt in delivering and operating Arm-based HPC syste
+ ms. The topic of Arm HPC ecosystem maturity has been extensively discussed
+ \, focusing especially on the upper part of the stack (compiler\, librarie
+ s\, applications). This BoF focuses instead on the other side of the coin 
+ with a focus on administration and management of systems. Primed by a shor
+ t opening session from well-recognized experts in the community\, the host
+  and panel will engage attendees to share and ask probing questions. Audie
+ nce participation is strongly encouraged.
+LOCATION:AWS Booth #1001\; SC
+END:VEVENT
+END:VCALENDAR

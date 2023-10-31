@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Solving Optimization Problems Using Near Term Quantum Devices - Am
+ azon Braket tutorial
+DTSTART;TZID=America/Denver:20231113T083000
+DTEND;TZID=America/Denver:20231113T120000
+DESCRIPTION:Quantum computing specialists from the Amazon Braket team Rm 4
+ 06
+LOCATION:Rm 406
+END:VEVENT
+END:VCALENDAR

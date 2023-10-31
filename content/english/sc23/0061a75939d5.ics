@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:SIGHPC/CaRCC Lucky Strike Bowling
+DTSTART;TZID=America/Denver:20231112T180000
+DTEND;TZID=America/Denver:20231112T200000
+DESCRIPTION:https://sighpc-syspros.org/social/ Lucky Strike bowling500 16t
+ h St Mall #340Denver\, CO 80202
+LOCATION:Lucky Strike bowling500 16th St Mall #340Denver\, CO 80202Communi
+ ty Event
+END:VEVENT
+END:VCALENDAR

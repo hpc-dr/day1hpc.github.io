@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Integrating Cloud Infrastructure with Large Scale HPC Environments
+DTSTART;TZID=America/Denver:20231115T121500
+DTEND;TZID=America/Denver:20231115T131500
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=bof222&sess=s
+ ess342 Rm 205-207
+LOCATION:Rm 205-207Community Event
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Women in HPC networking reception
+DTSTART;TZID=America/Denver:20231114T180000
+DTEND;TZID=America/Denver:20231114T210000
+DESCRIPTION:Details: https://womeninhpc.org/events/sc-2023-networking-rece
+ ption The Curtis Hotel
+LOCATION:AWS Booth #1001\; Demo The Curtis Hotel
+END:VEVENT
+END:VCALENDAR

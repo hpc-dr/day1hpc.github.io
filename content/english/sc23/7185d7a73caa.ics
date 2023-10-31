@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Women in HPC Workshop
+DTSTART;TZID=America/Denver:20231113T090000
+DTEND;TZID=America/Denver:20231113T170000
+DESCRIPTION:Agenda: https://womeninhpc.org/events/sc-2023-workshop Rm 710
+LOCATION:AWS Booth #1001\; Community Event
+END:VEVENT
+END:VCALENDAR

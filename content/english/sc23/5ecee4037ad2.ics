@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Zero to Hero: Conquering the Arm Neoverse (Arm HPC User group tuto
+ rial)
+DTSTART;TZID=America/Denver:20231113T083000
+DTEND;TZID=America/Denver:20231113T120000
+DESCRIPTION:Developers from Arm\, AWS\, and NVIDIA Rm 407
+LOCATION:AWS Booth #1001\; Demo Rm 407
+END:VEVENT
+END:VCALENDAR

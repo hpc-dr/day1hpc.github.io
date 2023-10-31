@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Amazon Braket: The quantum computing service of AWS
+DTSTART;TZID=America/Denver:20231116T140000
+DTEND;TZID=America/Denver:20231116T150000
+DESCRIPTION:Amazon Braket helps organizations get access to quantum comput
+ ing hardware and simulators so they can speed up their scientific research
+  and software development for quantum computing. This session shows short 
+ tutorials and shares how to run quantum circuits using real gate-based dev
+ ices and simulators. Learn how to run your first quantum machine learning 
+ algorithm using Amazon Braket Hybrid Jobs. Along the way\, explore Amazon 
+ Braket’s features\, see examples from the AWS quantum algorithm library\
+ , and get your questions answered.
+LOCATION:AWS Booth #1001 | Theatre @ SC'23 DenverAWS Theater
+END:VEVENT
+END:VCALENDAR

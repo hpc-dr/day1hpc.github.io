@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Spack Community BoF
+DTSTART;TZID=America/Denver:20231116T121500
+DTEND;TZID=America/Denver:20231116T131500
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=bof196&sess=s
+ ess346 205-207
+LOCATION:205-207Community Event
+END:VEVENT
+END:VCALENDAR

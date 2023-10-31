@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:My laptop has 50\,000 cores: Spinning up serious infrastructure wi
+ th ease
+DTSTART;TZID=America/Denver:20231114T130000
+DTEND;TZID=America/Denver:20231114T140000
+DESCRIPTION:Join this session to learn how organizations across different 
+ fields—from EDA to drug design—have been using AWS to scale and improv
+ e their R&D. Learn how to create a real\, large\, and very complete cluste
+ r in a few minutes using AWS HPC services\, including AWS ParallelCluster\
+ , Amazon FSx for Lustre\, and visualization with NICE DCV. Find out how to
+  customize compute images to include applications and development tools\, 
+ and discover how to integrate with Spack for reliable deployment of open s
+ ource packages.
+LOCATION:AWS Booth #1001 | Theatre @ SC'23 DenverTheater
+END:VEVENT
+END:VCALENDAR

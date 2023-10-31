@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Zero to Hero: Conquering the Arm Neoverse (Arm HPC User group tuto
+ rial)
+DTSTART;TZID=America/Denver:20231113T083000
+DTEND;TZID=America/Denver:20231113T120000
+DESCRIPTION:Arm technology has increasingly become a compelling choice for
+  HPC due to its promise of higher efficiency\, density\, scalability\, and
+  broad ecosystem of software. Arm expansion in the datacentre started in 2
+ 018 with Arm Neoverse\, a set of infrastructure CPU IPs designed for high-
+ end computing. The Arm-based Fugaku supercomputer\, first of its kind impl
+ ementing Arm SVE instruction set\, entered the Top 500 in June 2020 scorin
+ g at the top and retaining a leadership position over the years not only i
+ n HPL but also for HPCG (where it is still unbeaten). This event has been 
+ a wake-up call for the HPC community. The datacentre and HPC space have lo
+ ng been dominated by x86 CPUs. There is a growing interest in diversifying
+  and exploring new architectures to re-create a vibrant and diverse ecosys
+ tem of architectures as it was more than a decade ago. Arm technology is a
+ t the forefront of this wave of change. This tutorial welcomes scientists 
+ and engineers interested in running a variety of workloads on a Arm-based 
+ system\, either on-premises or in the cloud. The tutorial will guide the a
+ ttendee through compile\, execute\, profile and optimize codes for Arm to 
+ demystify those claims that changing CPU architecture is hard.
+LOCATION:AWS Booth #1001\; C
+END:VEVENT
+END:VCALENDAR

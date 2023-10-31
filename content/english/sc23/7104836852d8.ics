@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AWS/NVIDIA Networking Reception
+DTSTART;TZID=America/Denver:20231114T193000
+DTEND;TZID=America/Denver:20231114T223000
+DESCRIPTION:https://awsxnvidiareception.splashthat.com/ Hilton Denver City
+  Center
+LOCATION:Hilton Denver City CenterCommunity Event
+END:VEVENT
+END:VCALENDAR

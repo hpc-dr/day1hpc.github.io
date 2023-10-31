@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Cooking up advanced HPC with community recipes
+DTSTART;TZID=America/Denver:20231115T120000
+DTEND;TZID=America/Denver:20231115T130000
+DESCRIPTION:HPC systems deployed on AWS often rely on various resources li
+ ke file systems\, networking\, and directory services. Despite AWS Paralle
+ lCluster’s automation capabilities\, setting up and integrating these de
+ pendencies can become complex if you have a lot of custom requirements. In
+  this session\, walk through how the new HPC Recipes for AWS library simpl
+ ifies this process. Then\, learn how to create a multi-user environment\, 
+ configure shared storage\, set up a budget\, and deploy a benchmarking clu
+ ster with just a few clicks in the AWS Management Console. Finally\, disco
+ ver how to combine\, modify\, and reuse these recipes to meet your particu
+ lar needs—without needing to be an AWS expert.
+LOCATION:AWS Booth #1001\; Theater
+END:VEVENT
+END:VCALENDAR

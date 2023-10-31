@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:MPICH BoF: A High Performance Open-Source MPI Implementation
+DTSTART;TZID=America/Denver:20231115T171500
+DTEND;TZID=America/Denver:20231115T184500
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=bof110&sess=s
+ ess385 Rm 605
+LOCATION:Rm 605
+END:VEVENT
+END:VCALENDAR

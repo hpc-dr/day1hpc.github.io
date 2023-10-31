@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Arm HPC User Group BoF 
+DTSTART;TZID=America/Denver:20231114T171500
+DTEND;TZID=America/Denver:20231114T184500
+DESCRIPTION:Agenda: https://sc23.supercomputing.org/presentation/?id=bof12
+ 0&sess=sess350 Rm 407
+LOCATION:AWS Booth #1001\; Community Event
+END:VEVENT
+END:VCALENDAR

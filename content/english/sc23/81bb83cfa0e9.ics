@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Open MPI BoF: State of the Union
+DTSTART;TZID=America/Denver:20231115T121500
+DTEND;TZID=America/Denver:20231115T131500
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=bof113&sess=s
+ ess362 Rm 405-406-407
+LOCATION:AWS Booth #1001\; Community Event
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:MPI Forum BoF: Introducing MPI 4.1\, the Newest Version of the MPI
+  standard
+DTSTART;TZID=America/Denver:20231114T121500
+DTEND;TZID=America/Denver:20231114T131500
+DESCRIPTION:https://sc23.supercomputing.org/presentation/?id=bof126&sess=s
+ ess339 Rm 205-207
+LOCATION:AWS Booth #1001\; Community Event
+END:VEVENT
+END:VCALENDAR

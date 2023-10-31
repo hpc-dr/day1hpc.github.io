@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Fourth International Workshop on Quantum Computing Software
+DTSTART;TZID=America/Denver:20231113T090000
+DTEND;TZID=America/Denver:20231113T173000
+DESCRIPTION:https://sc23.supercomputing.org/session/?sess=sess446 Rm 603
+LOCATION:Rm 603Community Event
+END:VEVENT
+END:VCALENDAR

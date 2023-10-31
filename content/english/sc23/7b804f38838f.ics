@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Deploy & use a petabyte of Lustre storage faster than making a cof
+ fee
+DTSTART;TZID=America/Denver:20231114T150000
+DTEND;TZID=America/Denver:20231114T160000
+DESCRIPTION:Amazon FSx for Lustre helps you deploy high-performance Lustre
+  systems in just a few clicks and has capabilities that most traditional s
+ torage systems lack—think of processing hundreds of gigabytes per second
+  of throughput without months of planning\, logistics\, and testing. In th
+ is session\, learn how to spin up a large-scale and fast Lustre file syste
+ m in less time than it takes to make a coffee. Then\, discover how it can 
+ synchronize with massive datasets in object storage and how you can choose
+  from different classes of storage performance and price to match your org
+ anization’s needs. Finally\, learn how you can use Amazon File Cache to 
+ deploy Lustre as a massively parallel cloud cache for storage systems in y
+ our own data centers and how this can be a useful tool for creating hybrid
+  facilities that speed up your users’ time to results.
+LOCATION:AWS Booth #1001 | Theatre @ SC'23 DenverAWS Theater
+END:VEVENT
+END:VCALENDAR

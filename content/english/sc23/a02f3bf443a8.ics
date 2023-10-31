@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Women in HPC Workshop
+DTSTART;TZID=America/Denver:20231113T090000
+DTEND;TZID=America/Denver:20231113T170000
+DESCRIPTION:The WHPC workshop aims to raise awareness and address issues a
+ round diversity and inclusion within the HPC community and workforce. Lack
+  of diversity in the workforce is a challenge that the entire supercomputi
+ ng industry faces. Research shows that diverse teams have increased produc
+ tivity\, creativity\, problem-solving\, and scientific output. Thus\, addr
+ essing the lack of diversity should be as important to the community as re
+ aching exascale. The HPC community is only just beginning to measure how 
+ ‘leaky’ our pipeline is\; particularly for women\, attrition rates lik
+ ely align with the general tech community figures: 41% of women working in
+  tech eventually end up leaving the field (compared to just 17% of men).\n
+ \nTraditionally\, our workshop series has focused on gender diversity and 
+ issues primarily facing women. This year\, we aim to increase the emphasis
+  on diversity and inclusion of both women and men from underrepresented gr
+ oups. This workshop is a key step in addressing one aspect of the underrep
+ resentation of various minorities: helping to retain diverse employees in 
+ the field and providing them with the tools to prosper and excel.\n
+LOCATION:AWS Booth #1001\; SC
+END:VEVENT
+END:VCALENDAR

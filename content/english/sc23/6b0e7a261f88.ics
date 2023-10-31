@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AWS Networking reception
+DTSTART;TZID=America/Denver:20231114T183000
+DTEND;TZID=America/Denver:20231114T203000
+DESCRIPTION:https://awsatsc23.splashthat.com/ Henry's Tavern
+LOCATION:Henry's TavernCommunity Event
+END:VEVENT
+END:VCALENDAR

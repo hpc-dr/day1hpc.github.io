@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Amazon Braket Tutorial ("Solving Optimization Problems Using Near 
+ Term Quantum Devices") 
+DTSTART;TZID=America/Denver:20231113T083000
+DTEND;TZID=America/Denver:20231113T120000
+DESCRIPTION:Optimization problems are among the most promising quantum app
+ lications that combine the use of quantum processor and classical processo
+ rs. This tutorial is aimed at teaching the participants to solve optimizat
+ ion problems using two distinct quantum computing paradigms: (i) hybrid qu
+ antum-classical algorithms using gate-based systems\, and (ii) neutral ato
+ m analog Hamiltonian simulations device. In gate-based systems\, a paramet
+ erized quantum circuit is designed which is then used to compute value of 
+ an objective function and iteratively optimize via classical optimization 
+ algorithms. Such hybrid algorithms rely on rapid iterative computations of
+  quantum and classical processors\, requiring regular sharing of data betw
+ een them. The analog Hamiltonian simulation quantum device comprises of an
+  array of two-level neutral Rydberg atoms with ground state and excited Ry
+ dberg state. The atoms can be arranged in any 1D or 2D geometry and initia
+ lly prepared in the ground state. The parameters of the driving Hamiltonia
+ n are then adiabatically varied and the state of each neutral atom is meas
+ ured which represents the final solution. The tutorial will provide introd
+ uction to quantum computing and demonstrate the aforementioned solutions u
+ sing hand-on sessions provided via free cloud access to quantum hardware.
+LOCATION:AWS Booth #1001\; Demo C
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Combining generative AI with physics to simulate millions of uniqu
+ e engineering designs
+DTSTART;TZID=America/Denver:20231115T140000
+DTEND;TZID=America/Denver:20231115T150000
+DESCRIPTION:The generative capability of AI holds significant promise acro
+ ss a diverse range of industries fueled by engineering design\, such as au
+ tomotive\, motor sports\, and aerospace. In this session\, discover how to
+  create a pipeline that uses generative AI designs to feed conventional ph
+ ysics-based simulations\, and learn how to loop all of this to create a co
+ nverging\, rapid design process for exploring new design concepts starting
+  from a single image. Learn how to use open source frameworks to create di
+ gital twins\, deploy OpenFOAM in containers for the simulations\, and use 
+ serverless tools coupled with AWS Batch to drive all this at scale.
+LOCATION:AWS Booth #1001 | Theatre @ SC'23 DenverAWS Theater
+END:VEVENT
+END:VCALENDAR

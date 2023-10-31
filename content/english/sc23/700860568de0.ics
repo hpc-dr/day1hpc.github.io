@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Building secure HPC environments with AWS ParallelCluster
+DTSTART;TZID=America/Denver:20231114T160000
+DTEND;TZID=America/Denver:20231114T170000
+DESCRIPTION:HPC systems and workloads have their own unique set of securit
+ y challenges. Running these workloads on AWS can help you address these ch
+ allenges in new ways and with this freedom comes the ability to choose dif
+ ferent solutions based on your organization’s unique needs. In this sess
+ ion\, walk through a traditional HPC security scenario and discover differ
+ ent approaches you can take to address these challenges. Find out how the 
+ AWS secure-by-design architecture helps take care of common security chall
+ enges\, and learn best practices for building secure HPC environments on A
+ WS. When you’re done\, you’ll understand how your cloud infrastructure
+  can be even more secure than your data centers.
+LOCATION:AWS Booth #1001 | Theatre @ SC'23 DenverTheater
+END:VEVENT
+END:VCALENDAR

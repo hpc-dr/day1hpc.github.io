@@ -16,7 +16,7 @@ from typing import Dict, List
 
 SELF = os.path.realpath(__file__)
 PARENT_DIR = os.path.dirname(__file__)
-POSTS_DIR = os.path.join(os.path.dirname(PARENT_DIR), "content", "english", "sc22")
+POSTS_DIR = os.path.join(os.path.dirname(PARENT_DIR), "content", "english", "sc23")
 IMAGE_ASSETS = os.path.join(os.path.dirname(PARENT_DIR), "assets")
 IMAGE_ASSETS_SUBDIR = os.path.join("images", "post")
 FILENAME = "index.md"
@@ -26,28 +26,32 @@ def short_hash(value: str, length=12) -> str:
 
 def to_station_name(station) -> str:
     if station == 'T':
-        return 'Theater'
+        return 'AWS Theater'
+    elif station == 'C':
+        return "SC23"
     else:
         return 'Demo ' + str(station)
 
 def to_ical(row) -> object:
 
-    start_time = row['Date'] + '-2022' + ' ' + row['Start']
-    end_time = row['Date'] + '-2022' + ' ' + row['End']
+    start_time = row['Date'] + '-2023' + ' ' + row['Start']
+    end_time = row['Date'] + '-2023' + ' ' + row['End']
     start_dt = datetime.strptime(start_time, '%d-%b-%Y %H:%M')
     end_dt = datetime.strptime(end_time, '%d-%b-%Y %H:%M')
-    timezone = pytz.timezone("America/Chicago")
+    timezone = pytz.timezone("America/Denver")
     start_dt = timezone.localize(start_dt)
     end_dt = timezone.localize(end_dt)
     cal = Calendar()
-    cal.add('prodid', '-//AWS Booth #2425 Schedule//aws.dev//')
+    cal.add('prodid', '-//AWS Booth #1001 Schedule//aws.dev//')
     cal.add('version', '2.0')
     event = Event()
     event.add('summary', row['Title'])
     event.add('description', row['Abstract'])
     event.add('dtstart', start_dt)
     event.add('dtend', end_dt)
-    event['location'] = vText('AWS Booth #2425; ' + to_station_name(row['Station']))
+    # event['location'] = vText('AWS Booth #1001; ' + to_station_name(row['Station']))
+    # event['location'] = vText(row['Cal_Loc'] + to_station_name(row['Station']))
+    event['location'] = vText(row['Cal_Loc'])
     cal.add_component(event)
     return cal
 
@@ -110,11 +114,11 @@ def main(values):
     environment = Environment(
         loader=FileSystemLoader(os.path.join(PARENT_DIR, "./templates/"))
     )
-    template = environment.get_template("sc22index.md.j2")
+    template = environment.get_template("sc23index.md.j2")
 
     data = OrderedDict()
     topics_master_list = []
-    navs = ["Tuesday", "Wednesday", "Thursday"]
+    navs = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
 
     with open(values.csv.name, encoding='utf-8-sig') as csv_file:
         csv_reader = csv.DictReader(csv_file, delimiter=",")

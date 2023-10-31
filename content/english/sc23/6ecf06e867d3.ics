@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:rescale: 2nd Annual Future of HPC Mixer
+DTSTART;TZID=America/Denver:20231115T183000
+DTEND;TZID=America/Denver:20231115T210000
+DESCRIPTION:https://rescale.com/lp/sc23-hpc-mixer/ Hilton @ Denver City Ce
+ nter
+LOCATION:Hilton @ Denver City CenterCommunity Event
+END:VEVENT
+END:VCALENDAR

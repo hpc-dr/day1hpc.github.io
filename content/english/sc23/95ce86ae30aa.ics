@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Women in HPC networking reception
+DTSTART;TZID=America/Denver:20231114T180000
+DTEND;TZID=America/Denver:20231114T210000
+DESCRIPTION:Women in HPC is pleased to be returning with our Networking Re
+ ception on Tuesday\, November 14th from 6:00 – 9:00 PM at The Curtis Hot
+ el\, Denver!  We are currently in the final stages of planning!\n\nTickets
+  to the event will be free and registration opens October 31\, 2023.  Clic
+ k here to set a reminder.\n\nThanks to the contribution of Alces Flight th
+ ere will be a limited number of gift bags available for reception attendee
+ s.  Gift bags will be distributed first come\, first serve\, so please arr
+ ive at the start of the event to avoid disappointment.\n\nWe look forward 
+ to seeing you there!\n
+LOCATION:AWS Booth #1001\; C
+END:VEVENT
+END:VCALENDAR

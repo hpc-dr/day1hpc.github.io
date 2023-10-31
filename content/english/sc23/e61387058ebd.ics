@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Welcome to Denver happy hour\, sponsored by AWS\, Arm\, and NVIDIA
+DTSTART;TZID=America/Denver:20231112T190000
+DTEND;TZID=America/Denver:20231112T220000
+DESCRIPTION:Wynkoop Brewing (Mercantile Room) 1634 18th St\nDenver\, CO 80
+ 202\nArm\, AWS\, and NVIDIA
+LOCATION:Wynkoop Brewing (Mercantile Room) 1634 18th St\nDenver\, CO 80202
+ Community Event
+END:VEVENT
+END:VCALENDAR
