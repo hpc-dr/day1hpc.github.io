@@ -9698,6 +9698,22 @@ At the intersection of science and technology, Clovertex is a systems integrator
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
+            {{< expando "Zero to Hero: Conquering the Arm Neoverse (Arm HPC User group tutorial)" >}}
+
+<p><b>Summary</b>: Developers from Arm, AWS, and NVIDIA Rm 407</p>
+<a href="/sc23/8692fddc66a1.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Developers from Arm, AWS, and NVIDIA, </div>
+            <div class="col-md-2" style="font-weight: bold;">Monday 8:30-12:00 &#64; SC23</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
             {{< expando "Solving Optimization Problems Using Near Term Quantum Devices - Amazon Braket tutorial" >}}
 
 <p><b>Summary</b>: Quantum computing specialists from the Amazon Braket team Rm 406</p>
