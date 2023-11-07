@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:DXC hybrid cloud with AWS
+DTSTART;TZID=America/Denver:20231114T100000
+DTEND;TZID=America/Denver:20231114T120000
+DESCRIPTION:Using real life examples and use cases\, DXC explains how trad
+ itional on-premises models of HPC can be transformed by the introduction o
+ f AWS Cloud. In this session\, learn the merits of hybrid compute and how 
+ to manage the transition to a successful managed solution.
+LOCATION:AWS Booth #1001 | Pod 6 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

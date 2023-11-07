@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:HPC made easy on AWS with UCit solutions
+DTSTART;TZID=America/Denver:20231115T100000
+DTEND;TZID=America/Denver:20231115T120000
+DESCRIPTION:UCit's solutions on AWS ParallelCluster can help you create cu
+ stom clusters on AWS for Hybrid operations. In this session\, learn how yo
+ u can benefit from workstation fleets integration and seamless pre- and po
+ st-processing applications for both Linux and Windows fleets. OKA Cloud is
+  included to increase efficiency\, limit waste\, and provide powerful insi
+ ghts on cluster usage\, performance\, and costs.
+LOCATION:AWS Booth #1001 | Pod 6 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

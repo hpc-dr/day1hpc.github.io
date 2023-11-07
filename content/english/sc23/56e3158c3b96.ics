@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Rescale HTC platform for semiconductor\, manufacturing\, and pharm
+ a
+DTSTART;TZID=America/Denver:20231114T120000
+DTEND;TZID=America/Denver:20231114T160000
+DESCRIPTION:High-throughput computing (HTC) is emerging as a powerful capa
+ bility for engineering and research across many industries. From drug disc
+ overy and computational chemistry to electronic design automation (EDA) an
+ d environmental research\, HTC is helping scientific and engineering teams
+  perform massively parallel processing to quickly analyze vast quantities 
+ of information for solving some of the world‚Äôs most complex scientif
+ ic and engineering challenges. In this demo\, see how companies like Arm u
+ se the Rescale HTC platform powered by services like AWS Batch and AWS Gra
+ viton3E-based Amazon EC2 instances to run large-scale analyses for semicon
+ ductor design.
+LOCATION:AWS Booth #1001 | Pod 11 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

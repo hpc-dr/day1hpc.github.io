@@ -9,10 +9,10 @@ DESCRIPTION:Amazon Braket helps organizations get access to quantum comput
  ing hardware and simulators so they can speed up their scientific research
   and software development for quantum computing. This session shows short 
  tutorials and shares how to run quantum circuits using real gate-based dev
- ices and simulators. Learn how to run your first quantum machine learning 
- algorithm using Amazon Braket Hybrid Jobs. Along the way\, explore Amazon 
- Braket’s features\, see examples from the AWS quantum algorithm library\
- , and get your questions answered.
+ ices and simulators. Learn how to run your first quantum AI algorithm usin
+ g Amazon Braket Hybrid Jobs. Along the way\, explore Amazon Braket’s fea
+ tures\, see examples from the AWS quantum algorithm library\, and get your
+  questions answered.
 LOCATION:AWS Booth #1001 | Theatre @ SC'23 Denver
 END:VEVENT
 END:VCALENDAR

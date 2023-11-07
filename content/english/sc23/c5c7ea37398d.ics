@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Simcenter Cloud HPC: Accessible\, flexible\, and scalable HPC for 
+ simulation
+DTSTART;TZID=America/Denver:20231116T100000
+DTEND;TZID=America/Denver:20231116T130000
+DESCRIPTION:\nIn this demo\, see [RS1] how you can run CFD simulations in 
+ the cloud in just a few clicks. Simcenter Cloud HPC integrates Simcenter s
+ oftware with AWS Cloud infrastructure\, delivering turnkey HPC as a servic
+ e from a single platform. This cloud-based HPC solution frees engineers fr
+ om the overhead of managing hardware and configuring infrastructure. It pr
+ ovides instant access to a vast pool of HPC resources without needing cost
+ ly onsite clusters or queueing for HPC clusters to become available. Explo
+ re this comprehensive simulation solution that includes remote desktop‚
+ Äìbased authoring\, allowing you to access Simcenter STAR-CCM+ from anyw
+ here at any time using a web browser. With no need for local installations
+ \, you can set up\, conduct\, and post-process your simulations in the clo
+ ud.
+LOCATION:AWS Booth #1001 | Pod 6 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Powering hybrid cloud workloads with YellowDog and AWS
+DTSTART;TZID=America/Denver:20231114T100000
+DTEND;TZID=America/Denver:20231114T120000
+DESCRIPTION:Compute availability is the biggest challenge with most worklo
+ ads (including AI and ML) now chasing constrained global capacity. The imp
+ erative is to think and act quickly to get what you need but be smart\, be
+  efficient\, and reduce risk. On-premises resources are still very much pa
+ rt of the equation\, and\, combined with the huge global cloud footprint o
+ f AWS\, YellowDog uniquely enables workload portability at scale efficient
+ ly and cost effectively\, reducing operational risk and accelerating insig
+ ht.
+LOCATION:AWS Booth #1001 | Pod 10 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

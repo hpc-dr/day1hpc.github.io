@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:IonQ QPUs for Amazon Braket and new features
+DTSTART;TZID=America/Denver:20231115T120000
+DTEND;TZID=America/Denver:20231115T140000
+DESCRIPTION:During this demo\, discover IonQ‚Äôs offerings tailored fo
+ r Amazon Braket customers. Delve into IonQ‚Äôs roadmap and upcoming ar
+ chitectures\, Forte and Tempo. Explore new features like debiasing and sha
+ rpening\, and see a brief hands-on demo of initiating Amazon Braket with I
+ onQ‚Äôs QPU backends.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

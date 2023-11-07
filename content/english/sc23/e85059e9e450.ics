@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Enabling engineering workloads with Ansys Gateway powered by AWS
+DTSTART;TZID=America/Denver:20231115T140000
+DTEND;TZID=America/Denver:20231115T180000
+DESCRIPTION:Migrating engineering workloads like CAE simulation to cloud-b
+ ased HPC has been a challenge for many AWS users. In this demo\, learn how
+  Ansys Gateway powered by AWS offers an easy workflow to deploy virtual de
+ sktops and virtual clusters with your selected Ansys applications installe
+ d\, configured\, and tuned for optimal performance. This is deployed in yo
+ ur own AWS environment\, giving you the improved data control and affordab
+ ility. Come see how this service can help accelerate your engineering work
+ loads with the power of Ansys and AWS HPC.
+LOCATION:AWS Booth #1001 | Pod 12 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

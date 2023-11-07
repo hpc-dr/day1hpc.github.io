@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Scaling AI and generative AI workloads with Covalent
+DTSTART;TZID=America/Denver:20231115T120000
+DTEND;TZID=America/Denver:20231115T140000
+DESCRIPTION:As focus shifts from data-centric to compute-intensive tasks\,
+  many traditional cloud tools struggle to maintain efficiency and scalabil
+ ity. Built on AWS\, Covalent provides developer-friendly abstractions for 
+ high-compute workloads. Users can integrate their own AWS Batch jobs for c
+ omputing while Covalent takes care of orchestration to maintain data priva
+ cy. The framework harnesses AWS services such as Amazon SQS\, Amazon Event
+ Bridge\, and AWS Lambda to enhance scalability and cost-efficiency. Covale
+ nt optimizes costs and simplifies development\, making compute-intensive t
+ asks feel like an extension of one‚Äôs local laptop. This demo delves 
+ into Covalent‚Äôs unique positioning in meeting the demands of high-co
+ mpute developments\, including large language models (AIs) and generative 
+ AI.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

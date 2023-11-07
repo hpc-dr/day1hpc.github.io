@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Supercomputing on AWS with RONIN: It's not complicated[YK1]
+DTSTART;TZID=America/Denver:20231116T100000
+DTEND;TZID=America/Denver:20231116T130000
+DESCRIPTION:RONIN is a one-stop shop for self-service cloud management. It
+  helps businesses migrate critical and expensive business functions\, such
+  as storage management\, desktop virtualization\, and HPC footprint\, to a
+  more flexible\, secure\, and efficient AWS architecture. RONIN can assist
+  you in scaling up to a fleet of HPC supercomputers to meet the demands of
+  your business\, and most importantly\, scale them back down when you no l
+ onger require the compute power that AWS and RONIN provide. In this demons
+ tration\, learn how RONIN can help you stay compliant with regulations\, a
+ utomate tasks\, and provide a single pane of glass experience for a better
+  view of your operations.
+LOCATION:AWS Booth #1001 | Pod 4 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:HPC and AI with AWS Graviton3
+DTSTART;TZID=America/Denver:20231116T120000
+DTEND;TZID=America/Denver:20231116T150000
+DESCRIPTION:AWS Arm-based Graviton3 instances provide high performance for
+  HPC and AI while delivering cost and energy savings. Running on Arm insta
+ nces is straightforward and supported by open source and major commercial 
+ applications. In this demonstration\, explore the performance\, scalabilit
+ y\, and simplicity of HPC and AI on Arm.
+LOCATION:AWS Booth #1001 | Pod 10 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

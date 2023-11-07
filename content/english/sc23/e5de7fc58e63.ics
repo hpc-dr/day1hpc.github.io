@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Bloqade: Capably emulating & operating neutral-atom quantum comput
+ ers
+DTSTART;TZID=America/Denver:20231115T150000
+DTEND;TZID=America/Denver:20231115T160000
+DESCRIPTION:This demo introduces QuEra and Bloqade\, an SDK and emulator f
+ or neutral-atom quantum computing. See its success in adoption\, some of i
+ ts features relevant for high performance computing (such as multi-threadi
+ ng and GPU)\, and its general functionality and pipeline for operating rea
+ l QPUs.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

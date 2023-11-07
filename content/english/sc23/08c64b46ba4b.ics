@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Do IT Now‚Äôs cloud migration of Sanofi‚Äôs WISE platform 
+ and data
+DTSTART;TZID=America/Denver:20231114T120000
+DTEND;TZID=America/Denver:20231114T130000
+DESCRIPTION:Sanofi opted to shift from on-premises infrastructure to Amazo
+ n Web Services (AWS) for its business-critical WISE platform (200+ servers
+ )\, to mitigate risk and enhance performance. Join this session to learn h
+ ow this cloud migration allowed for increased agility\, better user-centri
+ c services\, and substantial computational power for emerging applications
+  like genomics and AI algorithms. The move aimed to minimize downtime\, en
+ sure stability\, and meet the escalating demands of thousands of users\, a
+ verting potential business repercussions.
+LOCATION:AWS Booth #1001 | Pod 7 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

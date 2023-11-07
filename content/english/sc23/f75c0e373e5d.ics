@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:How quantum infrastructure software is delivering business advanta
+ ge 
+DTSTART;TZID=America/Denver:20231113T190000
+DTEND;TZID=America/Denver:20231113T210000
+DESCRIPTION:Companies and talent alike are catching on to quantum computin
+ g. Companies are racing to build quantum computers with the most qubits\, 
+ and people\, from business leaders to students and job seekers\, are looki
+ ng to join the industry. However\, a challenge is that today‚Äôs quant
+ um computers are noisy and prone to error\, which affects the accuracy of 
+ everything they attempt to do. This is what Q-CTRL is solving. Q-CTRL‚Ä
+ ôs mission is to make quantum technology useful. This demo showcases how 
+ Q-CTRL infrastructure software is delivering business advantage from quant
+ um computing. Q-CTRL builds commercial-ready\, quantum control and error r
+ eduction products available on the AWS Marketplace and integrated with Ama
+ zon Braket.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

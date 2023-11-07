@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Accelerate HPC workloads with Amazon EC2\, powered by AMD EPYC pro
+ cessors
+DTSTART;TZID=America/Denver:20231114T100000
+DTEND;TZID=America/Denver:20231114T140000
+DESCRIPTION:Amazon EC2 Hpc7a instances\, powered by fourth-generation AMD 
+ EPYC processors\, deliver up to 2.5 times better performance compared to A
+ mazon EC2 Hpc6a instances. Hpc7a instances feature 2 times higher core den
+ sity (up to 192 cores)\, 2.1 times higher memory bandwidth throughput\, 2 
+ times memory (768 GB)\, and 3 times higher network bandwidth compared to H
+ pc6a instances. In this demonstration\, explore how Hpc7a instances are de
+ signed to run your tightly coupled HPC workloads\, such as computational f
+ luid dynamics\, weather forecasting\, and multiphysics simulations\, with 
+ better performance.
+LOCATION:AWS Booth #1001 | Pod 5 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

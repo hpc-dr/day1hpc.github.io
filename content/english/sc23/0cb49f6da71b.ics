@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:BlueQubit: A simple way to run quantum
+DTSTART;TZID=America/Denver:20231113T190000
+DTEND;TZID=America/Denver:20231113T210000
+DESCRIPTION:BlueQubit is a software infrastructure company for running hyb
+ rid compute jobs on QPU/GPU/CPU. Learn about their fast\, zero-setup GPU s
+ imulators.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

@@ -5,14 +5,13 @@ BEGIN:VEVENT
 SUMMARY:Model training with AWS ParallelCluster
 DTSTART;TZID=America/Denver:20231116T110000
 DTEND;TZID=America/Denver:20231116T120000
-DESCRIPTION:Training machine learning (ML) models requires setting up clus
- ters that enable many GPUs to talk to each other using low-latency network
- ing that is capable of driving massive throughput. This session shares in 
- real time how you can quickly and easily set up an ML training cluster usi
- ng AWS ParallelCluster\, NVIDIA GPUs\, Elastic Fabric Adapter (EFA)\, and 
- Amazon FSx for Lustre. Learn how to train a GPT model using Megatron-LM\, 
- store the results\, and collapse the infrastructure when you’re finished
- .
+DESCRIPTION:Training AI (ML) models requires setting up clusters that enab
+ le many GPUs to talk to each other using low-latency networking that is ca
+ pable of driving massive throughput. This session shares in real time how 
+ you can quickly and easily set up an ML training cluster using AWS Paralle
+ lCluster\, NVIDIA GPUs\, Elastic Fabric Adapter (EFA)\, and Amazon FSx for
+  Lustre. Learn how to train a GPT model using Megatron-LM\, store the resu
+ lts\, and collapse the infrastructure when you’re finished.
 LOCATION:AWS Booth #1001 | Theatre @ SC'23 Denver
 END:VEVENT
 END:VCALENDAR

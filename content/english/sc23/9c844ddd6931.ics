@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Develop quantum computing algorithms with MATLAB and Amazon Braket
+DTSTART;TZID=America/Denver:20231114T140000
+DTEND;TZID=America/Denver:20231114T150000
+DESCRIPTION:The MATLAB Support Package for Quantum Computing lets you buil
+ d\, simulate\, and run quantum algorithms on real quantum hardware through
+  Amazon Braket. In this demo\, explore how you can use the support package
+  within the MATLAB environment to 1/ build circuits and implement quantum 
+ algorithms using a variety of built-in and customizable composite gates\; 
+ 2/ verify the implementations with local simulators in MATLAB or simulator
+ s hosted on Amazon Braket\; 3/ run the algorithms on quantum computers usi
+ ng Amazon Braket\; and 4/ visualize\, analyze\, and plot results. See how 
+ the support package allows you to prototype algorithms to accelerate optim
+ ization\, scenario simulation\, and ML\, in addition to helping you solve 
+ currently unsolvable problems in chemistry and material simulations.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

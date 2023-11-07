@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Powering the era of HPC and generative AI
+DTSTART;TZID=America/Denver:20231115T100000
+DTEND;TZID=America/Denver:20231115T120000
+DESCRIPTION:In this session\, explore innovations in climate simulation\, 
+ weather modeling\, energy efficiency\, and more powered by full-stack Acce
+ lerators from AWS and NVIDIA.
+LOCATION:AWS Booth #1001 | Pod 10 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

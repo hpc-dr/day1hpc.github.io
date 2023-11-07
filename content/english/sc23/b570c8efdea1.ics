@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Toward a quantum-enhanced future with SoftServe R&D
+DTSTART;TZID=America/Denver:20231115T100000
+DTEND;TZID=America/Denver:20231115T120000
+DESCRIPTION:SoftServe combines cutting-edge advisory and software solution
+ s. Their comprehensive R&DaaS includes fundamental research\, hardware ass
+ essment\, cloud proficiency\, and talent development\, allowing them to em
+ power enterprises and software companies to rediscover differentiation\, e
+ xpedite solution development\, and remain competitive in today‚Äôs mar
+ ketplace\, regardless of where you are on your journey. In this demo\, exp
+ lore SoftServe‚Äôs quantum industrialization journey\, from pinpointin
+ g use cases to crafting solutions and seamless integration while benefitin
+ g from the flexibility and availability of AWS Cloud infrastructure. Then\
+ , explore widely applied combinatorial optimization problems. Additionally
+ \, learn about addressing demanding optimization problems through traditio
+ nal high performance computing techniques\, such as utilizing Monte Carlo 
+ methods for multi-GPU optimization and agent-based modeling for GPU-accele
+ rated scheduling.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

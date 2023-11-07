@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Unlocking quantum potential: Getting started with Strangeworks
+DTSTART;TZID=America/Denver:20231113T190000
+DTEND;TZID=America/Denver:20231113T210000
+DESCRIPTION:Join us for a demo to help demystify quantum programming. Expl
+ ore the Quantum Approximate Optimization Algorithm (QAOA) service\, which 
+ simplifies quantum computing for all skill levels. See the practical appli
+ cation of the QAOA service on AWS via Rigetti hardware\, showcasing Strang
+ eworks‚Äôs latest cargo loading problem. Whether you‚Äôre a quantu
+ m novice or an experienced coder\, gain insights into quantum computing‚
+ Äôs potential. Discover how Strangeworks‚Äôs intuitive platform is r
+ eshaping quantum accessibility\, making it easier and more efficient to ha
+ rness quantum power. Start your quantum journey with Strangeworks and witn
+ ess the transformative possibilities of quantum computing.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

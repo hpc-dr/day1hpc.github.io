@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Run large\, complex graphs on AWS with ArmoniK
+DTSTART;TZID=America/Denver:20231116T100000
+DTEND;TZID=America/Denver:20231116T120000
+DESCRIPTION:In this session\, learn about ArmoniK\, an open source job sch
+ eduler that helps you deploy elastic workloads on premises and on the clou
+ d. To help integrate on premises and on AWS \, ArmoniK considers the locat
+ ion of the data and manages data transfers between tasks. Kubernetes is th
+ e only requirement for ArmoniK\, which makes it easy to deploy in a variet
+ y of environments. ArmoniK is currently used to run large graphs of tasks 
+ (up to 100 million tasks) with strict business service-level agreements (S
+ LA).
+LOCATION:AWS Booth #1001 | Pod 11 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

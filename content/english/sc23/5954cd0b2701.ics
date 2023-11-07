@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Quantum reservoir computing for manufacturing defect detection
+DTSTART;TZID=America/Denver:20231113T190000
+DTEND;TZID=America/Denver:20231113T210000
+DESCRIPTION:Deloitte used QuEra‚Äôs neutral atom system to classify ma
+ nufacturing images at their Smart Factory in Wichita\, Kansas. In this dem
+ o\, see how Deloitte took a real-world business problem\, solved it with c
+ utting-edge quantum AI techniques (quantum reservoir computing)\, and prod
+ uctionized it using a production-ready dashboard. Deloitte compared QuEra
+ ‚Äôs implementation of quantum reservoir computing against classical m
+ ethodologies and found the results exceeded the method currently being use
+ d. Learn how Deloitte is working to productionize quantum AI algorithms as
+  part of The Smart Factory quality assurance efforts and are working with 
+ the team to find the best methods for performing these tasks in a manufact
+ uring facility.
+LOCATION:AWS Booth #1001 | Pod 11 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

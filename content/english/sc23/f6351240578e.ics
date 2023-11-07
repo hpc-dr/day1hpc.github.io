@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:How to successfully move a Fortune 50 technology company to AWS
+DTSTART;TZID=America/Denver:20231115T160000
+DTEND;TZID=America/Denver:20231115T180000
+DESCRIPTION:In 2019\, UberCloud met with a Fortune 50 high-tech company th
+ at develops consumer-tech products‚Äîlet‚Äôs call it TC-Anonymous 
+ (TCA). After moving several engineering simulations at TCA to AWS\, UberCl
+ oud built its first automated self-service engineering simulation producti
+ on platform on AWS and onboarded the first seven engineers of TCA‚Äôs 
+ R&D department to AWS. Today\, TCA is running 34 different simulation work
+ flows on AWS\, with annual cloud consumption of $15 million\, and increasi
+ ng engineers‚Äô productivity by a factor of 10 to 40\, depending on th
+ e scalability of the simulation jobs and the cloud HPC hardware. In the AW
+ S booth\, see a demo of this simulation platform and get deeper insight in
+ to the challenges and benefits for TCA.
+LOCATION:AWS Booth #1001 | Pod 6 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

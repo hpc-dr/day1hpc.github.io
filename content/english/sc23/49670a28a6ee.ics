@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Deploying a RAG model on AWS with Amazon Kendra and Amazon Bedrock
+DTSTART;TZID=America/Denver:20231115T100000
+DTEND;TZID=America/Denver:20231115T120000
+DESCRIPTION:Nextira\, a part of Accenture\, specializes in helping compani
+ es make use of state-of-the-art AI tooling and infrastructure in the cloud
+ . In this session\, explore an example ML implementation for legal informa
+ tics\, where there is a pressing need to be continuously updated on the la
+ test changes to US laws and regulations. Get an introduction to a system t
+ hat deploys a Retrieval Augmented Generation (RAG) model on Amazon Web Ser
+ vices (AWS)\, focusing on a regulatory and compliance use case.
+LOCATION:AWS Booth #1001 | Pod 4 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Transforming scientific discovery data analysis: Clovertex‚Äôs
+  AWS solution
+DTSTART;TZID=America/Denver:20231116T100000
+DTEND;TZID=America/Denver:20231116T120000
+DESCRIPTION:\nAt the intersection of science and technology\, Clovertex is
+  a systems integrator specializing in architecting\, building\, automating
+ \, and managing scientific applications\, databases\, data lakes\, and wor
+ kflows using cloud computing technologies. As a scientific applications se
+ rvice provider for the pharmaceutical domain\, Clovertex offers a range of
+  capabilities tailored to meet the specific needs of the industry. In this
+  demonstration\, explore customer examples where businesses have delivered
+  new capabilities for scientific data analysis (including cryoEM) and lear
+ n how the synergy between cutting-edge science and cloud technology can dr
+ ive innovation and accelerate progress in the field of structural biology.
+LOCATION:AWS Booth #1001 | Pod 11 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

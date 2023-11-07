@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Predicting protein structures at scale using AWS Batch
+DTSTART;TZID=America/Denver:20231115T160000
+DTEND;TZID=America/Denver:20231115T180000
+DESCRIPTION:Cognizant is proud to be an AWS Competency Partner\, having de
+ monstrated technical proficiency and proven customer success with HPC solu
+ tions encompassing high-performance solvers\, HPC platforms\, and workload
+  management. Cognizant has engaged with scientists in different fields (su
+ ch as life sciences\, oil and gas\, and financial services) and with the A
+ WS HPC team to implement the latest technologies\, architectures\, process
+ ors\, and compilers to solve problems efficiently in these industries. Lea
+ rn how Cognizant‚Äôs workshops and advisory services on HPC and quantu
+ m computing for both business executives and technical experts have enhanc
+ ed customers‚Äô efforts and success during HPC deployment or moderniza
+ tion.
+LOCATION:AWS Booth #1001 | Pod 4 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

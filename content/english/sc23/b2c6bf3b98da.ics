@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Hybrid: Powering NOAA‚Äôs multicloud and AI workloads
+DTSTART;TZID=America/Denver:20231114T160000
+DTEND;TZID=America/Denver:20231114T180000
+DESCRIPTION:In this demonstration\, learn about the Parallel Works single 
+ pane of glass\, multicloud environment operated by General Dynamics Inform
+ ation Technology for NOAA‚Äôs research and development HPC organizatio
+ n. Learn about key aspects of the implementation and optimization of the p
+ latform for large-scale HPC-driven research and development. The Parallel 
+ Works platform uses more than 20 AWS services\, including Amazon FSx for L
+ ustre\, Amazon S3\, Amazon EC2\, and Amazon EFS. Dive deep on the end user
+  experience\, which incorporates the familiar on-premises computing enviro
+ nment and the flexibility and innovation of the cloud. Explore the portabi
+ lity of this environment to the multicloud environment and how it bridges 
+ the cloud to NOAA‚Äôs on-premises HPC resources. Discover how this env
+ ironment supports AI operations that are critical to the evolution of envi
+ ronmental prediction at NOAA.
+LOCATION:AWS Booth #1001 | Pod 7 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

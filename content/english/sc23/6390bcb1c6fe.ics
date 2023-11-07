@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Quantum simplicity: Classiq and Amazon Braket for quantum computin
+ g
+DTSTART;TZID=America/Denver:20231114T160000
+DTEND;TZID=America/Denver:20231114T180000
+DESCRIPTION:With quantum computing increasingly moving toward practical ap
+ plications\, the need for user-friendly and highly integrated platforms ha
+ s never been greater. This session presents how the powerful integration b
+ etween Classiq and Amazon Braket streamlines the user experience\, from qu
+ antum circuit design to implementation. Learn how this integration elimina
+ tes the complexities of using and integrating quantum computers\, allowing
+  you to focus on solving real-world problems.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

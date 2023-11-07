@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Virtual Fugaku on AWS
+DTSTART;TZID=America/Denver:20231114T120000
+DTEND;TZID=America/Denver:20231114T130000
+DESCRIPTION:The Fugaku supercomputer has made substantial strides in compu
+ tational capability and user accessibility by integrating a robust system 
+ software stack involving HPC\, Big Data\, AI\, and more than 50 HPC produc
+ tivity applications and tools preinstalled and maintained ready-to-use and
+  accessible through a robust GUI environment. As developer and owner of Fu
+ gaku\, RIKEN Center for Computational Science (R-CCS) continues developmen
+ t of Virtual Fugaku\, an initiative aimed at seamlessly extending the soft
+ ware environment of Fugaku to a broader user base and packaged into a cont
+ ainerized portable software distribution. In this session\, learn how R-CC
+ S and AWS are working together to deliver the full capability of Fugaku on
+ to a virtual cluster on the AWS Cloud using AWS Graviton3 and AWS Graviton
+ 3E Arm-based cloud infrastructure. This integration highlights Fugaku's ve
+ rsatility and AWS's commitment to embrace cutting-edge technologies in the
+  realm of HPC and high-end AI.
+LOCATION:AWS Booth #1001 | Pod 10 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

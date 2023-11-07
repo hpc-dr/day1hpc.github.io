@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:High-performance cloud and on-premises quantum computing simulatio
+ n
+DTSTART;TZID=America/Denver:20231114T150000
+DTEND;TZID=America/Denver:20231114T160000
+DESCRIPTION:In the constantly evolving quantum computing  landscape\, the 
+ Quantuloop Quantum Simulator Suite is emerging as a  transformative force 
+ within the realm of high performance computing (HPC).  Explore how Quantal
+ oop‚Äôs suite empowers researchers\, engineers\, and  innovators to un
+ lock the capabilities of quantum computing\, all without the  inherent com
+ plexities typically linked with HPC software setup and  configuration. Exp
+ erience the flexibility of conducting quantum simulations  either in the c
+ loud or within your infrastructure\, thereby augmenting  security\, contro
+ l\, and the pace of your research and development endeavors.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

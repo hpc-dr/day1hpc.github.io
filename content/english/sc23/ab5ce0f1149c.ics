@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:AutoHPC: Automated HPC cluster creation and expert support
+DTSTART;TZID=America/Denver:20231116T130000
+DTEND;TZID=America/Denver:20231116T150000
+DESCRIPTION:AutoHPC is a cutting-edge SaaS solution tailored for HPC users
+  seeking the advantages of HPC systems without the substantial upfront inv
+ estment required for purchasing and maintaining HPC hardware. In this demo
+ nstration\, learn how you can make the installation\, configuration\, acce
+ ss\, monitoring\, and budgeting of your HPC cluster an effortless experien
+ ce with AutoHPC‚Äôs user-friendly interface. By asking you a few simpl
+ e questions\, AutoHPC can automate the entire process from start to finish
+ \, making it faster and easier to set up and manage your HPC cluster.
+LOCATION:AWS Booth #1001 | Pod 6 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

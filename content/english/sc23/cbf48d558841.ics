@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Getting to the winning molecules faster
+DTSTART;TZID=America/Denver:20231115T120000
+DTEND;TZID=America/Denver:20231115T140000
+DESCRIPTION:Promethium is a revolutionary chemistry simulation platform de
+ veloped by QC Ware that will significantly accelerate the drug\, material\
+ , and chemical discovery process. Built for virtually unlimited scalabilit
+ y on Amazon EC2 P3 and P4d instances\, Promethium was designed to be GPU n
+ ative and perform fully ab initio density functional theory (DFT) calculat
+ ions with exceptional speed and accuracy. Coupled with its capability to t
+ reat system sizes not typically accessible by DFT\, Promethium has the pot
+ ential to transform the industry and bring immediate value to customers in
+  areas like pharma and materials science. Whether you‚Äôre trying to d
+ iscover the next blockbuster drug or developing more advanced materials\, 
+ join this session to learn how Promethium can help you make breakthrough d
+ iscoveries and take your research to the next level.
+LOCATION:AWS Booth #1001 | Pod @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR

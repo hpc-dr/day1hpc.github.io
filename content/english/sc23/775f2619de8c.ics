@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Advance your business with high-performing instances\, powered by 
+ Intel
+DTSTART;TZID=America/Denver:20231116T100000
+DTEND;TZID=America/Denver:20231116T120000
+DESCRIPTION:\nIn this demonstration\, learn about the new Amazon EC2 C7i i
+ nstance\, powered by custom fourth-generation Intel Xeon processors that b
+ ring Intel Accelerator Engines\, and the Hpc6id instance\, powered by thir
+ d-generation Intel Xeon processors\, that offer cost-effective price perfo
+ rmance for memory-bound and data-intensive high performance computing (HPC
+ ) workloads. Discover how the Intel oneAPI HPC Toolkit delivers what devel
+ opers need to build\, analyze\, optimize\, and scale HPC applications. Wit
+ h these instances\, businesses in the HPC community can address their high
+  performance and transformation demands. Together\, AWS and Intel offer cu
+ stomers a broad and deep set of leading compute\, networking\, storage\, c
+ loud orchestration\, and visualization technologies.
+LOCATION:AWS Booth #1001 | Pod 10 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

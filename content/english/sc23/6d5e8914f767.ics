@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Redefining workload management with Altair
+DTSTART;TZID=America/Denver:20231114T140000
+DTEND;TZID=America/Denver:20231114T160000
+DESCRIPTION:\nAltair workload managers are designed to improve productivit
+ y\, optimize utilization and efficiency\, and simplify administration for 
+ clusters\, clouds\, and supercomputers‚Äîfrom the biggest HPC workload
+ s to millions of small\, high-throughput jobs. With Altair HPCWorks\, user
+ s can visualize\, orchestrate\, and analyze workloads to deliver the next 
+ breakthrough. Revolutionizing new technology breaks down silos between dif
+ ferent HPC clusters and enables global access\, budgeting\, and resource r
+ eporting in an intuitive environment. Altair‚Äôs trusted solutions sup
+ port scheduling for complex TOP500 systems as well as smaller cluster owne
+ rs and span across industries and fields. With its high throughput\, enter
+ prise-grade job scheduler designed to meet the complex demands of semicond
+ uctor and electronic design automation (EDA)\, Altair HPCWorks is a top ch
+ oice for workload management in businesses globally.
+LOCATION:AWS Booth #1001 | Pod 7 SC'23 Denver
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Reduce simulation time with TotalCAE on AWS
+DTSTART;TZID=America/Denver:20231114T160000
+DTEND;TZID=America/Denver:20231114T180000
+DESCRIPTION:TotalCAE on AWS reduces CAE simulation time up to 80% in just 
+ a few clicks for hundreds of CAE applications. See how easy it can be to a
+ dopt the latest AWS HPC technologies without being an IT expert\, backed b
+ y TotalCAE one-hour support times.
+LOCATION:AWS Booth #1001 | Pod 4 SC'23 Denver
+END:VEVENT
+END:VCALENDAR
