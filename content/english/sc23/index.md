@@ -502,6 +502,19 @@ Brian Amedro, Cloud Architect, UCit; Philippe Bricard, CEO, UCit, UCit</p>
     </div>
 </div>
 
+<div class="row border">
+    <div class="col-sm-2">17:00-18:00</div>
+    <div class="col-md-10">
+    {{< expando "Training Llama 2 using 1,000+ Amazon EC2 AWS Trainium chips" >}}
+
+<p>Jianying Lang, Principal SA for Accelerated Computing, AWS</p>
+<p>AWS Trainium purpose-built accelerators can be used to train large language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to run deep learning workloads on AWS Trainium–based instances. It integrates the AI framework, such as PyTorch or TensorFlow, with the hardware to enable end-to-end ML development, including building new models and training and scaling these models. The AWS Neuron SDK supports multiple distributed libraries using tensor parallelism, pipeline parallelism, and sequence parallelism for large-scale training. In this session, find out how to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train a Llama 2 model (up to 70B) on more than 1,000 chips.</p>
+<a href="/sc23/57c18c004d12.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+    {{</ expando >}}
+    </div>
+</div>
+
 </div>
 {{< /tab >}}
 
@@ -1183,6 +1196,19 @@ At the intersection of science and technology, Clovertex is a systems integrator
 <p>Lowell Wofford, Principal HPC Solutions Architect, AWS; Evan Bollig, Principal HPC Specialist, AWS, AWS</p>
 <p>HPC systems and workloads have their own unique set of security challenges. Running these workloads on AWS can help you address these challenges in new ways and with this freedom comes the ability to choose different solutions based on your organization’s unique needs. In this session, walk through a traditional HPC security scenario and discover different approaches you can take to address these challenges. Find out how the AWS secure-by-design architecture helps take care of common security challenges, and learn best practices for building secure HPC environments on AWS. When you’re done, you’ll understand how your cloud infrastructure can be even more secure than your data centers.</p>
 <a href="/sc23/6edad71ef9a0.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+    {{</ expando >}}
+    </div>
+</div>
+
+<div class="row border">
+    <div class="col-sm-2">17:00-18:00</div>
+    <div class="col-md-10">
+    {{< expando "Training Llama 2 using 1,000+ Amazon EC2 AWS Trainium chips" >}}
+
+<p>Jianying Lang, Principal SA for Accelerated Computing, AWS</p>
+<p>AWS Trainium purpose-built accelerators can be used to train large language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to run deep learning workloads on AWS Trainium–based instances. It integrates the AI framework, such as PyTorch or TensorFlow, with the hardware to enable end-to-end ML development, including building new models and training and scaling these models. The AWS Neuron SDK supports multiple distributed libraries using tensor parallelism, pipeline parallelism, and sequence parallelism for large-scale training. In this session, find out how to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train a Llama 2 model (up to 70B) on more than 1,000 chips.</p>
+<a href="/sc23/b997c77eef1d.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
 
     {{</ expando >}}
     </div>
@@ -5076,6 +5102,22 @@ In this demo, see [RS1] how you can run CFD simulations in the cloud in just a f
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
+            {{< expando "Training Llama 2 using 1,000+ Amazon EC2 AWS Trainium chips" >}}
+
+<p><b>Summary</b>: AWS Trainium purpose-built accelerators can be used to train large language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to run deep learning workloads on AWS Trainium–based instances. It integrates the AI framework, such as PyTorch or TensorFlow, with the hardware to enable end-to-end ML development, including building new models and training and scaling these models. The AWS Neuron SDK supports multiple distributed libraries using tensor parallelism, pipeline parallelism, and sequence parallelism for large-scale training. In this session, find out how to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train a Llama 2 model (up to 70B) on more than 1,000 chips.</p>
+<a href="/sc23/57c18c004d12.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Jianying Lang, Principal SA for Accelerated Computing, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-18:00 &#64; AWS Theater</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
             {{< expando "Scaling AI and generative AI workloads with Covalent" >}}
 
 <p><b>Summary</b>: As focus shifts from data-centric to compute-intensive tasks, many traditional cloud tools struggle to maintain efficiency and scalability. Built on AWS, Covalent provides developer-friendly abstractions for high-compute workloads. Users can integrate their own AWS Batch jobs for computing while Covalent takes care of orchestration to maintain data privacy. The framework harnesses AWS services such as Amazon SQS, Amazon EventBridge, and AWS Lambda to enhance scalability and cost-efficiency. Covalent optimizes costs and simplifies development, making compute-intensive tasks feel like an extension of one‚Äôs local laptop. This demo delves into Covalent‚Äôs unique positioning in meeting the demands of high-compute developments, including large language models (AIs) and generative AI.</p>
@@ -5117,6 +5159,22 @@ In this demo, see [RS1] how you can run CFD simulations in the cloud in just a f
             </div>
             <div class="col-md-4">Angel Pizarro, Principal HPC Developer Advocate, AWS; Matt Vaughn, Principal HPC Developer Advocate, AWS, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 14:00-15:00 &#64; AWS Theater</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Training Llama 2 using 1,000+ Amazon EC2 AWS Trainium chips" >}}
+
+<p><b>Summary</b>: AWS Trainium purpose-built accelerators can be used to train large language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to run deep learning workloads on AWS Trainium–based instances. It integrates the AI framework, such as PyTorch or TensorFlow, with the hardware to enable end-to-end ML development, including building new models and training and scaling these models. The AWS Neuron SDK supports multiple distributed libraries using tensor parallelism, pipeline parallelism, and sequence parallelism for large-scale training. In this session, find out how to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train a Llama 2 model (up to 70B) on more than 1,000 chips.</p>
+<a href="/sc23/b997c77eef1d.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Jianying Lang, Principal SA for Accelerated Computing, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 17:00-18:00 &#64; AWS Theater</div>
         </div>
     </div>
 </div>
@@ -8157,6 +8215,22 @@ Brian Amedro, Cloud Architect, UCit; Philippe Bricard, CEO, UCit, UCit</div>
     <div class="col-12"">
         <div class="row">
             <div class="col-md-6 h5">
+            {{< expando "Training Llama 2 using 1,000+ Amazon EC2 AWS Trainium chips" >}}
+
+<p><b>Summary</b>: AWS Trainium purpose-built accelerators can be used to train large language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to run deep learning workloads on AWS Trainium–based instances. It integrates the AI framework, such as PyTorch or TensorFlow, with the hardware to enable end-to-end ML development, including building new models and training and scaling these models. The AWS Neuron SDK supports multiple distributed libraries using tensor parallelism, pipeline parallelism, and sequence parallelism for large-scale training. In this session, find out how to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train a Llama 2 model (up to 70B) on more than 1,000 chips.</p>
+<a href="/sc23/57c18c004d12.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Jianying Lang, Principal SA for Accelerated Computing, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Tuesday 17:00-18:00 &#64; AWS Theater</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
             {{< expando "Model training with AWS ParallelCluster" >}}
 
 <p><b>Summary</b>: Training AI (ML) models requires setting up clusters that enable many GPUs to talk to each other using low-latency networking that is capable of driving massive throughput. This session shares in real time how you can quickly and easily set up an ML training cluster using AWS ParallelCluster, NVIDIA GPUs, Elastic Fabric Adapter (EFA), and Amazon FSx for Lustre. Learn how to train a GPT model using Megatron-LM, store the results, and collapse the infrastructure when you’re finished.</p>
@@ -8214,6 +8288,22 @@ Brian Amedro, Cloud Architect, UCit; Philippe Bricard, CEO, UCit, UCit</div>
             </div>
             <div class="col-md-4">Lowell Wofford, Principal HPC Solutions Architect, AWS; Evan Bollig, Principal HPC Specialist, AWS, AWS</div>
             <div class="col-md-2" style="font-weight: bold;">Wednesday 16:00-17:00 &#64; AWS Theater</div>
+        </div>
+    </div>
+</div>
+<div class="row border">
+    <div class="col-12"">
+        <div class="row">
+            <div class="col-md-6 h5">
+            {{< expando "Training Llama 2 using 1,000+ Amazon EC2 AWS Trainium chips" >}}
+
+<p><b>Summary</b>: AWS Trainium purpose-built accelerators can be used to train large language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to run deep learning workloads on AWS Trainium–based instances. It integrates the AI framework, such as PyTorch or TensorFlow, with the hardware to enable end-to-end ML development, including building new models and training and scaling these models. The AWS Neuron SDK supports multiple distributed libraries using tensor parallelism, pipeline parallelism, and sequence parallelism for large-scale training. In this session, find out how to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train a Llama 2 model (up to 70B) on more than 1,000 chips.</p>
+<a href="/sc23/b997c77eef1d.ics" class="btn btn-light btn-lg active" role="button" aria-pressed="true" style="margin-top: 8px;">+Calendar</a>
+
+            {{</ expando >}}
+            </div>
+            <div class="col-md-4">Jianying Lang, Principal SA for Accelerated Computing, AWS</div>
+            <div class="col-md-2" style="font-weight: bold;">Wednesday 17:00-18:00 &#64; AWS Theater</div>
         </div>
     </div>
 </div>

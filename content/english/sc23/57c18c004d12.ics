@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AWS Booth #1001 Schedule//aws.dev//
+BEGIN:VEVENT
+SUMMARY:Training Llama 2 using 1\,000+ Amazon EC2 AWS Trainium chips
+DTSTART;TZID=America/Denver:20231114T170000
+DTEND;TZID=America/Denver:20231114T180000
+DESCRIPTION:AWS Trainium purpose-built accelerators can be used to train l
+ arge language models (LLMs) such as Llama 2. AWS Neuron is the SDK used to
+  run deep learning workloads on AWS Trainium–based instances. It integra
+ tes the AI framework\, such as PyTorch or TensorFlow\, with the hardware t
+ o enable end-to-end ML development\, including building new models and tra
+ ining and scaling these models. The AWS Neuron SDK supports multiple distr
+ ibuted libraries using tensor parallelism\, pipeline parallelism\, and seq
+ uence parallelism for large-scale training. In this session\, find out how
+  to use AWS ParallelCluster to launch Amazon EC2 Trn1 instances and train 
+ a Llama 2 model (up to 70B) on more than 1\,000 chips.
+LOCATION:AWS Booth #1001 | Theatre @ SC'23 Denver
+END:VEVENT
+END:VCALENDAR
