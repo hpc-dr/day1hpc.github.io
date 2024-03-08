@@ -6,3 +6,4 @@ public/
 */.DS_Store
 resources/
 .python-version
+scripts/__pycache__/*

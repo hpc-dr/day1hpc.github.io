@@ -37,6 +37,8 @@ jobs:
       run: cd scripts/pull-blog-info && ruby pull-aws-blog-data-filtered.rb
     - name: Sync HPC Blog channel
       run: cd scripts/pull-blog-info && ruby pull-hpc-blog-data.rb
+    - name: Sync Quantum Blog channel
+      run: cd scripts/pull-blog-info && ruby pull-quantum-blog-data-filtered.rb
     - name: Setup Python interpreter
       uses: actions/setup-python@v4
       with:
@@ -47,6 +49,8 @@ jobs:
       run: python -m scripts.blog_json_to_posts --source aws scripts/pull-blog-info/news-blog-posts.json
     - name: Run sync script for HPC Blog
       run: python -m scripts.blog_json_to_posts --source hpc scripts/pull-blog-info/blog-posts.json
+    - name: Run sync script for Quantum Blog
+      run: python -m scripts.blog_json_to_posts --source quantum scripts/pull-blog-info/quantum-computing-blog-posts.json
     - name: Add and commit
       uses: EndBug/add-and-commit@v9
       env:

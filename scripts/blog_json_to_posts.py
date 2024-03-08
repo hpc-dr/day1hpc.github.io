@@ -257,7 +257,7 @@ def intersection(lst1:List, lst2:List) -> bool:
 def validate(data:Dict, source:str="hpc"):
     includes = ["HPC", "Compute", "Graviton", "Elastic File System (EFS)", "File Cache"]
     cats = data["tags"]
-    if source == "hpc":
+    if source == "hpc" or source == "quantum":
         return True
 
     # Filters for omitting AWS News Blog entries
@@ -296,7 +296,7 @@ def main(values):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("json", type=str, help="Blog export file (JSON).")
-    parser.add_argument("--source", default="hpc", choices=["hpc", "aws"], help="Data source")
+    parser.add_argument("--source", default="hpc", choices=["hpc", "aws", "quantum"], help="Data source")
     parser.add_argument("--force", action="store_true", help="Force re-download")
     args = parser.parse_args()
     main(args)

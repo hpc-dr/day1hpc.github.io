@@ -16,6 +16,9 @@ disableLanguages = ["fr"] # desable language from here
 # Temporary
 enableRobotsTXT = true
 
+# Longer to allow complex pages
+timeout = 120
+
 # Tags
 # disableKinds = ["taxonomy", "term"]
 
