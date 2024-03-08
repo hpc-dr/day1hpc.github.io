@@ -254,17 +254,30 @@ def intersection(lst1:List, lst2:List) -> bool:
     lst3 = [value for value in lst1 if value in temp]
     return len(lst3) > 0
 
-def validate(data:Dict, source:str="hpc"):
-    includes = ["HPC", "Compute", "Graviton", "Elastic File System (EFS)", "File Cache"]
+def validate(data:Dict, source:str):
+
+    aws_includes = ["HPC", "Compute", "Graviton", "Elastic File System (EFS)", "File Cache", "Amazon FSx for Lustre", "Amazon FSx for OpenZFS"]
+    storage_includes = ["Elastic File System (EFS)", "File Cache", "FSx for Lustre", "FSx for OpenZFS"]
+
     cats = data["tags"]
+
     if source == "hpc" or source == "quantum":
         return True
+
+    if source == "storage":
+
+        if "re:Invent" in data["title"]:
+            return False
+        if not intersection(storage_includes, data["tags"]):
+            return False
+        if data["datetime_published"] < datetime(2021, 11, 30):
+            return False
 
     # Filters for omitting AWS News Blog entries
     if source == "aws":
         if "Week in Review" in data["title"]:
             return False
-        if not intersection(includes, data["tags"]):
+        if not intersection(aws_includes, data["tags"]):
             return False
         if data["datetime_published"] < datetime(2021, 11, 30):
             return False
@@ -296,7 +309,7 @@ def main(values):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("json", type=str, help="Blog export file (JSON).")
-    parser.add_argument("--source", default="hpc", choices=["hpc", "aws", "quantum"], help="Data source")
+    parser.add_argument("--source", default="hpc", choices=["hpc", "aws", "quantum", "storage"], help="Data source")
     parser.add_argument("--force", action="store_true", help="Force re-download")
     args = parser.parse_args()
     main(args)
