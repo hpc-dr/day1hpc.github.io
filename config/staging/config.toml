@@ -2,6 +2,9 @@ baseURL = "http://day1hpc-staging.s3-website.us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Day 1 HPC (Staging)"
 
+timeout = "30000"
+
+
 [deployment]
 order = [".png$", ".jpg$", ".gif$", ".svg$", ".webp$"]
 
