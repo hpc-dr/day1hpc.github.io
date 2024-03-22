@@ -38,17 +38,17 @@ draft: false
 
 <a target="intro" href="https://youtu.be/KHx22oJSNso">{{< image src="/images/tsf/tsf-getting-familiar.png" class="learn" >}}</a>
 <a target="res" href="https://youtu.be/M0rc0Rwj6Tg">{{< image src="/images/post/M0rc0Rwj6Tg.png" class="learn" >}}</a>
-<a target="ec2" href="https://youtu.be/1y5Ix2HS8sw">{{< image src="/images/post/1y5Ix2HS8sw.png" class="learn" >}}</a>
 <a target="ec2" href="https://youtu.be/ZuodZCTupNI">{{< image src="/images/post/ZuodZCTupNI.png" class="learn" >}}</a>
+<a target="ec2" href="https://youtu.be/2Nku6MWDwT0">{{< image src="/images/post/2Nku6MWDwT0.png" class="learn" >}}</a>
 
 ----
 
 ### Understanding Amazon EC2 and EFA
 
+<a target="ec2" href="https://youtu.be/1y5Ix2HS8sw">{{< image src="/images/post/1y5Ix2HS8sw.png" class="learn" >}}</a>
 <a target="ec2" href="https://youtu.be/i2T7Hi2Yjoc">{{< image src="/images/post/i2T7Hi2Yjoc.png" class="learn" >}}</a>
 <a target="ec2" href="https://youtu.be/inJxFXMMp0U">{{< image src="/images/post/inJxFXMMp0U.png" class="learn" >}}</a>
-<a href="https://youtu.be/XyllOcIQ_jM">{{< image src="/images/post/XyllOcIQ_jM.png" class="learn" >}}</a>
-
+<a target="ec2" href="https://youtu.be/XyllOcIQ_jM">{{< image src="/images/post/XyllOcIQ_jM.png" class="learn" >}}</a>
 
 ### AWS Batch in more depth
 
