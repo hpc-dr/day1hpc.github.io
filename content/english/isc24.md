@@ -34,7 +34,7 @@ At ISC'24 we'll have our experts available for 1:1 meetings while they also **st
 
 <center>
 <a href="https://awscustomerprograms.jifflenow.com/external-request/isc2024/meeting-request?token=fb5a86618a4cecec9f93">{{< image src="/images/isc24/isc24-icon-meet@3x.webp" class="iconcenter" >}}</a>
-<a href="">{{< image src="/images/isc24/isc24-icon-network@3x.webp" class="iconcenter" >}}</a>
+<a href="https://events.nvidia.com/AWS-NVIDIA-ISC24">{{< image src="/images/isc24/isc24-icon-network@3x.webp" class="iconcenter" >}}</a>
 {{< image src="/images/isc24/isc24-icon-learn@3x.webp" class="iconcenter" >}}
 </center>
 
@@ -56,7 +56,7 @@ We have **two locations for meetings** - please check your meeting invitation to
 * Location: **Wirtshaus Hamburg Esplanade**, Esplanade 6, 20354 Hamburg, Germany ([map](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6))
 * Time: **Tuesday May 14 @ 7pm**
 
-**REGISTRATION REQUIRED - COMING SOON** || **[Location (Google maps)](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6)**
+**[REGISTRATION REQUIRED](https://events.nvidia.com/AWS-NVIDIA-ISC24)** || **[Location (Google maps)](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6)**
 
 --- 
 
