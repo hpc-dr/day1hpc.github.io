@@ -54,7 +54,7 @@ We have **two locations for meetings** - please check your meeting invitation to
 
 * The AWS and NVIDIA **Better Together Reception**
 * Location: **Wirtshaus Hamburg Esplanade**, Esplanade 6, 20354 Hamburg, Germany ([map](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6))
-* Time: **Tuesday May 14 @ 7pm**
+* Time: **Tuesday May 14, 6pm-10pm**
 
 **[REGISTRATION REQUIRED](https://events.nvidia.com/AWS-NVIDIA-ISC24)** || **[Location (Google maps)](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6)**
 
