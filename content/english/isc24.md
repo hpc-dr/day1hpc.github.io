@@ -56,7 +56,7 @@ We have **two locations for meetings** - please check your meeting invitation to
 * Location: **Wirtshaus Hamburg Esplanade**, Esplanade 6, 20354 Hamburg, Germany ([map](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6))
 * Time: **Tuesday May 14 @ 7pm**
 
-**[REGISTRATION REQUIRED](https://events.nvidia.com/AWS-NVIDIA-ISC23)** || **[Location (Google maps)](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6)**
+**REGISTRATION REQUIRED - COMING SOON** || **[Location (Google maps)](https://maps.app.goo.gl/wkKGdZsWxSqSo5Wq6)**
 
 --- 
 
