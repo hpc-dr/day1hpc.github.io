@@ -77,6 +77,10 @@ We have **two locations for meetings** - please check your meeting invitation to
 * Thursday, May 16, 2024 2:00 PM to 6:00 PM, Hall Y4 - 2nd floor
 * Requires a workshop pass
 
+##### Intel Developer Desk
+* We'll be staffing Intel's dDeveloper Desk for a couple of hours to answer any questions you might have about running HPC in the cloud, powered by Intel instances.
+* Tuesday, May 14, 2024 2:00 PM to 4:00 PM, Expo floor, booth D20
+
 ----
 
 ### Maps for our ISC activities
