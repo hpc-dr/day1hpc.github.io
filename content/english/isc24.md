@@ -72,14 +72,25 @@ We have **two locations for meetings** - please check your meeting invitation to
 * Sunday, May 12, 2024 9:00 AM to 1:00 PM, Hall Y10 - 2nd floor
 * Requires a tutorial pass
 
+##### HPSF BoF: **High Performance Software Foundation**
+* An announcement regarding this new foundation for supporting open-source efforts in HPC.
+* Monday, May 13, 2024 1:00 PM to 2:00 PM, Hall H - 2nd floor
+* Open to everyone
+
+##### ISC2024 Arm BoF: **Arm in HPC: Where We Are Today and Where We Are Heading Tomorrow**
+* Discuss community efforts to support Arm in HPC, and hear from other builders working in this space.
+* Tuesday, May 14, 2024 10:05 AM to 11:05 AM, Hall G1 - 2nd floor
+* Open to everyone
+
 ##### ISC2024 Workshop: **AI for Realistic and Reproducible Science and Engineering**
 * Discussed realistic applications of AI that are both reproducible and scalable to uncover practical benefits for our community.
 * Thursday, May 16, 2024 2:00 PM to 6:00 PM, Hall Y4 - 2nd floor
 * Requires a workshop pass
 
-##### Intel Developer Desk
-* We'll be staffing Intel's dDeveloper Desk for a couple of hours to answer any questions you might have about running HPC in the cloud, powered by Intel instances.
-* Tuesday, May 14, 2024 2:00 PM to 4:00 PM, Expo floor, booth D20
+##### Ask an architect: **Intel Developer Desk**
+* AWs staff will be at Intel's Developer Desk for two hours to answer any questions you might have about running HPC in the cloud.
+* Tuesday, May 14, 2024 2:00 PM to 4:00 PM
+* Expo floor, booth D20
 
 ----
 
