@@ -36,6 +36,8 @@ At ISC'24 we'll have our experts available for 1:1 meetings while they also **st
 <a href="https://awscustomerprograms.jifflenow.com/external-request/isc2024/meeting-request?token=fb5a86618a4cecec9f93">{{< image src="/images/isc24/isc24-icon-meet@3x.webp" class="iconcenter" >}}</a>
 <a href="https://events.nvidia.com/AWS-NVIDIA-ISC24">{{< image src="/images/isc24/isc24-icon-network@3x.webp" class="iconcenter" >}}</a>
 {{< image src="/images/isc24/isc24-icon-learn@3x.webp" class="iconcenter" >}}
+{{< image src="/images/isc24/isc24-icon-intel@3x.webp" class="iconcenter" >}}
+
 </center>
 
 -----
@@ -87,8 +89,8 @@ We have **two locations for meetings** - please check your meeting invitation to
 * Thursday, May 16, 2024 2:00 PM to 6:00 PM, Hall Y4 - 2nd floor
 * Requires a workshop pass
 
-##### Ask an architect: **Intel Developer Desk**
-* AWs staff will be at Intel's Developer Desk for two hours to answer any questions you might have about running HPC in the cloud.
+##### Reinventing HPC with INTEL and AWS: **Intel Developer Desk**
+* AWS tech staff will be at Intel's Developer Desk for two hours to answer any questions you might have about running HPC in the cloud.
 * Tuesday, May 14, 2024 2:00 PM to 4:00 PM
 * Expo floor, booth D20
 
