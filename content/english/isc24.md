@@ -90,7 +90,7 @@ We have **two locations for meetings** - please check your meeting invitation to
 * Requires a workshop pass
 
 ##### Reinventing HPC with INTEL and AWS: **Intel Developer Desk**
-* AWS tech staff will be at Intel's Developer Desk for two hours to answer any questions you might have about running HPC in the cloud.
+* [AWS tech staff will be at Intel's Developer Desk](https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/INTEL-AT-ISC24-Options-to-Advance-High-Compute-Cloud-AI/post/1596485) for two hours to answer any questions you might have about running HPC in the cloud.
 * Tuesday, May 14, 2024 2:00 PM to 4:00 PM
 * Expo floor, booth D20
 
