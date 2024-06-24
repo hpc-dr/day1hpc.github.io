@@ -6,11 +6,11 @@
 # url = "/sc23/"
 # hasChildren = false
 
-[[main]]
-weight = 1
-name = "AWS @ ISC'24"
-url = "/isc24/"
-hasChildren = false
+# [[main]]
+# weight = 1
+# name = "AWS @ ISC'24"
+# url = "/isc24/"
+# hasChildren = false
 
 [[main]]
 weight = 1
