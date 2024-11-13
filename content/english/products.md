@@ -23,7 +23,7 @@ draft: false
   }
 </style>
 
-{{< youtube _O7fbR_qMw4 >}}
+{{< youtube 0w6Yp8nURGA >}}
 
 ---
 
@@ -36,8 +36,10 @@ draft: false
 
 ### Intro to AWS
 
+
+
+<a target="pcs" href="https://youtu.be/BlgYbb6pdu0">{{< image src="/images/post/BlgYbb6pdu0.png" class="learn" >}}</a>
 <a target="intro" href="https://youtu.be/KHx22oJSNso">{{< image src="/images/tsf/tsf-getting-familiar.png" class="learn" >}}</a>
-<a target="res" href="https://youtu.be/M0rc0Rwj6Tg">{{< image src="/images/post/M0rc0Rwj6Tg.png" class="learn" >}}</a>
 <a target="ec2" href="https://youtu.be/ZuodZCTupNI">{{< image src="/images/post/ZuodZCTupNI.png" class="learn" >}}</a>
 <a target="ec2" href="https://youtu.be/2Nku6MWDwT0">{{< image src="/images/post/2Nku6MWDwT0.png" class="learn" >}}</a>
 
@@ -56,13 +58,18 @@ draft: false
 <a target="hpc" href="https://youtu.be/xsCpg2UEMdA">{{< image src="/images/post/xsCpg2UEMdA.png" class="learn" >}}</a>
 <a target="hpc" href="https://youtu.be/CX4uyPB6cQk">{{< image src="/images/post/CX4uyPB6cQk.png" class="learn" >}}</a>
 
+### AWS Parallel Computing Service (PCS)
+
+<a target="pcs" href="https://youtu.be/BlgYbb6pdu0">{{< image src="/images/post/BlgYbb6pdu0.png" class="learn" >}}</a>
+<a target="hpc" href="https://youtu.be/Vw0qT9vrhlY">{{< image src="/images/post/Vw0qT9vrhlY.png" class="learn" >}}</a>
+
+
 ### ParallelCluster
 
 <a target="hpc" href="https://youtu.be/gmw7A3kOh60">{{< image src="/images/post/gmw7A3kOh60.png" class="learn" >}}</a>
 <a target="pc3" href="https://youtu.be/cGaBaxDR9Qo">{{< image src="/images/post/cGaBaxDR9Qo.png" class="learn" >}}</a>
 <a target="pc3" href="https://youtu.be/h72NVKYru0Y">{{< image src="/images/post/h72NVKYru0Y.png" class="learn" >}}</a>
 <a target="pc3" href="https://youtu.be/cyNarSvc0mY">{{< image src="/images/post/cyNarSvc0mY.png" class="learn" >}}</a>
-<a target="hpc" href="https://youtu.be/2TL5ZfGb7i8">{{< image src="/images/post/2TL5ZfGb7i8.png" class="learn" >}}</a>
 
 ### Hybrid HPC
 
