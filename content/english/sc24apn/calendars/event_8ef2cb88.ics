@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with Deloitte at demo POD 8
+DTSTART;TZID=America/New_York:20241120T160000
+DTEND;TZID=America/New_York:20241120T180000
+DESCRIPTION:Visit Deloitte at the AWS Booth #2501 demo POD 8 for a solutio
+ n demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 8
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

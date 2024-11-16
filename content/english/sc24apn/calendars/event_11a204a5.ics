@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with InvisblCloud at demo POD 6
+DTSTART;TZID=America/New_York:20241119T120000
+DTEND;TZID=America/New_York:20241119T140000
+DESCRIPTION:Visit InvisblCloud at the AWS Booth #2501 demo POD 6 for a sol
+ ution demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 6
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

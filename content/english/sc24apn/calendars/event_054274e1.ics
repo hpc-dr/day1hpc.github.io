@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with AWS Partner Team at demo POD 4
+DTSTART;TZID=America/New_York:20241121T100000
+DTEND;TZID=America/New_York:20241121T120000
+DESCRIPTION:Visit AWS Partner Team at the AWS Booth #2501 demo POD 4 for a
+  solution demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 4
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

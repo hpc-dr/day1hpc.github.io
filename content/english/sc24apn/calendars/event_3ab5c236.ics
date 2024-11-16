@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with ParallelWorks at demo POD 10
+DTSTART;TZID=America/New_York:20241119T120000
+DTEND;TZID=America/New_York:20241119T140000
+DESCRIPTION:Visit ParallelWorks at the AWS Booth #2501 demo POD 10 for a s
+ olution demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 10
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

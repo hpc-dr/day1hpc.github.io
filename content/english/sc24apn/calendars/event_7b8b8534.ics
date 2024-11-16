@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with AMD at demo POD 2
+DTSTART;TZID=America/New_York:20241118T190000
+DTEND;TZID=America/New_York:20241118T210000
+DESCRIPTION:Visit AMD at the AWS Booth #2501 demo POD 2 for a solution dem
+ o and discussion.
+LOCATION:AWS Booth #2501 demo POD 2
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

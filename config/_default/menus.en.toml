@@ -8,15 +8,21 @@
 
 [[main]]
 weight = 1
-name = "AWS @ SC'24"
+name = "SC'24"
 url = "/sc24/"
 hasChildren = false
 
 [[main]]
-weight = 1
-name = "Tech Notes"
-url = "/blog/"
+weight = 2
+name = "SC'24 Partners"
+url = "/sc24apn/"
 hasChildren = false
+
+# [[main]]
+# weight = 1
+# name = "Tech Notes"
+# url = "/blog/"
+# hasChildren = false
 
 # [[main]]
 # weight = 2

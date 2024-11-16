@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with Simr at demo POD 2
+DTSTART;TZID=America/New_York:20241121T120000
+DTEND;TZID=America/New_York:20241121T150000
+DESCRIPTION:Visit Simr at the AWS Booth #2501 demo POD 2 for a solution de
+ mo and discussion.
+LOCATION:AWS Booth #2501 demo POD 2
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with Simerics at demo POD 4
+DTSTART;TZID=America/New_York:20241120T120000
+DTEND;TZID=America/New_York:20241120T140000
+DESCRIPTION:Visit Simerics at the AWS Booth #2501 demo POD 4 for a solutio
+ n demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 4
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

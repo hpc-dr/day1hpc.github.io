@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with YellowDog at demo POD 3
+DTSTART;TZID=America/New_York:20241121T100000
+DTEND;TZID=America/New_York:20241121T120000
+DESCRIPTION:Visit YellowDog at the AWS Booth #2501 demo POD 3 for a soluti
+ on demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 3
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR

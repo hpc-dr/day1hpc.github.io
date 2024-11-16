@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:AWS Booth (#2501) demo with Cloud303 at demo POD 6
+DTSTART;TZID=America/New_York:20241119T140000
+DTEND;TZID=America/New_York:20241119T160000
+DESCRIPTION:Visit Cloud303 at the AWS Booth #2501 demo POD 6 for a solutio
+ n demo and discussion.
+LOCATION:AWS Booth #2501 demo POD 6
+TZID:America/New_York
+END:VEVENT
+END:VCALENDAR
