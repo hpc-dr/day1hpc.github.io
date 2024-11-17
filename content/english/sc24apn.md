@@ -43,7 +43,7 @@ You can click to find the partner below you're interested in, and **add their sc
 
 ## Partners
 
-- [AMD](#amd)
+- [AMD](/sc24apn/#amd)
 - [AWS Braket Team](#aws-braket-team)
 - [AWS Partner Team](#aws-partner-team)
 - [Accenture](#accenture)
@@ -86,7 +86,7 @@ You can click to find the partner below you're interested in, and **add their sc
 - [TCS](#tcs)
 - [TotalCAE](#totalcae)
 - [UCit](#ucit)
-- [YellowDog](#yellowdog)
+- [YellowDog](/sc24apn/#yellowdog)
 
 ## Detailed Schedules
 
