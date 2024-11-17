@@ -90,7 +90,7 @@ You can click to find the partner below you're interested in, and **add their sc
 
 ## Detailed Schedules
 
-### AMD
+### AMD<a id="amd"> </a>
 
 **Chat with an AMD Expert in the AWS Booth** - Discover how AMD EPYC processors can accelerate your High Performance Computing (HPC) workloads on Amazon Elastic Compute Cloud (Amazon EC2) HPC7a instances. Learn about the EPYC architecture, performance benchmarks, and customer success stories. Our experts will guide you through migrating to the cloud and optimizing your environment for peak performance. Take advantage of trial offers to kickstart your cloud HPC projects and get your questions answered about leveraging AMD EPYC processors on Amazon EC2.
 
@@ -434,7 +434,7 @@ with qBraid** - As demand for advanced computational resources grows, integratin
 
 - **Wed, Nov 20** 4:00 PM - 6:00 PM ET at POD 6 ([Add to Calendar](calendars/event_fbb34361.ics))
 
-### YellowDog
+### YellowDog<a id="yellowdog"></a>
 
 **Powering hybrid cloud workloads with YellowDog and AWS** - Together, Erasmus.AI with YellowDog and AWS trained a significant update of ClimateGPT is the world's first foundational AI model family to address climate change on AWS Trainium instances using the YellowDog Platform to orchestrate the compute and manage the workload after originally being trained on Nvidia GPUs on-premise. This groundbreaking work allows for complex AI workloads to work seamlessly in the cloud across AWS Trainium, Nvidia GPUs and other industry leading accelerators without the need for time consuming porting efforts. This demonstrates coherence and "run anywhere" in an undersupplied world.
 
