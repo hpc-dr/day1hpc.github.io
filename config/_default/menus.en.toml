@@ -18,6 +18,12 @@ name = "SC'24 Partners"
 url = "/sc24apn/"
 hasChildren = false
 
+[[main]]
+weight = 3
+name = "SC'24 Builders"
+url = "/builders/"
+hasChildren = false
+
 # [[main]]
 # weight = 1
 # name = "Tech Notes"
@@ -65,11 +71,11 @@ hasChildren = true
 # url = "/life-sciences/"
 # weight = 4
 
-[[main]]
-weight = 5
-name = "About"
-url = "about/"
-hasChildren = false
+# [[main]]
+# weight = 5
+# name = "About"
+# url = "about/"
+# hasChildren = false
 
 # [[main]]
 # weight = 6
