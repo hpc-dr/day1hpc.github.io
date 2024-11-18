@@ -47,6 +47,7 @@ images:
 
 ##### Resources
 * **Blog post coming next week** - we have a blog post, and a recipe/repo coming next week that will walk you through the details of setting up a compliant environment.
+* **If you're running AWS ParallelCluster**, then [this post about securing them](https://aws.amazon.com/blogs/hpc/securing-hpc-on-aws-isolated-clusters/) in an isolated VPC will help.
 * **If your compliance needs don't extend to NIST SP 800**, then we suggest you look at our network stacks in the [HPC Recipes Library](https://github.com/aws-samples/aws-hpc-recipes/tree/main) - either [HPC Basic](https://github.com/aws-samples/aws-hpc-recipes/tree/main/recipes/net/hpc_basic) or [HPC Large Scale](https://github.com/aws-samples/aws-hpc-recipes/tree/main/recipes/net/hpc_large_scale) should do a rgeat job for you.
 
 #### 11am-12pm - **Re-imagining HPC with AWS Parallel Computing Service**
