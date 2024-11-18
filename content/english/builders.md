@@ -96,6 +96,10 @@ AWS is a major sponsor of the [High Performance Software Foundation](https://hps
 
 You'll see more on this in coming weeks as we prep some content around the work we've been doing with our friends from [MetaFlow](https://metaflow.org/).
 
+<a target="pcs" href="https://youtu.be/FVqPtpv210g">{{< image src="/images/post/FVqPtpv210g.png" class="vid" >}}</a>
+<a target="pcs" href="https://youtu.be/s71vV-gi-ds">{{< image src="/images/post/s71vV-gi-ds.png" class="vid" >}}</a>
+
+
 #### 4pm-5pm - **Using advanced HPC to change how we do engineering design**
 *We can now work through the whole workflow we’ve been building to show you a glimpse of the near future. The simulation runs we kicked off will now serve as a training dataset for building a deep-learning surrogate model. Then we’ll take a hundred unseen geometries and do large-scale batch-inference using the pre-trained models, visualizing the results with our graphical desktops.*
 
@@ -103,5 +107,20 @@ You'll see more on this in coming weeks as we prep some content around the work 
 
 Neil Ashton has been leading this project in AWS, and has presented a number of papers on the topic. He stopped by Tech Shorts to talk about surrogate models and how they can be deployed in aerospace industries, and CAE more generally.
 
-<a target="pcs" href="https://youtu.be/FVqPtpv210g">{{< image src="/images/post/FVqPtpv210g.png" class="vid" >}}</a>
-<a target="pcs" href="https://youtu.be/s71vV-gi-ds">{{< image src="/images/post/s71vV-gi-ds.png" class="vid" >}}</a>
+<a id="AMD">&nbsp;</a>
+
+---
+
+## Building an AMD-based HPC cluster in a few minutes using AWS Parallel Computing Service
+
+If you saw our talk at the AMD booth, where we showed you how easy it is to make huge performance gains by running you workloads on our AMD-based Amazon EC2 instances - like the C7a and Hpc7a families - then you'll be happy to know it's not hard to get running with this in your own AWS account right away.
+
+You can launch our [custom one-click launcher](https://github.com/aws-samples/aws-hpc-recipes/tree/main/recipes/pcs/try_amd) for AMD, which is part of our [HPC Recipes Library](https://hpc.news/recipes) - a vast collection of compatible stacks tat you can plug together to assemble really complex architectures.
+
+The Recipe Library enables you to get to a final working solution quickly, skipping the learning curve, but still adopting safe and secure best practices. And all the templates we ship are well commented, and documented, so when you're ready to dive into the details, it's not hard to learn what's going on. That means you can make meaningful modifications, forking the recipes, and making it suit your needs for your HPC site.
+
+It's not for nothing that we say it's like standing on the shoulders of ... someone else :-)
+
+Thanks to our friends at AMD for creating great processors, and helping us prove these stacks.
+
+<img src="https://raw.githubusercontent.com/aws-samples/aws-hpc-recipes/main/docs/media/banner.png">
