@@ -76,7 +76,9 @@ There are also [some specific recipes](https://github.com/aws-samples/aws-hpc-re
 
 ##### Resources
 
-You can find out more about **Research and Engineering Studio on AWS** from it's [homepage](https://aws.amazon.com/hpc/res/), our [walkthough video on Tech Shorts](https://www.youtube.com/watch?v=2Nku6MWDwT0). We've also published a [blog post](https://youtu.be/U7zue5GJwco) about RES-ready images for AWS ParallelCluster - this same option is also available for Parallel Computing Service, too - and we'll have a blog post coming on this topic in the next couple of weeks.
+* **[We have all the details in a new blog post](https://aws.amazon.com/blogs/hpc/on-demand-visual-login-nodes-using-res-with-aws-parallel-computing-service/)** including a recipe you can swipe from the HPC Recipes Library, so you don't have to do the hard work.
+
+You can find out more about **Research and Engineering Studio on AWS** from it's [homepage](https://aws.amazon.com/hpc/res/), our [walkthough video on Tech Shorts](https://www.youtube.com/watch?v=2Nku6MWDwT0). We've also published a [blog post](https://youtu.be/U7zue5GJwco) about RES-ready images for AWS ParallelCluster - this same option is also available for Parallel Computing Service, it's just that the PCS version is easier, because PCS is a full-managed service.
 
 #### 2pm-3pm - **Building your performant applications on different architectures on AWS**
 *Now we’ll explore how to build, optimize, and run codes on our clusters making use of the Elastic Fabric Adaptor (EFA) which supports all our CPU and GPU architectures. We’ll show a software build of OpenFOAM using Spack. Then we’ll test this build on multiple architectures, and discuss how to validate that the build has been built to leverage best of each underlying architecture. Finally, we’ll submit a large-scale batch array of simulations that we’ll use later for trainng an ML model for rapid automotive design.*
