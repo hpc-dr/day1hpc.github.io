@@ -115,9 +115,13 @@ Neil Ashton has been leading this project in AWS, and has presented a number of 
 
 ## Building an AMD-based HPC cluster in a few minutes using AWS Parallel Computing Service
 
+<a target="pcs" href="">{{< image src="/images/sc24/AMD-cluster-yt.png" class="vid" >}}</a>
+
 If you saw our talk at the AMD booth, where we showed you how easy it is to make huge performance gains by running you workloads on our AMD-based Amazon EC2 instances - like the C7a and Hpc7a families - then you'll be happy to know it's not hard to get running with this in your own AWS account right away.
 
-You can launch our [custom one-click launcher](https://github.com/aws-samples/aws-hpc-recipes/tree/main/recipes/pcs/try_amd) for AMD, which is part of our [HPC Recipes Library](https://hpc.news/recipes) - a vast collection of compatible stacks tat you can plug together to assemble really complex architectures.
+We've [created a short video]() on HPC Tech Shorts to walk you through building an AMD-based PCS cluster in **very little time**.
+
+You can launch our [custom one-click launcher](https://github.com/aws-samples/aws-hpc-recipes/tree/main/recipes/pcs/try_amd) for AMD, which is part of our [HPC Recipes Library](https://hpc.news/recipes) - a vast collection of compatible stacks that you can plug together to assemble really complex architectures.
 
 The Recipe Library enables you to get to a final working solution quickly, skipping the learning curve, but still adopting safe and secure best practices. And all the templates we ship are well commented, and documented, so when you're ready to dive into the details, it's not hard to learn what's going on. That means you can make meaningful modifications, forking the recipes, and making it suit your needs for your HPC site.
 
