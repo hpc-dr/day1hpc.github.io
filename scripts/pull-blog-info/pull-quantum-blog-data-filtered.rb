@@ -1,45 +1,58 @@
 require "open-uri"
 require "nokogiri"
 require "json"
+require "uri"
 
 def parse_article_info(doc)
   result = []
-  # get the articles
   doc.css("article").each do |article|
     a = {
-      title: article.css(".blog-post-title a span")[0].text,
-      url: article.css(".blog-post-title a")[0].attribute("href"),
-      datePublished: article.css("footer time[property=datePublished]").text,
-      image: nil,
-      categories: [],
-      excerpt: article.css("section.blog-post-excerpt").text.strip,
+      title: article.at_css(".blog-post-title a span")&.text,
+      url: article.at_css(".blog-post-title a")&.[]("href"),
+      datePublished: article.at_css("footer time[property='datePublished']")&.text,
+      image: article.at_css("meta[property='image']")&.[]("content"),
+      categories: article.css("footer span.blog-post-categories a").map(&:text),
+      excerpt: article.at_css("section.blog-post-excerpt")&.text&.strip,
     }
-    # fill out the categories
-    article.css("footer span.blog-post-categories a").each do |c|
-      if c.text then a[:categories].push(c.text) end
-    end
-    # image sometimes missing 
-    if article.css("meta[property=image]").length > 0 then
-      a[:image] =  article.css("meta[property=image]").attribute("content").value 
-    end
-    result.append(a)
+    result << a
   end
-  return result
+  result
 end
 
-page = "https://aws.amazon.com/blogs/quantum-computing/"
+base_url = "https://aws.amazon.com"
+page = "#{base_url}/blogs/quantum-computing/"
 results = []
-while true
-  @doc = Nokogiri::Slop(URI.open(page))
-  # parse the article info out
-  results += parse_article_info(@doc)
-  #see if there is a next page
-  nxt = @doc.css("head link[rel='next']")
-  if nxt.length > 0
-    page = nxt[0].attribute('href').value
-  else
+
+loop do
+  puts "Fetching: #{page}"
+
+  begin
+    html = URI.open(page,
+                    "User-Agent" => "Mozilla/5.0",
+                    "Accept" => "text/html",
+                    "Referer" => base_url).read
+  rescue OpenURI::HTTPError => e
+    puts "HTTP error fetching #{page}: #{e.message}"
     break
   end
+
+  doc = Nokogiri::Slop(html)
+  results += parse_article_info(doc)
+
+  # Find the rel=next link and resolve full URL
+  next_link = doc.at_css("head link[rel='next']")
+  break unless next_link
+
+  next_href = next_link["href"]
+  break unless next_href && !next_href.empty?
+
+  # Resolve relative → absolute URL
+  page = URI.join(base_url, next_href).to_s
 end
-f = open('./quantum-computing-blog-posts.json','w') 
-f.write(results.to_json)
+
+# Write to JSON file
+File.open('./quantum-computing-blog-posts.json', 'w') do |f|
+  f.write(JSON.pretty_generate(results))
+end
+
+puts "Done. Parsed #{results.size} articles."
