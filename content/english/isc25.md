@@ -93,10 +93,10 @@ HPC Solutions Forum
 
 ##### Meeting rooms at the Grand Elysée Hotel
 
-<a href="/isc24-meetings">{{< image src="/images/isc25/isc24-map-mtg-rooms.png" class="iconmap" >}}</a>
+<a href="/isc24-meetings">{{< image src="/images/isc25/isc25-map-mtg-rooms.png" class="iconmap" >}}</a>
 
 ##### AWS NVIDIA Better Together reception
-<a href="/https://events.nvidia.com/bettertogetheratisc2025">{{< image src="/images/isc25/isc24-map-reception.png" class="iconmap" >}}</a>
+<a href="/https://events.nvidia.com/bettertogetheratisc2025">{{< image src="/images/isc25/isc25-map-reception.png" class="iconmap" >}}</a>
 
 
 
