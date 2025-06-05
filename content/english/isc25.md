@@ -37,7 +37,7 @@ images:
 
 Our aim is to empower every scientist and engineer to **solve impossible problems** because they have access to all the compute and analytical tools they need, **any time they need them**.
 
-At ISC'24 we'll have our experts available for 1:1 meetings while they also **staff and support community events**, BoFs, and workshops. We'll be hosting a **networking event** on Tuesday evening, with our friends from **NVIDIA**.
+At ISC'25 we'll have our experts available for 1:1 meetings while they also **staff and support community events**, BoFs, and workshops. We'll be hosting a **networking event** on Wednesday evening, with our friends from **NVIDIA**.
 
 ----
 
