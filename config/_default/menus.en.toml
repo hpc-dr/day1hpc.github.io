@@ -2,27 +2,21 @@
 
 # [[main]]
 # weight = 1
-# name = "SC23 AWS Schedule"
-# url = "/sc23/"
+# name = "SC'24"
+# url = "/sc24/"
 # hasChildren = false
-
-[[main]]
-weight = 1
-name = "SC'24"
-url = "/sc24/"
-hasChildren = false
-
-[[main]]
-weight = 2
-name = "SC'24 Partners"
-url = "/sc24apn/"
-hasChildren = false
-
-[[main]]
-weight = 3
-name = "SC'24 Builders"
-url = "/builders/"
-hasChildren = false
+# 
+# [[main]]
+# weight = 2
+# name = "SC'24 Partners"
+# url = "/sc24apn/"
+# hasChildren = false
+# 
+# [[main]]
+# weight = 3
+# name = "SC'24 Builders"
+# url = "/builders/"
+# hasChildren = false
 
 # [[main]]
 # weight = 1
@@ -35,6 +29,13 @@ hasChildren = false
 # name = "Learn"
 # url = "/learning/"
 # hasChildren = true
+
+[[main]]
+weight = 1
+name = "ISC'25"
+url = "/isc25/"
+hasChildren = false
+
 
 [[main]]
 weight = 3
