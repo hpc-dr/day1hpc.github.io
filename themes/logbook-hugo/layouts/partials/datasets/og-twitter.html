@@ -69,9 +69,13 @@
 <meta name="twitter:title" content="{{ with .Title }}{{ . }}{{ else }}{{ site.Title }}{{ end }}" />
 <meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with $description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 
-{{ with site.Social.twitter }}
-<meta name="twitter:site" content="@{{ . }}" />
+{{ with site.Params.social }}
+{{ range . }}
+{{ if eq .name "twitter" }}
+<meta name="twitter:site" content="@{{ .link | replaceRE "https://twitter.com/" "" }}" />
 {{ end }}
-{{ range site.Authors }}
+{{ end }}
+{{ end }}
+{{ with site.Params.author }}
 {{ with .twitter }}<meta name="twitter:creator" content="@{{ . }}" />{{ end }}
 {{ end }}

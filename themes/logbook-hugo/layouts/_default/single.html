@@ -80,7 +80,7 @@
       <!-- /right sidebar -->
     </article>
     <!-- comments -->
-    {{ if site.DisqusShortname }}
+    {{ if site.Params.disqusShortname }}
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="mt-5">
@@ -102,7 +102,7 @@
     },
     "headline": "{{.Title}}",
     "description": "{{.Params.description}}",
-    "image": "{{.Params.images | relURL}}",
+    "image": "{{ if .Params.images }}{{ if reflect.IsSlice .Params.images }}{{ index .Params.images 0 | relURL }}{{ else }}{{ .Params.images | relURL }}{{ end }}{{ end }}",
     "author": {
       "@type": "Person",
       "name": "{{.Params.author}}"
