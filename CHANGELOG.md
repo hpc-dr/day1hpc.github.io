@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - **BREAKING**: Updated Hugo version from v0.90.1 to v0.149.0
 - Updated Netlify build configuration to use Hugo v0.149.0
+- Updated GitHub Actions workflows to use Hugo v0.149.0
 - Migrated from deprecated `paginate` config to new `pagination.pagerSize` format
 - Updated minimum Hugo version requirement to v0.149.0
 
@@ -25,6 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Configuration Files Updated
 - `netlify.toml`: Updated `HUGO_VERSION` environment variable
 - `config/_default/config.toml`: Updated pagination config and minimum Hugo version
+- `.github/workflows/build.yml`: Updated Hugo version from v0.104.3 to v0.149.0
+- `.github/workflows/pages.yml`: Updated Hugo version from v0.102.3 to v0.149.0
 
 #### Template Files Updated
 - `themes/logbook-hugo/layouts/_default/static.html`: Fixed image parameter handling
