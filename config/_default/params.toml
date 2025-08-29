@@ -116,6 +116,11 @@ sidebar = [
 # link = "#"
 
 [[social]]
+name = "bluesky"
+icon = "fab fa-bluesky" # fontawesome icons: https://fontawesome.com/icons/
+link = "https://bsky.app/profile/techhpc.bsky.social"
+
+[[social]]
 name = "twitter"
 icon = "fab fa-twitter" # fontawesome icons: https://fontawesome.com/icons/
 link = "https://twitter.com/techhpc"
