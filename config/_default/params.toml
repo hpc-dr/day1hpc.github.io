@@ -120,20 +120,21 @@ name = "bluesky"
 icon = "fab fa-bluesky" # fontawesome icons: https://fontawesome.com/icons/
 link = "https://bsky.app/profile/techhpc.bsky.social"
 
-[[social]]
-name = "twitter"
-icon = "fab fa-twitter" # fontawesome icons: https://fontawesome.com/icons/
-link = "https://twitter.com/techhpc"
+## Removing Twitter from our socials links
+# [[social]]
+# name = "twitter"
+# icon = "fab fa-twitter" # fontawesome icons: https://fontawesome.com/icons/
+# link = "https://twitter.com/techhpc"
 
 [[social]]
 name = "youtube"
 icon = "fab fa-youtube" # fontawesome icons: https://fontawesome.com/icons/
 link = "https://hpc.news/techshorts"
 
-# [[social]]
-# name = "linkedin"
-# icon = "fab fa-linkedin-in" # fontawesome icons: https://fontawesome.com/icons/
-# link = "#"
+[[social]]
+name = "linkedin"
+icon = "fab fa-linkedin-in" # fontawesome icons: https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/aws-hpc"
 
 # [[social]]
 # name = "github"
