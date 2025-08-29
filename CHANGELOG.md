@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated GitHub Actions workflows to use Hugo v0.149.0
 - Migrated from deprecated `paginate` config to new `pagination.pagerSize` format
 - Updated minimum Hugo version requirement to v0.149.0
+- Changed README to point to our BlueSky handle instead of Twitter/X
 
 ### Fixed
 - Fixed template compatibility issues with Hugo v0.149.0:
