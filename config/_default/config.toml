@@ -3,7 +3,8 @@ baseURL = "https://day1hpc.com/"
 title = "Day 1 HPC"
 theme = "logbook-hugo"
 # post pagination
-paginate = "8"
+[pagination]
+pagerSize = 8
 # post excerpt
 summaryLength = "140"
 # google analytics
@@ -30,7 +31,7 @@ timeout = "30000"
 [module]
 [module.hugoVersion]
 extended = true
-# min = "0.89.4"
+min = "0.149.0"
 
 ############################# Outputs ##############################
 [outputs]

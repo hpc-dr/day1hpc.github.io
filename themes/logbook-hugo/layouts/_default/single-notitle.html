@@ -100,7 +100,7 @@
     },
     "headline": "{{.Title}}",
     "description": "{{.Params.description}}",
-    "image": "{{.Params.images | relURL}}",
+    "image": "{{ if .Params.images }}{{ if reflect.IsSlice .Params.images }}{{ index .Params.images 0 | relURL }}{{ else }}{{ .Params.images | relURL }}{{ end }}{{ end }}",
     "author": {
       "@type": "Person",
       "name": "{{.Params.author}}"

@@ -55,11 +55,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-link = "plugins/font-awesome/fontawesome.min.css"
-[[params.plugins.css]]
-link = "plugins/font-awesome/brands.css"
-[[params.plugins.css]]
-link = "plugins/font-awesome/solid.css"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
