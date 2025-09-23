@@ -32,8 +32,8 @@
 
 [[main]]
 weight = 1
-name = "ISC'25"
-url = "/isc25/"
+name = "SC'25 (STL)"
+url = "/sc25/"
 hasChildren = false
 
 
