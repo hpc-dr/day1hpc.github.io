@@ -2,7 +2,7 @@
 # favicon
 favicon = "images/day1hpc-favicon.png"
 # logo
-logo = "images/hpc/Ident-day1hpc-g5.webp"
+logo = "images/hpc/Ident-day1hpc-g6.webp"
 # use `x` with logo_width, example: "100x"
 logo_width = "450px"
 # logo text will only show when logo is missing.
