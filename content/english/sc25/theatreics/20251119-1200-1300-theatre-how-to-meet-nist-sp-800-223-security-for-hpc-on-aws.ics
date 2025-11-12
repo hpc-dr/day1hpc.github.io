@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SC25 Demo Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20251119-1200-1300-theatre-how-to-meet-nist-sp-800-223-security-for-hpc-on-aws@sc25
+DTSTAMP:20251112T120710Z
+DTSTART;TZID=America/Chicago:20251119T120000
+DTEND;TZID=America/Chicago:20251119T130000
+SUMMARY:How to meet NIST SP 800-223 security for HPC on AWS Builder Session @ AWS Booth Theatre #2207 — theatre
+DESCRIPTION:Builder session in the AWS Booth Theatre at SC25 in St. Louis.
+LOCATION:AWS Booth #2207 in SC25 Expo
+END:VEVENT
+END:VCALENDAR
